@@ -1,0 +1,55 @@
+# Site settings
+title: CS10 | Summer 2015
+email: info@cs10.org
+# Note the weird ' > # ' syntax is for multiline stuff
+description: > # CS10, The Beauty and Joy of Computing, is an introductory
+    computer science class designed for anyone and everyone. The Beauty and
+    Joy of Computing is an AP Computer Science Principles class.
+keywords: "CS10, UC, Berkeley, CS, computer science, BJC, computing, education, Snap!, CS Principles, AP"
+baseurl: "/~cs10/su15"
+url: "https://inst.eecs.berkeley.edu"
+
+# Build settings
+markdown: kramdown
+
+
+# CSS Style
+sass:
+    style: :compressed
+    sass_dir: assets/_sass
+
+# Custom Data
+bCourses: 1348652
+labsCourse: cs10_su15.html
+piazzaURL: cs10k/summer2015/cs10summer2015
+# IS INST DOWN?
+# labsurl: http://beautyjoy.github.io/bjc-r
+labsurl: https://inst.eecs.berkeley.edu/~cs10/labs
+
+# This section controlls the interactive google calendar.
+# Should be in MomentJS format
+startDate: 2015-06-21 # First Sunday
+endDate:   2015-08-15 # Last Saturday
+
+# Change the calendar to show Sun-Sat instead of M-F when an exam is near
+# FIXME -- THESE DATES ARE NOT FINAL
+questDate: 2015-07-08
+midtermDate: 2015-07-29
+finalDate: 2015-08-12
+# from console.developers.google.com
+# This key can be public and is tied to a users calendar accesses
+# whoever this key belongs to should have access to the CS10 galendars.
+gcalAPIKey: AIzaSyBcbN6F79dPHiGMvftIKZB86A6Ki2eIKZs
+
+
+# TODO: TA Collections
+# collections:
+    # - tas:
+        # output: true
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - includes
+  - update-index.sh

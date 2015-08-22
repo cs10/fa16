@@ -1,0 +1,82 @@
+---
+title: CS10 | Summer 2015
+layout: default
+---
+
+  {% include nav.html %}
+
+  {% include quicklinks.html %}
+
+  <h1>Updates</h1>
+  <div class="page-section" id="news">
+      <h2>Please check this section for important updates!</h2>
+      <ul class='lambda'>
+          <li>May 28, 2015: Welcome to CS10!</li>
+          <li>May 28, 2015: This site is currently under development!</li>
+          <li>June 30, 2015: The schedule is complete, <strong>note the exam dates have changed.</strong></li>
+      </ul>
+  </div>
+
+  <h1>Overview</h1>
+  <div class="page-section" id="overview">
+    {% include_relative includes/overview.html %}
+  </div>
+
+  <h1>Assignment Calendar</h1>
+  <div class="page-section" id="calendar">
+    {% include_relative includes/calendar.html %}
+  </div>
+  <div class="clearfix"></div>
+
+  <h1>Weekly Schedule</h1>
+  <div class="page-section" id="weekly">
+      <h4>This calendar displays the class schedule for the <em>current</em> week.
+        Click on any event to see the building location on a map.</h4>
+      <div class="table-responsive">
+          <div id="oh-cal" style="min-width:1000px;"></div>
+      </div>
+  </div>
+
+  <h1>Staff</h1>
+  <div class="page-section" id="staff">
+    <h2>Instructors</h2>
+    <div class="container-fluid" id="inst"></div>
+    <div class="clearfix"></div>
+
+    <h2>Teaching Assistants</h2>
+    <div class="container-fluid" id="tas"></div>
+    <div class="clearfix"></div>
+
+    <h2>Readers</h2>
+    <div id="readers"></div>
+    <div class="clearfix"></div>
+  </div>
+  <div class="clearfix"></div>
+
+  <h1>Grading</h1>
+  <div class="page-section" id="grading">
+      {% include_relative includes/grading.html %}
+  </div>
+
+  <h1>Resources</h1>
+  <div class="page-section" id="resources">
+    <ul class="lambda">
+        <li><a href="https://www.bitsbook.com/">Blown to Bits</a></li>
+        <li><a href="https://www.debuggingrules.com/">Debugging Rules!</a></li>
+        <li><a href="https://www.berkeley.edu">UC Berkeley</a></li>
+        <li><a href="https://coe.berkeley.edu/">College of Engineering</a> </li>
+        <li><a href="https://www.eecs.berkeley.edu/">EECS Department Page</a></li>
+        <li><a href="../fa13/lab/solutions.html">(OLD) Solutions to Lab Exercises</a></li>
+      </ul>
+    </div>
+
+<!--END PAGE CONTENT -->
+
+<link href="{{ site.baseurl }}/assets/calendar-additions.css" rel="stylesheet"/>
+
+<link href="{{ site.baseurl }}/assets/css/cs10style.css" rel="stylesheet"/>
+
+<script src="{{ site.baseurl }}/assets/index-concat.js"></script>
+<script>
+  {% include_relative assets/weekly_schedule.js %}
+</script>
