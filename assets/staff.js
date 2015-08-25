@@ -7,7 +7,7 @@ var JonMcKinsey = {
     email: 'jon@cs10.org'
 };
 
-var RachelHuang = {
+var michaelB = {
     name: 'Instructor Michael Ball',
     img: 'Sp14/MichaelBallTake3.jpg',
     imgSrc: '../Su15/michael cute.png',
