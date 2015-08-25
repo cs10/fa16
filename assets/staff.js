@@ -105,7 +105,7 @@ var jobelV = {
 var katherineM = {
     name: 'Reader Katherine McGauley',
     img: 'Su15/KatherineMcGauley.jpg',
-    imgSrc: 'KatherineMcGauley' };
+    imgSrc: 'KatherineMcGauley.jpg' };
 
 var laraM = {
     name: 'Reader Lara McConnaughey',
