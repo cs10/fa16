@@ -81,7 +81,6 @@ var stevenT = {
     name: 'TA Steven Traversi',
     img: 'Sp14/StevenTraversi.jpg',
     imgSrc: 'StevenTraversi.jpg',
-    imgCrazy: 'StevenTraversiCrazy.jpg',
     web: 'http://steven.codes',
     bio: 'StevenBio.txt',
     email: 'steven@cs10.org'
@@ -116,7 +115,7 @@ var laraM = {
 /*****************************************************************************/
 
 var inst = [ JoshHug ];
-var tas = [ adamK, rachelH, andyS, aranyU, carlosF, josephC, stevenT, victoriaS, erikD, alexM, amrutaY
+var tas = [ adamK, andyS, aranyU, carlosF, josephC, rachelH, stevenT, victoriaS, erikD, alexM, amrutaY
 claireW, jannaG];
 
 var readers = [ jobelV, katherineM, laraM ];
