@@ -1,13 +1,13 @@
 // Instructors
 
-var JonMcKinsey = {
+var AdamKuphaldt = {
     name: 'Instructor Jon McKinsey',
     img: 'Fa13/JonMcKinsey.jpg',
     imgSrc: '../Su15/jon cute.png',
     email: 'jon@cs10.org'
 };
 
-var michaelB = {
+var RachelHuang = {
     name: 'Instructor Michael Ball',
     img: 'Sp14/MichaelBallTake3.jpg',
     imgSrc: '../Su15/michael cute.png',
