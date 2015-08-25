@@ -26,13 +26,13 @@ var rachelH = {
 var alexM = {
     name: 'TA Alex McKinney',
     img: 'Sp14/AlexMcKinney.jpg',
-    imgSrc: 'AlexMcKinney.jpg'
+    imgSrc: 'AlexMcKinney.jpg',
     email: 'amckinney@berkeley.edu'};
     
 var amrutaY = {
     name: 'TA Amruta Yelamanchili',
     img: 'Sp14/AmrutaYelamanchili.jpg',
-    imgSrc: 'AmrutaYelamanchili.jpg'
+    imgSrc: 'AmrutaYelamanchili.jpg',
     email: 'amrutayel@berkeley.edu'};
 
 
@@ -58,7 +58,7 @@ var carlosF = {
 var claireW = {
     name: 'TA Claire Watanabe',
     img: 'Fa13/ClaireWatanabe.jpg',
-    imgSrc: 'ClaireWatanabe.jpg'
+    imgSrc: 'ClaireWatanabe.jpg',
     email: 'claireleilani@berkeley.edu'};
 
 var erikD = {
