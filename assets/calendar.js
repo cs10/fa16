@@ -228,13 +228,13 @@ cs10.getWeekStartDate = function(week) {
 // };
 
 cs10.renderTableCalendar = function() {
-    var result = $('<tbody>');
-    var table = $('.calendar.table');
+    var result = $('.cal-container');
+    // var table = $('.calendar.table');
     if (table.length === 0) { return; }
     for(var i = 1; i < 18; i += 1) {
         result.append(cs10.renderTableRow(i, cs10['week' + i]));
     }
-    table.append(result);
+    // table.append(result);
 };
 
 cs10.renderTableRow = function(week, data) {
