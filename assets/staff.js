@@ -51,7 +51,7 @@ var aranyU = {
 
 var carlosF = {
     name: 'TA Carlos Flores',
-    img: 'Fa13/CarlosFlores.jpg',
+    img: 'Sp14/CarlosFlores.jpg',
     imgSrc: 'CarlosFlores.jpg',
     email: 'carlos@cs10.org' };
     
