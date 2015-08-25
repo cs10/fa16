@@ -1,14 +1,14 @@
 // Instructors
 
 var JonMcKinsey = {
-    name: 'Instructor Jon McKinsey',
+    name: 'Instructor Adam Kuphaldt',
     img: 'Fa13/JonMcKinsey.jpg',
     imgSrc: '../Su15/jon cute.png',
     email: 'jon@cs10.org'
 };
 
 var michaelB = {
-    name: 'Instructor Michael Ball',
+    name: 'Instructor Rachel Huang',
     img: 'Sp14/MichaelBallTake3.jpg',
     imgSrc: '../Su15/michael cute.png',
     web: 'http://michaelballphoto.com',
