@@ -118,8 +118,7 @@ var laraM = {
 /*****************************************************************************/
 
 var inst = [ JoshHug ];
-var tas = [ adamK, rachelH, andyS, aranyU, carlosF, josephC, stevenT, victoriaS, erikD, alexM, amrutaY,
-claireW, jannaG ];
+var tas = [ adamK, rachelH, alexM, amrutaY, andyS, aranyU, carlosF, claireW, erikD, jannaG, josephC, stevenT, victoriaS ];
 
 var readers = [ jobelV, katherineM, laraM ];
 
@@ -245,5 +244,5 @@ function normalImage(image, normalPath) {
 /* more code to run on page load */
 // Parameters: a section (HTML 'id') and num of images per row.
 buildGroup('inst', 5);
-buildGroup('tas', 4);
+buildGroup('tas', 5);
 buildGroup('readers', 3);
