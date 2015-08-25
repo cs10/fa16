@@ -40,7 +40,7 @@ var andyS = {
     imgSrc: 'AndrewSchmitt.jpg',
     email: 'andy@cs10.org'};
     
-var AranyU = {
+var aranyU = {
     name: 'TA Arany Uthayakumar',
     img: 'Sp14/AranyUthayakumar.jpg',
     imgSrc: 'AranyUthayakumar.jpg',
@@ -77,7 +77,7 @@ var josephC = {
     imgSrc: 'JosephCawthorne.jpg',
     email: 'joseph@cs10.org' };
     
-var StevenT = {
+var stevenT = {
     name: 'TA Steven Traversi',
     img: 'Sp14/StevenTraversi.jpg',
     imgSrc: 'StevenTraversi.jpg',
@@ -100,12 +100,12 @@ var jobelV = {
     img: 'Fa13/JobelVecino.jpg',
     imgSrc: '../Su15/jobel cute.png' };
 
-var katherinem = {
+var katherineM = {
     name: 'Reader Katherine McGauley',
     img: 'Su15/KatherineMcGauley.jpg',
     imgSrc: '../Su15/kate cute.png' };
 
-var laram = {
+var laraM = {
     name: 'Reader Lara McConnaughey',
     img: 'Su15/LaraMcConnaughey.jpg',
     imgSrc: '../Su15/lara cute.png' };
@@ -116,10 +116,10 @@ var laram = {
 /*****************************************************************************/
 
 var inst = [ JoshHug ];
-var tas = [ adamK, andyS, AranyU, carlosF, josephC, rachelH, StevenT, victoriaS, erikD, alexM, amrutaY
+var tas = [ adamK, andyS, aranyU, carlosF, josephC, rachelH, stevenT, victoriaS, erikD, alexM, amrutaY
 claireW, jannaG];
 
-var readers = [ jobelV, katherinem, laram ];
+var readers = [ jobelV, katherineM, laraM ];
 
 // If you need to add a new SECTION add it to this object.
 // Follow the same format.
