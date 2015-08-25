@@ -61,7 +61,7 @@ var claireW = {
 var erikD = {
     name: 'TA Erik Dahlquist',
     img: 'Sp15/ErikDahlquist.jpg',
-    imgSrc: 'ErikDahlquist.jpg',
+    imgSrc: '../Su15/erik cute.png',
     email: 'erik@cs10.org' };
 
 var jannaG = {
