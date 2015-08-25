@@ -115,7 +115,7 @@ var laraM = {
 /*****************************************************************************/
 
 var inst = [ JoshHug ];
-var tas = [ adamK, andyS, aranyU, carlosF, josephC, rachelH, stevenT, victoriaS, erikD, alexM, amrutaY
+var tas = [ adamK, rachelH, andyS, aranyU, carlosF, josephC, stevenT, victoriaS, erikD, alexM, amrutaY
 claireW, jannaG];
 
 var readers = [ jobelV, katherineM, laraM ];
