@@ -206,61 +206,90 @@ cs10.getWeekStartDate = function(week) {
     return start.add((week - 1) * 7 + 1, 'd');
 }
 
+// cs10.renderTableCalendar = function() {
+//     var result = $('.cal-container');
+//     // TODO: weeks config
+//     for (var i = 1; i < 9; i += 1) {
+//         var color;
+//         if (i % 2 == 0) {
+//             color = 'light';
+//         } else {
+//             color = 'dark';
+//         }
+//         var first = $('.weekFirst').clone().removeClass('weekFirst');
+//         var data = cs10['week' + i];
+//         var row = cs10.renderTableFirst(i, data, color);
+//         first.append(row);
+//         result.append(first);
+//         var second = $('.weekSecond').clone().removeClass('weekSecond');
+//         second.append(cs10.renderTableSecond(i, data, color));
+//         result.append(second);
+//     }
+// };
+
 cs10.renderTableCalendar = function() {
-    var result = $('.cal-container');
-    // TODO: weeks config
-    for (var i = 1; i < 9; i += 1) {
-        var color;
-        if (i % 2 == 0) {
-            color = 'light';
-        } else {
-            color = 'dark';
-        }
-        var first = $('.weekFirst').clone().removeClass('weekFirst');
-        var data = cs10['week' + i];
-        var row = cs10.renderTableFirst(i, data, color);
-        first.append(row);
-        result.append(first);
-        var second = $('.weekSecond').clone().removeClass('weekSecond');
-        second.append(cs10.renderTableSecond(i, data, color));
-        result.append(second);
+    var result = $('<tbody>');
+    var table = $('.calendar.table');
+    if (table.length === 0) { return; }
+    for(var i = 1; i < 18; i += 1) {
+        result.append(cs10.renderTableRow(i, cs10['week' + i]));
     }
+    table.append(result);
 };
 
-// This renders a single week in the large semester calendar.
-// M-W
-cs10.renderTableFirst = function (week, data, color) {
-    var result = $('<tr>').addClass('cal' + ' ' + color);
+cs10.renderTableRow = function(week, data) {
+    var result = $('<tr>').addClass('cal');
+
     // TODO: Special Case For data.special
     // TODO: Handle Exams (data.exams)
-    result.append($('<td>').html(week))                      // Week Number
-          .append($('<td>').html(cs10.getDateString(week)))  // Dates
+
+    result.append($('<td>').html(week))                     // Week Number
+          .append($('<td>').html(cs10.getDateString(week))) // Dates
           .append(cs10.renderTableReading(data.readings1))   // Readings
-          .append(cs10.renderTableLab(data.lab1))            // 1st Lab
-          .append(cs10.renderTableDiscussion(data.disc1))    // 1st discussion
-          .append(cs10.renderTableLecture(data.lect1))       // Mon Lecture
-          .append(cs10.renderTableLecture(data.lect2))       // Tues Lecture
-          .append(cs10.renderTableLab(data.work))            // Work Session
+          .append(cs10.renderTableLecture(data.lect1))      // Mon Lecture
+          .append(cs10.renderTableLab(data.lab1))           // 1st Lab
+          .append(cs10.renderTableLecture(data.lect2))      // Wed Lecture
+          .append(cs10.renderTableLab(data.lab2))           // 2nd Lab
+          .append(cs10.renderTableDiscussion(data.disc1))    // Discussion
+          .append(cs10.renderTableHW(data.hw));             // Assignments
 
     return result;
 };
 
-// W-F
-cs10.renderTableSecond = function (week, data, color) {
-    var result = $('<tr>').addClass('cal' + ' ' + color);
-    // TODO: Special Case For data.special
-    // TODO: Handle Exams (data.exams)
-    result.append($('<td>').html(week))                      // Week Number
-          .append($('<td>').html(cs10.getDateString(week)))  // Dates
-          .append(cs10.renderTableReading(data.readings2))   // Readings
-          .append(cs10.renderTableLab(data.lab2))            // 2nd Lab
-          .append(cs10.renderTableDiscussion(data.disc2))    // 2nd Disc
-          .append(cs10.renderTableLecture(data.lect3))       // Wed Lecture
-          .append(cs10.renderTableLecture(data.lect4))       // Thus Lecture
-          .append(cs10.renderTableHW(data.hw));              // Assignments
+// // This renders a single week in the large semester calendar.
+// // M-W
+// cs10.renderTableFirst = function (week, data, color) {
+//     var result = $('<tr>').addClass('cal' + ' ' + color);
+//     // TODO: Special Case For data.special
+//     // TODO: Handle Exams (data.exams)
+//     result.append($('<td>').html(week))                      // Week Number
+//           .append($('<td>').html(cs10.getDateString(week)))  // Dates
+//           .append(cs10.renderTableReading(data.readings1))   // Readings
+//           .append(cs10.renderTableLab(data.lab1))            // 1st Lab
+//           .append(cs10.renderTableDiscussion(data.disc1))    // 1st discussion
+//           .append(cs10.renderTableLecture(data.lect1))       // Mon Lecture
+//           .append(cs10.renderTableLecture(data.lect2))       // Tues Lecture
+//           .append(cs10.renderTableLab(data.work))            // Work Session
 
-    return result;
-};
+//     return result;
+// };
+
+// // W-F
+// cs10.renderTableSecond = function (week, data, color) {
+//     var result = $('<tr>').addClass('cal' + ' ' + color);
+//     // TODO: Special Case For data.special
+//     // TODO: Handle Exams (data.exams)
+//     result.append($('<td>').html(week))                      // Week Number
+//           .append($('<td>').html(cs10.getDateString(week)))  // Dates
+//           .append(cs10.renderTableReading(data.readings2))   // Readings
+//           .append(cs10.renderTableLab(data.lab2))            // 2nd Lab
+//           .append(cs10.renderTableDiscussion(data.disc2))    // 2nd Disc
+//           .append(cs10.renderTableLecture(data.lect3))       // Wed Lecture
+//           .append(cs10.renderTableLecture(data.lect4))       // Thus Lecture
+//           .append(cs10.renderTableHW(data.hw));              // Assignments
+
+//     return result;
+// };
 
 
 cs10.getDateString = function(week) {
