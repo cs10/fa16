@@ -51,4 +51,3 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - includes
-  - update-index.sh
