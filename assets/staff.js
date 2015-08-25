@@ -1,7 +1,7 @@
 // Instructors
 
-var AdamKuphaldt = {
-    name: 'Instructor Jon McKinsey',
+var JonMcKinsey = {
+    name: 'Instructor Rachel Huang',
     img: 'Fa13/JonMcKinsey.jpg',
     imgSrc: '../Su15/jon cute.png',
     email: 'jon@cs10.org'
