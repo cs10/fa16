@@ -1,4 +1,4 @@
-    var cs10 = cs10 || {};
+var cs10 = cs10 || {};
 
 // Sunday at the start of the semester
 cs10.startDate = '{{ site.startDate }}';
@@ -26,6 +26,7 @@ bcourses = function(id) {
     var reading = '/files/folder/Readings?preview='
     return base + cs10.bCoursesID + reading + id;
 }
+
 // ==================================================
 // ==========     OBJECT CREATION          ==========
 // ==================================================
