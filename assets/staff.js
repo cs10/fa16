@@ -64,7 +64,7 @@ var claireW = {
 var erikD = {
     name: 'TA Erik Dahlquist',
     img: 'Sp15/ErikDahlquist.jpg',
-    imgSrc: '../Su15/erik cute.png',
+    imgSrc: 'ErikDahlquist.jpg',
     email: 'erik@cs10.org' };
 
 var jannaG = {
@@ -100,17 +100,17 @@ var victoriaS = {
 var jobelV = {
     name: 'Reader Jobel Vecino',
     img: 'Fa13/JobelVecino.jpg',
-    imgSrc: '../Su15/jobel cute.png' };
+    imgSrc: 'JobelVecino.jpg' };
 
 var katherineM = {
     name: 'Reader Katherine McGauley',
     img: 'Su15/KatherineMcGauley.jpg',
-    imgSrc: '../Su15/kate cute.png' };
+    imgSrc: 'KatherineMcGauley' };
 
 var laraM = {
     name: 'Reader Lara McConnaughey',
     img: 'Su15/LaraMcConnaughey.jpg',
-    imgSrc: '../Su15/lara cute.png' };
+    imgSrc: 'LaraMcConnaughey.jpg' };
 
 
 /*****************************************************************************/
