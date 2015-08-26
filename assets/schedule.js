@@ -96,7 +96,7 @@ cs10.week3 = {
     lect2: lect('Creativity', 'L04 - Creativity'),
     lab2: lab('Lists I', 'berkeley_bjc/lists/lists-I.topic'),
     disc1: disc('All about lists', true),
-    hw: hw('Start on HW2: Snowman')
+    hw: hw('Start on HW2')
 };
 // cs10.week3.lect3.classes = 'exam';
 // cs10.week3.work.title += '<hr><strong>Finch Robots Lab (Sect 111)</strong>';
@@ -125,7 +125,7 @@ cs10.week4 = {
     lect2: lect('Algorithms', 'L06 - Algorithms I'),
     lab2: lab('Algorithmic Complexity', "berkeley_bjc/areas/algorithm-complexity.topic"),
     disc1: disc('Algorithmic Complexity and Quest Review', true),
-    hw: hw('HW2: Snowman', '9/18', 'assignments/6644472', 'assign.html?//docs.google.com/document/d/1iJDOxWMBnmE5lOzqmUi_-F-HoSyGuQrzn-COiGQd29Y/pub')
+    hw: hw('HW2', '9/18')
 
     // [
 //         hw('Midterm Project<br><strong>Individual</strong> Milestone', '3/13', 'assignments/6120151'),
