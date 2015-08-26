@@ -91,9 +91,9 @@ cs10.week3 = {
                 'https://www.wired.com/magazine/2010/05/process_pixar/',
                 'optional')
     ],
-    lect1: lect('3D Graphics', 'L04 - 3D Graphics'),
+    lect1: lect('No Lecture Monday'),
     lab1: lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic', true),
-    lect2: lect('Programming Paradigms', 'L05 - Programming Paradigms'),
+    lect2: lect('Creativity', 'L04 - Creativity'),
     lab2: lab('Lists I', 'berkeley_bjc/lists/lists-I.topic'),
     disc1: disc('All about lists', true),
     hw: hw('Start on HW2: Snowman')
@@ -120,9 +120,9 @@ cs10.week4 = {
                 'https://www.bof.nl/2015/06/26/demystifying-the-algorithm-who-designs-your-life/',
                 'optional')
     ],
-    lect1: lect('Algorithms', 'L06 - Algorithms I'),
+    lect1: lect('Programming Paradigms', 'L05 - Programming Paradigms'),
     lab1: lab('Algorithms', 'berkeley_bjc/areas/algorithms.topic', true),
-    lect2: lect('Algorithmic Complexity', 'L07 - Algorithms II'),
+    lect2: lect('Algorithms', 'L06 - Algorithms I'),
     lab2: lab('Algorithmic Complexity', "berkeley_bjc/areas/algorithm-complexity.topic"),
     disc1: disc('Algorithmic Complexity and Quest Review', true),
     hw: hw('HW2: Snowman', '9/18', 'assignments/5919084', 'assign.html?//docs.google.com/document/d/1iJDOxWMBnmE5lOzqmUi_-F-HoSyGuQrzn-COiGQd29Y/pub')
@@ -136,36 +136,23 @@ cs10.week4 = {
 // SEPT 21 - SEPT 25
 cs10.week5 = {
     readings1: [
-        reading('BtB Chapter 7',
-                '{{ site.baseurl }}/resources/readings/btb/chapter7.pdf'),
-        // TODO: Replace these with Superfish?
-        reading('The Heartbleed Bug',
-                'https://blog.agilebits.com/2014/04/08/imagine-no-ssl-encryption-its-scary-if-you-try/'),
-        reading('When Servers Bleed',
-                'https://medium.com/p/804cdf4b48c1',
-                'hard')
+        reading('BtB Chapter 4 Reading Segment 1',
+                '{{ site.baseurl }}/resources/readings/btb/BtB4-pt1.pdf'),
+        reading('BtB Chapter 4 Reading Segment 2',
+                '{{ site.baseurl }}/resources/readings/btb/BtB4-pt2.pdf'),
+        // TODO: This is paywalled....
+        reading('Living in a Digital World',
+                'https://cacm.acm.org/magazines/2011/10/131393-living-in-a-digital-world/pdf',
+                'optional'),
+        reading('BtB Chapter 3',
+                '{{ site.baseurl }}/resources/readings/btb/chapter3.pdf',
+                'optional')
     ],
-    lab1: lab('The Internet & Tic-Tac-Toe', 'berkeley_bjc/summer/10-internet-and-tic-tac-toe.topic', true),
-    // lab: The Internet
-    lect1: lect('Social Implications III', 'L15 - Social Implications III'),
-    disc1: disc('The Internet'),
-    work: work('Work Session'),
-    lect2: lect('Data', 'L16 - Data'),
-    readings2: 'No Readings<br><br><strong>Midterm Review Session</strong><br>Sunday 7/19 | 10 - 1 PM<br>306 Soda',
-    // <br><a href="https://tinyurl.com/midtermsp15" target="_blank">Slides</a> | (<a href="https://snap.berkeley.edu/snapsource/snap.html#present:Username=jasnowiss10&ProjectName=Midterm%20Review%20Solutions" target="_blank">Solutions</a>)
-    lect3: lect('No Lecture<br>'),
-    lab2: lab('With-Snap<em>!</em> Online Exam'),
-    lect4: lect('Lambdas and HOFs', 'L17 - HOF'),
-    disc2: disc('Privacy'),
-    // TODO: Push back until after MT?
-    hw: [
-        hw('Midterm Project<br><strong>Milestone</strong>', 'Tues 7/21', 'assignments/6365093'),
-        hw('Midterm Project', 'Sun 7/26', 'assignments/6365047', mtProjSpec)
-    ]
+
 };
-cs10.week5.lect3.classes = 'exam';
-cs10.week5.lect3.title += '<br><a href="exams/midterm.html">Midterm Exam</a><br><br>Weds 7/22<br>6 - 8 PM<br>159 Mulford';
-cs10.week5.lab2.classes = 'exam';
+// cs10.week5.lect3.classes = 'exam';
+// cs10.week5.lect3.title += '<br><a href="exams/midterm.html">Midterm Exam</a><br><br>Weds 7/22<br>6 - 8 PM<br>159 Mulford';
+// cs10.week5.lab2.classes = 'exam';
 
 // SEPT 28 - OCT 2
 cs10.week6 = {
