@@ -66,7 +66,7 @@ cs10.week2 = {
     lect2: lect('Creativity and Abstraction', 'L03 - Abstraction II'),
     lab2: lab('Conditionals', 'berkeley_bjc/intro_pair/3-conditionals.topic', true),
     disc1: disc('Anatomy of a Computer and the Power of Binary'),
-    hw: hw('HW1: Word Guessing', 'Wed 9/9', 'assignments/6365043', hw1Spec)
+    hw: hw('HW1: Word Guessing', 'Wed 9/9', 'assignments/6644471', hw1Spec)
 };
 
 // SEPT 7 - SEPT 11
@@ -125,7 +125,7 @@ cs10.week4 = {
     lect2: lect('Algorithms', 'L06 - Algorithms I'),
     lab2: lab('Algorithmic Complexity', "berkeley_bjc/areas/algorithm-complexity.topic"),
     disc1: disc('Algorithmic Complexity and Quest Review', true),
-    hw: hw('HW2: Snowman', '9/18', 'assignments/5919084', 'assign.html?//docs.google.com/document/d/1iJDOxWMBnmE5lOzqmUi_-F-HoSyGuQrzn-COiGQd29Y/pub')
+    hw: hw('HW2: Snowman', '9/18', 'assignments/6644472', 'assign.html?//docs.google.com/document/d/1iJDOxWMBnmE5lOzqmUi_-F-HoSyGuQrzn-COiGQd29Y/pub')
 
     // [
 //         hw('Midterm Project<br><strong>Individual</strong> Milestone', '3/13', 'assignments/6120151'),
@@ -153,7 +153,7 @@ cs10.week5 = {
     lect2: lect('Algorithms', 'L06 - Algorithms I'),
     lab2: lab('Algorithmic Complexity', "berkeley_bjc/areas/algorithm-complexity.topic"),
     disc1: disc('Algorithmic Complexity and Quest Review', true),
-    hw: hw('HW2: Snowman', '9/18', 'assignments/5919084', 'assign.html?//docs.google.com/document/d/1iJDOxWMBnmE5lOzqmUi_-F-HoSyGuQrzn-COiGQd29Y/pub')
+    hw: hw('HW2: Snowman', '9/18', 'assignments/6644472', 'assign.html?//docs.google.com/document/d/1iJDOxWMBnmE5lOzqmUi_-F-HoSyGuQrzn-COiGQd29Y/pub')
 };
 // cs10.week5.lect3.classes = 'exam';
 // cs10.week5.lect3.title += '<br><a href="exams/midterm.html">Midterm Exam</a><br><br>Weds 7/22<br>6 - 8 PM<br>159 Mulford';
