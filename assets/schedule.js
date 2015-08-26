@@ -37,7 +37,7 @@ cs10.week1 = {
     lect2: lect('Welcome and Abstraction', 'L01 - Abstraction'),
     lab2: lab("Welcome to <span class='snap'>snap</span>", "berkeley_bjc/summer/1-introduction.topic"),
     disc1: disc('Welcome to CS10!'),
-    hw: hw('HW0', 'Sun 8/27', 'quizzes/2037517')
+    hw: hw('HW0', 'Sun 8/30', 'quizzes/2037517')
 };
 
 // AUG 31 - SEPT 4
@@ -66,7 +66,7 @@ cs10.week2 = {
     lect2: lect('Creativity and Abstraction', 'L03 - Abstraction II'),
     lab2: lab('Conditionals', 'berkeley_bjc/intro_pair/3-conditionals.topic', true),
     disc1: disc('Anatomy of a Computer and the Power of Binary'),
-    hw: hw('HW1: Word Guessing', 'Wed 7/1', 'assignments/6365043', hw1Spec)
+    hw: hw('HW1: Word Guessing', 'Wed 9/9', 'assignments/6365043', hw1Spec)
 };
 
 // SEPT 7 - SEPT 11
@@ -91,7 +91,7 @@ cs10.week3 = {
                 'https://www.wired.com/magazine/2010/05/process_pixar/',
                 'optional')
     ],
-    lect1: lect('No Lecture Monday'),
+    lect1: lect('No Lecture Monday - Labor Day'),
     lab1: lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic', true),
     lect2: lect('Creativity', 'L04 - Creativity'),
     lab2: lab('Lists I', 'berkeley_bjc/lists/lists-I.topic'),
