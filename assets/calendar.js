@@ -119,7 +119,7 @@ cs10.newLectureObject = function(title, path, guest) {
         lect.classes = 'noClass';
     }
     if (path) {
-        lect.url = 'lecture/' + path;
+        lect.url = path;
     }
 
     lect.guest = guest;
