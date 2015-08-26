@@ -450,7 +450,7 @@ cs10.week16 = {
 // DEC 14 - DEC 18
 cs10.week17 = {
     readings1: 'No Readings<br>Study for the Final',
-    lab1: lab('With-Snap<em>!</em> Online Exam'),
+    lab1: 'No lab',
     disc1: disc('No Discussion'),
     lect1: lect('No Lecture'),
     lect2: lect('No Lecture'),
@@ -460,7 +460,6 @@ cs10.week17 = {
     disc2: disc('No Discussion'),
     lect3: lect('No Lecture<br><strong>Final Exam (Evening) 6-9pm</strong>'),
     lect4: lect('No Lecture'),
-    hw: hw('Final Project', 'Fri 8/14', '', finalProjSpec)
 };
 // cs10.week8.lab1.classes = 'exam';
 // cs10.week8.lect3.classes = 'exam';
