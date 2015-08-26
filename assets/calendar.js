@@ -233,7 +233,7 @@ cs10.renderTableCalendar = function() {
     var result = $('<tbody>');
     var table = $('.calendar.table');
     if (table.length === 0) { return; }
-    for(var i = 1; i < cs10.NUM_WEEKS_TO_RENDER; i += 1) {
+    for(var i = 1; i <= cs10.NUM_WEEKS_TO_RENDER; i += 1) {
         result.append(cs10.renderTableRow(i, cs10['week' + i]));
     }
     table.append(result);
