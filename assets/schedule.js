@@ -175,10 +175,7 @@ cs10.week6 = {
     disc2: disc('Python'),
     lect3: lect('Besides Blocks II', 'L20 - Python II'),
     lect4: lect('Future of Computing', 'L21 - Future of Computing'),
-    hw: [
-        hw('Explore Post', 'Fri 7/31', '', exploreSpec),
-        hw('Final Project Proposal', 'Fri 7/31', '', finalProjSpec)
-    ]
+
 };
 
 // OCT 5 - OCT 9
@@ -197,10 +194,7 @@ cs10.week7 = {
     lab1: lab('Besides Blocks: Data Structures in Python', 'berkeley_bjc/python/besides-blocks-data-struct.topic', true),
     disc1: disc('CS @ Cal and Beyond'),
     lect2: lect('<strong>Guest lecture:<br>Ian Birnam</strong><br>Vertigo Software'),
-    hw: [
-        hw('Explore Peer Comments', 'Mon 8/3', '', exploreSpec),
-        hw('Final Project Milestone', 'Fri 8/7', '', finalProjSpec)
-    ]
+
 };
 
 // OCT 5 - OCT 9
@@ -236,10 +230,7 @@ cs10.week8 = {
     lect1: lect('Besides Blocks I', 'L18 - Python I'),
     lect2: lect('Limits of Computing', 'L19 - Limits of Computing'),
     lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
-    hw: [
-        hw('Explore Post', 'Fri 7/31', '', exploreSpec),
-        hw('Final Project Proposal', 'Fri 7/31', '', finalProjSpec)
-    ]
+
 };
 
 // OCT 12 - OCT 16
@@ -259,10 +250,7 @@ cs10.week9 = {
     lect1: lect('Besides Blocks I', 'L18 - Python I'),
     lect2: lect('Limits of Computing', 'L19 - Limits of Computing'),
     lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
-    hw: [
-        hw('Explore Post', 'Fri 7/31', '', exploreSpec),
-        hw('Final Project Proposal', 'Fri 7/31', '', finalProjSpec)
-    ]
+
 };
 
 // OCT 19 - OCT 23
@@ -287,10 +275,7 @@ cs10.week10 = {
     lect1: lect('Besides Blocks I', 'L18 - Python I'),
     lect2: lect('Limits of Computing', 'L19 - Limits of Computing'),
     lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
-    hw: [
-        hw('Explore Post', 'Fri 7/31', '', exploreSpec),
-        hw('Final Project Proposal', 'Fri 7/31', '', finalProjSpec)
-    ]
+
 };
 
 // OCT 26 - OCT 30
@@ -301,10 +286,7 @@ cs10.week11 = {
     lect1: lect('Besides Blocks I', 'L18 - Python I'),
     lect2: lect('Limits of Computing', 'L19 - Limits of Computing'),
     lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
-    hw: [
-        hw('Explore Post', 'Fri 7/31', '', exploreSpec),
-        hw('Final Project Proposal', 'Fri 7/31', '', finalProjSpec)
-    ]
+
 };
 
 // NOV 2 - NOV 6
@@ -344,10 +326,6 @@ cs10.week13 = {
     lect1: lect('Besides Blocks I', 'L18 - Python I'),
     lect2: lect('Limits of Computing', 'L19 - Limits of Computing'),
     lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
-    hw: [
-        hw('Explore Post', 'Fri 7/31', '', exploreSpec),
-        hw('Final Project Proposal', 'Fri 7/31', '', finalProjSpec)
-    ]
 };
 
 // NOV 16 - NOV 20
@@ -374,10 +352,7 @@ cs10.week14 = {
     lect1: lect('Besides Blocks I', 'L18 - Python I'),
     lect2: lect('Limits of Computing', 'L19 - Limits of Computing'),
     lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
-    hw: [
-        hw('Explore Post', 'Fri 7/31', '', exploreSpec),
-        hw('Final Project Proposal', 'Fri 7/31', '', finalProjSpec)
-    ]
+
 };
 
 // NOV 23 - NOV 27
@@ -409,10 +384,7 @@ cs10.week15 = {
     lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
     lect3: lect('Besides Blocks II', 'L20 - Python II'),
     lect4: lect('Future of Computing', 'L21 - Future of Computing'),
-    hw: [
-        hw('Explore Post', 'Fri 7/31', '', exploreSpec),
-        hw('Final Project Proposal', 'Fri 7/31', '', finalProjSpec)
-    ]
+
 };
 
 // NOV 30 - DEC 4
@@ -444,49 +416,39 @@ cs10.week16 = {
     lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
     lect3: lect('Besides Blocks II', 'L20 - Python II'),
     lect4: lect('Future of Computing', 'L21 - Future of Computing'),
-    hw: [
-        hw('Explore Post', 'Fri 7/31', '', exploreSpec),
-        hw('Final Project Proposal', 'Fri 7/31', '', finalProjSpec)
-    ]
+
 };
 
 // DEC 7 - DEC 11
-cs10.week17 = {
-    readings1: [
-        reading('Data Explosion Creates Revolution',
-                'http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2011/10/19/BU5K1LJ4R3.DTL'),
-        reading('Data Mining',
-                'https://webdocs.cs.ualberta.ca/~zaiane/courses/cmput690/notes/Chapter1/ch1.pdf'),
-        reading('IBM\'s Watson supercomputer to speed up cancer care',
-                'http://www.bbc.com/news/technology-32607688'),
-        reading('Data Pitfalls',
-                'https://searchenginewatch.com/article/2289574/Big-Data-Big-Trouble-How-to-Avoid-5-Data-Analysis-Pitfalls',
-                'optional'),
+
+//cs10.week17 = {
+    //readings1: [
+        //reading('Data Explosion Creates Revolution',
+                //'http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2011/10/19/BU5K1LJ4R3.DTL'),
+        //reading('Data Mining',
+               // 'https://webdocs.cs.ualberta.ca/~zaiane/courses/cmput690/notes/Chapter1/ch1.pdf'),
+      //  reading('IBM\'s Watson supercomputer to speed up cancer care',
+             //   'http://www.bbc.com/news/technology-32607688'),
+      //  reading('Data Pitfalls',
+               // 'https://searchenginewatch.com/article/2289574/Big-Data-Big-Trouble-How-to-Avoid-5-Data-Analysis-Pitfalls',
+              //  'optional'),
         // TODO: bCourses
-        reading('Computing as Social Science',
-                'https://cacm.acm.org/magazines/2009/4/22953-computing-as-social-science/fulltext',
-                'optional')
-    ],
-    disc1: disc('Data and HOFs'),
-    lab1: lab('Lambdas and HOFs', 'berkeley_bjc/hofs/hofs-practice.topic', true),
-    lect1: lect('Besides Blocks I', 'L18 - Python I'),
-    work: work('Find Final Groups and Get Early Feedback'),
-    lect2: lect('Limits of Computing', 'L19 - Limits of Computing'),
-    readings2: [
-        reading('BtB Chapter 8',
-                '{{ site.baseurl }}/resources/readings/btb/chapter8.pdf')
-    ],
-    lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
-    lect3: lect('Besides Blocks II', 'L20 - Python II'),
-    lect4: lect('Future of Computing', 'L21 - Future of Computing'),
-    hw: [
-        hw('Explore Post', 'Fri 7/31', '', exploreSpec),
-        hw('Final Project Proposal', 'Fri 7/31', '', finalProjSpec)
-    ]
-};
+       // reading('Computing as Social Science',
+   //readings2: [
+     //   reading('BtB Chapter 8',
+       //         '{{ site.baseurl }}/resources/readings/btb/chapter8.pdf')
+    //],
+    //lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
+    //lect3: lect('Besides Blocks II', 'L20 - Python II'),
+    //lect4: lect('Future of Computing', 'L21 - Future of Computing'),
+    //hw: [
+       // hw('Explore Post', 'Fri 7/31', '', exploreSpec),
+       // hw('Final Project Proposal', 'Fri 7/31', '', finalProjSpec)
+    //]
+//};
 
 // DEC 14 - DEC 18
-cs10.week18 = {
+cs10.week17 = {
     readings1: 'No Readings<br>Study for the Final',
     lab1: lab('With-Snap<em>!</em> Online Exam'),
     disc1: disc('No Discussion'),
