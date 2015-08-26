@@ -57,7 +57,7 @@ cs10.week1 = {
                 'optional')
     ],
     lect3: lect('Creativity and Abstraction', 'L03 - Abstraction II'),
-    lab2: lab('Build Your Own Blocks', 'berkeley_bjc/summer/2-loops-variables.topic', true),
+    lab2: lab('Build Your Own Blocks', 'berkeley_bjc/summer/2-loops-variables.topic'),
     lect4: lect('3D Graphics', 'L04 - 3D Graphics'),
     disc2: disc('Anatomy of a Computer and the Power of Binary'),
     hw: hw('HW0', 'Wed 6/24', 'quizzes/1969116')
