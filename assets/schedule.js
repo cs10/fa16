@@ -450,7 +450,7 @@ cs10.week16 = {
 // DEC 14 - DEC 18
 cs10.week17 = {
     readings1: 'No Readings<br>Study for the Final',
-    lab1: 'No lab',
+    lab1: lab('No lab'),
     disc1: disc('No Discussion'),
     lect1: lect('No Lecture'),
     lect2: lect('No Lecture'),
