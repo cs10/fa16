@@ -301,10 +301,6 @@ cs10.week9 = {
     disc2: disc('Python'),
     lect3: lect('Besides Blocks II', 'L20 - Python II'),
     lect4: lect('Future of Computing', 'L21 - Future of Computing'),
-    hw: [
-        hw('Explore Post', 'Fri 7/31', '', exploreSpec),
-        hw('Final Project Proposal', 'Fri 7/31', '', finalProjSpec)
-    ]
 };
 
 // OCT 19 - OCT 23
@@ -337,10 +333,6 @@ cs10.week10 = {
     disc2: disc('Python'),
     lect3: lect('Besides Blocks II', 'L20 - Python II'),
     lect4: lect('Future of Computing', 'L21 - Future of Computing'),
-    hw: [
-        hw('Explore Post', 'Fri 7/31', '', exploreSpec),
-        hw('Final Project Proposal', 'Fri 7/31', '', finalProjSpec)
-    ]
 };
 
 // OCT 26 - OCT 30
@@ -372,10 +364,6 @@ cs10.week11 = {
     lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
     lect3: lect('Besides Blocks II', 'L20 - Python II'),
     lect4: lect('Future of Computing', 'L21 - Future of Computing'),
-    hw: [
-        hw('Explore Post', 'Fri 7/31', '', exploreSpec),
-        hw('Final Project Proposal', 'Fri 7/31', '', finalProjSpec)
-    ]
 };
 
 // NOV 2 - NOV 6
@@ -512,10 +500,6 @@ cs10.week15 = {
     lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
     lect3: lect('Besides Blocks II', 'L20 - Python II'),
     lect4: lect('Future of Computing', 'L21 - Future of Computing'),
-    hw: [
-        hw('Explore Post', 'Fri 7/31', '', exploreSpec),
-        hw('Final Project Proposal', 'Fri 7/31', '', finalProjSpec)
-    ]
 };
 
 // NOV 30 - DEC 4
