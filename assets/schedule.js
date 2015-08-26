@@ -257,7 +257,7 @@ cs10.week9 = {
     disc1: disc('Data and HOFs'),
     lab1: lab('Lambdas and HOFs', 'berkeley_bjc/hofs/hofs-practice.topic', true),
     lect1: lect('Besides Blocks I', 'L18 - Python I'),
-    lect2: lect('Limits of Computing', 'L19 - Limits of Computing'),\
+    lect2: lect('Limits of Computing', 'L19 - Limits of Computing'),
     lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
     hw: [
         hw('Explore Post', 'Fri 7/31', '', exploreSpec),
