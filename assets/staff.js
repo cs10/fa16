@@ -122,7 +122,8 @@ var laraM = {
 var inst = [ JoshHug ];
 var tas = [ adamK, rachelH, alexM, amrutaY, andyS, aranyU, carlosF, claireW, erikD, jannaG, josephC, stevenT, victoriaS ];
 
-var readers = [ jobelV, katherineM, laraM ];
+//var readers = [ jobelV, katherineM, laraM ]; todo: Update this once readers are hired!
+var readers = [ ];
 
 // If you need to add a new SECTION add it to this object.
 // Follow the same format.
