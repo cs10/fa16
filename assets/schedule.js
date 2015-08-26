@@ -75,7 +75,7 @@ cs10.week3 = {
         reading('BtB Chapter 1',
                 '{{ site.baseurl }}/resources/readings/btb/chapter1.pdf'),
         reading('Designing Games with a Purpose (GWAP)',
-                bcourses('58003305')),
+                bcourses('59744795')),
         // reading('Justices Split on Violent Games',
         //         bcourses('53994720')),
         // reading('Video Games Lecture',
