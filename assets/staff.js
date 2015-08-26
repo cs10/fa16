@@ -2,7 +2,7 @@
 
 var JoshHug = {
     name: 'Instructor Josh Hug',
-    img: 'JoshHug.jpg',
+    img: 'Sp14/JoshHug.jpg',
     imgSrc: 'JoshHug.jpg',
     email: 'hug@cs.berkeley.edu'
 };
