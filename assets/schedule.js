@@ -36,7 +36,7 @@ cs10.week1 = {
     lab1: lab('No Labs Monday, Tuesday, or Wednesday morning'),
     lect2: lect('Functions', 'L02 - Functions'),
     lab2: lab("Welcome to <span class='snap'>snap</span>", "berkeley_bjc/summer/1-introduction.topic"),
-    disc1: disc('Welcome to CS10!')
+    disc1: disc('Welcome to CS10!'),
     //work: work('Work Session'),
     //readings2: [
     //    reading('Prof. Harvey\'s Intro to Abstraction',
