@@ -500,10 +500,10 @@ cs10.week18 = {
     lect4: lect('No Lecture'),
     hw: hw('Final Project', 'Fri 8/14', '', finalProjSpec)
 };
-cs10.week8.lab1.classes = 'exam';
-cs10.week8.lect3.classes = 'exam';
+// cs10.week8.lab1.classes = 'exam';
+// cs10.week8.lect3.classes = 'exam';
 // Add deets about final time.
-cs10.week8.lect3.title += '';
+// cs10.week8.lect3.title += '';
 
 // Load the Calendar
 $(document).ready(function() {
