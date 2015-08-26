@@ -104,59 +104,28 @@ cs10.week3 = {
 // SEPT 14 - SEPT 18
 cs10.week4 = {
     readings1: [
-        reading('BtB Chapter 5 Reading Segment 1',
-                '{{ site.baseurl }}/resources/readings/btb/BtB5-pt1.pdf'),
-        reading('BtB Chapter 5 Reading Segment 2',
-                '{{ site.baseurl }}/resources/readings/btb/BtB5-pt2.pdf'),
-        reading('BtB Chapter 5 Reading Segment 3',
-                '{{ site.baseurl }}/resources/readings/btb/BtB5-pt3.pdf'),
-        reading('BtB Chapter 6 (27-37)',
-                '{{ site.baseurl }}/resources/readings/btb/chapter6.pdf')
-    ],
-    lect1: lect('Social Implications II', "L11 - Social Implications II"),
-    lab1: lab('Recursive Reporters I', 'berkeley_bjc/recur/recursive-reporters-part1.topic', true),
-    disc1: disc('Quest Debrief & HW Questions'),
-    lect2: lect('Concurrency', 'L12 - Concurrency'),
-    work: work('Work Session'),
-    readings2: [
-        reading('BtB Appendix',
-                '{{ site.baseurl }}/resources/readings/btb/Btb_Appendix.pdf'),
-        reading('TED: What is the Internet?',
-                'https://www.youtube.com/watch?v=XE_FPEFpHt4'),
-        reading('Moore\'s Law Keeps Going, Defying Expectations',
-                'http://www.scientificamerican.com/article/moore-s-law-keeps-going-defying-expectations/'),
-        reading('Free Lunch is Over',
-                'http://www.gotw.ca/publications/concurrency-ddj.htm',
-                'hard'),
-        reading('How Moore\'s Law Works',
-                'https://computer.howstuffworks.com/moores-law.htm',
+        reading('BtB Chapter 2',
+                '{{ site.baseurl }}/resources/readings/btb/chapter2.pdf'),
+        // TODO: Put this article in bCourses!
+        reading('What’s Hot in the Art World? Algorithms',
+                bcourses('58327126')),
+        reading('How Algorithms Shape Our World',
+                'http://www.ted.com/talks/kevin_slavin_how_algorithms_shape_our_world.html'),
+        reading('Program or Be Programmed',
+                'http://tedxtalks.ted.com/video/Douglas-Rushkoff-at-TEDxNYED'),
+        reading('Program or Be Programmed: A Guide',
+                'https://dtc-wsuv.org/hashnextchapter/wp-content/uploads/2013/03/Rushkoff-Study-Guide.pdf',
                 'optional'),
-        reading('What is IBM\'s Watson?',
-                bcourses('58003302'),
-                'optional'),
-        reading('Brian Harvey\'s AI notes',
-                 docs('11-5SLIRkQpx2_Px4aOZgDdoDcUj9EA5goPKl-Hcioe4'),
-                 'optional'),
-        reading('The First Church of Robotics',
-                'https://www.nytimes.com/2010/08/09/opinion/09lanier.html',
-                'optional'),
-        reading('Spending Moore\'s dividend (CACM)',
-                bcourses('58003301'),
+        reading('Demystifying the Algorithm: who Designs Your Life?',
+                'https://www.bof.nl/2015/06/26/demystifying-the-algorithm-who-designs-your-life/',
                 'optional')
     ],
-    lect3: lect('Internet I', 'L13 - Internet I'),
-    lab2: lab('Concurrency', 'berkeley_bjc/areas/concurrency.topic'),
-    disc2: disc('Concurrency'),
-    lect4: lect('Internet II', 'L14 - Internet II'),
-    hw: [
-        hw('HW3 2048', 'Thurs 7/16', [
-            { title: "GROUP Submission",
-              url: 'assignments/6365045' },
-            { title: "INDIVIDUAL Submission",
-              url: 'assignments/6442903' }
-        ], hw3Spec),
-        hw('Midterm Project<br><strong>Proposals</strong>', 'Wed 7/15', 'assignments/6365091', mtProjSpec)
-    ]
+    lect1: lect('Algorithms', 'L06 - Algorithms I'),
+    lab1: lab('Algorithms', 'berkeley_bjc/areas/algorithms.topic', true),
+    lect2: lect('Algorithmic Complexity', 'L07 - Algorithms II'),
+    lab2: lab('Algorithmic Complexity', "berkeley_bjc/areas/algorithm-complexity.topic"),
+    disc1: disc('Algorithmic Complexity and Quest Review', true),
+    hw: hw('HW2: Snowman', '9/18', 'assignments/5919084', 'assign.html?//docs.google.com/document/d/1iJDOxWMBnmE5lOzqmUi_-F-HoSyGuQrzn-COiGQd29Y/pub')
 
     // [
 //         hw('Midterm Project<br><strong>Individual</strong> Milestone', '3/13', 'assignments/6120151'),
