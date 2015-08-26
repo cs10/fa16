@@ -55,10 +55,10 @@ cs10.week2 = {
                 'https://www.youtube.com/watch?v=dU1xS07N-FA',
                 'optional'),
         reading('Is Abstraction the Key to Computing?',
-                bcourses('58003307'),
+                bcourses('59744797'),
                 'optional'),
         reading('Scratch: Programming for All',
-                bcourses('58003306'),
+                bcourses('59744796'),
                 'optional')
     ],
     lect1: lect('Functions', 'L02 - Functions'),
