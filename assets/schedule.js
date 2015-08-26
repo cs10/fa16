@@ -301,8 +301,8 @@ cs10.week12 = {
     lect2: lect('Limits of Computing', 'L19 - Limits of Computing'),
     lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
     hw: [
-        hw('Explore Post', 'Fri 7/31', '', exploreSpec),
-        hw('Final Project Proposal', 'Fri 7/31', '', finalProjSpec)
+        hw('Explore Post', 'Fri 7/31', ''),
+        hw('Final Project Proposal', 'Fri 7/31', '')
     ]
 };
 
