@@ -153,7 +153,7 @@ cs10.week5 = {
     lect2: lect('Algorithms', 'L06 - Algorithms I'),
     lab2: lab('Algorithmic Complexity', "berkeley_bjc/areas/algorithm-complexity.topic"),
     disc1: disc('Algorithmic Complexity and Quest Review', true),
-    hw: hw('HW2: Snowman', '9/18', 'assignments/6644472', 'assign.html?//docs.google.com/document/d/1iJDOxWMBnmE5lOzqmUi_-F-HoSyGuQrzn-COiGQd29Y/pub')
+    //hw: hw('HW2: Snowman', '9/18', 'assignments/6644472', 'assign.html?//docs.google.com/document/d/1iJDOxWMBnmE5lOzqmUi_-F-HoSyGuQrzn-COiGQd29Y/pub')
 };
 // cs10.week5.lect3.classes = 'exam';
 // cs10.week5.lect3.title += '<br><a href="exams/midterm.html">Midterm Exam</a><br><br>Weds 7/22<br>6 - 8 PM<br>159 Mulford';
