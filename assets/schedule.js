@@ -108,7 +108,7 @@ cs10.week2 = {
                 'optional')
     ],
     lect3: lect('Algorithmic Complexity', 'L07 - Algorithmic Complexity'),
-    lab2: lab('Lists I', 'berkeley_bjc/lists/lists-I.topic', true),
+    lab2: lab('Lists I', 'berkeley_bjc/lists/lists-I.topic', false),
     lect4: lect('No Lecture'),
     disc2: disc('All About Lists'),
     hw: hw('HW1: Word Guessing', 'Wed 7/1', 'assignments/6365043', hw1Spec)
@@ -190,7 +190,7 @@ cs10.week4 = {
                 'optional')
     ],
     lect3: lect('Internet I', 'L13 - Internet I'),
-    lab2: lab('Concurrency', 'berkeley_bjc/areas/concurrency.topic', true),
+    lab2: lab('Concurrency', 'berkeley_bjc/areas/concurrency.topic'),
     disc2: disc('Concurrency'),
     lect4: lect('Internet II', 'L14 - Internet II'),
     hw: [
@@ -269,7 +269,7 @@ cs10.week6 = {
         reading('BtB Chapter 8',
                 '{{ site.baseurl }}/resources/readings/btb/chapter8.pdf')
     ],
-    lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic', true),
+    lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
     disc2: disc('Python'),
     lect3: lect('Besides Blocks II', 'L20 - Python II'),
     lect4: lect('Future of Computing', 'L21 - Future of Computing'),
@@ -316,8 +316,7 @@ cs10.week7 = {
                 '{{ site.baseurl }}/resources/readings/btb/chapter9.pdf',
                 'optional')
     ],
-    lab2: lab('Final Exam Review Session', '#', true),
-    disc2: disc('Summary and Farewell'),
+    lab2: lab('Final Exam Review Session', '#'),
     lect3: lect('<strong>Industry Panel:<br> Jonathan Kotker<br> Lauren Mock<br> Kylan Nieh<br> Aatash Parikh</strong>'),
     lect4: lect('Summary and Farewell', 'L25 - Farewell'),
     hw: [
@@ -352,8 +351,7 @@ cs10.week8 = {
         reading('BtB Chapter 8',
                 '{{ site.baseurl }}/resources/readings/btb/chapter8.pdf')
     ],
-    lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic', true),
-    disc2: disc('Python'),
+    lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
     lect3: lect('Besides Blocks II', 'L20 - Python II'),
     lect4: lect('Future of Computing', 'L21 - Future of Computing'),
     hw: [
@@ -388,7 +386,7 @@ cs10.week9 = {
         reading('BtB Chapter 8',
                 '{{ site.baseurl }}/resources/readings/btb/chapter8.pdf')
     ],
-    lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic', true),
+    lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
     disc2: disc('Python'),
     lect3: lect('Besides Blocks II', 'L20 - Python II'),
     lect4: lect('Future of Computing', 'L21 - Future of Computing'),
@@ -424,7 +422,7 @@ cs10.week10 = {
         reading('BtB Chapter 8',
                 '{{ site.baseurl }}/resources/readings/btb/chapter8.pdf')
     ],
-    lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic', true),
+    lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
     disc2: disc('Python'),
     lect3: lect('Besides Blocks II', 'L20 - Python II'),
     lect4: lect('Future of Computing', 'L21 - Future of Computing'),
@@ -460,8 +458,7 @@ cs10.week11 = {
         reading('BtB Chapter 8',
                 '{{ site.baseurl }}/resources/readings/btb/chapter8.pdf')
     ],
-    lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic', true),
-    disc2: disc('Python'),
+    lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
     lect3: lect('Besides Blocks II', 'L20 - Python II'),
     lect4: lect('Future of Computing', 'L21 - Future of Computing'),
     hw: [
@@ -496,8 +493,7 @@ cs10.week12 = {
         reading('BtB Chapter 8',
                 '{{ site.baseurl }}/resources/readings/btb/chapter8.pdf')
     ],
-    lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic', true),
-    disc2: disc('Python'),
+    lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
     lect3: lect('Besides Blocks II', 'L20 - Python II'),
     lect4: lect('Future of Computing', 'L21 - Future of Computing'),
     hw: [
@@ -532,8 +528,7 @@ cs10.week13 = {
         reading('BtB Chapter 8',
                 '{{ site.baseurl }}/resources/readings/btb/chapter8.pdf')
     ],
-    lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic', true),
-    disc2: disc('Python'),
+    lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
     lect3: lect('Besides Blocks II', 'L20 - Python II'),
     lect4: lect('Future of Computing', 'L21 - Future of Computing'),
     hw: [
@@ -568,8 +563,7 @@ cs10.week14 = {
         reading('BtB Chapter 8',
                 '{{ site.baseurl }}/resources/readings/btb/chapter8.pdf')
     ],
-    lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic', true),
-    disc2: disc('Python'),
+    lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
     lect3: lect('Besides Blocks II', 'L20 - Python II'),
     lect4: lect('Future of Computing', 'L21 - Future of Computing'),
     hw: [
@@ -604,8 +598,7 @@ cs10.week15 = {
         reading('BtB Chapter 8',
                 '{{ site.baseurl }}/resources/readings/btb/chapter8.pdf')
     ],
-    lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic', true),
-    disc2: disc('Python'),
+    lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
     lect3: lect('Besides Blocks II', 'L20 - Python II'),
     lect4: lect('Future of Computing', 'L21 - Future of Computing'),
     hw: [
@@ -640,8 +633,7 @@ cs10.week16 = {
         reading('BtB Chapter 8',
                 '{{ site.baseurl }}/resources/readings/btb/chapter8.pdf')
     ],
-    lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic', true),
-    disc2: disc('Python'),
+    lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
     lect3: lect('Besides Blocks II', 'L20 - Python II'),
     lect4: lect('Future of Computing', 'L21 - Future of Computing'),
     hw: [
@@ -676,8 +668,7 @@ cs10.week17 = {
         reading('BtB Chapter 8',
                 '{{ site.baseurl }}/resources/readings/btb/chapter8.pdf')
     ],
-    lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic', true),
-    disc2: disc('Python'),
+    lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
     lect3: lect('Besides Blocks II', 'L20 - Python II'),
     lect4: lect('Future of Computing', 'L21 - Future of Computing'),
     hw: [
