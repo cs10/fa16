@@ -37,7 +37,6 @@ cs10.week1 = {
     lect2: lect('Welcome and Abstraction', 'L01 - Abstraction'),
     lab2: lab("Welcome to <span class='snap'>snap</span>", "berkeley_bjc/summer/1-introduction.topic"),
     disc1: disc('Welcome to CS10!'),
-    //lect4: lect('3D Graphics', 'L04 - 3D Graphics'),
     hw: hw('HW0', 'Sun 8/27', 'quizzes/2037517')
 };
 
@@ -62,90 +61,45 @@ cs10.week2 = {
                 bcourses('58003306'),
                 'optional')
     ],
-    //readings1: [
-    //    reading('BtB Chapter 1',
-    //            '{{ site.baseurl }}/resources/readings/btb/chapter1.pdf'),
-    //    reading('Designing Games with a Purpose (GWAP)',
-    //            bcourses('58003305')),
-    //    // reading('Justices Split on Violent Games',
-    //    //         bcourses('53994720')),
-    //    // reading('Video Games Lecture',
-    //    //         'https://coursesharing.org/courses/6/lectures/11'),
-    //    // reading('(Slides)',
-    //    //         '{{ site.baseurl }}/resources/readings/graphics'),
-    //    reading('The Story of Alan Turing &amp; His Machine',
-    //            'https://youtu.be/CQhrMmbiaM0'),
-    //    // reading('More readings on video games',
-    //    //         '{{ site.baseurl }}/resources/readings/video-games/',
-    //    //         'optional'),
-    //    reading('Animating a Blockbuster',
-    //            'https://www.wired.com/magazine/2010/05/process_pixar/',
-    //            'optional')
-    //],
-    //lect1: lect('Programming Paradigms', 'L05 - Programming Paradigms'),
     lect1: lect('Functions', 'L02 - Functions'),
     lab1: lab('Build Your Own Blocks', 'berkeley_bjc/summer/2-loops-variables.topic'),
-    //lect2: lect('Algorithms', 'L06 - Algorithms I'),
     lect2: lect('Creativity and Abstraction', 'L03 - Abstraction II'),
-    //disc1: disc('Functions'),
-    lab2: lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic', true),
+    lab2: lab('Conditionals', 'berkeley_bjc/intro_pair/3-conditionals.topic', true),
     disc1: disc('Anatomy of a Computer and the Power of Binary'),
-    //work: lab('Lab: Finch Robots', 'berkeley_bjc/robots/robots.topic'),
-    //readings2: [
-    //    reading('BtB Chapter 2',
-    //            '{{ site.baseurl }}/resources/readings/btb/chapter2.pdf'),
-    //    // TODO: Put this article in bCourses!
-    //    reading('What’s Hot in the Art World? Algorithms',
-    //            bcourses('58327126')),
-    //    reading('How Algorithms Shape Our World',
-    //            'http://www.ted.com/talks/kevin_slavin_how_algorithms_shape_our_world.html'),
-    //    reading('Program or Be Programmed',
-    //            'http://tedxtalks.ted.com/video/Douglas-Rushkoff-at-TEDxNYED'),
-    //    reading('Program or Be Programmed: A Guide',
-    //            'https://dtc-wsuv.org/hashnextchapter/wp-content/uploads/2013/03/Rushkoff-Study-Guide.pdf',
-    //            'optional'),
-    //    reading('Demystifying the Algorithm: who Designs Your Life?',
-    //            'https://www.bof.nl/2015/06/26/demystifying-the-algorithm-who-designs-your-life/',
-    //            'optional')
-    //],
-    //lect3: lect('Algorithmic Complexity', 'L07 - Algorithmic Complexity'),
-    //lab2: lab('Lists I', 'berkeley_bjc/lists/lists-I.topic', false),
-    //lect4: lect('No Lecture'),
-    //disc2: disc('All About Lists'),
     hw: hw('HW1: Word Guessing', 'Wed 7/1', 'assignments/6365043', hw1Spec)
 };
-// cs10.week2.lect4.classes = 'noClass';
-// cs10.week2.work.title += '<hr><strong>Quest Review (Sect 112)</strong>';
 
 // SEPT 7 - SEPT 11
 cs10.week3 = {
     readings1: [
-        reading('BtB Chapter 4 Reading Segment 1',
-                '{{ site.baseurl }}/resources/readings/btb/BtB4-pt1.pdf'),
-        reading('BtB Chapter 4 Reading Segment 2',
-                '{{ site.baseurl }}/resources/readings/btb/BtB4-pt2.pdf'),
-        // TODO: This is paywalled....
-        reading('Living in a Digital World',
-                'https://cacm.acm.org/magazines/2011/10/131393-living-in-a-digital-world/pdf',
-                'optional'),
-        reading('BtB Chapter 3',
-                '{{ site.baseurl }}/resources/readings/btb/chapter3.pdf',
+        reading('BtB Chapter 1',
+                '{{ site.baseurl }}/resources/readings/btb/chapter1.pdf'),
+        reading('Designing Games with a Purpose (GWAP)',
+                bcourses('58003305')),
+        // reading('Justices Split on Violent Games',
+        //         bcourses('53994720')),
+        // reading('Video Games Lecture',
+        //         'https://coursesharing.org/courses/6/lectures/11'),
+        // reading('(Slides)',
+        //         '{{ site.baseurl }}/resources/readings/graphics'),
+        reading('The Story of Alan Turing &amp; His Machine',
+                'https://youtu.be/CQhrMmbiaM0'),
+        // reading('More readings on video games',
+        //         '{{ site.baseurl }}/resources/readings/video-games/',
+        //         'optional'),
+        reading('Animating a Blockbuster',
+                'https://www.wired.com/magazine/2010/05/process_pixar/',
                 'optional')
     ],
-    lect1: lect('Recursion I', 'L08 - Recursion I'),
-    lab1: lab('Algorithms & Algorithmic Complexity', 'berkeley_bjc/summer/6-algorithms-and-complexity.topic', true),
-    lect2: lect('Social Implications I', 'L09 - Social Implications I'),
-    disc1: disc('Algorithmic Complexity and Quest Review'),
-    work: lab('Work Session'),
-    readings2: 'No Readings<br><br><strong>Quest Review Session<br>During Th 7/2 work session (112)<br>Mon (7/6) Lab (111)',
-    lect3: lect('Quest In Class', '../exams/quest.html'),
-    lect4: lect('Recursion II', 'L10 - Recursion II'),
-    lab2: lab('Trees and Fractals using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic'),
-    disc2: disc('<span style="font-size:150%">R<sup>e<sup>c<sup>u<sup>r<sup>s<sup>i<sup>o<sup>n</sup></sup></sup></sup></sup></sup></sup></sup></span>'),
-    hw: hw('HW2: Snowman', 'Wed 7/8', 'assignments/6365044', hw2Spec)
+    lect1: lect('3D Graphics', 'L04 - 3D Graphics'),
+    lab1: lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic', true),
+    lect2: lect('Programming Paradigms', 'L05 - Programming Paradigms'),
+    lab1: lab('Lists I', 'berkeley_bjc/lists/lists-I.topic'),
+    disc1: disc('All about lists', true),
+    hw: hw('Start on HW2: Snowman')
 };
-cs10.week3.lect3.classes = 'exam';
-cs10.week3.work.title += '<hr><strong>Finch Robots Lab (Sect 111)</strong>';
+// cs10.week3.lect3.classes = 'exam';
+// cs10.week3.work.title += '<hr><strong>Finch Robots Lab (Sect 111)</strong>';
 
 // SEPT 14 - SEPT 18
 cs10.week4 = {
