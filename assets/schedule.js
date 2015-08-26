@@ -94,7 +94,7 @@ cs10.week3 = {
     lect1: lect('3D Graphics', 'L04 - 3D Graphics'),
     lab1: lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic', true),
     lect2: lect('Programming Paradigms', 'L05 - Programming Paradigms'),
-    lab1: lab('Lists I', 'berkeley_bjc/lists/lists-I.topic'),
+    lab2: lab('Lists I', 'berkeley_bjc/lists/lists-I.topic'),
     disc1: disc('All about lists', true),
     hw: hw('Start on HW2: Snowman')
 };
