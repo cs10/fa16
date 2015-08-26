@@ -12,7 +12,7 @@ var JoshHug = {
 
 var adamK = {
     name: 'Head TA Adam Kuphaldt',
-    img: 'Sp14/AdamKuphaldt.jpg',
+    img: 'Sp14/',
     imgSrc: 'AdamKuphaldt.jpg',
     email: 'adam@cs10.org' };
 
