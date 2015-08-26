@@ -5,6 +5,7 @@ cs10.startDate = '{{ site.startDate }}';
 cs10.endDate   = '{{ site.endDate }}';
 
 cs10.bCoursesID = '{{ site.bCourses }}';
+cs10.NUM_WEEKS_TO_RENDER = 18;
 
 cs10.gradingScheme = {
     'A+': 485,
@@ -232,7 +233,7 @@ cs10.renderTableCalendar = function() {
     var result = $('<tbody>');
     var table = $('.calendar.table');
     if (table.length === 0) { return; }
-    for(var i = 1; i < 18; i += 1) {
+    for(var i = 1; i < cs10.NUM_WEEKS_TO_RENDER; i += 1) {
         result.append(cs10.renderTableRow(i, cs10['week' + i]));
     }
     table.append(result);
