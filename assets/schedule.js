@@ -66,7 +66,7 @@ cs10.week2 = {
     lect2: lect('Creativity and Abstraction', 'L03 - Abstraction II'),
     lab2: lab('Conditionals', 'berkeley_bjc/intro_pair/3-conditionals.topic', true),
     disc1: disc('Anatomy of a Computer and the Power of Binary'),
-    hw: hw('HW1: Word Guessing', 'Wed 9/9', 'assignments/6365043', hw1Spec)
+    hw: hw('HW1: Word Guessing', 'Wed 7/1', 'assignments/6365043', hw1Spec)
 };
 
 // SEPT 7 - SEPT 11
@@ -91,7 +91,7 @@ cs10.week3 = {
                 'https://www.wired.com/magazine/2010/05/process_pixar/',
                 'optional')
     ],
-    lect1: lect('No Lecture Monday - Labor Day'),
+    lect1: lect('No Lecture Monday'),
     lab1: lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic', true),
     lect2: lect('Creativity', 'L04 - Creativity'),
     lab2: lab('Lists I', 'berkeley_bjc/lists/lists-I.topic'),
@@ -148,7 +148,12 @@ cs10.week5 = {
                 '{{ site.baseurl }}/resources/readings/btb/chapter3.pdf',
                 'optional')
     ],
-
+    lect1: lect('Programming Paradigms', 'L05 - Programming Paradigms'),
+    lab1: lab('Algorithms', 'berkeley_bjc/areas/algorithms.topic', true),
+    lect2: lect('Algorithms', 'L06 - Algorithms I'),
+    lab2: lab('Algorithmic Complexity', "berkeley_bjc/areas/algorithm-complexity.topic"),
+    disc1: disc('Algorithmic Complexity and Quest Review', true),
+    hw: hw('HW2: Snowman', '9/18', 'assignments/5919084', 'assign.html?//docs.google.com/document/d/1iJDOxWMBnmE5lOzqmUi_-F-HoSyGuQrzn-COiGQd29Y/pub')
 };
 // cs10.week5.lect3.classes = 'exam';
 // cs10.week5.lect3.title += '<br><a href="exams/midterm.html">Midterm Exam</a><br><br>Weds 7/22<br>6 - 8 PM<br>159 Mulford';
@@ -156,21 +161,7 @@ cs10.week5 = {
 
 // SEPT 28 - OCT 2
 cs10.week6 = {
-    readings1: [
-        reading('Data Explosion Creates Revolution',
-                'http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2011/10/19/BU5K1LJ4R3.DTL'),
-        reading('Data Mining',
-                'https://webdocs.cs.ualberta.ca/~zaiane/courses/cmput690/notes/Chapter1/ch1.pdf'),
-        reading('IBM\'s Watson supercomputer to speed up cancer care',
-                'http://www.bbc.com/news/technology-32607688'),
-        reading('Data Pitfalls',
-                'https://searchenginewatch.com/article/2289574/Big-Data-Big-Trouble-How-to-Avoid-5-Data-Analysis-Pitfalls',
-                'optional'),
-        // TODO: bCourses
-        reading('Computing as Social Science',
-                'https://cacm.acm.org/magazines/2009/4/22953-computing-as-social-science/fulltext',
-                'optional')
-    ],
+    readings1: 'No Readings',
     disc1: disc('Data and HOFs'),
     lab1: lab('Lambdas and HOFs', 'berkeley_bjc/hofs/hofs-practice.topic', true),
     lect1: lect('Besides Blocks I', 'L18 - Python I'),
@@ -184,48 +175,28 @@ cs10.week6 = {
     disc2: disc('Python'),
     lect3: lect('Besides Blocks II', 'L20 - Python II'),
     lect4: lect('Future of Computing', 'L21 - Future of Computing'),
+    hw: [
+        hw('Explore Post', 'Fri 7/31', '', exploreSpec),
+        hw('Final Project Proposal', 'Fri 7/31', '', finalProjSpec)
+    ]
 };
 
 // OCT 5 - OCT 9
 cs10.week7 = {
     readings1: [
-        reading('How the Raspberry PI Sparked a Maker Revolution',
-                'http://www.popsci.com/how-raspberry-pi-sparked-maker-revolution'),
-	reading('TED: Interactive experiences with perceptual computing(Video)',
-                'https://www.youtube.com/watch?v=wrSE8TcYlHU',
-                'optional'),
-        reading('The Great Robot Race (Video)',
-                'https://www.youtube.com/watch?v=uoiJeIb0wBA',
-                'optional'),
-        reading('Halting Problem Poem',
-                'https://introcs.cs.princeton.edu/java/76computability/halting-poem.html',
-                'optional')
+        reading('BtB Chapter 5 Reading Segment 1',
+                '{{ site.baseurl }}/resources/readings/btb/BtB5-pt1.pdf'),
+        reading('BtB Chapter 5 Reading Segment 2',
+                '{{ site.baseurl }}/resources/readings/btb/BtB5-pt2.pdf'),
+        reading('BtB Chapter 5 Reading Segment 3',
+                '{{ site.baseurl }}/resources/readings/btb/BtB5-pt3.pdf'),
+        reading('BtB Chapter 6 (27-37)',
+                '{{ site.baseurl }}/resources/readings/btb/chapter6.pdf')
     ],
     lect1: lect('<strong>Guest lecture:<br>Achin Bhowmik</strong><br>Intel', 'L22 - Perceptual Computing'),
     lab1: lab('Besides Blocks: Data Structures in Python', 'berkeley_bjc/python/besides-blocks-data-struct.topic', true),
     disc1: disc('CS @ Cal and Beyond'),
     lect2: lect('<strong>Guest lecture:<br>Ian Birnam</strong><br>Vertigo Software'),
-    work: work('Work Session'),
-    readings2: [
-        reading('Why is Quantum Different?',
-                'https://www.scientificamerican.com/article.cfm?id=what-makes-a-quantum-comp'),
-        reading('Here is why we should be really excited about Quantum Computers',
-                'https://www.businessinsider.com/why-be-excited-about-quantum-computers-2015-4'),
-        reading('Man-made DNA can now Store Data for Millions of Years',
-                'https://gigaom.com/2015/02/17/man-made-dna-can-now-store-data-for-millions-of-years/'),
-        reading('DNA Storage',
-                'http://radar.oreilly.com/2012/08/dna-storage.html',
-                'hard'),
-        reading('Quantum Leap',
-                'http://money.cnn.com/2006/07/26/magazines/fortune/futureoftech_quantum.fortune/index.htm',
-                'optional'),
-        reading('BtB: Conclusion',
-                '{{ site.baseurl }}/resources/readings/btb/chapter9.pdf',
-                'optional')
-    ],
-    lab2: lab('Final Exam Review Session', '#'),
-    lect3: lect('<strong>Industry Panel:<br> Jonathan Kotker<br> Lauren Mock<br> Kylan Nieh<br> Aatash Parikh</strong>'),
-    lect4: lect('Summary and Farewell', 'L25 - Farewell'),
     hw: [
         hw('Explore Peer Comments', 'Mon 8/3', '', exploreSpec),
         hw('Final Project Milestone', 'Fri 8/7', '', finalProjSpec)
@@ -235,32 +206,36 @@ cs10.week7 = {
 // OCT 5 - OCT 9
 cs10.week8 = {
     readings1: [
-        reading('Data Explosion Creates Revolution',
-                'http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2011/10/19/BU5K1LJ4R3.DTL'),
-        reading('Data Mining',
-                'https://webdocs.cs.ualberta.ca/~zaiane/courses/cmput690/notes/Chapter1/ch1.pdf'),
-        reading('IBM\'s Watson supercomputer to speed up cancer care',
-                'http://www.bbc.com/news/technology-32607688'),
-        reading('Data Pitfalls',
-                'https://searchenginewatch.com/article/2289574/Big-Data-Big-Trouble-How-to-Avoid-5-Data-Analysis-Pitfalls',
+        reading('BtB Appendix',
+                '{{ site.baseurl }}/resources/readings/btb/Btb_Appendix.pdf'),
+        reading('TED: What is the Internet?',
+                'https://www.youtube.com/watch?v=XE_FPEFpHt4'),
+        reading('Moore\'s Law Keeps Going, Defying Expectations',
+                'http://www.scientificamerican.com/article/moore-s-law-keeps-going-defying-expectations/'),
+        reading('Free Lunch is Over',
+                'http://www.gotw.ca/publications/concurrency-ddj.htm',
+                'hard'),
+        reading('How Moore\'s Law Works',
+                'https://computer.howstuffworks.com/moores-law.htm',
                 'optional'),
-        // TODO: bCourses
-        reading('Computing as Social Science',
-                'https://cacm.acm.org/magazines/2009/4/22953-computing-as-social-science/fulltext',
+        reading('What is IBM\'s Watson?',
+                bcourses('58003302'),
+                'optional'),
+        reading('Brian Harvey\'s AI notes',
+                 docs('11-5SLIRkQpx2_Px4aOZgDdoDcUj9EA5goPKl-Hcioe4'),
+                 'optional'),
+        reading('The First Church of Robotics',
+                'https://www.nytimes.com/2010/08/09/opinion/09lanier.html',
+                'optional'),
+        reading('Spending Moore\'s dividend (CACM)',
+                bcourses('58003301'),
                 'optional')
     ],
     disc1: disc('Data and HOFs'),
     lab1: lab('Lambdas and HOFs', 'berkeley_bjc/hofs/hofs-practice.topic', true),
     lect1: lect('Besides Blocks I', 'L18 - Python I'),
-    work: work('Find Final Groups and Get Early Feedback'),
     lect2: lect('Limits of Computing', 'L19 - Limits of Computing'),
-    readings2: [
-        reading('BtB Chapter 8',
-                '{{ site.baseurl }}/resources/readings/btb/chapter8.pdf')
-    ],
     lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
-    lect3: lect('Besides Blocks II', 'L20 - Python II'),
-    lect4: lect('Future of Computing', 'L21 - Future of Computing'),
     hw: [
         hw('Explore Post', 'Fri 7/31', '', exploreSpec),
         hw('Final Project Proposal', 'Fri 7/31', '', finalProjSpec)
@@ -270,33 +245,24 @@ cs10.week8 = {
 // OCT 12 - OCT 16
 cs10.week9 = {
     readings1: [
-        reading('Data Explosion Creates Revolution',
-                'http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2011/10/19/BU5K1LJ4R3.DTL'),
-        reading('Data Mining',
-                'https://webdocs.cs.ualberta.ca/~zaiane/courses/cmput690/notes/Chapter1/ch1.pdf'),
-        reading('IBM\'s Watson supercomputer to speed up cancer care',
-                'http://www.bbc.com/news/technology-32607688'),
-        reading('Data Pitfalls',
-                'https://searchenginewatch.com/article/2289574/Big-Data-Big-Trouble-How-to-Avoid-5-Data-Analysis-Pitfalls',
-                'optional'),
-        // TODO: bCourses
-        reading('Computing as Social Science',
-                'https://cacm.acm.org/magazines/2009/4/22953-computing-as-social-science/fulltext',
-                'optional')
+        reading('BtB Chapter 7',
+                '{{ site.baseurl }}/resources/readings/btb/chapter7.pdf'),
+        // TODO: Replace these with Superfish?
+        reading('The Heartbleed Bug',
+                'https://blog.agilebits.com/2014/04/08/imagine-no-ssl-encryption-its-scary-if-you-try/'),
+        reading('When Servers Bleed',
+                'https://medium.com/p/804cdf4b48c1',
+                'hard')
     ],
     disc1: disc('Data and HOFs'),
     lab1: lab('Lambdas and HOFs', 'berkeley_bjc/hofs/hofs-practice.topic', true),
     lect1: lect('Besides Blocks I', 'L18 - Python I'),
-    work: work('Find Final Groups and Get Early Feedback'),
-    lect2: lect('Limits of Computing', 'L19 - Limits of Computing'),
-    readings2: [
-        reading('BtB Chapter 8',
-                '{{ site.baseurl }}/resources/readings/btb/chapter8.pdf')
-    ],
+    lect2: lect('Limits of Computing', 'L19 - Limits of Computing'),\
     lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
-    disc2: disc('Python'),
-    lect3: lect('Besides Blocks II', 'L20 - Python II'),
-    lect4: lect('Future of Computing', 'L21 - Future of Computing'),
+    hw: [
+        hw('Explore Post', 'Fri 7/31', '', exploreSpec),
+        hw('Final Project Proposal', 'Fri 7/31', '', finalProjSpec)
+    ]
 };
 
 // OCT 19 - OCT 23
@@ -319,78 +285,39 @@ cs10.week10 = {
     disc1: disc('Data and HOFs'),
     lab1: lab('Lambdas and HOFs', 'berkeley_bjc/hofs/hofs-practice.topic', true),
     lect1: lect('Besides Blocks I', 'L18 - Python I'),
-    work: work('Find Final Groups and Get Early Feedback'),
     lect2: lect('Limits of Computing', 'L19 - Limits of Computing'),
-    readings2: [
-        reading('BtB Chapter 8',
-                '{{ site.baseurl }}/resources/readings/btb/chapter8.pdf')
-    ],
     lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
-    disc2: disc('Python'),
-    lect3: lect('Besides Blocks II', 'L20 - Python II'),
-    lect4: lect('Future of Computing', 'L21 - Future of Computing'),
+    hw: [
+        hw('Explore Post', 'Fri 7/31', '', exploreSpec),
+        hw('Final Project Proposal', 'Fri 7/31', '', finalProjSpec)
+    ]
 };
 
 // OCT 26 - OCT 30
 cs10.week11 = {
-    readings1: [
-        reading('Data Explosion Creates Revolution',
-                'http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2011/10/19/BU5K1LJ4R3.DTL'),
-        reading('Data Mining',
-                'https://webdocs.cs.ualberta.ca/~zaiane/courses/cmput690/notes/Chapter1/ch1.pdf'),
-        reading('IBM\'s Watson supercomputer to speed up cancer care',
-                'http://www.bbc.com/news/technology-32607688'),
-        reading('Data Pitfalls',
-                'https://searchenginewatch.com/article/2289574/Big-Data-Big-Trouble-How-to-Avoid-5-Data-Analysis-Pitfalls',
-                'optional'),
-        // TODO: bCourses
-        reading('Computing as Social Science',
-                'https://cacm.acm.org/magazines/2009/4/22953-computing-as-social-science/fulltext',
-                'optional')
-    ],
+    readings1: 'No Readings',
     disc1: disc('Data and HOFs'),
     lab1: lab('Lambdas and HOFs', 'berkeley_bjc/hofs/hofs-practice.topic', true),
     lect1: lect('Besides Blocks I', 'L18 - Python I'),
-    work: work('Find Final Groups and Get Early Feedback'),
     lect2: lect('Limits of Computing', 'L19 - Limits of Computing'),
-    readings2: [
-        reading('BtB Chapter 8',
-                '{{ site.baseurl }}/resources/readings/btb/chapter8.pdf')
-    ],
     lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
-    lect3: lect('Besides Blocks II', 'L20 - Python II'),
-    lect4: lect('Future of Computing', 'L21 - Future of Computing'),
+    hw: [
+        hw('Explore Post', 'Fri 7/31', '', exploreSpec),
+        hw('Final Project Proposal', 'Fri 7/31', '', finalProjSpec)
+    ]
 };
 
 // NOV 2 - NOV 6
 cs10.week12 = {
     readings1: [
-        reading('Data Explosion Creates Revolution',
-                'http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2011/10/19/BU5K1LJ4R3.DTL'),
-        reading('Data Mining',
-                'https://webdocs.cs.ualberta.ca/~zaiane/courses/cmput690/notes/Chapter1/ch1.pdf'),
-        reading('IBM\'s Watson supercomputer to speed up cancer care',
-                'http://www.bbc.com/news/technology-32607688'),
-        reading('Data Pitfalls',
-                'https://searchenginewatch.com/article/2289574/Big-Data-Big-Trouble-How-to-Avoid-5-Data-Analysis-Pitfalls',
-                'optional'),
-        // TODO: bCourses
-        reading('Computing as Social Science',
-                'https://cacm.acm.org/magazines/2009/4/22953-computing-as-social-science/fulltext',
-                'optional')
+        reading('BtB Chapter 8',
+                '{{ site.baseurl }}/resources/readings/btb/chapter8.pdf')
     ],
     disc1: disc('Data and HOFs'),
     lab1: lab('Lambdas and HOFs', 'berkeley_bjc/hofs/hofs-practice.topic', true),
     lect1: lect('Besides Blocks I', 'L18 - Python I'),
-    work: work('Find Final Groups and Get Early Feedback'),
     lect2: lect('Limits of Computing', 'L19 - Limits of Computing'),
-    readings2: [
-        reading('BtB Chapter 8',
-                '{{ site.baseurl }}/resources/readings/btb/chapter8.pdf')
-    ],
     lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
-    lect3: lect('Besides Blocks II', 'L20 - Python II'),
-    lect4: lect('Future of Computing', 'L21 - Future of Computing'),
     hw: [
         hw('Explore Post', 'Fri 7/31', '', exploreSpec),
         hw('Final Project Proposal', 'Fri 7/31', '', finalProjSpec)
@@ -400,32 +327,23 @@ cs10.week12 = {
 // NOV 9 - NOV 13
 cs10.week13 = {
     readings1: [
-        reading('Data Explosion Creates Revolution',
-                'http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2011/10/19/BU5K1LJ4R3.DTL'),
-        reading('Data Mining',
-                'https://webdocs.cs.ualberta.ca/~zaiane/courses/cmput690/notes/Chapter1/ch1.pdf'),
-        reading('IBM\'s Watson supercomputer to speed up cancer care',
-                'http://www.bbc.com/news/technology-32607688'),
-        reading('Data Pitfalls',
-                'https://searchenginewatch.com/article/2289574/Big-Data-Big-Trouble-How-to-Avoid-5-Data-Analysis-Pitfalls',
+        reading('How the Raspberry PI Sparked a Maker Revolution',
+                'http://www.popsci.com/how-raspberry-pi-sparked-maker-revolution'),
+	reading('TED: Interactive experiences with perceptual computing(Video)',
+                'https://www.youtube.com/watch?v=wrSE8TcYlHU',
                 'optional'),
-        // TODO: bCourses
-        reading('Computing as Social Science',
-                'https://cacm.acm.org/magazines/2009/4/22953-computing-as-social-science/fulltext',
+        reading('The Great Robot Race (Video)',
+                'https://www.youtube.com/watch?v=uoiJeIb0wBA',
+                'optional'),
+        reading('Halting Problem Poem',
+                'https://introcs.cs.princeton.edu/java/76computability/halting-poem.html',
                 'optional')
     ],
     disc1: disc('Data and HOFs'),
     lab1: lab('Lambdas and HOFs', 'berkeley_bjc/hofs/hofs-practice.topic', true),
     lect1: lect('Besides Blocks I', 'L18 - Python I'),
-    work: work('Find Final Groups and Get Early Feedback'),
     lect2: lect('Limits of Computing', 'L19 - Limits of Computing'),
-    readings2: [
-        reading('BtB Chapter 8',
-                '{{ site.baseurl }}/resources/readings/btb/chapter8.pdf')
-    ],
     lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
-    lect3: lect('Besides Blocks II', 'L20 - Python II'),
-    lect4: lect('Future of Computing', 'L21 - Future of Computing'),
     hw: [
         hw('Explore Post', 'Fri 7/31', '', exploreSpec),
         hw('Final Project Proposal', 'Fri 7/31', '', finalProjSpec)
@@ -435,32 +353,27 @@ cs10.week13 = {
 // NOV 16 - NOV 20
 cs10.week14 = {
     readings1: [
-        reading('Data Explosion Creates Revolution',
-                'http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2011/10/19/BU5K1LJ4R3.DTL'),
-        reading('Data Mining',
-                'https://webdocs.cs.ualberta.ca/~zaiane/courses/cmput690/notes/Chapter1/ch1.pdf'),
-        reading('IBM\'s Watson supercomputer to speed up cancer care',
-                'http://www.bbc.com/news/technology-32607688'),
-        reading('Data Pitfalls',
-                'https://searchenginewatch.com/article/2289574/Big-Data-Big-Trouble-How-to-Avoid-5-Data-Analysis-Pitfalls',
+        reading('Why is Quantum Different?',
+                'https://www.scientificamerican.com/article.cfm?id=what-makes-a-quantum-comp'),
+        reading('Here is why we should be really excited about Quantum Computers',
+                'https://www.businessinsider.com/why-be-excited-about-quantum-computers-2015-4'),
+        reading('Man-made DNA can now Store Data for Millions of Years',
+                'https://gigaom.com/2015/02/17/man-made-dna-can-now-store-data-for-millions-of-years/'),
+        reading('DNA Storage',
+                'http://radar.oreilly.com/2012/08/dna-storage.html',
+                'hard'),
+        reading('Quantum Leap',
+                'http://money.cnn.com/2006/07/26/magazines/fortune/futureoftech_quantum.fortune/index.htm',
                 'optional'),
-        // TODO: bCourses
-        reading('Computing as Social Science',
-                'https://cacm.acm.org/magazines/2009/4/22953-computing-as-social-science/fulltext',
+        reading('BtB: Conclusion',
+                '{{ site.baseurl }}/resources/readings/btb/chapter9.pdf',
                 'optional')
     ],
     disc1: disc('Data and HOFs'),
     lab1: lab('Lambdas and HOFs', 'berkeley_bjc/hofs/hofs-practice.topic', true),
     lect1: lect('Besides Blocks I', 'L18 - Python I'),
-    work: work('Find Final Groups and Get Early Feedback'),
     lect2: lect('Limits of Computing', 'L19 - Limits of Computing'),
-    readings2: [
-        reading('BtB Chapter 8',
-                '{{ site.baseurl }}/resources/readings/btb/chapter8.pdf')
-    ],
     lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
-    lect3: lect('Besides Blocks II', 'L20 - Python II'),
-    lect4: lect('Future of Computing', 'L21 - Future of Computing'),
     hw: [
         hw('Explore Post', 'Fri 7/31', '', exploreSpec),
         hw('Final Project Proposal', 'Fri 7/31', '', finalProjSpec)
@@ -496,6 +409,10 @@ cs10.week15 = {
     lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
     lect3: lect('Besides Blocks II', 'L20 - Python II'),
     lect4: lect('Future of Computing', 'L21 - Future of Computing'),
+    hw: [
+        hw('Explore Post', 'Fri 7/31', '', exploreSpec),
+        hw('Final Project Proposal', 'Fri 7/31', '', finalProjSpec)
+    ]
 };
 
 // NOV 30 - DEC 4
