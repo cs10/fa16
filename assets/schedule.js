@@ -95,7 +95,7 @@ cs10.week3 = {
     lab1: lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic', true),
     lect2: lect('Creativity', 'L04 - Creativity'),
     lab2: lab('Lists I', 'berkeley_bjc/lists/lists-I.topic'),
-    disc1: disc('All about lists', true),
+    disc1: disc('All about lists'),
     hw: hw('Start on HW2')
 };
 // cs10.week3.lect3.classes = 'exam';
