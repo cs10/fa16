@@ -44,7 +44,7 @@ cs10.week1 = {
 cs10.week2 = {
     readings1: [
         reading('Prof. Harvey\'s Intro to Abstraction',
-                docs('1PZJ_LYYWRYu12cTbBKF9IyY4BqEG-BibgisBoQn9BpY')),
+                docs('1PZJ_LYYWRYu12cTbBKF9IyY4BqEG-BibgisBoQn9BpY'))/*,
         reading('TEDx Berkeley: The Beauty and Joy of Computing',
                 'https://www.youtube.com/watch?v=ozRovyDwKEM'),
         reading('Why Software is Eating the World',
@@ -59,7 +59,7 @@ cs10.week2 = {
                 'optional'),
         reading('Scratch: Programming for All',
                 bcourses('59744796'),
-                'optional')
+                'optional')*/
     ],
     lect1: lect('Functions', 'L02 - Functions'),
     lab1: lab('Build Your Own Blocks', 'berkeley_bjc/intro_pair/2-loops-variables.topic'),
@@ -72,7 +72,7 @@ cs10.week2 = {
 // SEPT 7 - SEPT 11
 cs10.week3 = {
     readings1: [
-        reading('BtB Chapter 1',
+        /*reading('BtB Chapter 1',
                 '{{ site.baseurl }}/resources/readings/btb/chapter1.pdf'),
         reading('Designing Games with a Purpose (GWAP)',
                 bcourses('59744795')),
@@ -89,7 +89,7 @@ cs10.week3 = {
         //         'optional'),
         reading('Animating a Blockbuster',
                 'https://www.wired.com/magazine/2010/05/process_pixar/',
-                'optional')
+                'optional')*/
     ],
     lect1: lect('No Lecture Monday - Labor Day'),
     lab1: lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic', true),
@@ -106,7 +106,7 @@ cs10.week4 = {
     readings1: [
         reading('BtB Chapter 2',
                 '{{ site.baseurl }}/resources/readings/btb/chapter2.pdf'),
-        // TODO: Put this article in bCourses!
+        // TODO: Put this article in bCourses! 
         reading('What’s Hot in the Art World? Algorithms',
                 bcourses('58327126')),
         reading('How Algorithms Shape Our World',
