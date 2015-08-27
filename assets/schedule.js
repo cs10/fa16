@@ -35,7 +35,7 @@ cs10.week1 = {
     lect1: lect('No Lecture Monday'),
     lab1: lab('No Labs Monday, Tuesday, or Wednesday morning'),
     lect2: lect('Welcome and Abstraction', 'https://docs.google.com/presentation/d/1D61ydzc09hxBuins4qTef5zfKqDVXNfRflJUNBE34A8'),
-    lab2: lab("Welcome to <span class='snap'>snap</span>", "berkeley_bjc/summer/1-introduction.topic"),
+    lab2: lab("Welcome to <span class='snap'>snap</span>", "berkeley_bjc/intro_pair/1-introduction.topic"),
     disc1: disc('Welcome to CS10!'),
     hw: hw('HW0', '8/30', 'quizzes/2037517')
 };
