@@ -63,23 +63,9 @@ No questions for this lab!
 ## Lab 2: Build Your Own Blocks {#lab2}
 
 * Why should we make our own blocks?
-* How do you make a block?
-* How many different types of blocks are in Snap<em>!</em>? What do they do?
-* Show us the `Draw a Star` exercise.
-* Show us the `Draw Polygon` block.
-* Show us the `Draw Flower` block.
-* Make the bug dance!
-* Name 3 different ways you can make a block repeat.
-* What does the pick random block do? Give a scenario where this functionality could be useful.
-* Why are booleans important?
-* What are some of the booleans we have access to in Snap<em>!</em> and what do they do?
 * What is the difference between `if` and `if-else`  blocks?
 * What is the difference between reporter and predicate blocks?
-* What is a script variable useful for? How do we initiate a script variable?
-* Show us the code for the `letter grade _` block.
-* Correctly answer the questions on the  “Self-test: Complex Booleans” page and show us.
-* Show us the code for the ` is _ between _ and _ ?` block.
-* For the Leap Year example, explain which code was easiest to read and which code was easiest to debug.
+* Show us the `Draw Flower` block.
 
 ---
 
