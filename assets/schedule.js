@@ -34,8 +34,8 @@ cs10.week1 = {
     readings1: 'No Readings',
     lect1: lect('No Lecture Monday'),
     lab1: lab('No Labs Monday, Tuesday, or Wednesday morning'),
-    lect2: lect('Welcome and Abstraction', 'L01 - Abstraction'),
-    lab2: lab("Welcome to <span class='snap'>snap</span>", "berkeley_bjc/summer/1-introduction.topic"),
+    lect2: lect('Welcome and Abstraction', 'https://docs.google.com/presentation/d/1D61ydzc09hxBuins4qTef5zfKqDVXNfRflJUNBE34A8'),
+    lab2: lab("Welcome to <span class='snap'>snap</span>", "berkeley_bjc/intro_pair/1-introduction.topic"),
     disc1: disc('Welcome to CS10!'),
     hw: hw('HW0', '8/30', 'quizzes/2037517')
 };
@@ -44,7 +44,7 @@ cs10.week1 = {
 cs10.week2 = {
     readings1: [
         reading('Prof. Harvey\'s Intro to Abstraction',
-                docs('1PZJ_LYYWRYu12cTbBKF9IyY4BqEG-BibgisBoQn9BpY')),
+                docs('1PZJ_LYYWRYu12cTbBKF9IyY4BqEG-BibgisBoQn9BpY'))/*,
         reading('TEDx Berkeley: The Beauty and Joy of Computing',
                 'https://www.youtube.com/watch?v=ozRovyDwKEM'),
         reading('Why Software is Eating the World',
@@ -55,27 +55,27 @@ cs10.week2 = {
                 'https://www.youtube.com/watch?v=dU1xS07N-FA',
                 'optional'),
         reading('Is Abstraction the Key to Computing?',
-                bcourses('58003307'),
+                bcourses('59744797'),
                 'optional'),
         reading('Scratch: Programming for All',
-                bcourses('58003306'),
-                'optional')
+                bcourses('59744796'),
+                'optional')*/
     ],
     lect1: lect('Functions', 'L02 - Functions'),
-    lab1: lab('Build Your Own Blocks', 'berkeley_bjc/summer/2-loops-variables.topic'),
+    lab1: lab('Build Your Own Blocks', 'berkeley_bjc/intro_pair/2-loops-variables.topic'),
     lect2: lect('Creativity and Abstraction', 'L03 - Abstraction II'),
     lab2: lab('Conditionals', 'berkeley_bjc/intro_pair/3-conditionals.topic', true),
     disc1: disc('Anatomy of a Computer and the Power of Binary'),
-    hw: hw('HW1: Word Guessing', 'Wed 9/9', 'assignments/6644471', hw1Spec)
+    hw: hw('HW1: Word Guessing', 'Fri 9/11', 'assignments/6644471', hw1Spec)
 };
 
 // SEPT 7 - SEPT 11
 cs10.week3 = {
     readings1: [
-        reading('BtB Chapter 1',
+        /*reading('BtB Chapter 1',
                 '{{ site.baseurl }}/resources/readings/btb/chapter1.pdf'),
         reading('Designing Games with a Purpose (GWAP)',
-                bcourses('58003305')),
+                bcourses('59744795')),
         // reading('Justices Split on Violent Games',
         //         bcourses('53994720')),
         // reading('Video Games Lecture',
@@ -89,13 +89,13 @@ cs10.week3 = {
         //         'optional'),
         reading('Animating a Blockbuster',
                 'https://www.wired.com/magazine/2010/05/process_pixar/',
-                'optional')
+                'optional')*/
     ],
     lect1: lect('No Lecture Monday - Labor Day'),
     lab1: lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic', true),
     lect2: lect('Creativity', 'L04 - Creativity'),
     lab2: lab('Lists I', 'berkeley_bjc/lists/lists-I.topic'),
-    disc1: disc('All about lists', true),
+    disc1: disc('All about lists'),
     hw: hw('Start on HW2')
 };
 // cs10.week3.lect3.classes = 'exam';
@@ -106,7 +106,7 @@ cs10.week4 = {
     readings1: [
         reading('BtB Chapter 2',
                 '{{ site.baseurl }}/resources/readings/btb/chapter2.pdf'),
-        // TODO: Put this article in bCourses!
+        // TODO: Put this article in bCourses! 
         reading('What’s Hot in the Art World? Algorithms',
                 bcourses('58327126')),
         reading('How Algorithms Shape Our World',
@@ -301,8 +301,8 @@ cs10.week12 = {
     lect2: lect('Limits of Computing', 'L19 - Limits of Computing'),
     lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
     hw: [
-        hw('Explore Post', 'Fri 7/31', '', exploreSpec),
-        hw('Final Project Proposal', 'Fri 7/31', '', finalProjSpec)
+        hw('Explore Post', 'Fri 7/31', ''),
+        hw('Final Project Proposal', 'Fri 7/31', '')
     ]
 };
 
