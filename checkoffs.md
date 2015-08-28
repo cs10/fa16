@@ -23,8 +23,6 @@ permalink: labquestions/index.html
 
 To get checked off, you should prepare answers to the specific questions for each lab. You shouldn't feel compelled to memorize every single detail of lab. The goal here to make sure you're on track with CS10 and you should be comfortable with the higher level concepts for each question. For each lab the first questions are the biggest ideas, and the later questions are for your own benefit and review.
 
-Note that you only need to get checked off for 1 lab each week! You get to pick which lab you'd like to get checked off for, and we encourage you to get checked off for whatever is the **most** challenging. You'll get credit for effort, and getting close to the answer, so this is a great way to check in with your TA and Lab Assistants.
-
 **Remember:** Even if you miss a check-off deadline, you can still get 50% credit for any lab check off at any time during the semester.
 
 </div>
@@ -71,7 +69,7 @@ No questions for this lab!
 * What is the difference between reporter and predicate blocks?
 * Show us the `Draw Flower` block.
 
----
+## Lab 3: 
 
 </div>
 
