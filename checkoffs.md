@@ -64,11 +64,13 @@ No questions for this lab!
 
 ## Lab 2: Build Your Own Blocks {#lab2}
 
-Required
+**Required**
+
 * Why should we make our own blocks?
 * Show us the `Draw Flower` block.
 
-Extra
+**Extra**
+
 * What is the difference between `if` and `if-else`  blocks?
 * What is the difference between reporter and predicate blocks?
 
