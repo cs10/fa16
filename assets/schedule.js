@@ -44,7 +44,7 @@ cs10.week1 = {
 cs10.week2 = {
     readings1: [
         reading('Prof. Harvey\'s Intro to Abstraction',
-                docs('1PZJ_LYYWRYu12cTbBKF9IyY4BqEG-BibgisBoQn9BpY')),
+                docs('1PZJ_LYYWRYu12cTbBKF9IyY4BqEG-BibgisBoQn9BpY/pub')),
         reading('Learning to Code!', 'http://www.youtube.com/watch?v=dU1xS07N-FA'),
         reading('Is Abstraction the Key to Computing?',
                 bcourses('59744797'),
@@ -69,7 +69,7 @@ cs10.week2 = {
                 bcourses('59744796'),
                 'optional')*/
     ],
-    lect1: lect('Procedures', 'https://docs.google.com/presentation/d/1_lKWy3HeznujFDTeRfffoGSAkvVEPqzpNvKVM2jkC0c'),
+    lect1: lect('Procedures', 'https://docs.google.com/presentation/d/1_lKWy3HeznujFDTeRfffoGSAkvVEPqzpNvKVM2jkC0c/pub'),
     lab1: lab('Build Your Own Blocks', 'berkeley_bjc/intro_pair/2-loops-variables.topic'),
     lect2: lect('Creativity and Abstraction', 'L03 - Abstraction II'),
     lab2: lab('Conditionals', 'berkeley_bjc/intro_pair/3-conditionals.topic', true),
