@@ -69,7 +69,7 @@ cs10.week2 = {
                 bcourses('59744796'),
                 'optional')*/
     ],
-    lect1: lect('Functions', 'L02 - Functions'),
+    lect1: lect('Procedures', 'https://docs.google.com/presentation/d/1_lKWy3HeznujFDTeRfffoGSAkvVEPqzpNvKVM2jkC0c'),
     lab1: lab('Build Your Own Blocks', 'berkeley_bjc/intro_pair/2-loops-variables.topic'),
     lect2: lect('Creativity and Abstraction', 'L03 - Abstraction II'),
     lab2: lab('Conditionals', 'berkeley_bjc/intro_pair/3-conditionals.topic', true),
