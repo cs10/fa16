@@ -71,8 +71,7 @@ No questions for this lab!
 
 **Extra**
 
-* What is the difference between `if` and `if-else`  blocks?
-* What is the difference between reporter and predicate blocks?
+* What are some different ways to achieve repetition? Why would you use one way over another?
 
 ## Lab 3: 
 
