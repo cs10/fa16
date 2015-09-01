@@ -44,7 +44,7 @@ cs10.week1 = {
 cs10.week2 = {
     readings1: [
         reading('Prof. Harvey\'s Intro to Abstraction',
-                docs('1PZJ_LYYWRYu12cTbBKF9IyY4BqEG-BibgisBoQn9BpY/pub')),
+                docs('1PZJ_LYYWRYu12cTbBKF9IyY4BqEG-BibgisBoQn9BpY')),
         reading('Learning to Code!', 'http://www.youtube.com/watch?v=dU1xS07N-FA'),
         reading('Is Abstraction the Key to Computing?',
                 bcourses('59744797'),
