@@ -69,7 +69,7 @@ No questions for this lab!
 * Why should we make our own blocks?
 * Show us the `Draw Flower` block.
 
-**Extra**
+**Extra for Experience**
 
 * What are some different ways to achieve repetition? Why would you use one way over another?
 
