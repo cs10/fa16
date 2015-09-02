@@ -78,12 +78,12 @@ To get checked off, you should prepare answers to the specific questions for eac
 **Required**
 
 * Why are script variables useful? How do we create a script variable?
-* Show us your <code>sum of 2 smallest numbers</code> block or the <code>are any equal</code> block, and explain how you composed functions to write these blocks.
+* Show us the code for the <code>is _ between _ and _ ?</code> block.
 
 **Extra for Experience**
 
-* Name a few of the input types. Why is it important that we specify input types?
-* How are global variables different from script variables?
+* What is the difference between <code>if</code> and <code>if-else</code> blocks?
+* For the Leap Year example, explain which code was easiest to read and which code was easiest to debug.
 
 </div>
 
