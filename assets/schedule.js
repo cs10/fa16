@@ -100,9 +100,9 @@ cs10.week3 = {
                 'optional')*/
     ],
     lect1: lect('No Lecture Monday - Labor Day'),
-    lab1: lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic', true),
+    lab1: lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic'),
     lect2: lect('Creativity', 'L04 - Creativity'),
-    lab2: lab('Lists I', 'berkeley_bjc/lists/lists-I.topic'),
+    lab2: lab('Lists I', 'berkeley_bjc/lists/lists-I.topic', true),
     disc1: disc('All about lists'),
     hw: hw('Start on HW2')
 };
