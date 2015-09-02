@@ -75,6 +75,16 @@ No questions for this lab!
 
 ## Lab 3: 
 
+**Required**
+
+* What is a script variable useful for? How do we initiate a script variable?
+* Show us your “sum of 2 smallest numbers” block or the “are any equal” block, and explain how you composed functions to write these blocks.
+
+**Extra for Experience**
+
+* Name a few of the input types. Why is it important that we specify input types?
+* How are global variables different from script variables?
+
 </div>
 
 
