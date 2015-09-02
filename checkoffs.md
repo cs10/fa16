@@ -56,7 +56,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 # Week 1: Lab 1: No check-off needed!
 
 ## Lab 1: Welcome to Snap<em>!</em>   {#lab1}
-No questions for this lab!
+* No questions for this lab!
 
 ---
 
@@ -73,7 +73,7 @@ No questions for this lab!
 
 * What are some different ways to achieve repetition? Why would you use one way over another?
 
-## Lab 3: 
+## Lab 3: Conditionals and Variables {#lab3}
 
 **Required**
 
