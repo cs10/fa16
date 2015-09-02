@@ -77,8 +77,8 @@ No questions for this lab!
 
 **Required**
 
-* What is a script variable useful for? How do we create a script variable?
-* Show us your “sum of 2 smallest numbers” block or the “are any equal” block, and explain how you composed functions to write these blocks.
+* Why are script variables useful? How do we create a script variable?
+* Show us your <code>sum of 2 smallest numbers</code> block or the <code>are any equal</code> block, and explain how you composed functions to write these blocks.
 
 **Extra for Experience**
 
