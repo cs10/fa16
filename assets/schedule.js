@@ -80,28 +80,31 @@ cs10.week2 = {
 // SEPT 7 - SEPT 11
 cs10.week3 = {
     readings1: [
-        /*reading('BtB Chapter 1',
-                '{{ site.baseurl }}/resources/readings/btb/chapter1.pdf'),
-        reading('Designing Games with a Purpose (GWAP)',
-                bcourses('59744795')),
+        reading('The First Object Oriented Software System', 
+                'https://www.youtube.com/watch?v=yyYB_Vo15WE'),
+        reading('The Story of Alan Turing &amp; His Machine',
+                'https://youtu.be/CQhrMmbiaM0'),
+        reading('BtB Chapter 1',
+                '{{ site.baseurl }}/resources/readings/btb/chapter1.pdf')
+        /*reading('Designing Games with a Purpose (GWAP)',
+                bcourses('59744795')),*/
         // reading('Justices Split on Violent Games',
         //         bcourses('53994720')),
         // reading('Video Games Lecture',
         //         'https://coursesharing.org/courses/6/lectures/11'),
         // reading('(Slides)',
         //         '{{ site.baseurl }}/resources/readings/graphics'),
-        reading('The Story of Alan Turing &amp; His Machine',
-                'https://youtu.be/CQhrMmbiaM0'),
+
         // reading('More readings on video games',
         //         '{{ site.baseurl }}/resources/readings/video-games/',
         //         'optional'),
-        reading('Animating a Blockbuster',
+        /*reading('Animating a Blockbuster',
                 'https://www.wired.com/magazine/2010/05/process_pixar/',
                 'optional')*/
     ],
     lect1: lect('No Lecture Monday - Labor Day'),
     lab1: lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic'),
-    lect2: lect('Creativity', 'L04 - Creativity'),
+    lect2: lect('Programming Paradigms', 'L04 - Programming Paradigms'),
     lab2: lab('Lists I', 'berkeley_bjc/lists/lists-I.topic', true),
     disc1: disc('All about lists'),
     hw: hw('Start on HW2')
