@@ -97,7 +97,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 * Show and Explain your Valid-Date Block
 * What is the difference between and global and script variable? What are the pros/cons of each?
-* 
+
 **Extra for Experience**
 
 * What are different ways to broadcast between sprites?
