@@ -85,8 +85,6 @@ To get checked off, you should prepare answers to the specific questions for eac
 * What is the difference between <code>if</code> and <code>if-else</code> blocks?
 * For the Leap Year example, explain which code was easiest to read and which code was easiest to debug.
 
-</div>
-
 ------
 
 #Week 3: Labs 4 and 5
@@ -103,4 +101,5 @@ To get checked off, you should prepare answers to the specific questions for eac
 * What are different ways to broadcast between sprites?
 * Explain the bugs in each of the provided pieces of code for the "sum of numbers between __ and ___ block"
 
-
+<!-- Keep the /div at the bottom -->
+</div>
