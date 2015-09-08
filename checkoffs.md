@@ -87,4 +87,20 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 </div>
 
+------
+
+#Week 3: Labs 4 and 5
+
+## Lab 4: Functions {#lab4}
+
+**Required** 
+
+* Show and Explain your Valid-Date Block
+* What is the difference between and global and script variable? What are the pros/cons of each?
+* 
+**Extra for Experience**
+
+* What are different ways to broadcast between sprites?
+* Explain the bugs in each of the provided pieces of code for the "sum of numbers between __ and ___ block"
+
 
