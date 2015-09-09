@@ -101,5 +101,19 @@ To get checked off, you should prepare answers to the specific questions for eac
 * What are different ways to broadcast between sprites?
 * Explain the bugs in each of the provided pieces of code for the "sum of numbers between __ and ___ block"
 
+## Lab 4: Lists 1 (#lab5)
+
+**Required**
+
+*Which blocks allow you to use a function on an entire list “all at once”? What are their domains and ranges?
+*What is the difference between the for and for each blocks?
+
+**Extra for Experience**
+
+* Lets look at <code>swap</code>. Why do we need a temp variable?
+* What are lists? How are they represented in Snap? What are some operations you can perform on lists?
+* How are lists different from variables? How are they similar? How do you create a temporary list for use in a block definition?
+* Why might global variable manipulation be useful in some situations? what drawbacks are there?
+
 <!-- Keep the /div at the bottom -->
 </div>
