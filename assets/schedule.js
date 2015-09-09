@@ -104,7 +104,7 @@ cs10.week3 = {
     ],
     lect1: lect('No Lecture Monday - Labor Day'),
     lab1: lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic'),
-    lect2: lect('Programming Paradigms', 'L04 - Programming Paradigms'),
+    lect2: lect('Programming Paradigms', 'https://docs.google.com/presentation/d/136vfh3rhRyTsGUKNv1MuUSHZqdPp4xVvt9GX3LlGX6I/pub'),
     lab2: lab('Lists I', 'berkeley_bjc/lists/lists-I.topic', true),
     disc1: disc('All about lists'),
     hw: hw('Start on HW2')
