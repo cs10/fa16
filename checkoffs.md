@@ -69,7 +69,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 * Why should we make our own blocks?
 * Show us the `Draw Flower` block.
 
-**Extra for Experience**
+**More Self-Check Questions**
 
 * What are some different ways to achieve repetition? Why would you use one way over another?
 
@@ -80,7 +80,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 * Why are script variables useful? How do we create a script variable?
 * Show us the code for the <code>is _ between _ and _ ?</code> block.
 
-**Extra for Experience**
+**More Self-Check Questions**
 
 * What is the difference between <code>if</code> and <code>if-else</code> blocks?
 * For the Leap Year example, explain which code was easiest to read and which code was easiest to debug.
@@ -96,7 +96,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 * Show and Explain your Valid-Date Block
 * What is the difference between and global and script variable? What are the pros/cons of each?
 
-**Extra for Experience**
+**More Self-Check Questions**
 
 * What are different ways to broadcast between sprites?
 * Explain the bugs in each of the provided pieces of code for the "sum of numbers between __ and ___ block"
@@ -108,7 +108,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 *Which blocks allow you to use a function on an entire list “all at once”? What are their domains and ranges?
 *What is the difference between the for and for each blocks?
 
-**Extra for Experience**
+**More Self-Check Questions**
 
 * Lets look at <code>swap</code>. Why do we need a temp variable?
 * What are lists? How are they represented in Snap? What are some operations you can perform on lists?
