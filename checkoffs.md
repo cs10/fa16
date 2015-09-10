@@ -105,8 +105,8 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 **Required**
 
-*Which blocks allow you to use a function on an entire list “all at once”? What are their domains and ranges?
-*What is the difference between the for and for each blocks?
+* Which blocks allow you to use a function on an entire list “all at once”? What are their domains and ranges?
+* What is the difference between the for and for each blocks?
 
 **More Self-Check Questions**
 
