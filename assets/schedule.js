@@ -130,10 +130,10 @@ cs10.week4 = {
                 'https://medium.com/@_marcos_otero/the-real-10-algorithms-that-dominate-our-world-e95fa9f16c04',
                 'optional')
     ],
-    lect1: lect('Algorithm', 'L05 - Algorithms'),
+    lect1: lect('Algorithms', 'L05 - Algorithms'),
     lab1: lab('Algorithms', 'berkeley_bjc/areas/algorithms.topic', true),
     lect2: lect('Algorithmic Complexity', 'L06 - Algorithmic Complexity'),
-    lab2: lab('Algorithms and HW2 help', "berkeley_bjc/areas/algorithms.topic"),
+    lab2: lab('Finish Lab #6 and HW2 help', "berkeley_bjc/areas/algorithms.topic"),
     disc1: disc('Algorithmic Complexity and Quest Review', true),
     hw: hw('Coming soon')
 
