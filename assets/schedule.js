@@ -115,28 +115,27 @@ cs10.week3 = {
 // SEPT 14 - SEPT 18
 cs10.week4 = {
     readings1: [
-        reading('BtB Chapter 2',
-                '{{ site.baseurl }}/resources/readings/btb/chapter2.pdf'),
-        // TODO: Put this article in bCourses! 
-        reading('What’s Hot in the Art World? Algorithms',
-                bcourses('58327126')),
-        reading('How Algorithms Shape Our World',
-                'http://www.ted.com/talks/kevin_slavin_how_algorithms_shape_our_world.html'),
-        reading('Program or Be Programmed',
-                'http://tedxtalks.ted.com/video/Douglas-Rushkoff-at-TEDxNYED'),
-        reading('Program or Be Programmed: A Guide',
-                'https://dtc-wsuv.org/hashnextchapter/wp-content/uploads/2013/03/Rushkoff-Study-Guide.pdf',
+        reading('What is an Algorithm (book excerpts)?',
+                bcourses('60735934')),
+       reading('How Algorithms Shape Our World',
+                'http://www.ted.com/talks/kevin_slavin_how_algorithms_shape_our_world.html'),        
+        reading('Algorithms Are Great and All, But They Can Also Ruin Lives',
+                'http://www.wired.com/2014/11/algorithms-great-can-also-ruin-lives/'),
+        reading('Hacker News Comments on "Algorithms Are Great and All..."',
+                'https://news.ycombinator.com/item?id=8630311'),        
+        reading('The 10 Algorithms That Dominate Our World',
+                'http://io9.com/the-10-algorithms-that-dominate-our-world-1580110464',
                 'optional'),
-        reading('Demystifying the Algorithm: who Designs Your Life?',
-                'https://www.bof.nl/2015/06/26/demystifying-the-algorithm-who-designs-your-life/',
+        reading('The real 10 algorithms that dominate our world',
+                'https://medium.com/@_marcos_otero/the-real-10-algorithms-that-dominate-our-world-e95fa9f16c04',
                 'optional')
     ],
     lect1: lect('Programming Paradigms', 'L05 - Programming Paradigms'),
     lab1: lab('Algorithms', 'berkeley_bjc/areas/algorithms.topic', true),
     lect2: lect('Algorithms', 'L06 - Algorithms I'),
-    lab2: lab('Algorithmic Complexity', "berkeley_bjc/areas/algorithm-complexity.topic"),
+    lab2: lab('Algorithms and HW2 help', "berkeley_bjc/areas/algorithms.topic"),
     disc1: disc('Algorithmic Complexity and Quest Review', true),
-    hw: hw('HW2', '9/18')
+    hw: hw('Coming soon')
 
     // [
 //         hw('Midterm Project<br><strong>Individual</strong> Milestone', '3/13', 'assignments/6120151'),
