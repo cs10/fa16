@@ -133,8 +133,8 @@ cs10.week4 = {
     lect1: lect('Algorithms', 'L05 - Algorithms'),
     lab1: lab('Algorithms', 'berkeley_bjc/areas/algorithms.topic', true),
     lect2: lect('Algorithmic Complexity', 'L06 - Algorithmic Complexity'),
-    lab2: lab('Finish Lab #6 and HW2 help', "berkeley_bjc/areas/algorithms.topic"),
-    disc1: disc('Algorithmic Complexity and Quest Review', true),
+    lab2: lab('Finish Lab 6 and HW2 help', "berkeley_bjc/areas/algorithms.topic"),
+    disc1: disc('Algorithmic Complexity'),
     hw: hw('Coming soon')
 
     // [
