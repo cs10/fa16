@@ -107,7 +107,7 @@ cs10.week3 = {
     lect2: lect('Programming Paradigms', 'https://docs.google.com/presentation/d/136vfh3rhRyTsGUKNv1MuUSHZqdPp4xVvt9GX3LlGX6I/pub'),
     lab2: lab('Lists I', 'berkeley_bjc/lists/lists-I.topic', true),
     disc1: disc('All about lists'),
-    hw: hw('Start on HW2')
+    hw: hw('HW1 is due this week! Start thinking about HW2.')
 };
 // cs10.week3.lect3.classes = 'exam';
 // cs10.week3.work.title += '<hr><strong>Finch Robots Lab (Sect 111)</strong>';
