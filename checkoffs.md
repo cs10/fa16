@@ -101,7 +101,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 * What are different ways to broadcast between sprites?
 * Explain the bugs in each of the provided pieces of code for the "sum of numbers between __ and ___ block"
 
-## Lab 5: Lists 1 (#lab5)
+## Lab 5: Lists 1 {#lab5}
 
 **Required**
 
@@ -117,7 +117,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 <!-- Keep the /div at the bottom -->
 
-## Lab 6: Lists 1 (#lab5)
+## Lab 6: Algorithms {#lab6}
 
 **Required**
 
