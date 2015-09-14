@@ -19,7 +19,7 @@ function docs(id) {
 }
 // CONSTANTS:
 var hw1Spec = docs('1ybuatsrUMCI-tHHRPwxUpGoZoGxk_SEiGEArocQtIlI');
-var hw2Spec = docs('1iJDOxWMBnmE5lOzqmUi_-F-HoSyGuQrzn-COiGQd29Y');
+var hw2Spec = docs('15s641ROrtQtt6hOA4WIdXW3wvmdBjZN0yPDi1D9IL2k');
 var hw3Spec = docs('1aToRospgIvycMHAu0RAmRjz5LzUb6x6FzvvdcPMiG8g');
 var mtProjSpec = docs('1VzhTWptGJpLE56gzYYG1lw9h2tW66yHNxkO7-yXVjzU');
 var exploreSpec = docs('1fGQzqdBFdorBoSEfFs7MCDS6sfAi8412gjx3E6EcSlo');
@@ -135,7 +135,7 @@ cs10.week4 = {
     lect2: lect('Algorithmic Complexity', 'L06 - Algorithmic Complexity'),
     lab2: lab('Finish Lab 6 and HW2 help', "berkeley_bjc/areas/algorithms.topic"),
     disc1: disc('Algorithmic Complexity'),
-    hw: hw('Coming soon')
+    hw: hw('HW2: Encryptify', 'Fri 9/25', 'assignments/6644472', hw2Spec)
 
     // [
 //         hw('Midterm Project<br><strong>Individual</strong> Milestone', '3/13', 'assignments/6120151'),
