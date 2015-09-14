@@ -34,18 +34,18 @@ To get checked off, you should prepare answers to the specific questions for eac
 ## Quick Links
 
 * [Lab 1](#lab1) (Week 1)
-* [Lab 2](#lab2)
-* [Lab 3](#lab3) (Week 2)
-* [Lab 4](#lab4)
+* [Lab 2](#lab2) (Week 2)
+* [Lab 3](#lab3) 
+* [Lab 4](#lab4) (Week 3)
 * [Lab 5](#lab5)
-* [Lab 6](#lab6) (Week 3)
+* [Lab 6](#lab6) (Week 4)
 * [Lab 7](#lab7)
-* [Lab 8](#lab8) (Week 4)
+* [Lab 8](#lab8) 
 * [Lab 9](#lab9)
-* [Lab 10](#lab10) (Week 5)
-* [Lab 11](#lab11) (Week 6)
+* [Lab 10](#lab10) 
+* [Lab 11](#lab11) 
 * [Lab 12](#lab12)
-* [Lab 13](#lab13) (Week 7)
+* [Lab 13](#lab13) 
 * [Lab 14](#lab14) 
 </div>
 
