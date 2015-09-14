@@ -115,7 +115,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 * How are lists different from variables? How are they similar? How do you create a temporary list for use in a block definition?
 * Why might global variable manipulation be useful in some situations? what drawbacks are there?
 
-<!-- Keep the /div at the bottom -->
+#Week 4: Lab 6
 
 ## Lab 6: Algorithms {#lab6}
 
