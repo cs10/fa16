@@ -128,6 +128,20 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 * What is memoization? When is it useful?  
 
+#Week 5: Lab 7
+
+## Lab 7: Algorithm Complexity {#lab7}
+
+**Required**
+
+* Please rank the runtimes you've covered in this lab from “fastest” to “slowest". For each, how does the program's input affect runtime? Why is runtime important for the programs that we create?
+* Please show me your <code>Are the numbers of (LIST) distinct?</code> block. What is the difference between the "worst case" and “best case" scenarios for this block, in terms of Runtime?
+
+**More Self-Check Questions**
+
+* What happened with the time it took for your computer to counter up the numbers between 1 and x when you started doubling the numbers? Tripling the numbers?
+* Between the Non-Gauss and Gauss method of adding numbers, which was faster? Why?
+
 
 <!-- Keep the /div at the bottom -->
 </div>
