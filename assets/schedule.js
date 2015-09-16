@@ -132,7 +132,7 @@ cs10.week4 = {
     ],
     lect1: lect('Algorithms', 'https://docs.google.com/presentation/d/1VsF8pEI882QS4X6Vu3JqCkO_1d8ttp763p0cONt_GgI/pub?start=false&loop=false&delayms=3000'),
     lab1: lab('Algorithms', 'berkeley_bjc/areas/algorithms.topic', true),
-    lect2: lect('Algorithmic Complexity', 'L06 - Algorithmic Complexity'),
+    lect2: lect('Algorithmic Complexity', 'https://docs.google.com/presentation/d/1hJTCiCxmaWfhjjSFTclkGeyzrH5UVMr9vVinAt_ohFk/pub?start=false&loop=false&delayms=3000'),
     lab2: lab('Finish Lab 6 and HW2 help', "berkeley_bjc/areas/algorithms.topic"),
     disc1: disc('Algorithmic Complexity'),
     hw: hw('HW2: Encryptify', 'Fri 9/25', 'assignments/6644472', hw2Spec)
