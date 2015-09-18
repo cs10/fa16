@@ -134,7 +134,7 @@ cs10.week4 = {
     lab1: lab('Algorithms', 'berkeley_bjc/areas/algorithms.topic', true),
     lect2: lect('Algorithmic Complexity', 'https://docs.google.com/presentation/d/1hJTCiCxmaWfhjjSFTclkGeyzrH5UVMr9vVinAt_ohFk/pub?start=false&loop=false&delayms=3000'),
     lab2: lab('Finish Lab 6 and HW2 help', "berkeley_bjc/areas/algorithms.topic"),
-    disc1: disc('Algorithmic Complexity'),
+    disc1: disc('Algorithmic Complexity I'),
     hw: hw('HW2: Encryptify', 'Fri 9/25', 'assignments/6644472', hw2Spec)
 
     // [
@@ -146,22 +146,22 @@ cs10.week4 = {
 // SEPT 21 - SEPT 25
 cs10.week5 = {
     readings1: [
-        reading('BtB Chapter 4 Reading Segment 1',
-                '{{ site.baseurl }}/resources/readings/btb/BtB4-pt1.pdf'),
-        reading('BtB Chapter 4 Reading Segment 2',
-                '{{ site.baseurl }}/resources/readings/btb/BtB4-pt2.pdf'),
+        reading('BtB Chapter 5',
+                'http://www.bitsbook.com/wp-content/uploads/2008/12/chapter5.pdf'),
+        /*reading('BtB Chapter 4 Reading Segment 2',
+                '{{ site.baseurl }}/resources/readings/btb/BtB4-pt2.pdf'),*/
         // TODO: This is paywalled....
-        reading('Living in a Digital World',
+        /*reading('Living in a Digital World',
                 'https://cacm.acm.org/magazines/2011/10/131393-living-in-a-digital-world/pdf',
                 'optional'),
         reading('BtB Chapter 3',
                 '{{ site.baseurl }}/resources/readings/btb/chapter3.pdf',
-                'optional')
+                'optional')*/
     ],
-    lect1: lect('Programming Paradigms', 'L05 - Programming Paradigms'),
-    lab1: lab('Algorithms', 'berkeley_bjc/areas/algorithms.topic', true),
-    lect2: lect('Algorithms', 'L06 - Algorithms I'),
-    lab2: lab('Algorithmic Complexity', "berkeley_bjc/areas/algorithm-complexity.topic"),
+    lect1: lect('Algorithmic Complexity II'),
+    lab1: lab('Algorithmic Complexity', 'berkeley_bjc/areas/algorithm-complexity.topic', true),
+    lect2: lect('Cryptography'),
+    lab2: lab('Finch Lab'),
     disc1: disc('Algorithmic Complexity and Quest Review', true),
     //hw: hw('HW2: Snowman', '9/18', 'assignments/6644472', 'assign.html?//docs.google.com/document/d/1iJDOxWMBnmE5lOzqmUi_-F-HoSyGuQrzn-COiGQd29Y/pub')
 };
