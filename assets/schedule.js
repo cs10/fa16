@@ -163,6 +163,7 @@ cs10.week5 = {
     lect2: lect('Cryptography'),
     lab2: lab('Finch Lab'),
     disc1: disc('Algorithmic Complexity and Quest Review', true),
+    hw: hw('HW2 due Friday 9/25 at 11:59 P.M.')
     //hw: hw('HW2: Snowman', '9/18', 'assignments/6644472', 'assign.html?//docs.google.com/document/d/1iJDOxWMBnmE5lOzqmUi_-F-HoSyGuQrzn-COiGQd29Y/pub')
 };
 // cs10.week5.lect3.classes = 'exam';
