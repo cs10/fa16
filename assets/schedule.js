@@ -161,7 +161,7 @@ cs10.week5 = {
     lect1: lect('Algorithmic Complexity II', 'https://docs.google.com/presentation/d/1oB5TmXQL3QVvob6vhhjZcu_0K1nSs-TUcTlXygfJ9v8/edit?usp=sharing'),
     lab1: lab('Algorithmic Complexity', 'berkeley_bjc/areas/algorithm-complexity.topic', true),
     lect2: lect('Cryptography'),
-    lab2: lab('Finch Lab', 'berkeley_bjc/robots/robots.topic', true),
+    lab2: lab('Finch Lab', 'berkeley_bjc/robots/robots.topic'),
     disc1: disc('Quest Review', true),
     hw: hw('HW2 due Friday 9/25 at 11:59 P.M.')
     //hw: hw('HW2: Snowman', '9/18', 'assignments/6644472', 'assign.html?//docs.google.com/document/d/1iJDOxWMBnmE5lOzqmUi_-F-HoSyGuQrzn-COiGQd29Y/pub')
