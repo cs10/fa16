@@ -158,7 +158,7 @@ cs10.week5 = {
                 '{{ site.baseurl }}/resources/readings/btb/chapter3.pdf',
                 'optional')*/
     ],
-    lect1: lect('Algorithmic Complexity II'),
+    lect1: lect('Algorithmic Complexity II', 'https://docs.google.com/presentation/d/1oB5TmXQL3QVvob6vhhjZcu_0K1nSs-TUcTlXygfJ9v8/edit?usp=sharing'),
     lab1: lab('Algorithmic Complexity', 'berkeley_bjc/areas/algorithm-complexity.topic', true),
     lect2: lect('Cryptography'),
     lab2: lab('Finch Lab'),
