@@ -52,8 +52,8 @@ function getWeekOfDate(date) {
 
 
 cs10.newLabObject = function(title, url, rq, video) {
-    var baseURL = '{{ site.labsurl }}/llab/html/empty-topic-page.html?topic=';
-    var urlEnd  = '&novideo&noreading&noassingment&course={{ site.labsCourse }}';
+    var baseURL = '{{ site.labsurl }}/topic/topic.html?topic=';
+    var urlEnd  = '&novideo&noreading&noassignment&course={{ site.labsCourse }}';
     var lab = { type: 'Lab' };
     lab.title = title;
 
