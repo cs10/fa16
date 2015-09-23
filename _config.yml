@@ -32,9 +32,9 @@ startDate: 2015-08-23 # First Sunday
 endDate:   2015-12-19 # Last Saturday
 
 # Change the calendar to show Sun-Sat instead of M-F when an exam is near
-questDate: 2015-07-08
-midtermDate: 2015-07-22
-finalDate: 2015-08-12
+questDate: 2015-09-30
+midtermDate: 2015-10-29
+finalDate: 2015-12-14
 # from console.developers.google.com
 # This key can be public and is tied to a users calendar accesses
 # whoever this key belongs to should have access to the CS10 galendars.
