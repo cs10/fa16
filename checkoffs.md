@@ -128,7 +128,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 * What is memoization? When is it useful?  
 
-#Week 5: Lab 7
+#Week 5: Labs 7 and 8
 
 ## Lab 7: Algorithm Complexity {#lab7}
 
@@ -142,6 +142,8 @@ To get checked off, you should prepare answers to the specific questions for eac
 * What happened with the time it took for your computer to counter up the numbers between 1 and x when you started doubling the numbers? Tripling the numbers?
 * Between the Non-Gauss and Gauss method of adding numbers, which was faster? Why?
 
+## Lab 8: Finch Lab   {#lab8}
+* You can get checked off for this lab as long as you show up to lab and work on it. No questions!
 
 <!-- Keep the /div at the bottom -->
 </div>
