@@ -172,40 +172,24 @@ cs10.week5 = {
 
 // SEPT 28 - OCT 2
 cs10.week6 = {
-    readings1: 'No Readings',
-    disc1: disc('Data and HOFs'),
-    lab1: lab('Lambdas and HOFs', 'berkeley_bjc/hofs/hofs-practice.topic', true),
-    lect1: lect('Besides Blocks I', 'L18 - Python I'),
-    work: work('Find Final Groups and Get Early Feedback'),
-    lect2: lect('Limits of Computing', 'L19 - Limits of Computing'),
-    readings2: [
-        reading('BtB Chapter 8',
-                '{{ site.baseurl }}/resources/readings/btb/chapter8.pdf')
-    ],
-    lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
-    disc2: disc('Python'),
-    lect3: lect('Besides Blocks II', 'L20 - Python II'),
-    lect4: lect('Future of Computing', 'L21 - Future of Computing'),
-
+    readings1: ['TBA'],
+    lect1: lect('Beauty'),
+    lab1: lab('No Labs Monday Quest Help and Review'),
+    lect2: lect('Quest', true),
+    lab2: lab('Testing', 'berkeley_bjc/robots/robots.topic'),
+    disc1: disc('Quest Review', true),
+    hw: hw('Start on HW3')
 };
 
 // OCT 5 - OCT 9
 cs10.week7 = {
-    readings1: [
-        reading('BtB Chapter 5 Reading Segment 1',
-                '{{ site.baseurl }}/resources/readings/btb/BtB5-pt1.pdf'),
-        reading('BtB Chapter 5 Reading Segment 2',
-                '{{ site.baseurl }}/resources/readings/btb/BtB5-pt2.pdf'),
-        reading('BtB Chapter 5 Reading Segment 3',
-                '{{ site.baseurl }}/resources/readings/btb/BtB5-pt3.pdf'),
-        reading('BtB Chapter 6 (27-37)',
-                '{{ site.baseurl }}/resources/readings/btb/chapter6.pdf')
-    ],
-    lect1: lect('<strong>Guest lecture:<br>Achin Bhowmik</strong><br>Intel', 'L22 - Perceptual Computing'),
-    lab1: lab('Besides Blocks: Data Structures in Python', 'berkeley_bjc/python/besides-blocks-data-struct.topic', true),
-    disc1: disc('CS @ Cal and Beyond'),
-    lect2: lect('<strong>Guest lecture:<br>Ian Birnam</strong><br>Vertigo Software'),
-
+    readings1: ['TBA'],
+    lect1: lect('Concurrency'),
+    lab1: lab('Concurrency'),
+    lect2: lect('Recursion I', true),
+    lab2: lab('Recursion I'),
+    disc1: disc('Quest Review', true),
+    hw: hw('HW2 due Friday 10/9 at 11:59 P.M.')
 };
 
 // OCT 5 - OCT 9
