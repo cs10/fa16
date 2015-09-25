@@ -175,9 +175,9 @@ cs10.week6 = {
     readings1: ['TBA'],
     lect1: lect('Beauty'),
     lab1: lab('No Labs Monday Quest Help and Review'),
-    lect2: lect('Quest', true),
+    lect2: lect('Quest'),
     lab2: lab('Testing', 'berkeley_bjc/robots/robots.topic'),
-    disc1: disc('Quest Review', true),
+    disc1: disc('Quest Review'),
     hw: hw('Start on HW3')
 };
 
@@ -186,9 +186,9 @@ cs10.week7 = {
     readings1: ['TBA'],
     lect1: lect('Concurrency'),
     lab1: lab('Concurrency'),
-    lect2: lect('Recursion I', true),
+    lect2: lect('Recursion I'),
     lab2: lab('Recursion I'),
-    disc1: disc('Quest Review', true),
+    disc1: disc('Quest Review'),
     hw: hw('HW2 due Friday 10/9 at 11:59 P.M.')
 };
 
