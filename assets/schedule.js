@@ -172,12 +172,12 @@ cs10.week5 = {
 
 // SEPT 28 - OCT 2
 cs10.week6 = {
-    readings1: ['TBA'],
-    lect1: lect('Beauty'),
+    readings1: ['No Reading.<br><b>Quest Review 1 - 3 PM in 2050 VLSB</br>'],
+    lect1: lect('Testing'),
     lab1: lab('No Labs Monday Quest Help and Review'),
     lect2: lect('Quest'),
-    lab2: lab('Testing', 'berkeley_bjc/robots/robots.topic'),
-    disc1: disc('Quest Review'),
+    lab2: lab('Testing, HW3'),
+    disc1: disc('Quest Debrief'),
     hw: hw('Start on HW3')
 };
 
@@ -188,8 +188,8 @@ cs10.week7 = {
     lab1: lab('Concurrency'),
     lect2: lect('Recursion I'),
     lab2: lab('Recursion I'),
-    disc1: disc('Quest Review'),
-    hw: hw('HW2 due Friday 10/9 at 11:59 P.M.')
+    disc1: disc('Recursion'),
+    hw: hw('HW3 due Friday 10/9 at 11:59 P.M.')
 };
 
 // OCT 5 - OCT 9
