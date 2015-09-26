@@ -175,7 +175,7 @@ cs10.week6 = {
     readings1: ['No Reading.<br><b>Quest Review 1 - 3 PM in 2050 VLSB</br>'],
     lect1: lect('Testing'),
     lab1: lab('No Labs Monday Quest Help and Review'),
-    lect2: lect('Quest'),
+    lect2: lect('Quest In Class', '../exams/quest.html'),
     lab2: lab('Testing, HW3'),
     disc1: disc('Quest Debrief'),
     hw: hw('Start on HW3')
