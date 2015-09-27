@@ -106,7 +106,7 @@ cs10.week3 = {
     lab1: lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic'),
     lect2: lect('Programming Paradigms', 'https://docs.google.com/presentation/d/136vfh3rhRyTsGUKNv1MuUSHZqdPp4xVvt9GX3LlGX6I/pub'),
     lab2: lab('Lists I', 'berkeley_bjc/lists/lists-I.topic', true),
-    disc1: disc('All about lists'),
+    disc1: disc('All about lists', true),
     hw: hw('HW1 is due this week! Start thinking about HW2.')
 };
 // cs10.week3.lect3.classes = 'exam';
