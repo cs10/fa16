@@ -15,17 +15,21 @@ var since = [
 var STYLE  = "8px solid Gold";
 var MS_DAY = 1000*60*60*24;
 // Function used to highlight the current day.
+// TODO: Fix this stuff to be a moment obj.
 function updateCalendar(date) {
+    console.log('CALLED');
     // The SATURDAY before the first week of the calendar.
-    var start = new Date(2015, 5, 20),
+    var start = new Date(2015, 7, 22),
         today = date || new Date(),
         highlight = since[ today.getDay() ],
-        weeks = Math.floor(((today - start) / MS_DAY) / 7) + 1; // Weeks SINCE start
+        weeks = Math.floor(((today - start) / MS_DAY) / 7); // Weeks SINCE start
+
     // if (highlight[0] === 2) {
     //     weeks += 1; // really shitty hack for weekends....
     // }
 
-    var rows = document.querySelectorAll("tbody>tr>.cal"),
+    var c, i, j, // holy shit that's terrible. FIXME.
+        rows = document.querySelectorAll("tbody > tr.cal"),
         temp = rows[weeks],
         cells;
 
@@ -56,7 +60,7 @@ function updateCalendar(date) {
     }
 
     // Grey out cells that have past
-    for(i = 1; i < rows.length; i += 1) {
+    for(i = 0; i < rows.length; i += 1) {
         cells = rows[i].cells;
         for(j = 2; j < cells.length; j += 1) {
             if (cells[j].style.border) { return; }
