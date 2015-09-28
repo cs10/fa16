@@ -145,5 +145,17 @@ To get checked off, you should prepare answers to the specific questions for eac
 ## Lab 8: Finch Lab   {#lab8}
 * You can get checked off for this lab as long as you show up to lab and work on it. No questions!
 
+## Lab 9: Concurrency   {#lab9}
+
+**Required**
+
+* What are some issues that can occur in parallel programming?
+* What is the difference between determinism and nondeterminism?
+
+**More Self-Check Questions**
+
+* How can you make parallel programs in Snap!?
+* When you run parallel code, are the chunks of code really executing at the exact same time?
+
 <!-- Keep the /div at the bottom -->
 </div>
