@@ -172,7 +172,7 @@ cs10.week5 = {
 
 // SEPT 28 - OCT 2
 cs10.week6 = {
-    readings1: ['No Reading.<br><b>Quest Review 1 - 3 PM in 2050 VLSB</br>'],
+    readings1: 'No Reading.<br><b>Quest Review 1 - 3 PM in 2050 VLSB on 9/27</br>',
     lect1: lect('Testing', 'https://docs.google.com/presentation/d/1EqmuMag-_swWmEQvi9coK0_J2fl0N0H1p6NuNr9WaaI/edit?usp=sharing'),
     lab1: lab('No Labs Monday Quest Help and Review'),
     lect2: lect('Quest In Class', '../exams/quest.html'),
@@ -183,7 +183,7 @@ cs10.week6 = {
 
 // OCT 5 - OCT 9
 cs10.week7 = {
-    readings1: ['TBA'],
+    readings1: 'TBA',
     lect1: lect('Concurrency'),
     lab1: lab('Concurrency'),
     lect2: lect('Recursion I'),
