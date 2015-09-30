@@ -184,12 +184,12 @@ cs10.week6 = {
 // OCT 5 - OCT 9
 cs10.week7 = {
     readings1: 'TBA',
-    lect1: lect('Concurrency'),
-    lab1: lab('Concurrency'),
-    lect2: lect('Recursion I'),
-    lab2: lab('Recursion I'),
+    lect1: lect('Recursion I'),
+    lab1: lab('Recursion I'),
+    lect2: lect('Concurrency'),
+    lab2: lab('Concurrency'),
     disc1: disc('Recursion'),
-    hw: hw('HW3 due Friday 10/9 at 11:59 P.M.')
+    hw: hw('HW3 due Friday 10/12 at 11:59 P.M.')
 };
 
 // OCT 5 - OCT 9
