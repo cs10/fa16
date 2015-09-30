@@ -178,7 +178,7 @@ cs10.week6 = {
     lect2: lect('Quest In Class', '../exams/quest.html'),
     lab2: lab('Testing, HW3', 'berkeley_bjc/2048-testing/2048.topic'),
     disc1: disc('Quest Debrief'),
-    hw: hw('HW3: 2048', 'assignments/6644473', hw3Spec)
+    hw: hw('HW3: 2048','Monday 10/12', 'assignments/6644473', hw3Spec)
 };
 
 // OCT 5 - OCT 9
