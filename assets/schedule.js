@@ -176,7 +176,7 @@ cs10.week6 = {
     lect1: lect('Testing', 'https://docs.google.com/presentation/d/1EqmuMag-_swWmEQvi9coK0_J2fl0N0H1p6NuNr9WaaI/edit?usp=sharing'),
     lab1: lab('No Labs Monday Quest Help and Review'),
     lect2: lect('Quest In Class', '../exams/quest.html'),
-    lab2: lab('Testing, HW3'),
+    lab2: lab('Testing, HW3', 'berkeley_bjc/2048-testing/2048.topic'),
     disc1: disc('Quest Debrief'),
     hw: hw('Start on HW3')
 };
