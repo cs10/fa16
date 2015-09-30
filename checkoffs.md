@@ -145,5 +145,14 @@ To get checked off, you should prepare answers to the specific questions for eac
 ## Lab 8: Finch Lab   {#lab8}
 * You can get checked off for this lab as long as you show up to lab and work on it. No questions!
 
+#Week 6: Quest and Lab 9
+
+## Lab 9: Testing Code and 2048 {#lab9}
+
+**Required**
+
+* Please show me your test for the <code>merge column</code> block. How should <code>merge column</code> behave for the following column: 0 4 2 2?
+* Please show me your test for the <code>rotated row</code> block.
+
 <!-- Keep the /div at the bottom -->
 </div>
