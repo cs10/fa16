@@ -189,7 +189,7 @@ cs10.week7 = {
     lect2: lect('Concurrency'),
     lab2: lab('Concurrency'),
     disc1: disc('Recursion'),
-    hw: hw('HW3 due Friday 10/12 at 11:59 P.M.')
+    hw: hw('HW3 due Monday 10/12 at 11:59 P.M.')
 };
 
 // OCT 5 - OCT 9
