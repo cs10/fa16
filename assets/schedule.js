@@ -184,9 +184,9 @@ cs10.week6 = {
 // OCT 5 - OCT 9
 cs10.week7 = {
     readings1: [
-        reading("The End of Moore's Law",
+        reading('The End of Moore''s Law',
                 'http://www.nytimes.com/2015/09/27/technology/smaller-faster-cheaper-over-the-future-of-computer-chips.html?_r=0'),
-        reading("eWEEK at 30: Multicore CPUs Keep Chip Makers in Step With Moore's Law",
+        reading('eWEEK at 30: Multicore CPUs Keep Chip Makers in Step With Moore''s Law',
             'https://docs.google.com/document/d/17xkpAJdfa8ohQoRdkhaISjbYax5wLgBAJEQ1RtTJiTM')
     ],
     lect1: lect('Recursion I'),
