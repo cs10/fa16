@@ -204,7 +204,7 @@ cs10.week8 = {
     lab1: lab('Recursive Reporters'),
     lect1: lect('Recursion II'),
     lect2: lect('Privacy'),
-    lab2: lab('Project Work')
+    lab2: lab('Project Work'),
     hw: hw('Project Proposal Due (time TBA)')
 };
 
