@@ -39,9 +39,9 @@ To get checked off, you should prepare answers to the specific questions for eac
 * [Lab 4](#lab4) (Week 3)
 * [Lab 5](#lab5)
 * [Lab 6](#lab6) (Week 4)
-* [Lab 7](#lab7)
+* [Lab 7](#lab7) (Week 5)
 * [Lab 8](#lab8) 
-* [Lab 9](#lab9)
+* [Lab 9](#lab9) (Week 6)
 * [Lab 10](#lab10) 
 * [Lab 11](#lab11) 
 * [Lab 12](#lab12)
@@ -144,6 +144,15 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 ## Lab 8: Finch Lab   {#lab8}
 * You can get checked off for this lab as long as you show up to lab and work on it. No questions!
+
+#Week 6: Quest and Lab 9
+
+## Lab 9: Testing Code and 2048 {#lab9}
+
+**Required**
+
+* Please show me your test for the <code>merge column</code> block. How should <code>merge column</code> behave for the following column: 0 4 2 2?
+* Please show me your test for the <code>rotated row</code> block.
 
 <!-- Keep the /div at the bottom -->
 </div>
