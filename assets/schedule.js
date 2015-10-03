@@ -183,7 +183,12 @@ cs10.week6 = {
 
 // OCT 5 - OCT 9
 cs10.week7 = {
-    readings1: 'TBA',
+    readings1: [
+        reading("The End of Moore's Law",
+                'http://www.nytimes.com/2015/09/27/technology/smaller-faster-cheaper-over-the-future-of-computer-chips.html?_r=0'),
+        reading("eWEEK at 30: Multicore CPUs Keep Chip Makers in Step With Moore's Law",
+            'https://docs.google.com/document/d/17xkpAJdfa8ohQoRdkhaISjbYax5wLgBAJEQ1RtTJiTM')
+    ],
     lect1: lect('Recursion I'),
     lab1: lab('Recursion I'),
     lect2: lect('Concurrency'),
@@ -194,38 +199,13 @@ cs10.week7 = {
 
 // OCT 5 - OCT 9
 cs10.week8 = {
-    readings1: [
-        reading('BtB Appendix',
-                '{{ site.baseurl }}/resources/readings/btb/Btb_Appendix.pdf'),
-        reading('TED: What is the Internet?',
-                'https://www.youtube.com/watch?v=XE_FPEFpHt4'),
-        reading('Moore\'s Law Keeps Going, Defying Expectations',
-                'http://www.scientificamerican.com/article/moore-s-law-keeps-going-defying-expectations/'),
-        reading('Free Lunch is Over',
-                'http://www.gotw.ca/publications/concurrency-ddj.htm',
-                'hard'),
-        reading('How Moore\'s Law Works',
-                'https://computer.howstuffworks.com/moores-law.htm',
-                'optional'),
-        reading('What is IBM\'s Watson?',
-                bcourses('58003302'),
-                'optional'),
-        reading('Brian Harvey\'s AI notes',
-                 docs('11-5SLIRkQpx2_Px4aOZgDdoDcUj9EA5goPKl-Hcioe4'),
-                 'optional'),
-        reading('The First Church of Robotics',
-                'https://www.nytimes.com/2010/08/09/opinion/09lanier.html',
-                'optional'),
-        reading('Spending Moore\'s dividend (CACM)',
-                bcourses('58003301'),
-                'optional')
-    ],
-    disc1: disc('Data and HOFs'),
-    lab1: lab('Lambdas and HOFs', 'berkeley_bjc/hofs/hofs-practice.topic', true),
-    lect1: lect('Besides Blocks I', 'L18 - Python I'),
-    lect2: lect('Limits of Computing', 'L19 - Limits of Computing'),
-    lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
-
+    readings1: 'TBA',
+    disc1: disc('TBA'),
+    lab1: lab('Recursive Reporters'),
+    lect1: lect('Recursion II'),
+    lect2: lect('Privacy'),
+    lab2: lab('Project Work')
+    hw: hw('Project Proposal Due (time TBA)')
 };
 
 // OCT 12 - OCT 16
