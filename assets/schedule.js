@@ -190,9 +190,9 @@ cs10.week7 = {
             'https://docs.google.com/document/d/17xkpAJdfa8ohQoRdkhaISjbYax5wLgBAJEQ1RtTJiTM')
     ],
     lect1: lect('Recursion I'),
-    lab1: lab('Recursion I'),
+    lab1: lab('Recursion I', 'berkeley_bjc/recur/recursion-trees-fractals.topic'),
     lect2: lect('Concurrency'),
-    lab2: lab('Concurrency'),
+    lab2: lab('Concurrency', 'berkeley_bjc/areas/concurrency.topic'),
     disc1: disc('Recursion'),
     hw: hw('HW3 due Monday 10/12 at 11:59 P.M.')
 };
