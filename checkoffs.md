@@ -159,10 +159,12 @@ To get checked off, you should prepare answers to the specific questions for eac
 ## Lab 10: Recursion
 
 **Required**
+
 * What is the difference between the base case and the recursive case?
 * Show me your snowflake block (or C-curve…)
 
 **More Self-Check Questions**
+
 * What do you think infinite recursion is? How do you prevent infinite recursion from happening?
 
 <!-- Keep the /div at the bottom -->
