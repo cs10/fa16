@@ -190,7 +190,7 @@ cs10.week7 = {
             'https://docs.google.com/document/d/17xkpAJdfa8ohQoRdkhaISjbYax5wLgBAJEQ1RtTJiTM')
     ],
     lect1: lect('Recursion I'),
-    lab1: lab('Recursion I', 'berkeley_bjc/recur/recursion-trees-fractals.topic'),
+    lab1: lab('Trees and Fractals Using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic'),
     lect2: lect('Concurrency'),
     lab2: lab('Concurrency', 'berkeley_bjc/areas/concurrency.topic'),
     disc1: disc('Recursion'),
@@ -204,8 +204,8 @@ cs10.week8 = {
     lab1: lab('Recursive Reporters'),
     lect1: lect('Recursion II'),
     lect2: lect('Privacy'),
-    lab2: lab('Project Work'),
-    hw: hw('Project Proposal Due (time TBA)')
+    lab2: lab('Project Work Session'),
+    hw: hw('Midterm Project Proposals due Friday 10/16 at 11:59 PM')
 };
 
 // OCT 12 - OCT 16
