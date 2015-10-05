@@ -154,5 +154,16 @@ To get checked off, you should prepare answers to the specific questions for eac
 * Please show me your test for the <code>merge column</code> block. How should <code>merge column</code> behave for the following column: 0 4 2 2?
 * Please show me your test for the <code>rotated row</code> block.
 
+#Week 7: Labs 10 and 11
+
+## Lab 10: Recursion
+
+**Required**
+* What is the difference between the base case and the recursive case?
+* Show me your snowflake block (or C-curve…)
+
+**More Self-Check Questions**
+* What do you think infinite recursion is? How do you prevent infinite recursion from happening?
+
 <!-- Keep the /div at the bottom -->
 </div>
