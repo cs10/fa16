@@ -189,7 +189,7 @@ cs10.week7 = {
         reading('eWEEK at 30: Multicore CPUs Keep Chip Makers in Step With Moore\'s Law',
             'https://docs.google.com/document/d/17xkpAJdfa8ohQoRdkhaISjbYax5wLgBAJEQ1RtTJiTM')
     ],
-    lect1: lect('Recursion I'),
+    lect1: lect('Recursion I', 'https://docs.google.com/presentation/d/1b_vwq1xO3zFWTAexXv-QFydbRVGoInM1sLIO32zAUMU/pub?start=false&loop=false&delayms=3000'),
     lab1: lab('Trees and Fractals Using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic'),
     lect2: lect('Concurrency'),
     lab2: lab('Concurrency', 'berkeley_bjc/areas/concurrency.topic'),
