@@ -190,18 +190,18 @@ cs10.week7 = {
             'https://docs.google.com/document/d/17xkpAJdfa8ohQoRdkhaISjbYax5wLgBAJEQ1RtTJiTM')
     ],
     lect1: lect('Recursion I', 'https://docs.google.com/presentation/d/1b_vwq1xO3zFWTAexXv-QFydbRVGoInM1sLIO32zAUMU/pub?start=false&loop=false&delayms=3000'),
-    lab1: lab('Trees and Fractals Using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic'),
+    lab1: lab('Trees and Fractals Using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic', true),
     lect2: lect('Concurrency'),
     lab2: lab('Concurrency', 'berkeley_bjc/areas/concurrency.topic'),
     disc1: disc('Recursion'),
     hw: hw('HW3 due Monday 10/12 at 11:59 P.M.')
 };
 
-// OCT 5 - OCT 9
+// OCT 12 - OCT 16
 cs10.week8 = {
     readings1: 'TBA',
     disc1: disc('TBA'),
-    lab1: lab('Recursive Reporters'),
+    lab1: lab('Recursive Reporters', true),
     lect1: lect('Recursion II'),
     lect2: lect('Privacy'),
     lab2: lab('Project Work Session'),
