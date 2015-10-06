@@ -201,7 +201,7 @@ cs10.week7 = {
 cs10.week8 = {
     readings1: 'TBA',
     disc1: disc('TBA'),
-    lab1: lab('Recursive Reporters', true),
+    lab1: lab('Recursive Reporters'),
     lect1: lect('Recursion II'),
     lect2: lect('Privacy'),
     lab2: lab('Project Work Session'),
