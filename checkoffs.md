@@ -42,7 +42,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 * [Lab 7](#lab7) (Week 5)
 * [Lab 8](#lab8) 
 * [Lab 9](#lab9) (Week 6)
-* [Lab 10](#lab10) 
+* [Lab 10](#lab10)(Week 7) 
 * [Lab 11](#lab11) 
 * [Lab 12](#lab12)
 * [Lab 13](#lab13) 
