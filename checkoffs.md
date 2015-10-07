@@ -167,5 +167,18 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 * What do you think infinite recursion is? How do you prevent infinite recursion from happening?
 
+## Lab 11: Concurrency
+
+**Required**
+
+* How can you make parallel programs in Snap!?
+* Why does adding more people in the card sorting example or more threads in a program sometimes slow the process down?
+* What are some issues that can occur in parallel programming (name 2)?
+* What is the difference between determinism and nondeterminism?
+
+**More Self-Check Questions**
+
+* If two separate scripts are run at the same time in Snap!, are they actually running at the same time?
+
 <!-- Keep the /div at the bottom -->
 </div>
