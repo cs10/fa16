@@ -42,7 +42,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 * [Lab 7](#lab7) (Week 5)
 * [Lab 8](#lab8) 
 * [Lab 9](#lab9) (Week 6)
-* [Lab 10](#lab10) 
+* [Lab 10](#lab10)(Week 7) 
 * [Lab 11](#lab11) 
 * [Lab 12](#lab12)
 * [Lab 13](#lab13) 
@@ -166,6 +166,19 @@ To get checked off, you should prepare answers to the specific questions for eac
 **More Self-Check Questions**
 
 * What do you think infinite recursion is? How do you prevent infinite recursion from happening?
+
+## Lab 11: Concurrency
+
+**Required**
+
+* How can you make parallel programs in Snap!?
+* Why does adding more people in the card sorting example or more threads in a program sometimes slow the process down?
+* What are some issues that can occur in parallel programming (name 2)?
+* What is the difference between determinism and nondeterminism?
+
+**More Self-Check Questions**
+
+* If two separate scripts are run at the same time in Snap!, are they actually running at the same time?
 
 <!-- Keep the /div at the bottom -->
 </div>
