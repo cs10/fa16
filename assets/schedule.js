@@ -199,9 +199,14 @@ cs10.week7 = {
 
 // OCT 12 - OCT 16
 cs10.week8 = {
-    readings1: 'TBA',
+    readings1: [
+        reading('BtB chapter 2, pg. 19-29, 36-42',
+                'http://www.bitsbook.com/wp-content/uploads/2008/12/chapter2.pdf'),
+        reading('Rest of BtB chapter 2',
+                'http://www.bitsbook.com/wp-content/uploads/2008/12/chapter2.pdf', 'optional'),
+    ],
     disc1: disc('TBA'),
-    lab1: lab('Recursive Reporters'),
+    lab1: lab('Recursive Reporters I', 'berkeley_bjc/recur/recursive-reporters-part1.topic', true),
     lect1: lect('Recursion II'),
     lect2: lect('Privacy'),
     lab2: lab('Project Work Session'),
