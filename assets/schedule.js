@@ -74,7 +74,7 @@ cs10.week2 = {
     lect2: lect('Numbers and Abstraction', 'https://docs.google.com/presentation/d/1zHEl4C_jLGFVFznWPMWhDYFtcLENUU3_DubOb_H5UZs/pub'),
     lab2: lab('Conditionals and Reporters', 'berkeley_bjc/intro_pair/3-conditionals.topic', true),
     disc1: disc('Anatomy of a Computer and the Power of Binary', true),
-    hw: hw('HW1: Word Guessing', 'Fri 9/11', 'assignments/6644471', hw1Spec)
+    hw: hw('HW1: Word Guessing', '9/11', 'assignments/6644471', hw1Spec)
 };
 
 // SEPT 7 - SEPT 11
@@ -107,7 +107,7 @@ cs10.week3 = {
     lect2: lect('Programming Paradigms', 'https://docs.google.com/presentation/d/136vfh3rhRyTsGUKNv1MuUSHZqdPp4xVvt9GX3LlGX6I/pub'),
     lab2: lab('Lists I', 'berkeley_bjc/lists/lists-I.topic', true),
     disc1: disc('All about lists', true),
-    hw: hw('HW1 is due this week! Start thinking about HW2.')
+    hw: hw('HW1: Word Guessing', '9/11', 'assignments/6644471', hw1Spec)
 };
 // cs10.week3.lect3.classes = 'exam';
 // cs10.week3.work.title += '<hr><strong>Finch Robots Lab (Sect 111)</strong>';
@@ -135,7 +135,7 @@ cs10.week4 = {
     lect2: lect('Algorithmic Complexity', 'https://docs.google.com/presentation/d/1hJTCiCxmaWfhjjSFTclkGeyzrH5UVMr9vVinAt_ohFk/pub?start=false&loop=false&delayms=3000'),
     lab2: lab('Finish Lab 6 and HW2 help'),
     disc1: disc('Algorithmic Complexity I', true),
-    hw: hw('HW2: Encryptify', 'Fri 9/25', 'assignments/6644472', hw2Spec)
+    hw: hw('HW2: Encryptify', '9/25', 'assignments/6644472', hw2Spec)
 
     // [
 //         hw('Midterm Project<br><strong>Individual</strong> Milestone', '3/13', 'assignments/6120151'),
@@ -163,7 +163,7 @@ cs10.week5 = {
     lect2: lect('Cryptography', 'https://docs.google.com/presentation/d/1SLrcIoB339Qz82P9IPao2iGxKLJA9WlxTyV1QskyVwg/pub?start=false&loop=false&delayms=3000'),
     lab2: lab('Finch Lab', 'berkeley_bjc/robots/robots.topic'),
     disc1: disc('Quest Review', true),
-    hw: hw('HW2 due Friday 9/25 at 11:59 P.M.')
+    hw: hw('HW2: Encryptify', '9/25', 'assignments/6644472', hw2Spec)
     //hw: hw('HW2: Snowman', '9/18', 'assignments/6644472', 'assign.html?//docs.google.com/document/d/1iJDOxWMBnmE5lOzqmUi_-F-HoSyGuQrzn-COiGQd29Y/pub')
 };
 // cs10.week5.lect3.classes = 'exam';
@@ -178,7 +178,7 @@ cs10.week6 = {
     lect2: lect('Quest In Class', '../exams/quest.html'),
     lab2: lab('Testing, HW3', 'berkeley_bjc/2048-testing/2048.topic'),
     disc1: disc('Quest Debrief'),
-    hw: hw('HW3: 2048','Monday 10/12', 'assignments/6644473', hw3Spec)
+    hw: hw('HW3: 2048','10/12', 'assignments/6644473', hw3Spec)
 };
 
 // OCT 5 - OCT 9
@@ -194,7 +194,7 @@ cs10.week7 = {
     lect2: lect('Concurrency', 'https://docs.google.com/presentation/d/1NuOa586nkC1m95X_5LYyiI4gs0s3XL5eRZF7DeH81us/pub?start=false&loop=false&delayms=3000'),
     lab2: lab('Concurrency', 'berkeley_bjc/areas/concurrency.topic'),
     disc1: disc('Recursion'),
-    hw: hw('HW3 due Monday 10/12 at 11:59 P.M.')
+    hw: hw('HW3: 2048','10/12', 'assignments/6644473', hw3Spec)
 };
 
 // OCT 12 - OCT 16
