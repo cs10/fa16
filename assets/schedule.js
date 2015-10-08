@@ -187,7 +187,7 @@ cs10.week7 = {
         reading('The End of Moore\'s Law',
                 'http://www.nytimes.com/2015/09/27/technology/smaller-faster-cheaper-over-the-future-of-computer-chips.html?_r=0'),
         reading('eWEEK at 30: Multicore CPUs Keep Chip Makers in Step With Moore\'s Law',
-            'https://docs.google.com/document/d/17xkpAJdfa8ohQoRdkhaISjbYax5wLgBAJEQ1RtTJiTM')
+            'https://docs.google.com/document/d/1FC-_lcn_EWlGXLfPDlQbSQeE1Q4NpTG39S-kVkHRxv8/edit?usp=sharing')
     ],
     lect1: lect('Recursion I', 'https://docs.google.com/presentation/d/1b_vwq1xO3zFWTAexXv-QFydbRVGoInM1sLIO32zAUMU/pub?start=false&loop=false&delayms=3000'),
     lab1: lab('Trees and Fractals Using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic', true),
