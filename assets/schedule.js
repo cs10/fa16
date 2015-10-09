@@ -210,7 +210,7 @@ cs10.week8 = {
     lect1: lect('Recursion II'),
     lect2: lect('Privacy'),
     lab2: lab('Project Work Session'),
-    hw: hw('Midterm Project Proposals due Friday 10/16 at 11:59 PM')
+    hw: hw('Midterm Project Proposals', 'Fri 9/16', null, null)
 };
 
 // OCT 12 - OCT 16
