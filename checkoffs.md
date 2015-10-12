@@ -180,7 +180,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 * If two separate scripts are run at the same time in Snap!, are they actually running at the same time?
 
-#Week 7: Labs 12 and 13
+#Week 8: Labs 12 and 13
 
 ## Lab 12: Recursive Reporters I
 
