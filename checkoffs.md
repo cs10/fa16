@@ -180,5 +180,17 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 * If two separate scripts are run at the same time in Snap!, are they actually running at the same time?
 
+#Week 7: Labs 12 and 13
+
+## Lab 12: Recursive Reporters I
+
+**Required**
+
+* Why do we need two recursive calls for Pascal's Triangle? What is the runtime?
+* Show me <code>ends-e</code> and <code>number</code>.
+
+**More Self-Check Questions**
+
+* Make sure you understand how merge and subsets work.
 <!-- Keep the /div at the bottom -->
 </div>
