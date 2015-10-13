@@ -178,7 +178,7 @@ cs10.week6 = {
     lect2: lect('Quest In Class', '../exams/quest.html'),
     lab2: lab('Testing, HW3', 'berkeley_bjc/2048-testing/2048.topic'),
     disc1: disc('Quest Debrief'),
-    hw: hw('HW3: 2048','10/12', 'assignments/6644473', hw3Spec)
+    hw: hw('HW3: 2048','10/12', 'assignments/6930656', hw3Spec)
 };
 
 // OCT 5 - OCT 9
@@ -194,7 +194,7 @@ cs10.week7 = {
     lect2: lect('Concurrency', 'https://docs.google.com/presentation/d/1NuOa586nkC1m95X_5LYyiI4gs0s3XL5eRZF7DeH81us/pub?start=false&loop=false&delayms=3000'),
     lab2: lab('Concurrency', 'berkeley_bjc/areas/concurrency.topic'),
     disc1: disc('Recursion'),
-    hw: hw('HW3: 2048','Monday 10/12', 'assignments/6644473', hw3Spec)
+    hw: hw('HW3: 2048','Monday 10/12', 'assignments/6930656', hw3Spec)
 };
 
 // OCT 12 - OCT 16
