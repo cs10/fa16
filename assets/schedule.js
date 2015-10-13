@@ -21,7 +21,7 @@ function docs(id) {
 var hw1Spec = docs('1ybuatsrUMCI-tHHRPwxUpGoZoGxk_SEiGEArocQtIlI');
 var hw2Spec = docs('15s641ROrtQtt6hOA4WIdXW3wvmdBjZN0yPDi1D9IL2k');
 var hw3Spec = docs('186x49Yd05JKztSwlSNv0S82Jy5w5ql_MVDLTZo-_mPQ');
-var mtProjSpec = docs('1VzhTWptGJpLE56gzYYG1lw9h2tW66yHNxkO7-yXVjzU');
+var mtProjSpec = docs('1nOOTJnTf_8ZsRKEWFEVMwRnNVUTbFMJyzMkIQiH6BaY');
 var exploreSpec = docs('1fGQzqdBFdorBoSEfFs7MCDS6sfAi8412gjx3E6EcSlo');
 var finalProjSpec = docs('1ZMQqAvwzFSdGHcc9x8uoE3aL_XjR3Gy4i2cS1rHibIc');
 
@@ -210,7 +210,7 @@ cs10.week8 = {
     lect1: lect('Recursion II', 'https://docs.google.com/presentation/d/1IzvyATwwmue57YXuGLXevOyTLNgepV0xH8VaiGGHrYw/pub?start=false&loop=false&delayms=3000'),
     lect2: lect('Privacy'),
     lab2: lab('Project Work Session'),
-    hw: hw('Midterm Project Proposals', 'Fri 9/16', null, null)
+    hw: hw('Midterm Project Proposals', 'Fri 9/16', 'assignments/6644519', mtProjSpec)
 };
 
 // OCT 12 - OCT 16
