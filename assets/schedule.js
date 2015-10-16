@@ -215,16 +215,16 @@ cs10.week8 = {
 
 // OCT 19 - OCT 23
 cs10.week9 = {
-    readings1: 'TBA', /*[
-        reading('BtB Chapter 7',
-                '{{ site.baseurl }}/resources/readings/btb/chapter7.pdf'),
+    readings1: [
+        reading('As We May Think',
+                'http://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/'),
         // TODO: Replace these with Superfish?
-        reading('The Heartbleed Bug',
+        /*reading('The Heartbleed Bug',
                 'https://blog.agilebits.com/2014/04/08/imagine-no-ssl-encryption-its-scary-if-you-try/'),
         reading('When Servers Bleed',
                 'https://medium.com/p/804cdf4b48c1',
-                'hard')
-    ],*/
+                'hard')*/
+    ]
     disc1: disc('Midterm Review'),
     lab1: lab('Tic Tac Toe', 'berkeley_bjc/lists/tic-tac-toe.topic'),
     lect1: lect('The Internet I'),
