@@ -205,7 +205,7 @@ cs10.week8 = {
         reading('Rest of BtB chapter 2',
                 'http://www.bitsbook.com/wp-content/uploads/2008/12/chapter2.pdf', 'optional'),
     ],
-    disc1: disc('TBA'),
+    disc1: disc('More Recursion'),
     lab1: lab('Recursive Reporters I', 'berkeley_bjc/recur/recursive-reporters-part1.topic', true),
     lect1: lect('Recursion II', 'https://docs.google.com/presentation/d/1IzvyATwwmue57YXuGLXevOyTLNgepV0xH8VaiGGHrYw/pub?start=false&loop=false&delayms=3000'),
     lect2: lect('Privacy'),
@@ -213,9 +213,9 @@ cs10.week8 = {
     hw: hw('Midterm Project Proposals', 'Fri 9/16', 'assignments/6644519', mtProjSpec)
 };
 
-// OCT 12 - OCT 16
+// OCT 19 - OCT 23
 cs10.week9 = {
-    readings1: [
+    readings1: 'TBA', /*[
         reading('BtB Chapter 7',
                 '{{ site.baseurl }}/resources/readings/btb/chapter7.pdf'),
         // TODO: Replace these with Superfish?
@@ -224,18 +224,20 @@ cs10.week9 = {
         reading('When Servers Bleed',
                 'https://medium.com/p/804cdf4b48c1',
                 'hard')
-    ],
-    disc1: disc('Data and HOFs'),
-    lab1: lab('Lambdas and HOFs', 'berkeley_bjc/hofs/hofs-practice.topic'),
-    lect1: lect('Besides Blocks I', 'L18 - Python I'),
-    lect2: lect('Limits of Computing', 'L19 - Limits of Computing'),
-    lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
-
+    ],*/
+    disc1: disc('Midterm Review'),
+    lab1: lab('Tic Tac Toe', 'berkeley_bjc/lists/tic-tac-toe.topic'),
+    lect1: lect('The Internet I'),
+    lect2: lect('HCI'),
+    lab2: lab('Project Work Session'),
+    hw: [        
+        hw('Midterm Project<br> Milestone', '10/23', 'assignments/6644521')
+    ]    
 };
 
-// OCT 19 - OCT 23
+// OCT 26 - OCT 30
 cs10.week10 = {
-    readings1: [
+    readings1: 'TBA', /*[
         reading('Data Explosion Creates Revolution',
                 'http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2011/10/19/BU5K1LJ4R3.DTL'),
         reading('Data Mining',
@@ -249,13 +251,15 @@ cs10.week10 = {
         reading('Computing as Social Science',
                 'https://cacm.acm.org/magazines/2009/4/22953-computing-as-social-science/fulltext',
                 'optional')
-    ],
-    disc1: disc('Data and HOFs'),
-    lab1: lab('Lambdas and HOFs', 'berkeley_bjc/hofs/hofs-practice.topic', true),
-    lect1: lect('Besides Blocks Ix', 'L18 - Python I'),
-    lect2: lect('Limits of Computing', 'L19 - Limits of Computing'),
-    lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
-
+    ],*/
+    disc1: disc('Midterm Debrief'),
+    lab1: lab('Online <span class="snap">snap</span> Midterm'),
+    lect1: lect('Social Implications'),
+    lect2: lect('AI'),
+    lab2: lab('Project Work Session'),
+    hw: [        
+        hw('Midterm Project', '10/30', 'assignments/6644475')
+    ]        
 };
 
 // OCT 26 - OCT 30
