@@ -156,7 +156,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 #Week 7: Labs 10 and 11
 
-## Lab 10: Recursion {#lab 10}
+## Lab 10: Recursion {#lab10}
 
 **Required**
 
@@ -167,7 +167,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 * What do you think infinite recursion is? How do you prevent infinite recursion from happening?
 
-## Lab 11: Concurrency {#lab 11}
+## Lab 11: Concurrency {#lab11}
 
 **Required**
 
@@ -182,7 +182,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 #Week 8: Lab 12
 
-## Lab 12: Recursive Reporters I {#lab 12}
+## Lab 12: Recursive Reporters I {#lab12}
 
 **Required**
 
@@ -195,7 +195,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 #Week 9: Lab 13
 
-## Lab 13: Tic-Tac-Toe {#lab 13}
+## Lab 13: Tic-Tac-Toe {#lab13}
 
 **Required**
 
@@ -203,6 +203,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 * Show your appearances or substitute triple block, and explain your implementation (You could be asked either, so be prepared for both!).
 
 **More Self-Check Questions**
+
 * Fully complete the winning-square and ttt blocks (Ask your TA to check if they are correct).
 * When was it best to report positions for some of the tic-tac-toe blocks, and when was it more ideal to report actual letters (‘X’ or ‘O’)? Think about domain and range!
 
