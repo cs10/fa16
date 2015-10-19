@@ -226,7 +226,7 @@ cs10.week9 = {
                 'hard')*/
     ],
     disc1: disc('Midterm Review'),
-    lab1: lab('Tic Tac Toe', 'berkeley_bjc/lists/tic-tac-toe.topic'),
+    lab1: lab('Tic Tac Toe', 'berkeley_bjc/lists/tic-tac-toe.topic', true),
     lect1: lect('The Internet I'),
     lect2: lect('HCI'),
     lab2: lab('Project Work Session'),
