@@ -156,7 +156,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 #Week 7: Labs 10 and 11
 
-## Lab 10: Recursion
+## Lab 10: Recursion {#lab 10}
 
 **Required**
 
@@ -167,7 +167,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 * What do you think infinite recursion is? How do you prevent infinite recursion from happening?
 
-## Lab 11: Concurrency
+## Lab 11: Concurrency {#lab 11}
 
 **Required**
 
@@ -182,7 +182,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 #Week 8: Lab 12
 
-## Lab 12: Recursive Reporters I
+## Lab 12: Recursive Reporters I {#lab 12}
 
 **Required**
 
@@ -195,7 +195,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 #Week 9: Lab 13
 
-## Lab 13: Tic-Tac-Toe
+## Lab 13: Tic-Tac-Toe {#lab 13}
 
 **Required**
 
