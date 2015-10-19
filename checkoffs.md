@@ -192,5 +192,17 @@ To get checked off, you should prepare answers to the specific questions for eac
 **More Self-Check Questions**
 
 * Make sure you understand how merge and subsets work.
+* 
+## Lab 13: Tic-Tac-Toe
+
+**Required**
+
+* How are lists used to implement the tic-tac-toe board? Why does this strategy work? Would this strategy work even with a larger board?
+* Show your appearances or substitute triple block, and explain your implementation (You could be asked either, so be prepared for both!).
+
+**More Self-Check Questions**
+* Fully complete the winning-square and ttt blocks (Ask your TA to check if they are correct).
+* When was it best to report positions for some of the tic-tac-toe blocks, and when was it more ideal to report actual letters (‘X’ or ‘O’)? Think about domain and range!
+
 <!-- Keep the /div at the bottom -->
 </div>
