@@ -237,7 +237,9 @@ cs10.week9 = {
 
 // OCT 26 - OCT 30
 cs10.week10 = {
-    readings1: 'No Readings! Midterm Review Session Sun 10/25 2-5pm in 2050 VLSB', /*[
+    readings1: 'No Readings! 
+    
+    Midterm Review Session Sun 10/25 2-5pm in 2050 VLSB', /*[
         reading('Data Explosion Creates Revolution',
                 'http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2011/10/19/BU5K1LJ4R3.DTL'),
         reading('Data Mining',
