@@ -252,14 +252,14 @@ cs10.week10 = {
                 'https://cacm.acm.org/magazines/2009/4/22953-computing-as-social-science/fulltext',
                 'optional')
     ],*/
-    disc1: disc('TBA'),
-    lab1: lab('The Internet'),
-    lect1: lect('The Internet II'),
-    lect2: lect('Lambdas and HOFs'),
-    lab2: lab('Lambda and HOFs')/*,
+    disc1: disc('Midterm Debrief'),
+    lab1: lab('Online <span class="snap">snap</span> Midterm'),
+    lect1: lect('Social Implications'),
+    lect2: lect('AI'),
+    lab2: lab('Project Work Session'),
     hw: [        
         hw('Midterm Project', '10/30', 'assignments/6644475')
-    ]        */
+    ]        
 };
 
 // OCT 26 - OCT 30
@@ -270,7 +270,6 @@ cs10.week11 = {
     lect1: lect('Besides Blocks I', 'L18 - Python I'),
     lect2: lect('Limits of Computing', 'L19 - Limits of Computing'),
     lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
-
 };
 
 // NOV 2 - NOV 6
