@@ -262,7 +262,7 @@ cs10.week10 = {
     ]        
 };
 cs10.week10.lab2.classes = 'exam';
-cs10.week10.lab2.title += '<br><br><div class="exam inner"><a href="exams/midterm.html">Midterm Exam</a><br><br>Thursday 10/29Y<br>8-10pm; Location: 2050 VLSB</div>';
+cs10.week10.lab2.title += '<br><br><div class="exam inner"><a href="exams/midterm.html">Midterm Exam</a><br><br>Thursday 10/29<br>8-10pm; Location: 2050 VLSB</div>';
 
 
 // OCT 26 - OCT 30
