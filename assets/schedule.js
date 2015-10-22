@@ -210,7 +210,7 @@ cs10.week8 = {
     lect1: lect('Recursion II', 'https://docs.google.com/presentation/d/1IzvyATwwmue57YXuGLXevOyTLNgepV0xH8VaiGGHrYw/pub?start=false&loop=false&delayms=3000'),
     lect2: lect('Privacy'),
     lab2: lab('Project Work Session'),
-    hw: hw('Midterm Project Proposals', 'Fri 9/16', 'assignments/6644519', mtProjSpec)
+    hw: hw('Midterm Project Proposals', 'Fri 10/16', 'assignments/6644519', mtProjSpec)
 };
 
 // OCT 19 - OCT 23
