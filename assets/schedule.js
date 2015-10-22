@@ -262,10 +262,6 @@ cs10.week10 = {
     ]        
 };
 
-cs10.week10.lect3.classes = 'exam';
-cs10.week10.lect3.title += '<br><a href="exams/midterm.html">Midterm Exam</a><br><br>Thurs 10/29<br>8 - 10 PM<br>2050 VLSB';
-cs10.week10.lab2.classes = 'exam';
-
 // OCT 26 - OCT 30
 cs10.week11 = {
     readings1: 'No Readings',
