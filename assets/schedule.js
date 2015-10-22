@@ -258,7 +258,7 @@ cs10.week10 = {
     lect2: lect('AI'),
     lab2: lab('Project Work Session'),
     hw: [        
-        hw('Midterm Project', '10/30', 'assignments/6644475')
+        hw('Midterm Project', '11/1', 'assignments/6644475')
     ]        
 };
 
