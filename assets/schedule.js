@@ -228,7 +228,7 @@ cs10.week9 = {
     disc1: disc('Midterm Review'),
     lab1: lab('Tic Tac Toe', 'berkeley_bjc/lists/tic-tac-toe.topic', true),
     lect1: lect('The Internet I', 'https://docs.google.com/presentation/d/1o4GtTha_TbRNCvqp7wEchJxGaeoENnH3KTX0Hl6nvD0/edit?usp=sharing'),
-    lect2: lect('HCI'),
+    lect2: lect('HCI', 'L15 - HCI'),
     lab2: lab('Project Work Session'),
     hw: [        
         hw('Midterm Project<br> Milestone', '10/23', 'assignments/6644521')
