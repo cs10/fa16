@@ -254,7 +254,7 @@ cs10.week10 = {
     ],*/
     disc1: disc('Midterm Debrief'),
     lab1: lab('Online <span class="snap">snap</span> Midterm'),
-    lect1: lect('Social Implications'),
+    lect1: lect('Social Implications', 'https://docs.google.com/presentation/d/1a429t0fmkv98dXn1TJGCyxOAiwHiGY7_fZ9ctIRPFD4/edit?usp=sharing'),
     lect2: lect('AI'),
     lab2: lab('Project Work Session'),
     hw: [        
