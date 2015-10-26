@@ -210,7 +210,7 @@ cs10.week8 = {
     lect1: lect('Recursion II', 'https://docs.google.com/presentation/d/1IzvyATwwmue57YXuGLXevOyTLNgepV0xH8VaiGGHrYw/pub?start=false&loop=false&delayms=3000'),
     lect2: lect('Privacy'),
     lab2: lab('Project Work Session'),
-    hw: hw('Midterm Project Proposals', 'Fri 9/16', 'assignments/6644519', mtProjSpec)
+    hw: hw('Midterm Project Proposals', 'Fri 10/16', 'assignments/6644519', mtProjSpec)
 };
 
 // OCT 19 - OCT 23
@@ -228,7 +228,7 @@ cs10.week9 = {
     disc1: disc('Midterm Review'),
     lab1: lab('Tic Tac Toe', 'berkeley_bjc/lists/tic-tac-toe.topic', true),
     lect1: lect('The Internet I', 'https://docs.google.com/presentation/d/1o4GtTha_TbRNCvqp7wEchJxGaeoENnH3KTX0Hl6nvD0/edit?usp=sharing'),
-    lect2: lect('HCI'),
+    lect2: lect('HCI', 'L15 - HCI'),
     lab2: lab('Project Work Session'),
     hw: [        
         hw('Midterm Project<br> Milestone', '10/23', 'assignments/6644521')
@@ -237,7 +237,7 @@ cs10.week9 = {
 
 // OCT 26 - OCT 30
 cs10.week10 = {
-    readings1: 'TBA', /*[
+    readings1: 'No Reading.<br><b>Midterm Review 1 - 4 PM in 2050 VLSB on 10/25</br>', /*[
         reading('Data Explosion Creates Revolution',
                 'http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2011/10/19/BU5K1LJ4R3.DTL'),
         reading('Data Mining',
@@ -258,9 +258,12 @@ cs10.week10 = {
     lect2: lect('AI'),
     lab2: lab('Project Work Session'),
     hw: [        
-        hw('Midterm Project', '10/30', 'assignments/6644475')
+        hw('Midterm Project', '11/1', 'assignments/6644475')
     ]        
 };
+cs10.week10.lab2.classes = 'exam';
+cs10.week10.lab2.title += '<br><br><div class="exam inner"><a href="exams/midterm.html">Midterm Exam</a><br><br>Thursday 10/29<br>8 - 10 PM | 2050 VLSB</div>';
+
 
 // OCT 26 - OCT 30
 cs10.week11 = {
@@ -271,6 +274,7 @@ cs10.week11 = {
     lect2: lect('Limits of Computing', 'L19 - Limits of Computing'),
     lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
 };
+
 
 // NOV 2 - NOV 6
 cs10.week12 = {

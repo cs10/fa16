@@ -94,7 +94,7 @@ $(document).ready(function() {
       weekends: wkends,
       defaultView: 'agendaWeek',
       minTime: "09:00:00",
-      maxTime: "20:00:00",
+      maxTime: "22:00:00",
       defaultDate: calendarStartDate(),
       contentHeight: "auto",
       googleCalendarApiKey: '{{ site.gcalAPIKey }}',
