@@ -208,7 +208,7 @@ cs10.week8 = {
     disc1: disc('More Recursion', true),
     lab1: lab('Recursive Reporters I', 'berkeley_bjc/recur/recursive-reporters-part1.topic', true),
     lect1: lect('Recursion II', 'https://docs.google.com/presentation/d/1IzvyATwwmue57YXuGLXevOyTLNgepV0xH8VaiGGHrYw/pub?start=false&loop=false&delayms=3000'),
-    lect2: lect('Privacy'),
+    lect2: lect('Privacy', 'L17 - Privacy'),
     lab2: lab('Project Work Session'),
     hw: hw('Midterm Project Proposals', 'Fri 10/16', 'assignments/6644519', mtProjSpec)
 };
