@@ -276,7 +276,7 @@ cs10.week11 = {
     lab1: lab('Functions as Data and HOFs', 'berkeley_bjc/hofs/hofs-practice.topic', true),
     lect1: lect('Functions as Data'),
     lect2: lect('The Internet II'),
-    lab2: lab('The Internet', 'berkeley_bjc/areas/internet.topic')
+    lab2: lab('The Internet', 'berkeley_bjc/areas/internet.topic'),
     hw: [
         hw('"Explore" Writing Assignment', '11/6'),
         hw('Midterm Regrade Requests<br>(Gradescope)', '11/6')
