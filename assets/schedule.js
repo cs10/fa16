@@ -277,6 +277,10 @@ cs10.week11 = {
     lect1: lect('Functions as Data'),
     lect2: lect('The Internet II'),
     lab2: lab('The Internet', 'berkeley_bjc/areas/internet.topic')
+    hw: [
+        hw('"Explore" Writing Assignment', '11/6'),
+        hw('Midterm Regrade Requests<br>(Gradescope)', '11/6')
+    ]
 };
 
 
