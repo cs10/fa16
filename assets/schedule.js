@@ -269,14 +269,14 @@ cs10.week10.lab2.title += '<br><br><div class="exam inner"><a href="exams/midter
 cs10.week11 = {
     readings1: [
         reading('TED: What is the Internet?', 'https://www.ted.com/talks/andrew_blum_what_is_the_internet_really?language=en'),
-        reading('BtB pg. 295-304, 309', 'https://drive.google.com/file/d/0B3vESj3HTRTkbVo1dTV5SUp4T0U/view?usp=sharing')
-        reading('What is the Internet?', 'https://www.youtube.com/watch?v=UlJku_CSyNg', 'optional'),
+        reading('BtB pg. 295-304, 309', 'https://drive.google.com/file/d/0B3vESj3HTRTkbVo1dTV5SUp4T0U/view?usp=sharing'),
+        reading('What is the Internet?', 'https://www.youtube.com/watch?v=UlJku_CSyNg', 'optional')
     ],
     disc1: disc('Data and HOFs'),
     lab1: lab('Functions as Data and HOFs', 'berkeley_bjc/hofs/hofs-practice.topic', true),
     lect1: lect('Functions as Data'),
     lect2: lect('The Internet II'),
-    lab2: lab('The Internet', 'berkeley_bjc/areas/internet.topic'),
+    lab2: lab('The Internet', 'berkeley_bjc/areas/internet.topic')
 };
 
 
