@@ -279,7 +279,7 @@ cs10.week11 = {
     lect2: lect('The Internet II'),
     lab2: lab('The Internet', 'berkeley_bjc/areas/internet.topic'),
     hw: [
-        hw('"Explore Post" Writing Assignment', '11/6', '/discussion_topics/4250600', exploreSpec),
+        hw('"Explore" Writing Assignment', '11/6', '/discussion_topics/4250600', exploreSpec),
         hw('Midterm Regrade Requests<br>(Gradescope)', '11/6')
     ]
 };
