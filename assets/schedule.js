@@ -22,7 +22,7 @@ var hw1Spec = docs('1ybuatsrUMCI-tHHRPwxUpGoZoGxk_SEiGEArocQtIlI');
 var hw2Spec = docs('15s641ROrtQtt6hOA4WIdXW3wvmdBjZN0yPDi1D9IL2k');
 var hw3Spec = docs('186x49Yd05JKztSwlSNv0S82Jy5w5ql_MVDLTZo-_mPQ');
 var mtProjSpec = docs('1nOOTJnTf_8ZsRKEWFEVMwRnNVUTbFMJyzMkIQiH6BaY');
-var exploreSpec = docs('1fGQzqdBFdorBoSEfFs7MCDS6sfAi8412gjx3E6EcSlo');
+var exploreSpec = docs('1V-WT8L0IkH9e1jFF28f3gfTj4UYCWccPDAjyVjlNOMU');
 var finalProjSpec = docs('1ZMQqAvwzFSdGHcc9x8uoE3aL_XjR3Gy4i2cS1rHibIc');
 
 // ==================================================
@@ -279,7 +279,7 @@ cs10.week11 = {
     lect2: lect('The Internet II'),
     lab2: lab('The Internet', 'berkeley_bjc/areas/internet.topic'),
     hw: [
-        hw('"Explore" Writing Assignment', '11/6'),
+        hw('"Explore Post" Writing Assignment', '11/6', '/discussion_topics/4250600', exploreSpec),
         hw('Midterm Regrade Requests<br>(Gradescope)', '11/6')
     ]
 };
