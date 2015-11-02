@@ -206,6 +206,18 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 * Fully complete the winning-square and ttt blocks (Ask your TA to check if they are correct).
 * When was it best to report positions for some of the tic-tac-toe blocks, and when was it more ideal to report actual letters (‘X’ or ‘O’)? Think about domain and range!
+* 
+## Lab 14: Lambdas and HOFs {#lab14}
+
+**Required**
+
+* How can we use functions as data in Snap? What do the “call” and “run” blocks do, and what’s the difference between them?
+* Demonstrate your list all factorions between __ and __ block.
+
+**More Self-Check Questions**
+
+* Demonstrate your is __ pandigital? block.
+* How does the compose block work?
 
 <!-- Keep the /div at the bottom -->
 </div>
