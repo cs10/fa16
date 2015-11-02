@@ -207,6 +207,9 @@ To get checked off, you should prepare answers to the specific questions for eac
 * Fully complete the winning-square and ttt blocks (Ask your TA to check if they are correct).
 * When was it best to report positions for some of the tic-tac-toe blocks, and when was it more ideal to report actual letters (‘X’ or ‘O’)? Think about domain and range!
 * 
+
+#Week 11: Lab 14 and 15
+
 ## Lab 14: Lambdas and HOFs {#lab14}
 
 **Required**
