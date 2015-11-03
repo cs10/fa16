@@ -292,7 +292,7 @@ cs10.week12 = {
     lect1: lect('Python'),
     lect2: lect('No Lecture (Veterans Day)',
     lab2: lab('Optional Catch-Up Day'),
-    hw: hw('"Explore" Peer Comments and Artifact', '11/13')
+    hw: hw('"Explore" Peer Comments and Artifact')
 };
 
 
