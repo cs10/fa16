@@ -317,6 +317,7 @@ cs10.week14 = {
     lab2: lab('No Lab (Thanksgiving)'),
     hw: hw('None')
 };
+
 // Load the Calendar
 $(document).ready(function() {
     cs10.renderTableCalendar();
