@@ -296,28 +296,6 @@ cs10.week12 = {
 };
 
 
-// NOV 16 - NOV 20
-cs10.week13 = {
-    readings1: 'TBA',
-    disc1: 'TBA',
-    lab1: lab('Besides Blocks: Data Structures in Python'), //, 'berkeley_bjc/python/besides-blocks-data-struct.topic', true),
-    lect1: lect('CS10 Alumni Panel'),
-    lect2: lect('Python II'),
-    lab2: lab('Besides Blocks: Data in Python'), //, 'berkeley_bjc/python/besides-blocks-data.topic'),
-    hw: hw('Final Project Proposal', '11/20')
-};
-
-
-// NOV 23 - NOV 27
-cs10.week14 = {
-    readings1: 'TBA',
-    disc1: 'TBA',
-    lab1: lab('Project Work Session'),
-    lect1: lect('Limits of Computing'),
-    lect2: lect('No Lecture (Thanksgiving)'),
-    lab2: lab('No Lab (Thanksgiving)'),
-    hw: hw('None')
-};
 
 // Load the Calendar
 $(document).ready(function() {
