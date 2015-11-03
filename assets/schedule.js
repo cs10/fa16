@@ -284,6 +284,17 @@ cs10.week11 = {
     ]
 };
 
+// NOV 9 - NOV 13
+cs10.week12 = {
+    readings1: reading('TBA'),
+    disc1: disc('TBA'),
+    lab1: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic', true),
+    lect1: lect('Python'),
+    lect2: lect('No Lecture (Veterans Day)',
+    lab2: lab('Optional Catch-Up Day'),
+    hw: hw('"Explore" Peer Comments and Artifact', '11/13')
+};
+
 
 // Load the Calendar
 $(document).ready(function() {
