@@ -289,8 +289,8 @@ cs10.week12 = {
     readings1: reading('TBA'),
     disc1: disc('TBA'),
     lab1: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic', true),
-    lect1: lect('Python'),
-    lect2: lect('No Lecture (Veterans Day)',
+    lect1: lect('Python I'),
+    lect2: lect('No Lecture - Veterans Day',
     lab2: lab('Optional Catch-Up Day'),
     hw: hw('"Explore" Peer Comments and Artifact')
 };
