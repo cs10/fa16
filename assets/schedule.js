@@ -286,7 +286,7 @@ cs10.week11 = {
 
 // NOV 9 - NOV 13
 cs10.week12 = {
-    readings1: reading('TBA'),
+    readings1: 'TBA',
     disc1: disc('TBA'),
     lab1: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic', true),
     lect1: lect('Python I'),
@@ -299,7 +299,7 @@ cs10.week12 = {
 cs10.week13 = {
     readings1: 'TBA',
     disc1: 'TBA',
-    lab1: lab('Besides Blocks: Data Structures in Python'), //, 'berkeley_bjc/python/besides-blocks-data-struct.topic', true),
+    lab1: lab('Besides Blocks: Data Structures in Python', true), //, 'berkeley_bjc/python/besides-blocks-data-struct.topic', true),
     lect1: lect('CS10 Alumni Panel'),
     lect2: lect('Python II'),
     lab2: lab('Besides Blocks: Data in Python'), //, 'berkeley_bjc/python/besides-blocks-data.topic'),
