@@ -292,7 +292,7 @@ cs10.week12 = {
     lect1: lect('Python I'),
     lect2: lect('No Lecture (Veterans Day)'),
     lab2: lab('Optional Catch-Up Day'),
-    hw: hw('"Explore" Peer Comments and Artifact')
+    hw: hw('"Explore" Comments', '11/13', '/discussion_topics/4250600')
 };
 
 // NOV 16 - NOV 20
@@ -303,7 +303,7 @@ cs10.week13 = {
     lect1: lect('CS10 Alumni Panel'),
     lect2: lect('Python II'),
     lab2: lab('Besides Blocks: Data in Python'), //, 'berkeley_bjc/python/besides-blocks-data.topic'),
-    hw: hw('Final Project Proposal', '11/20')
+    hw: hw('Final Project Proposal<br> Spec Coming Soon!', '11/20')
 };
 
 
@@ -315,7 +315,7 @@ cs10.week14 = {
     lect1: lect('Limits of Computing'),
     lect2: lect('No Lecture (Thanksgiving)'),
     lab2: lab('No Lab (Thanksgiving)'),
-    hw: hw('None')
+    hw: hw('Final Project Milestone <br> Spec Coming Soon!')
 };
 
 // Load the Calendar

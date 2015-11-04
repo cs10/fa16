@@ -222,5 +222,17 @@ To get checked off, you should prepare answers to the specific questions for eac
 * Demonstrate your is __ pandigital? block.
 * How does the compose block work?
 
+## Lab 15: Internet {#lab15}
+
+**Required**
+
+* Explain in your own words what an information footprint is.
+* What is the difference between latency and throughput? What shell command can you use to measure latency?
+
+**More Self-Check Questions**
+
+* Demonstrate traceroute. Explain what information is being shown.
+* Pick a website of your choosing and get the page source. What language is the page source written in?
+
 <!-- Keep the /div at the bottom -->
 </div>
