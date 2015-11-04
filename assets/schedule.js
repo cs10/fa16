@@ -276,7 +276,7 @@ cs10.week11 = {
     disc1: disc('Data and HOFs'),
     lab1: lab('Functions as Data and HOFs', 'berkeley_bjc/hofs/hofs-practice.topic', true),
     lect1: lect('Functions as Data', 'https://docs.google.com/presentation/d/1TwO63UECd9I4ufKDYUj9LDFT6RrDOtFQlbbcC9oBebE/pub?start=false&loop=false&delayms=3000'),
-    lect2: lect('The Internet II'),
+    lect2: lect('The Internet II', 'https://docs.google.com/presentation/d/1Ouz8QdPT-L0x3lg77S2yBGbsqjmuKJLAG3SjxtD7zLQ/pub?start=false&loop=false&delayms=3000'),
     lab2: lab('The Internet', 'berkeley_bjc/areas/internet.topic'),
     hw: [
         hw('"Explore" Writing Assignment', '11/6', '/discussion_topics/4250600', exploreSpec),
