@@ -292,7 +292,7 @@ cs10.week12 = {
     lect1: lect('Python I'),
     lect2: lect('No Lecture (Veterans Day)'),
     lab2: lab('Optional Catch-Up Day'),
-    hw: hw('"Explore" Comments', '11/13', '/discussion_topics/4250600', exploreSpec)
+    hw: hw('"Explore" Comments', '11/13', '/discussion_topics/4250600')
 };
 
 // NOV 16 - NOV 20
