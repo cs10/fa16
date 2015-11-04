@@ -303,7 +303,7 @@ cs10.week13 = {
     lect1: lect('CS10 Alumni Panel'),
     lect2: lect('Python II'),
     lab2: lab('Besides Blocks: Data in Python'), //, 'berkeley_bjc/python/besides-blocks-data.topic'),
-    hw: hw('Final Project Proposal', '11/20')
+    hw: hw('Final Project Proposal<br> Spec Coming Soon!', '11/20')
 };
 
 
