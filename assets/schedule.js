@@ -286,8 +286,8 @@ cs10.week11 = {
 
 // NOV 9 - NOV 13
 cs10.week12 = {
-    readings1: 'Social Implications of Computing | Intro to Python',
-    disc1: disc('TBA'),
+    readings1: 'TBA',
+    disc1: disc('Social Implications of Computing | Intro to Python'),
     lab1: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic', true),
     lect1: lect('Python I'),
     lect2: lect('No Lecture (Veterans Day)'),
