@@ -289,7 +289,7 @@ cs10.week12 = {
         readings1: [
         reading('Why Python is a Great First Language', 'http://blog.trinket.io/why-python/'),
         reading('The GNU Manifesto Turns Thirty', 'http://www.newyorker.com/business/currency/the-gnu-manifesto-turns-thirty', 'optional'),
-        reading('Python vs. Cobol (parody)', 'https://medium.com/@oceankidbilly/python-vs-r-vs-cobol-which-is-best-for-data-science-7b2979c6a000', 'optional')
+        reading('Python vs. COBOL (parody)', 'https://medium.com/@oceankidbilly/python-vs-r-vs-cobol-which-is-best-for-data-science-7b2979c6a000', 'optional')
     ],
     disc1: disc('Social Implications of Computing | Intro to Python'),
     lab1: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic', true),
