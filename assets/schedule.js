@@ -273,7 +273,7 @@ cs10.week11 = {
         reading('What is the Internet?', 'https://www.youtube.com/watch?v=UlJku_CSyNg', 'optional'),
         reading('BtB pg. 305-316', 'https://drive.google.com/file/d/0B3vESj3HTRTkbVo1dTV5SUp4T0U/view?usp=sharing', 'optional')  
     ],
-    disc1: disc('Data and HOFs'),
+    disc1: disc('The Internet | Data and HOFs'),
     lab1: lab('Functions as Data and HOFs', 'berkeley_bjc/hofs/hofs-practice.topic', true),
     lect1: lect('Functions as Data', 'https://docs.google.com/presentation/d/1TwO63UECd9I4ufKDYUj9LDFT6RrDOtFQlbbcC9oBebE/pub?start=false&loop=false&delayms=3000'),
     lect2: lect('The Internet II', 'https://docs.google.com/presentation/d/1Ouz8QdPT-L0x3lg77S2yBGbsqjmuKJLAG3SjxtD7zLQ/pub?start=false&loop=false&delayms=3000'),
@@ -291,7 +291,7 @@ cs10.week12 = {
         reading('The GNU Manifesto Turns Thirty', 'http://www.newyorker.com/business/currency/the-gnu-manifesto-turns-thirty', 'optional'),
         reading('Python vs. Cobol (parody)', 'https://medium.com/@oceankidbilly/python-vs-r-vs-cobol-which-is-best-for-data-science-7b2979c6a000', 'optional')
     ],
-    disc1: disc('TBA'),
+    disc1: disc('Social Implications of Computing | Intro to Python'),
     lab1: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic', true),
     lect1: lect('Python I'),
     lect2: lect('No Lecture (Veterans Day)'),
@@ -302,19 +302,19 @@ cs10.week12 = {
 // NOV 16 - NOV 20
 cs10.week13 = {
     readings1: 'TBA',
-    disc1: 'TBA',
+    disc1: 'All about Python',
     lab1: lab('Besides Blocks: Data Structures in Python', true), //, 'berkeley_bjc/python/besides-blocks-data-struct.topic', true),
     lect1: lect('CS10 Alumni Panel'),
     lect2: lect('Python II'),
     lab2: lab('Besides Blocks: Data in Python'), //, 'berkeley_bjc/python/besides-blocks-data.topic'),
-    hw: hw('Final Project Proposal<br> Spec Coming Soon!', '11/20')
+    hw: hw('Final Project Proposal<br> Spec Coming Soon! <br>Due Date TBD')
 };
 
 
 // NOV 23 - NOV 27
 cs10.week14 = {
     readings1: 'TBA',
-    disc1: 'TBA',
+    disc1: 'No Discussion (Thanksgiving)',
     lab1: lab('Project Work Session'),
     lect1: lect('Limits of Computing'),
     lect2: lect('No Lecture (Thanksgiving)'),

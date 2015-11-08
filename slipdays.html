@@ -105,9 +105,16 @@ var buildTable = function(result, xhr, other) {
           msg.append($('<li>').html(error));
         }
       });
-      return;
     }
-
+    
+    // Exit if the data we need doesn't exist.
+    // Must check for undefined and not just ! b/c data could be '0'
+    // Note that we can have both errors and good data!
+    if (result.daysRemaining == undefined || 
+        result.assignments == undefined ||
+        result.totalDays == undefined) {
+        return;
+      }
     // Add any warning messages
     var days = result.daysRemaining;
     var notice = '', bsClass = '';
