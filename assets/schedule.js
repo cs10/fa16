@@ -322,7 +322,7 @@ cs10.week14 = {
     lect1: lect('Limits of Computing'),
     lect2: lect('No Lecture (Thanksgiving)'),
     lab2: lab('No Lab (Thanksgiving)'),
-    hw: hw('Continue Working on your Final Project <br> Happy Thanksgiving!')
+    hw: hw('Continue Working on your Final Project. <br><br> Happy Thanksgiving!')
 };
 
 // Load the Calendar
