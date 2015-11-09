@@ -293,7 +293,7 @@ cs10.week12 = {
     ],
     disc1: disc('Social Implications of Computing | Intro to Python'),
     lab1: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic', true),
-    lect1: lect('Python I'),
+    lect1: lect('Python I', 'https://docs.google.com/presentation/d/1dqoMCkDFxoGusaJBwyvMYMgoPY47wUt8WRgG1HOVfLQ/edit?usp=sharing'),
     lect2: lect('No Lecture (Veterans Day)'),
     lab2: lab('Optional Catch-Up Day'),
     hw: [
