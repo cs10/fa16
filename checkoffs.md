@@ -46,7 +46,9 @@ To get checked off, you should prepare answers to the specific questions for eac
 * [Lab 11](#lab11) 
 * [Lab 12](#lab12)
 * [Lab 13](#lab13) 
-* [Lab 14](#lab14) 
+* [Lab 14](#lab14) (Week 11)
+* [Lab 15](#lab15)
+* [Lab 16](#lab16) (Week 12)
 </div>
 
 ---
@@ -206,7 +208,6 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 * Fully complete the winning-square and ttt blocks (Ask your TA to check if they are correct).
 * When was it best to report positions for some of the tic-tac-toe blocks, and when was it more ideal to report actual letters (‘X’ or ‘O’)? Think about domain and range!
-* 
 
 #Week 11: Lab 14 and 15
 
@@ -233,6 +234,23 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 * Demonstrate traceroute. Explain what information is being shown.
 * Pick a website of your choosing and get the page source. What language is the page source written in?
+
+#Week 12: Lab 16
+
+##Lab 16: Besides Blocks: Welcome to Python {#lab16}
+
+**Required**
+
+* What is the difference between the syntax of one equals sign <code>=</code> vs. a double equals sign <code>==</code> in Python?
+* What is 0-indexing, and why is it relevant to string manipulation and loops in Python?
+* Run the “python virus.py run_tests” command to check that all the exercises work.
+
+**More Self-Check Questions**
+
+* Show how to create a substring from a string.
+* Show how to open the Python interpreter and run a script.
+* What is a directory?
+* How do you make a directory, enter a directory, and check what is inside your current directory?
 
 <!-- Keep the /div at the bottom -->
 </div>
