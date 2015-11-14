@@ -305,7 +305,7 @@ cs10.week12 = {
 // NOV 16 - NOV 20
 cs10.week13 = {
     readings1: [
-        reading('Intro to Data Science (stop at Expressions)', 'http://data8.org/text/1_data.html'),
+        reading('Intro to Data Science (stop at Expressions)', 'http://data8.org/text/1_data.html#why-data-science'),
     ],    
     disc1: 'All about Python',
     lab1: lab('Besides Blocks: Data Structures in Python', true), //, 'berkeley_bjc/python/besides-blocks-data-struct.topic', true),
