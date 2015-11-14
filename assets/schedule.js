@@ -305,7 +305,7 @@ cs10.week12 = {
 // NOV 16 - NOV 20
 cs10.week13 = {
     readings1: [
-        reading('CS8 lecture 1 (optional, but watch first)', 'https://www.youtube.com/watch?v=69hHbVza7XI&t=27m49s', 'optional'),
+        reading('CS8 lecture 1 (watch first, optional)', 'https://www.youtube.com/watch?v=69hHbVza7XI&t=27m49s', 'optional'),
         reading('Intro to Data Science (stop at Expressions)', 'http://data8.org/text/1_data.html#why-data-science')
     ],    
     disc1: 'All about Python',
