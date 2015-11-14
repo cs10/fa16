@@ -306,7 +306,7 @@ cs10.week12 = {
 cs10.week13 = {
     readings1: [
         reading('Intro to Data Science (stop at Expressions)', 'http://data8.org/text/1_data.html#why-data-science'),
-        reading('CS8 lecture 1', 'https://www.youtube.com/watch?v=69hHbVza7XI&t=27m49s', 'optional')
+        reading('CS8 lecture 1 (optional, but watch before reading)', 'https://www.youtube.com/watch?v=69hHbVza7XI&t=27m49s', 'optional')
     ],    
     disc1: 'All about Python',
     lab1: lab('Besides Blocks: Data Structures in Python', true), //, 'berkeley_bjc/python/besides-blocks-data-struct.topic', true),
