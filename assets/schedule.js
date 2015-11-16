@@ -309,7 +309,7 @@ cs10.week13 = {
         reading('Intro to Data Science (stop at Expressions)', 'http://data8.org/text/1_data.html#why-data-science')
     ],    
     disc1: 'All about Python',
-    lab1: lab('Besides Blocks: Data Structures in Python', true), //, 'berkeley_bjc/python/besides-blocks-data-struct.topic', true),
+    lab1: lab('Besides Blocks: Data Structures in Python', 'berkeley_bjc/python/besides-blocks-data-struct.topic', true), //, 'berkeley_bjc/python/besides-blocks-data-struct.topic', true),
     lect1: lect('CS10 Alumni Panel'),
     lect2: lect('Python II'),
     lab2: lab('Besides Blocks: Data in Python'), //, 'berkeley_bjc/python/besides-blocks-data.topic'),
