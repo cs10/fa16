@@ -49,6 +49,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 * [Lab 14](#lab14) (Week 11)
 * [Lab 15](#lab15)
 * [Lab 16](#lab16) (Week 12)
+* [Lab 17](#lab17)
 </div>
 
 ---
@@ -254,7 +255,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 * 
 #Week 13: Lab 17
 
-##Lab 17: Besides Blocks: Data Structures in Python
+##Lab 17: Besides Blocks: Data Structures in Python {#lab17}
 
 **Required**
 
@@ -263,6 +264,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 * What is an iterable? Give an example and tell your why it is useful that your example is an iterable.
 
 **More Self-Check Questions**
+
 * What similarities do you notice between Snap! and Python? Differences?
 * What do Higher Order Functions look like in Python?
 
