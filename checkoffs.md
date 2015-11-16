@@ -251,6 +251,20 @@ To get checked off, you should prepare answers to the specific questions for eac
 * Show how to open the Python interpreter and run a script.
 * What is a directory?
 * How do you make a directory, enter a directory, and check what is inside your current directory?
+* 
+#Week 13: Lab 17
+
+##Lab 17: Besides Blocks: Data Structures in Python
+
+**Required**
+
+* Show that your PythonLab2.py file passes the tests for all 6 exercises.
+* What are the similarities and differences between lists and dictionaries? What are ‘keys’ and ‘values’ in Dictionaries and how do they compare to numerical indices in lists?
+* What is an iterable? Give an example and tell your why it is useful that your example is an iterable.
+
+**More Self-Check Questions**
+* What similarities do you notice between Snap! and Python? Differences?
+* What do Higher Order Functions look like in Python?
 
 <!-- Keep the /div at the bottom -->
 </div>
