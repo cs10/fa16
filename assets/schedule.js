@@ -312,7 +312,7 @@ cs10.week13 = {
     lab1: lab('Besides Blocks: Data Structures in Python', 'berkeley_bjc/python/besides-blocks-data-struct.topic', true), //, 'berkeley_bjc/python/besides-blocks-data-struct.topic', true),
     lect1: lect('CS10 Alumni Panel'),
     lect2: lect('Python II'),
-    lab2: lab('Besides Blocks: Text Processing in Python', 'berkeley_bjc/python/hug_text_processing/besides-blocks-text-processing.topic'), //, 'berkeley_bjc/python/besides-blocks-data.topic'),
+    lab2: lab('Besides Blocks: Text Processing in Python', 'berkeley_bjc/python/besides-blocks-text-processing.topic'), //, 'berkeley_bjc/python/besides-blocks-data.topic'),
     hw: hw('Final Project Milestone', '11/20', 'assignments/6644523')
 };
 
