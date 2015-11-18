@@ -279,6 +279,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 **More Self-Check Questions**
 
 * Why don't we have optional parameters in Snap!?
+* How does the quality of the Markov model vary as k goes from small to large? What's the problem with using very large k to generate text? (optional exercise)
 
 <!-- Keep the /div at the bottom -->
 </div>
