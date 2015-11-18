@@ -334,9 +334,11 @@ cs10.week14 = {
     disc1: 'TBA',
     lab1: lab('Project Work Session'),
     lect1: lect('Limits of Computing'),
-    lect2: lect('No Lecture (Thanksgiving)'),
-    lab2: lab('No Lab (Thanksgiving)'),
-    hw: hw('Continue Working on your Final Project. <br> Happy Thanksgiving!')
+    lect2: lect('Conclusion'),
+    lab2: lab('In-Lab Final Exam'),
+    hw: [        
+        hw('Final Project', '11/4', 'assignments/6644476')
+    ]
 };
 
 
