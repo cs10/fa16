@@ -274,14 +274,11 @@ To get checked off, you should prepare answers to the specific questions for eac
 **Required**
 
 * Show that your average_word_length function is able to properly compute the average_word_length of nietzsche.txt.
-
 * Show how you'd change your top_n_words function so that it returned the least common n words.
 
 **More Self-Check Questions**
 
 * Why don't we have optional parameters in Snap!?
-
-* 
 
 <!-- Keep the /div at the bottom -->
 </div>

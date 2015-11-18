@@ -312,7 +312,7 @@ cs10.week13 = {
     lab1: lab('Besides Blocks: Data Structures in Python', 'berkeley_bjc/python/besides-blocks-data-struct.topic', true), //, 'berkeley_bjc/python/besides-blocks-data-struct.topic', true),
     lect1: lect('CS10 Alumni Panel'),
     lect2: lect('Python II'),
-    lab2: lab('Besides Blocks: Data in Python'), //, 'berkeley_bjc/python/besides-blocks-data.topic'),
+    lab2: lab('Besides Blocks: Text Processing in Python', 'besides-blocks-text-processing.topic'), //, 'berkeley_bjc/python/besides-blocks-data.topic'),
     hw: hw('Final Project Milestone', '11/20', 'assignments/6644523')
 };
 
@@ -327,6 +327,18 @@ cs10.week14 = {
     lab2: lab('No Lab (Thanksgiving)'),
     hw: hw('Continue Working on your Final Project. <br> Happy Thanksgiving!')
 };
+
+// NOV 30 - DEC 4
+cs10.week14 = {
+    readings1: 'TBA',
+    disc1: 'TBA',
+    lab1: lab('Project Work Session'),
+    lect1: lect('Limits of Computing'),
+    lect2: lect('No Lecture (Thanksgiving)'),
+    lab2: lab('No Lab (Thanksgiving)'),
+    hw: hw('Continue Working on your Final Project. <br> Happy Thanksgiving!')
+};
+
 
 // Load the Calendar
 $(document).ready(function() {
