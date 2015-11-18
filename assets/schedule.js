@@ -329,7 +329,7 @@ cs10.week14 = {
 };
 
 // NOV 30 - DEC 4
-cs10.week14 = {
+cs10.week15 = {
     readings1: 'TBA',
     disc1: 'TBA',
     lab1: lab('Project Work Session'),
