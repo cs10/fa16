@@ -50,6 +50,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 * [Lab 15](#lab15)
 * [Lab 16](#lab16) (Week 12)
 * [Lab 17](#lab17)
+* [Lab 17](#lab18)
 </div>
 
 ---
@@ -253,7 +254,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 * What is a directory?
 * How do you make a directory, enter a directory, and check what is inside your current directory?
 * 
-#Week 13: Lab 17
+#Week 13: Lab 17 and Lab 18
 
 ##Lab 17: Besides Blocks: Data Structures in Python {#lab17}
 
@@ -267,6 +268,20 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 * What similarities do you notice between Snap! and Python? Differences?
 * What do Higher Order Functions look like in Python?
+
+##Lab 18: Besides Blocks: Text Processing in Python {#lab17}
+
+**Required**
+
+* Show that your average_word_length function is able to properly compute the average_word_length of nietzsche.txt.
+
+* Show how you'd change your top_n_words function so that it returned the least common n words.
+
+**More Self-Check Questions**
+
+* Why don't we have optional parameters in Snap!?
+
+* 
 
 <!-- Keep the /div at the bottom -->
 </div>
