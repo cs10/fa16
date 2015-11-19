@@ -337,7 +337,7 @@ cs10.week15 = {
     lect2: lect('Conclusion'),
     lab2: lab('In-Lab Final Exam'),
     hw: [        
-        hw('Final Project', '11/4', 'assignments/6644476')
+        hw('Final Project', '12/4', 'assignments/6644476')
     ]
 };
 
