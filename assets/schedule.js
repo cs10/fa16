@@ -333,7 +333,7 @@ cs10.week15 = {
     readings1: 'TBA',
     disc1: 'TBA',
     lab1: lab('Project Work Session'),
-    lect1: lect('Limits of Computing'),
+    lect1: lect('Computing: Past, Present, Future'),
     lect2: lect('Conclusion'),
     lab2: lab('In-Lab Final Exam'),
     hw: [        
