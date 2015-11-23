@@ -322,7 +322,6 @@ cs10.week14 = {
     readings1: 'TBA',
     disc1: 'No Discussion (Thanksgiving)',
     lab1: lab('Project Work Session'),
-1 1 5 8
     lect1: lect('Limits of Computing', 'https://docs.google.com/presentation/d/1SvosTLRIU9IfgXD75v_lctIOvHaBARc9sm7Y5Dn-J8g/pub?start=false&loop=false&delayms=3000'),
     lect2: lect('No Lecture (Thanksgiving)'),
     lab2: lab('No Lab (Thanksgiving)'),
