@@ -319,7 +319,10 @@ cs10.week13 = {
 
 // NOV 23 - NOV 27
 cs10.week14 = {
-    readings1: 'TBA',
+    readings1: [
+        reading('BtB Chapter 6',
+                'http://www.bitsbook.com/wp-content/uploads/2008/12/chapter6.pdf', 'optional')
+        ],
     disc1: 'No Discussion (Thanksgiving)',
     lab1: lab('Project Work Session'),
     lect1: lect('Limits of Computing', 'https://docs.google.com/presentation/d/1SvosTLRIU9IfgXD75v_lctIOvHaBARc9sm7Y5Dn-J8g/pub?start=false&loop=false&delayms=3000'),
@@ -330,7 +333,10 @@ cs10.week14 = {
 
 // NOV 30 - DEC 4
 cs10.week15 = {
-    readings1: 'TBA',
+    readings1: [
+        reading('The Doomsday Invention', 'http://www.newyorker.com/magazine/2015/11/23/doomsday-invention-artificial-intelligence-nick-bostrom')
+        reading('A Quantum Leap in Computing?', 'http://www.newyorker.com/tech/elements/a-quantum-leap-in-computing', 'optional')
+    ],       
     disc1: 'TBA',
     lab1: lab('Project Work Session'),
     lect1: lect('Computing: Past, Present, Future'),
