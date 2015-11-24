@@ -334,7 +334,7 @@ cs10.week14 = {
 // NOV 30 - DEC 4
 cs10.week15 = {
     readings1: [
-        reading('The Doomsday Invention', 'http://www.newyorker.com/magazine/2015/11/23/doomsday-invention-artificial-intelligence-nick-bostrom')
+        reading('The Doomsday Invention', 'http://www.newyorker.com/magazine/2015/11/23/doomsday-invention-artificial-intelligence-nick-bostrom'),
         reading('A Quantum Leap in Computing?', 'http://www.newyorker.com/tech/elements/a-quantum-leap-in-computing', 'optional')
     ],       
     disc1: 'TBA',
