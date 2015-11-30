@@ -339,7 +339,7 @@ cs10.week15 = {
     ],       
     disc1: 'TBA',
     lab1: lab('Project Work Session'),
-    lect1: lect('Computing: Past, Present, Future'),
+    lect1: lect('Computing: Past, Present, Future', 'https://docs.google.com/presentation/d/1SvosTLRIU9IfgXD75v_lctIOvHaBARc9sm7Y5Dn-J8g/pub?start=false&loop=false&delayms=3000'),
     lect2: lect('Conclusion'),
     lab2: lab('In-Lab Final Exam'),
     hw: [        
