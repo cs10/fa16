@@ -343,7 +343,7 @@ cs10.week15 = {
     lect2: lect('Conclusion', 'https://docs.google.com/presentation/d/1CgPu3RBXYUyN7r0X6NpWzgGN95cZIPyfqTSNBCX7nd4/edit?usp=sharing'),
     lab2: lab('In-Lab Final Exam'),
     hw: [        
-        hw('Final Project', '12/4', 'assignments/6644476')
+        hw('Final Project', '12/5', 'assignments/6644476')
     ]
 };
 
