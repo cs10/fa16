@@ -291,7 +291,7 @@ cs10.week12 = {
         reading('The GNU Manifesto Turns Thirty', 'http://www.newyorker.com/business/currency/the-gnu-manifesto-turns-thirty', 'optional'),
         reading('Python vs. COBOL (parody)', 'https://medium.com/@oceankidbilly/python-vs-r-vs-cobol-which-is-best-for-data-science-7b2979c6a000', 'optional')
     ],
-    disc1: disc('Social Implications of Computing | Intro to Python'),
+    disc1: disc('Social Implications of Computing | More HoF and Call Work', true),
     lab1: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic', true),
     lect1: lect('Python I', 'https://docs.google.com/presentation/d/1dqoMCkDFxoGusaJBwyvMYMgoPY47wUt8WRgG1HOVfLQ/edit?usp=sharing'),
     lect2: lect('No Lecture (Veterans Day)'),
