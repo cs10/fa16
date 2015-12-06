@@ -337,7 +337,7 @@ cs10.week15 = {
         reading('The Doomsday Invention', 'http://www.newyorker.com/magazine/2015/11/23/doomsday-invention-artificial-intelligence-nick-bostrom'),
         reading('A Quantum Leap in Computing?', 'http://www.newyorker.com/tech/elements/a-quantum-leap-in-computing', 'optional')
     ],       
-    disc1: 'TBA',
+    disc1: 'Farewell! Recap and Feedback',
     lab1: lab('Project Work Session'),
     lect1: lect('Computing: Past, Present, Future', 'https://docs.google.com/presentation/d/1_k3boAVzNT3W_z-uhmbdP5tugM4PUuGwT-BPSmU8A-o/pub?start=false&loop=false&delayms=3000'),
     lect2: lect('Conclusion', 'https://docs.google.com/presentation/d/1CgPu3RBXYUyN7r0X6NpWzgGN95cZIPyfqTSNBCX7nd4/edit?usp=sharing'),
