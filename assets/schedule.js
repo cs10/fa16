@@ -323,7 +323,7 @@ cs10.week14 = {
         reading('BtB Chapter 6',
                 'http://www.bitsbook.com/wp-content/uploads/2008/12/chapter6.pdf', 'optional')
         ],
-    disc1: 'No Discussion (Thanksgiving)',
+    disc1: disc('No Discussion (Thanksgiving)'),
     lab1: lab('Project Work Session'),
     lect1: lect('Limits of Computing', 'https://docs.google.com/presentation/d/1SvosTLRIU9IfgXD75v_lctIOvHaBARc9sm7Y5Dn-J8g/pub?start=false&loop=false&delayms=3000'),
     lect2: lect('No Lecture (Thanksgiving)'),
