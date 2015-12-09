@@ -347,6 +347,22 @@ cs10.week15 = {
     ]
 };
 
+// DEAD WEEK
+// MAY 4 - 7
+cs10.week16 = {
+    special: 'RRR Week -- No Class',
+    readings: [],
+    lect2: lect('Optional: Python Review Session - 2050 VLSB | 11 AM-12 PM'),
+    hw: hw('Study for the Final')
+};
+
+// MAY 11 - 15
+cs10.week17 = {
+    readings: 'Final Review Session<br><strong>Sun 12/13 1-4pm<br>2050 VLSB</strong>',
+    lab1: lab('Final Exam<br>11:30 - 2:30pm<br>2050 VLSB'),
+    hw: ''
+};
+
 
 // Load the Calendar
 $(document).ready(function() {
