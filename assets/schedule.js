@@ -362,6 +362,8 @@ cs10.week17 = {
     lab1: lab('Final Exam<br>Monday, 11:30 - 2:30pm<br>2050 VLSB'),
     hw: ''
 };
+cs10.week17.lab1.classes = 'exam';
+cs10.week17.lab1.title += '<br><br><div class="exam inner">Final Exam<br><br>Monday 12/14<br>8 - 11:30 AM | 2050 VLSB</div>';
 
 
 // Load the Calendar
