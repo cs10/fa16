@@ -106,7 +106,7 @@ cs10.newReadingsObject = function(title, url, classes) {
     return reading;
 };
 
-cs10.newLectureObject = function(title, path, guest) {
+cs10.newLectureObject = function(title, path, presenter, video) {
     var lect = { type: 'Lecture' };
 
     lect.title = title;
@@ -118,11 +118,10 @@ cs10.newLectureObject = function(title, path, guest) {
     if (title.indexOf('No Lecture') !== -1 || title.indexOf('No Class') !== -1) {
         lect.classes = 'noClass';
     }
-    if (path) {
-        lect.url = path;
-    }
 
-    lect.guest = guest;
+    lect.url = path;
+    lect.guest = presenter;
+    lect.video = video;
     return lect;
 };
 
@@ -333,10 +332,15 @@ cs10.renderTableLecture = function(lect) {
         }
         var title = lect.title;
         if (lect.url) {
-            title = $('<a>').attr({'href': lect.url}).html(lect.title);
+            title = $('<a>').attr({href: lect.url}).html(lect.title);
         }
         result.append(title);
         result.append('<br>');
+        if (lect.video) {
+            result.append(
+                $('<a>').attr({href: lect.video}).html('(Video)')
+            )
+        }
         result.attr({ 'class' : lect.classes });
     }
     return result;
