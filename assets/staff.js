@@ -6,6 +6,20 @@ var JoshHug = {
     imgSrc: 'JoshHug.jpg',
     email: 'hug@cs.berkeley.edu'
 };
+var JustinHsia = {
+    name: 'Instructor Justin Hsia'
+    img: 'None yet'
+    imgSrc: 'None yet',
+    email: 'Not yet'
+};
+
+GeraldF = {
+    name: 'Dr. Gerald Friedland',
+    img: 'Fa13/Gerald.jpg',
+    imgSrc: 'Gerald.jpg',
+    //bio: 'DanBio.txt',
+    email: 'fractor@icsi.berkeley.edu',
+};
 
 
 // TAs
