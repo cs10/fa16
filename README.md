@@ -1,9 +1,9 @@
-# [CS10 Fall 2015][site]
+# [CS10 Spring 2016][site]
 
-[site]: http://cs10.org/fa15
+[site]: http://cs10.org/sp16
 
 ## Background
-The Fall 2015 site is built using [Jekyll](jekyllrb.com) and is hosted on Github, with a backup on the CS10 instructional account.
+The Spring 2016 site is built using [Jekyll](jekyllrb.com) and is hosted on Github, with a backup on the CS10 instructional account.
 
 Currently, there isn't much fancy work being done with Jekyll -- just a few include statements and basic page layouts.
 
