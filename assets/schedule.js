@@ -242,7 +242,7 @@ cs10.week9 = {
 
 // OCT 26 - OCT 30
 cs10.week10 = {
-    readings1: 'No Reading.<br><b>Midterm Review 1 - 4 PM in 2050 VLSB on 10/25</br>', /*[
+    readings1: 'No Reading.', /*[
         reading('Data Explosion Creates Revolution',
                 'http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2011/10/19/BU5K1LJ4R3.DTL'),
         reading('Data Mining',
@@ -363,7 +363,7 @@ cs10.week16 = {
 
 // MAY 11 - 15
 cs10.week17 = {
-    readings1: 'No Reading.<br><b>Final Review, 1 - 4 PM in 2050 VLSB on Sun 12/13</br>',    
+    readings1: 'No Reading.',    
     lab1: lab('Final Exam<br>Monday, 11:30 - 2:30pm<br>2050 VLSB'),
     hw: ''
 };
