@@ -1,11 +1,11 @@
 // Instructors
 
-var JoshHug = {
-    name: 'Instructor Josh Hug',
-    img: 'Sp14/JoshHug.jpg',
-    imgSrc: 'JoshHug.jpg',
-    email: 'hug@cs.berkeley.edu'
-};
+//var JoshHug = {
+    //name: 'Instructor Josh Hug',
+    //img: 'Sp14/JoshHug.jpg',
+    //imgSrc: 'JoshHug.jpg',
+    //email: 'hug@cs.berkeley.edu'
+//};
 //var JustinHsia = {
     //name: 'Instructor Justin Hsia'
     //img: 'None yet'
@@ -13,13 +13,13 @@ var JoshHug = {
     //email: 'Not yet'
 //};
 
-//GeraldF = {
-   // name: 'Dr. Gerald Friedland',
-    //img: 'Fa13/Gerald.jpg',
-    //imgSrc: 'Gerald.jpg',
-    //bio: 'DanBio.txt',
-    //email: 'fractor@icsi.berkeley.edu',
-//};
+GeraldF = {
+    name: 'Dr. Gerald Friedland',
+    img: 'Fa13/Gerald.jpg',
+    imgSrc: 'Gerald.jpg',
+    bio: 'DanBio.txt',
+    email: 'fractor@icsi.berkeley.edu',
+};
 
 
 // TAs
@@ -133,7 +133,7 @@ var laraM = {
 /** LIST DEFINITIONS **/
 /*****************************************************************************/
 
-var inst = [ JoshHug ];
+var inst = [ GeraldF ];
 var tas = [ adamK, rachelH, alexM, amrutaY, andyS, aranyU, carlosF, claireW, erikD, jannaG, josephC, stevenT, victoriaS ];
 
 //var readers = [ jobelV, katherineM, laraM ]; todo: Update this once readers are hired!
