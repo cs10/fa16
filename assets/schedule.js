@@ -357,7 +357,6 @@ cs10.week15 = {
 cs10.week16 = {
     special: 'RRR Week -- No Class',
     readings: [],
-    lect2: lect('Optional: Python Review Session - 2050 VLSB | 11 AM-12 PM'),
     hw: hw('Study for the Final')
 };
 
@@ -368,7 +367,7 @@ cs10.week17 = {
     hw: ''
 };
 cs10.week17.lab1.classes = 'exam';
-cs10.week17.lab1.title += '<br><br><div class="exam inner">Final Exam<br><br>Monday 12/14<br>11:30 - 2:30 PM | 2050 VLSB</div>';
+cs10.week17.lab1.title += '<br><br><div class="exam inner">Final Exam<br><br>Tuesday 5/10<br>8:00 - 11 AM</div>';
 
 
 // Load the Calendar
