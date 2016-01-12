@@ -17,7 +17,7 @@ GeraldF = {
     name: 'Dr. Gerald Friedland',
     img: 'Fa13/Gerald.jpg',
     imgSrc: 'Gerald.jpg',
-    bio: 'DanBio.txt',
+    //bio: 'DanBio.txt',
     email: 'fractor@icsi.berkeley.edu',
 };
 
