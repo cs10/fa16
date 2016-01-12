@@ -29,7 +29,7 @@ var finalProjSpec = docs('1Pf29lFwyD883yIxIKtc2ywpqU-VTvsmUJyIw-jYuUyQ');
 // ==========     SCHEDULE ITEMS           ==========
 // ==================================================
 
-// AUG 24 - 28
+// JAN 19 - 22
 cs10.week1 = {
     readings1: 'No Readings',
     lect1: lect('No Lecture Monday'),
@@ -42,10 +42,10 @@ cs10.week1 = {
     ),
     lab2: lab("Welcome to <span class='snap'>snap</span>", "berkeley_bjc/intro_pair/1-introduction.topic"),
     disc1: disc('Welcome to CS10!'),
-    hw: hw('HW0', '8/30', 'quizzes/2037517')
+    hw: hw('HW0', '1/22', 'quizzes/2037517')
 };
 
-// AUG 31 - SEPT 4
+// JAN 25 - 29
 cs10.week2 = {
     readings1: [
         reading('Prof. Harvey\'s Intro to Abstraction',
@@ -79,10 +79,10 @@ cs10.week2 = {
     lect2: lect('Numbers and Abstraction', 'https://docs.google.com/presentation/d/1zHEl4C_jLGFVFznWPMWhDYFtcLENUU3_DubOb_H5UZs/pub'),
     lab2: lab('Conditionals and Reporters', 'berkeley_bjc/intro_pair/3-conditionals.topic', true),
     disc1: disc('Anatomy of a Computer and the Power of Binary', true),
-    hw: hw('HW1: Word Guessing', '9/11', 'assignments/6644471', hw1Spec)
+    hw: hw('HW1: Word Guessing', '1/29', 'assignments/6644471', hw1Spec)
 };
 
-// SEPT 7 - SEPT 11
+// FEB 1 - 5
 cs10.week3 = {
     readings1: [
         reading('The First Object Oriented Software System', 
@@ -112,12 +112,12 @@ cs10.week3 = {
     lect2: lect('Programming Paradigms', 'https://docs.google.com/presentation/d/136vfh3rhRyTsGUKNv1MuUSHZqdPp4xVvt9GX3LlGX6I/pub'),
     lab2: lab('Lists I', 'berkeley_bjc/lists/lists-I.topic', true),
     disc1: disc('All about lists', true),
-    hw: hw('HW1: Word Guessing', '9/11', 'assignments/6644471', hw1Spec)
+    hw: hw('HW1: Word Guessing', 'TBD', 'assignments/6644471', hw1Spec)
 };
 // cs10.week3.lect3.classes = 'exam';
 // cs10.week3.work.title += '<hr><strong>Finch Robots Lab (Sect 111)</strong>';
 
-// SEPT 14 - SEPT 18
+// FEB 8 - 12
 cs10.week4 = {
     readings1: [
         reading('What is an Algorithm (book excerpts)?',
@@ -140,7 +140,7 @@ cs10.week4 = {
     lect2: lect('Algorithmic Complexity', 'https://docs.google.com/presentation/d/1hJTCiCxmaWfhjjSFTclkGeyzrH5UVMr9vVinAt_ohFk/pub?start=false&loop=false&delayms=3000'),
     lab2: lab('Finish Lab 6 and HW2 help'),
     disc1: disc('Algorithmic Complexity I', true),
-    hw: hw('HW2: Encryptify', '9/25', 'assignments/6644472', hw2Spec)
+    hw: hw('HW2: Encryptify', 'TBD', 'assignments/6644472', hw2Spec)
 
     // [
 //         hw('Midterm Project<br><strong>Individual</strong> Milestone', '3/13', 'assignments/6120151'),
@@ -148,7 +148,7 @@ cs10.week4 = {
 //     ]
 };
 
-// SEPT 21 - SEPT 25
+// FEB 15 - 19 (President's Day: Monday)
 cs10.week5 = {
     readings1: [
         reading('BtB Chapter 5',
@@ -168,14 +168,14 @@ cs10.week5 = {
     lect2: lect('Cryptography', 'https://docs.google.com/presentation/d/1SLrcIoB339Qz82P9IPao2iGxKLJA9WlxTyV1QskyVwg/pub?start=false&loop=false&delayms=3000'),
     lab2: lab('Finch Lab', 'berkeley_bjc/robots/robots.topic'),
     disc1: disc('Quest Review', true),
-    hw: hw('HW2: Encryptify', '9/25', 'assignments/6644472', hw2Spec)
+    hw: hw('HW2: Encryptify', 'TBD', 'assignments/6644472', hw2Spec)
     //hw: hw('HW2: Snowman', '9/18', 'assignments/6644472', 'assign.html?//docs.google.com/document/d/1iJDOxWMBnmE5lOzqmUi_-F-HoSyGuQrzn-COiGQd29Y/pub')
 };
 // cs10.week5.lect3.classes = 'exam';
 // cs10.week5.lect3.title += '<br><a href="exams/midterm.html">Midterm Exam</a><br><br>Weds 7/22<br>6 - 8 PM<br>159 Mulford';
 // cs10.week5.lab2.classes = 'exam';
 
-// SEPT 28 - OCT 2
+// FEB 22 - 26
 cs10.week6 = {
     readings1: 'No Reading.<br><b>Quest Review 1 - 3 PM in 2050 VLSB on 9/27</br>',
     lect1: lect('Testing', 'https://docs.google.com/presentation/d/1EqmuMag-_swWmEQvi9coK0_J2fl0N0H1p6NuNr9WaaI/edit?usp=sharing'),
@@ -183,10 +183,10 @@ cs10.week6 = {
     lect2: lect('Quest In Class', '../exams/quest.html'),
     lab2: lab('Testing, HW3', 'berkeley_bjc/2048-testing/2048.topic'),
     disc1: disc('Quest Debrief'),
-    hw: hw('HW3: 2048','10/12', 'assignments/6930656', hw3Spec)
+    hw: hw('HW3: 2048','TBD', 'assignments/6930656', hw3Spec)
 };
 
-// OCT 5 - OCT 9
+// FEB 29 - MAR 4
 cs10.week7 = {
     readings1: [
         reading('The End of Moore\'s Law',
@@ -199,10 +199,10 @@ cs10.week7 = {
     lect2: lect('Concurrency', 'https://docs.google.com/presentation/d/1NuOa586nkC1m95X_5LYyiI4gs0s3XL5eRZF7DeH81us/pub?start=false&loop=false&delayms=3000'),
     lab2: lab('Concurrency', 'berkeley_bjc/areas/concurrency.topic'),
     disc1: disc('Recursion', true),
-    hw: hw('HW3: 2048','Monday 10/12', 'assignments/6930656', hw3Spec)
+    hw: hw('HW3: 2048','TBD', 'assignments/6930656', hw3Spec)
 };
 
-// OCT 12 - OCT 16
+// MAR 7 - 11
 cs10.week8 = {
     readings1: [
         reading('BtB chapter 2, pg. 19-29, 36-42',
@@ -215,10 +215,10 @@ cs10.week8 = {
     lect1: lect('Recursion II', 'https://docs.google.com/presentation/d/1IzvyATwwmue57YXuGLXevOyTLNgepV0xH8VaiGGHrYw/pub?start=false&loop=false&delayms=3000'),
     lect2: lect('Privacy', 'L13 - Privacy'),
     lab2: lab('Project Work Session'),
-    hw: hw('Midterm Project Proposals', 'Fri 10/16', 'assignments/6644519', mtProjSpec)
+    hw: hw('Midterm Project Proposals', 'TBD', 'assignments/6644519', mtProjSpec)
 };
 
-// OCT 19 - OCT 23
+// MAR 14 - 18
 cs10.week9 = {
     readings1: [
         reading('As We May Think',
@@ -236,11 +236,11 @@ cs10.week9 = {
     lect2: lect('HCI', 'L15 - HCI'),
     lab2: lab('Project Work Session'),
     hw: [        
-        hw('Midterm Project<br> Milestone', '10/23', 'assignments/6644521')
+        hw('Midterm Project<br> Milestone', 'TBD', 'assignments/6644521')
     ]    
 };
 
-// OCT 26 - OCT 30
+// MAR 21 - 25 (Spring Break?)
 cs10.week10 = {
     readings1: 'No Reading.', /*[
         reading('Data Explosion Creates Revolution',
@@ -263,14 +263,14 @@ cs10.week10 = {
     lect2: lect('AI', 'L17 - AI'),
     lab2: lab('Project Work Session'),
     hw: [        
-        hw('Midterm Project', '11/1', 'assignments/6644475')
+        hw('Midterm Project', 'TBD', 'assignments/6644475')
     ]        
 };
 cs10.week10.lab2.classes = 'exam';
 cs10.week10.lab2.title += '<br><br><div class="exam inner"><a href="exams/midterm.html">Midterm Exam</a><br><br>Thursday 10/29<br>8 - 10 PM | 2050 VLSB</div>';
 
 
-// NOV 2 - NOV 6
+// MAR 28 - APR 1
 cs10.week11 = {
     readings1: [
         reading('TED: What is the Internet?', 'https://www.ted.com/talks/andrew_blum_what_is_the_internet_really?language=en'),
@@ -284,12 +284,12 @@ cs10.week11 = {
     lect2: lect('The Internet II', 'https://docs.google.com/presentation/d/1Ouz8QdPT-L0x3lg77S2yBGbsqjmuKJLAG3SjxtD7zLQ/pub?start=false&loop=false&delayms=3000'),
     lab2: lab('The Internet', 'berkeley_bjc/areas/internet.topic'),
     hw: [
-        hw('"Explore" Writing Assignment', '11/6', '/discussion_topics/4250600', exploreSpec),
-        hw('Midterm Regrade Requests<br>(Gradescope)', '11/6')
+        hw('"Explore" Writing Assignment', 'TBD', '/discussion_topics/4250600', exploreSpec)
+        // hw('Midterm Regrade Requests<br>(Gradescope)', '11/6')
     ]
 };
 
-// NOV 9 - NOV 13
+// APR 4 - 8
 cs10.week12 = {
         readings1: [
         reading('Why Python is a Great First Language', 'http://blog.trinket.io/why-python/'),
@@ -302,12 +302,12 @@ cs10.week12 = {
     lect2: lect('No Lecture (Veterans Day)'),
     lab2: lab('Optional Catch-Up Day'),
     hw: [
-        hw('"Explore" Comments', '11/13', '/discussion_topics/4250600'),
-        hw('Final Project Proposal', '11/13', 'assignments/7001951', finalProjSpec)
+        hw('"Explore" Comments', 'TBD', '/discussion_topics/4250600'),
+        hw('Final Project Proposal', 'TBD', 'assignments/7001951', finalProjSpec)
     ]
 };
 
-// NOV 16 - NOV 20
+// APR 11 - 15
 cs10.week13 = {
     readings1: [
         reading('CS8 lecture 1 (watch first, optional)', 'https://www.youtube.com/watch?v=69hHbVza7XI&t=27m49s', 'optional'),
@@ -322,7 +322,7 @@ cs10.week13 = {
 };
 
 
-// NOV 23 - NOV 27
+// APR 18 - 22
 cs10.week14 = {
     readings1: [
         reading('BtB Chapter 6',
@@ -336,7 +336,7 @@ cs10.week14 = {
     hw: hw('Continue Working on your Final Project. <br> Happy Thanksgiving!')
 };
 
-// NOV 30 - DEC 4
+// APR 25 - 29
 cs10.week15 = {
     readings1: [
         reading('The Doomsday Invention', 'http://www.newyorker.com/magazine/2015/11/23/doomsday-invention-artificial-intelligence-nick-bostrom'),
@@ -348,26 +348,27 @@ cs10.week15 = {
     lect2: lect('Conclusion', 'https://docs.google.com/presentation/d/1CgPu3RBXYUyN7r0X6NpWzgGN95cZIPyfqTSNBCX7nd4/edit?usp=sharing'),
     lab2: lab('In-Lab Final Exam'),
     hw: [        
-        hw('Final Project', '12/5', 'assignments/6644476')
+        hw('Final Project', 'TBD', 'assignments/6644476')
     ]
 };
 
 // DEAD WEEK
-// MAY 4 - 7
+// MAY 2 - 6
 cs10.week16 = {
     special: 'RRR Week -- No Class',
     readings: [],
     hw: hw('Study for the Final')
 };
 
-// MAY 11 - 15
+// MAY 9 - 13
 cs10.week17 = {
     readings1: 'No Reading.',    
-    lab1: lab('Final Exam<br>Monday, 11:30 - 2:30pm<br>2050 VLSB'),
+    // lab1: lab('Final Exam<br>Monday, 11:30 - 2:30pm<br>2050 VLSB'),
+    lab1: '',
     hw: ''
 };
 cs10.week17.lab1.classes = 'exam';
-cs10.week17.lab1.title += '<br><br><div class="exam inner">Final Exam<br><br>Tuesday 5/10<br>8:00 - 11 AM</div>';
+cs10.week17.lab1.title += '<br><br><div class="exam inner">Final Exam<br><br>Tuesday 5/10<br>8:00 - 11:00 AM</div>';
 
 
 // Load the Calendar
