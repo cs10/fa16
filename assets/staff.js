@@ -134,7 +134,7 @@ var laraM = {
 /*****************************************************************************/
 
 var inst = [ GeraldF ];
-var tas = [ adamK, rachelH, alexM, amrutaY, andyS, aranyU, carlosF, claireW, erikD, jannaG, josephC, stevenT, victoriaS ];
+var tas = [ adamK, rachelH, alexM, amrutaY, andyS, aranyU, erikD, jannaG, josephC, stevenT ];
 
 //var readers = [ jobelV, katherineM, laraM ]; todo: Update this once readers are hired!
 var readers = [ ];
