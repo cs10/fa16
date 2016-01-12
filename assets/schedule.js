@@ -163,7 +163,7 @@ cs10.week5 = {
                 '{{ site.baseurl }}/resources/readings/btb/chapter3.pdf',
                 'optional')*/
     ],
-    lect1: lect('No Class Monday - President's Day'),
+    lect1: lect('No Class Monday - Presidents Day'),
     lab1: lab('Algorithmic Complexity', 'berkeley_bjc/areas/algorithm-complexity.topic', true),
     lect2: lect('Quest in Class', '../exams/quest.html'),
     lab2: lab('Finch Lab', 'berkeley_bjc/robots/robots.topic'),
