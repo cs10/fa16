@@ -36,7 +36,7 @@ cs10.week1 = {
     lab1: lab('No Labs Monday, Tuesday, or Wednesday morning'),
     lect2: lect(
         'Welcome and Abstraction',
-        'https://docs.google.com/presentation/d/1D61ydzc09hxBuins4qTef5zfKqDVXNfRflJUNBE34A8',
+        //'https://docs.google.com/presentation/d/1D61ydzc09hxBuins4qTef5zfKqDVXNfRflJUNBE34A8',
         null,
         'https://www.youtube.com/watch?v=2cl45WjH41g'
     ),
@@ -74,11 +74,11 @@ cs10.week2 = {
                 bcourses('59744796'),
                 'optional')*/
     ],
-    lect1: lect('Procedures', 'https://docs.google.com/presentation/d/1_lKWy3HeznujFDTeRfffoGSAkvVEPqzpNvKVM2jkC0c/pub'),
+    lect1: lect('Procedures'), //'https://docs.google.com/presentation/d/1_lKWy3HeznujFDTeRfffoGSAkvVEPqzpNvKVM2jkC0c/pub'),
     lab1: lab('Build Your Own Blocks', 'berkeley_bjc/intro_pair/2-loops-variables.topic'),
-    lect2: lect('Numbers and Abstraction', 'https://docs.google.com/presentation/d/1zHEl4C_jLGFVFznWPMWhDYFtcLENUU3_DubOb_H5UZs/pub'),
+    lect2: lect('Numbers and Abstraction'), //'https://docs.google.com/presentation/d/1zHEl4C_jLGFVFznWPMWhDYFtcLENUU3_DubOb_H5UZs/pub'),
     lab2: lab('Conditionals and Reporters', 'berkeley_bjc/intro_pair/3-conditionals.topic', true),
-    disc1: disc('Anatomy of a Computer and the Power of Binary', true),
+    disc1: disc('Anatomy of a Computer and the Power of Binary'),
     hw: hw('HW1: Word Guessing', '1/29', 'assignments/6644471', hw1Spec)
 };
 
@@ -107,11 +107,11 @@ cs10.week3 = {
                 'https://www.wired.com/magazine/2010/05/process_pixar/',
                 'optional')*/
     ],
-    lect1: lect('No Lecture Monday - Labor Day'),
-    lab1: lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic'),
-    lect2: lect('Programming Paradigms', 'https://docs.google.com/presentation/d/136vfh3rhRyTsGUKNv1MuUSHZqdPp4xVvt9GX3LlGX6I/pub'),
-    lab2: lab('Lists I', 'berkeley_bjc/lists/lists-I.topic', true),
-    disc1: disc('All about lists', true),
+    lect1: lect('Programming Paradigms'),
+    lab1: lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic', true),
+    lect2: lect('Multimedia Computing'), //'https://docs.google.com/presentation/d/136vfh3rhRyTsGUKNv1MuUSHZqdPp4xVvt9GX3LlGX6I/pub'),
+    lab2: lab('Lists I', 'berkeley_bjc/lists/lists-I.topic'),
+    disc1: disc('All about lists'),
     hw: hw('HW1: Word Guessing', 'TBD', 'assignments/6644471', hw1Spec)
 };
 // cs10.week3.lect3.classes = 'exam';
@@ -135,11 +135,11 @@ cs10.week4 = {
                 'https://medium.com/@_marcos_otero/the-real-10-algorithms-that-dominate-our-world-e95fa9f16c04',
                 'optional')
     ],
-    lect1: lect('Algorithms', 'https://docs.google.com/presentation/d/1VsF8pEI882QS4X6Vu3JqCkO_1d8ttp763p0cONt_GgI/pub?start=false&loop=false&delayms=3000'),
+    lect1: lect('Algorithms'), //'https://docs.google.com/presentation/d/1VsF8pEI882QS4X6Vu3JqCkO_1d8ttp763p0cONt_GgI/pub?start=false&loop=false&delayms=3000'),
     lab1: lab('Algorithms', 'berkeley_bjc/areas/algorithms.topic', true),
-    lect2: lect('Algorithmic Complexity', 'https://docs.google.com/presentation/d/1hJTCiCxmaWfhjjSFTclkGeyzrH5UVMr9vVinAt_ohFk/pub?start=false&loop=false&delayms=3000'),
+    lect2: lect('Algorithmic Complexity'), //'https://docs.google.com/presentation/d/1hJTCiCxmaWfhjjSFTclkGeyzrH5UVMr9vVinAt_ohFk/pub?start=false&loop=false&delayms=3000'),
     lab2: lab('Finish Lab 6 and HW2 help'),
-    disc1: disc('Algorithmic Complexity I', true),
+    disc1: disc('Quest Review'),
     hw: hw('HW2: Encryptify', 'TBD', 'assignments/6644472', hw2Spec)
 
     // [
@@ -163,11 +163,11 @@ cs10.week5 = {
                 '{{ site.baseurl }}/resources/readings/btb/chapter3.pdf',
                 'optional')*/
     ],
-    lect1: lect('Algorithmic Complexity II', 'https://docs.google.com/presentation/d/1oB5TmXQL3QVvob6vhhjZcu_0K1nSs-TUcTlXygfJ9v8/edit?usp=sharing'),
+    lect1: lect('No Class Monday - President's Day'),
     lab1: lab('Algorithmic Complexity', 'berkeley_bjc/areas/algorithm-complexity.topic', true),
-    lect2: lect('Cryptography', 'https://docs.google.com/presentation/d/1SLrcIoB339Qz82P9IPao2iGxKLJA9WlxTyV1QskyVwg/pub?start=false&loop=false&delayms=3000'),
+    lect2: lect('Quest in Class', '../exams/quest.html'),
     lab2: lab('Finch Lab', 'berkeley_bjc/robots/robots.topic'),
-    disc1: disc('Quest Review', true),
+    disc1: disc('Quest Debrief', true),
     hw: hw('HW2: Encryptify', 'TBD', 'assignments/6644472', hw2Spec)
     //hw: hw('HW2: Snowman', '9/18', 'assignments/6644472', 'assign.html?//docs.google.com/document/d/1iJDOxWMBnmE5lOzqmUi_-F-HoSyGuQrzn-COiGQd29Y/pub')
 };
