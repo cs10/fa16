@@ -165,7 +165,7 @@ cs10.week5 = {
     ],
     lect1: lect('No Class Monday - Presidents Day'),
     lab1: lab('Algorithmic Complexity', 'berkeley_bjc/areas/algorithm-complexity.topic', true),
-    lect2: lect('Quest In Class',),
+    lect2: lect('Quest In Class'),
     lab2: lab('Finch Lab', 'berkeley_bjc/robots/robots.topic'),
     disc1: disc('Quest Debrief'),
     hw: hw('HW2: Encryptify', 'TBD', 'assignments/6644472', hw2Spec)
