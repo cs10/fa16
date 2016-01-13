@@ -165,24 +165,24 @@ cs10.week5 = {
     ],
     lect1: lect('No Class Monday - Presidents Day'),
     lab1: lab('Algorithmic Complexity', 'berkeley_bjc/areas/algorithm-complexity.topic', true),
-    lect2: lect('Quest in Class', '../exams/quest.html'),
+    lect2: lect('Quest In Class',),
     lab2: lab('Finch Lab', 'berkeley_bjc/robots/robots.topic'),
-    disc1: disc('Quest Debrief', true),
+    disc1: disc('Quest Debrief'),
     hw: hw('HW2: Encryptify', 'TBD', 'assignments/6644472', hw2Spec)
     //hw: hw('HW2: Snowman', '9/18', 'assignments/6644472', 'assign.html?//docs.google.com/document/d/1iJDOxWMBnmE5lOzqmUi_-F-HoSyGuQrzn-COiGQd29Y/pub')
 };
-// cs10.week5.lect3.classes = 'exam';
-// cs10.week5.lect3.title += '<br><a href="exams/midterm.html">Midterm Exam</a><br><br>Weds 7/22<br>6 - 8 PM<br>159 Mulford';
-// cs10.week5.lab2.classes = 'exam';
+ cs10.week5.lect2.classes = 'exam';
+ cs10.week5.lect3.title += '<br><a href="exams/quest.html">Quest</a><br><br>Weds 2/17<br>In Class<br>105 Stanley';
+ //cs10.week5.lab2.classes = 'exam';
 
 // FEB 22 - 26
 cs10.week6 = {
     readings1: 'No Reading.<br><b>Quest Review 1 - 3 PM in 2050 VLSB on 9/27</br>',
-    lect1: lect('Testing', 'https://docs.google.com/presentation/d/1EqmuMag-_swWmEQvi9coK0_J2fl0N0H1p6NuNr9WaaI/edit?usp=sharing'),
+    lect1: lect('Testing'), //'https://docs.google.com/presentation/d/1EqmuMag-_swWmEQvi9coK0_J2fl0N0H1p6NuNr9WaaI/edit?usp=sharing'),
     lab1: lab('No Labs Monday Quest Help and Review'),
-    lect2: lect('Quest In Class', '../exams/quest.html'),
+    lect2: lect('Recursion I'),
     lab2: lab('Testing, HW3', 'berkeley_bjc/2048-testing/2048.topic'),
-    disc1: disc('Quest Debrief'),
+    disc1: disc('TBD'),
     hw: hw('HW3: 2048','TBD', 'assignments/6930656', hw3Spec)
 };
 
@@ -194,9 +194,9 @@ cs10.week7 = {
         reading('eWEEK at 30: Multicore CPUs Keep Chip Makers in Step With Moore\'s Law',
             'https://docs.google.com/document/d/1FC-_lcn_EWlGXLfPDlQbSQeE1Q4NpTG39S-kVkHRxv8/edit?usp=sharing')
     ],
-    lect1: lect('Recursion I', 'https://docs.google.com/presentation/d/1b_vwq1xO3zFWTAexXv-QFydbRVGoInM1sLIO32zAUMU/pub?start=false&loop=false&delayms=3000'),
+    lect1: lect('HCI'), //'https://docs.google.com/presentation/d/1b_vwq1xO3zFWTAexXv-QFydbRVGoInM1sLIO32zAUMU/pub?start=false&loop=false&delayms=3000'),
     lab1: lab('Trees and Fractals Using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic', true),
-    lect2: lect('Concurrency', 'https://docs.google.com/presentation/d/1NuOa586nkC1m95X_5LYyiI4gs0s3XL5eRZF7DeH81us/pub?start=false&loop=false&delayms=3000'),
+    lect2: lect('Computer Vision'), //'https://docs.google.com/presentation/d/1NuOa586nkC1m95X_5LYyiI4gs0s3XL5eRZF7DeH81us/pub?start=false&loop=false&delayms=3000'),
     lab2: lab('Concurrency', 'berkeley_bjc/areas/concurrency.topic'),
     disc1: disc('Recursion', true),
     hw: hw('HW3: 2048','TBD', 'assignments/6930656', hw3Spec)
@@ -212,8 +212,8 @@ cs10.week8 = {
     ],
     disc1: disc('More Recursion', true),
     lab1: lab('Recursive Reporters I', 'berkeley_bjc/recur/recursive-reporters-part1.topic', true),
-    lect1: lect('Recursion II', 'https://docs.google.com/presentation/d/1IzvyATwwmue57YXuGLXevOyTLNgepV0xH8VaiGGHrYw/pub?start=false&loop=false&delayms=3000'),
-    lect2: lect('Privacy', 'L13 - Privacy'),
+    lect1: lect('Recursion II'), //'https://docs.google.com/presentation/d/1IzvyATwwmue57YXuGLXevOyTLNgepV0xH8VaiGGHrYw/pub?start=false&loop=false&delayms=3000'),
+    lect2: lect('Algorithmic Complexity II'), //'L13 - Privacy'),
     lab2: lab('Project Work Session'),
     hw: hw('Midterm Project Proposals', 'TBD', 'assignments/6644519', mtProjSpec)
 };
@@ -232,8 +232,8 @@ cs10.week9 = {
     ],
     disc1: disc('Midterm Review'),
     lab1: lab('Tic Tac Toe', 'berkeley_bjc/lists/tic-tac-toe.topic', true),
-    lect1: lect('The Internet I', 'https://docs.google.com/presentation/d/1o4GtTha_TbRNCvqp7wEchJxGaeoENnH3KTX0Hl6nvD0/edit?usp=sharing'),
-    lect2: lect('HCI', 'L15 - HCI'),
+    lect1: lect('Concurrency'), //'https://docs.google.com/presentation/d/1o4GtTha_TbRNCvqp7wEchJxGaeoENnH3KTX0Hl6nvD0/edit?usp=sharing'),
+    lect2: lect('The Internet I'), //'L15 - HCI'),
     lab2: lab('Project Work Session'),
     hw: [        
         hw('Midterm Project<br> Milestone', 'TBD', 'assignments/6644521')
@@ -242,32 +242,37 @@ cs10.week9 = {
 
 // MAR 21 - 25 (Spring Break?)
 cs10.week10 = {
-    readings1: 'No Reading.', /*[
-        reading('Data Explosion Creates Revolution',
-                'http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2011/10/19/BU5K1LJ4R3.DTL'),
-        reading('Data Mining',
-                'https://webdocs.cs.ualberta.ca/~zaiane/courses/cmput690/notes/Chapter1/ch1.pdf'),
-        reading('IBM\'s Watson supercomputer to speed up cancer care',
-                'http://www.bbc.com/news/technology-32607688'),
-        reading('Data Pitfalls',
-                'https://searchenginewatch.com/article/2289574/Big-Data-Big-Trouble-How-to-Avoid-5-Data-Analysis-Pitfalls',
-                'optional'),
-        // TODO: bCourses
-        reading('Computing as Social Science',
-                'https://cacm.acm.org/magazines/2009/4/22953-computing-as-social-science/fulltext',
-                'optional')
-    ],*/
-    disc1: disc('Midterm Debrief'),
-    lab1: lab('Online <span class="snap">snap</span> Midterm'),
-    lect1: lect('Social Implications', 'https://docs.google.com/presentation/d/1a429t0fmkv98dXn1TJGCyxOAiwHiGY7_fZ9ctIRPFD4/edit?usp=sharing'),
-    lect2: lect('AI', 'L17 - AI'),
-    lab2: lab('Project Work Session'),
-    hw: [        
-        hw('Midterm Project', 'TBD', 'assignments/6644475')
-    ]        
+    special: 'Spring Break -- No Class',
+    readings: [],
+    //hw: hw('Study for the Final')
 };
-cs10.week10.lab2.classes = 'exam';
-cs10.week10.lab2.title += '<br><br><div class="exam inner"><a href="exams/midterm.html">Midterm Exam</a><br><br>Thursday 10/29<br>8 - 10 PM | 2050 VLSB</div>';
+//cs10.week10 = {
+    //readings1: 'No Reading.', /*[
+        //reading('Data Explosion Creates Revolution',
+                //'http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2011/10/19/BU5K1LJ4R3.DTL'),
+        //reading('Data Mining',
+                //'https://webdocs.cs.ualberta.ca/~zaiane/courses/cmput690/notes/Chapter1/ch1.pdf'),
+        //reading('IBM\'s Watson supercomputer to speed up cancer care',
+                //'http://www.bbc.com/news/technology-32607688'),
+        //reading('Data Pitfalls',
+                //'https://searchenginewatch.com/article/2289574/Big-Data-Big-Trouble-How-to-Avoid-5-Data-Analysis-Pitfalls',
+                //'optional'),
+        // TODO: bCourses
+        //reading('Computing as Social Science',
+                //'https://cacm.acm.org/magazines/2009/4/22953-computing-as-social-science/fulltext',
+                //'optional')
+    //],*/
+    //disc1: disc('No Discussion - Spring Break'),
+    //lab1: lab('No lab - Spring Break'),
+    //lect1: lect('No Lecture - Spring Break'),
+    //lect2: lect('No Lecture - Spring Break'),
+    //lab2: lab('No Lab - Spring Break'),
+    //hw: [        
+        //hw('Midterm Project', 'TBD', 'assignments/6644475')
+    //]        
+//};
+//cs10.week10.lab2.classes = 'exam';
+//cs10.week10.lab2.title += '<br><br><div class="exam inner"><a href="exams/midterm.html">Midterm Exam</a><br><br>Thursday 10/29<br>8 - 10 PM | 2050 VLSB</div>';
 
 
 // MAR 28 - APR 1
@@ -280,8 +285,8 @@ cs10.week11 = {
     ],
     disc1: disc('The Internet | Data and HOFs', true),
     lab1: lab('Functions as Data and HOFs', 'berkeley_bjc/hofs/hofs-practice.topic', true),
-    lect1: lect('Functions as Data', 'https://docs.google.com/presentation/d/1TwO63UECd9I4ufKDYUj9LDFT6RrDOtFQlbbcC9oBebE/pub?start=false&loop=false&delayms=3000'),
-    lect2: lect('The Internet II', 'https://docs.google.com/presentation/d/1Ouz8QdPT-L0x3lg77S2yBGbsqjmuKJLAG3SjxtD7zLQ/pub?start=false&loop=false&delayms=3000'),
+    lect1: lect('The Internet II'), //'https://docs.google.com/presentation/d/1TwO63UECd9I4ufKDYUj9LDFT6RrDOtFQlbbcC9oBebE/pub?start=false&loop=false&delayms=3000'),
+    lect2: lect('Privacy'), //'https://docs.google.com/presentation/d/1Ouz8QdPT-L0x3lg77S2yBGbsqjmuKJLAG3SjxtD7zLQ/pub?start=false&loop=false&delayms=3000'),
     lab2: lab('The Internet', 'berkeley_bjc/areas/internet.topic'),
     hw: [
         hw('"Explore" Writing Assignment', 'TBD', '/discussion_topics/4250600', exploreSpec)
@@ -298,8 +303,8 @@ cs10.week12 = {
     ],
     disc1: disc('Social Implications of Computing | More HoF and Call Work', true),
     lab1: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic', true),
-    lect1: lect('Python I', 'https://docs.google.com/presentation/d/1dqoMCkDFxoGusaJBwyvMYMgoPY47wUt8WRgG1HOVfLQ/edit?usp=sharing'),
-    lect2: lect('No Lecture (Veterans Day)'),
+    lect1: lect('Lambda + HOFs'), //'https://docs.google.com/presentation/d/1dqoMCkDFxoGusaJBwyvMYMgoPY47wUt8WRgG1HOVfLQ/edit?usp=sharing'),
+    lect2: lect('Intro to Python'),
     lab2: lab('Optional Catch-Up Day'),
     hw: [
         hw('"Explore" Comments', 'TBD', '/discussion_topics/4250600'),
@@ -315,8 +320,8 @@ cs10.week13 = {
     ],    
     disc1: disc('All about Python', true),
     lab1: lab('Besides Blocks: Data Structures in Python', 'berkeley_bjc/python/besides-blocks-data-struct.topic', true), //, 'berkeley_bjc/python/besides-blocks-data-struct.topic', true),
-    lect1: lect('CS10 Alumni Panel'),
-    lect2: lect('Python II', 'https://docs.google.com/presentation/d/1MLG5pjfSrvZ17WNp5CSfPbPa3QOnxKtNGKlfRIGgEPw/edit?usp=sharing'),
+    lect1: lect('Social Implications - Copyright'),
+    lect2: lect('Social Implications - Cryptography and Security)', //'https://docs.google.com/presentation/d/1MLG5pjfSrvZ17WNp5CSfPbPa3QOnxKtNGKlfRIGgEPw/edit?usp=sharing'),
     lab2: lab('Besides Blocks: Text Processing in Python', 'berkeley_bjc/python/besides-blocks-text-processing.topic'), //, 'berkeley_bjc/python/besides-blocks-data.topic'),
     hw: hw('Final Project Milestone', '11/20', 'assignments/6644523')
 };
@@ -330,8 +335,8 @@ cs10.week14 = {
         ],
     disc1: disc('No Discussion (Thanksgiving)'),
     lab1: lab('Project Work Session'),
-    lect1: lect('Limits of Computing', 'https://docs.google.com/presentation/d/1SvosTLRIU9IfgXD75v_lctIOvHaBARc9sm7Y5Dn-J8g/pub?start=false&loop=false&delayms=3000'),
-    lect2: lect('No Lecture (Thanksgiving)'),
+    lect1: lect('Python II'), //'https://docs.google.com/presentation/d/1SvosTLRIU9IfgXD75v_lctIOvHaBARc9sm7Y5Dn-J8g/pub?start=false&loop=false&delayms=3000'),
+    lect2: lect('Limits of Computing'),
     lab2: lab('No Lab (Thanksgiving)'),
     hw: hw('Continue Working on your Final Project. <br> Happy Thanksgiving!')
 };
@@ -344,8 +349,8 @@ cs10.week15 = {
     ],       
     disc1: disc('Farewell! Recap and Feedback'),
     lab1: lab('Project Work Session'),
-    lect1: lect('Computing: Past, Present, Future', 'https://docs.google.com/presentation/d/1_k3boAVzNT3W_z-uhmbdP5tugM4PUuGwT-BPSmU8A-o/pub?start=false&loop=false&delayms=3000'),
-    lect2: lect('Conclusion', 'https://docs.google.com/presentation/d/1CgPu3RBXYUyN7r0X6NpWzgGN95cZIPyfqTSNBCX7nd4/edit?usp=sharing'),
+    lect1: lect('Future of Computing'), //'https://docs.google.com/presentation/d/1_k3boAVzNT3W_z-uhmbdP5tugM4PUuGwT-BPSmU8A-o/pub?start=false&loop=false&delayms=3000'),
+    lect2: lect('Conclusion'), //'https://docs.google.com/presentation/d/1CgPu3RBXYUyN7r0X6NpWzgGN95cZIPyfqTSNBCX7nd4/edit?usp=sharing'),
     lab2: lab('In-Lab Final Exam'),
     hw: [        
         hw('Final Project', 'TBD', 'assignments/6644476')
