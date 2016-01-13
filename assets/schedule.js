@@ -244,7 +244,7 @@ cs10.week9 = {
 cs10.week10 = {
     special: 'Spring Break -- No Class',
     readings: [],
-    //hw: hw('Study for the Final')
+    hw: hw('TBD')
 };
 //cs10.week10 = {
     //readings1: 'No Reading.', /*[
@@ -337,7 +337,7 @@ cs10.week14 = {
     lab1: lab('Project Work Session'),
     lect1: lect('Python II'), //'https://docs.google.com/presentation/d/1SvosTLRIU9IfgXD75v_lctIOvHaBARc9sm7Y5Dn-J8g/pub?start=false&loop=false&delayms=3000'),
     lect2: lect('Limits of Computing'),
-    lab2: lab('No Lab (Thanksgiving)'),
+    lab2: lab('No Lab'),
     hw: hw('Continue Working on your Final Project. <br> Happy Thanksgiving!')
 };
 
