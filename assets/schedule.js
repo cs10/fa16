@@ -172,7 +172,7 @@ cs10.week5 = {
     //hw: hw('HW2: Snowman', '9/18', 'assignments/6644472', 'assign.html?//docs.google.com/document/d/1iJDOxWMBnmE5lOzqmUi_-F-HoSyGuQrzn-COiGQd29Y/pub')
 };
  cs10.week5.lect2.classes = 'exam';
- cs10.week5.lect3.title += '<br><a href="exams/quest.html">Quest</a><br><br>Weds 2/17<br>In Class<br>105 Stanley';
+ cs10.week5.lect2.title += '<br><a href="exams/quest.html">Quest</a><br><br>Weds 2/17<br>In Class<br>105 Stanley';
  //cs10.week5.lab2.classes = 'exam';
 
 // FEB 22 - 26
