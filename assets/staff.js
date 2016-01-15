@@ -21,6 +21,13 @@ GeraldF = {
     email: 'fractor@icsi.berkeley.edu',
 };
 
+JustinH = {
+    name: 'Lecturer Justin Hsia'
+    img: 'Sp16/Justin.jpg'
+    imgSrc: 'Justin.jpg'
+    email: 'jhsia@eecs.berkeley.edu'
+};
+
 
 // TAs
 
@@ -133,7 +140,7 @@ var laraM = {
 /** LIST DEFINITIONS **/
 /*****************************************************************************/
 
-var inst = [ GeraldF ];
+var inst = [ GeraldF, JustinH ];
 var tas = [ adamK, rachelH, alexM, amrutaY, andyS, aranyU, erikD, jannaG, josephC, stevenT ];
 
 //var readers = [ jobelV, katherineM, laraM ]; todo: Update this once readers are hired!
