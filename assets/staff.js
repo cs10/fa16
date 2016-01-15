@@ -100,8 +100,10 @@ var josephC = {
 var laraM = {
     name: 'TA Lara McConnaughey',
     img: 'Su15/LaraMcConnaughey.jpg',
-    imgSrc: 'LaraMcConnaughey.jpg' };
-    
+    imgSrc: 'LaraMcConnaughey.jpg',
+    email: 'laram@berkeley.edu'
+};
+
 var stevenT = {
     name: 'Development TA Steven Traversi',
     img: 'Sp14/StevenTraversi.jpg',
