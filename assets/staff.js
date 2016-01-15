@@ -53,7 +53,7 @@ var amrutaY = {
 
 
 var andyS = {
-    name: 'TA Andy Schmitt',
+    name: 'Development TA Andy Schmitt',
     img: 'Sp14/AndrewSchmitt.jpg',
     imgSrc: 'AndrewSchmitt.jpg',
     email: 'andy@cs10.org'};
@@ -97,8 +97,13 @@ var josephC = {
     imgSrc: 'JosephCawthorne.jpg',
     email: 'joseph@cs10.org' };
     
+var laraM = {
+    name: 'TA Lara McConnaughey',
+    img: 'Su15/LaraMcConnaughey.jpg',
+    imgSrc: 'LaraMcConnaughey.jpg' };
+    
 var stevenT = {
-    name: 'TA Steven Traversi',
+    name: 'Development TA Steven Traversi',
     img: 'Sp14/StevenTraversi.jpg',
     imgSrc: 'StevenTraversi.jpg',
     imgCrazy: 'StevenTraversiCrazy.jpg',
@@ -108,7 +113,7 @@ var stevenT = {
 };
 
 var victoriaS = {
-    name: 'TA Victoria Shi',
+    name: 'Development TA Victoria Shi',
     img: 'Fa13/VictoriaShi.jpg',
     imgSrc: 'VictoriaShi.jpg',
     // bio: 'VictoriaBio.txt',
@@ -125,10 +130,6 @@ var katherineM = {
     img: 'Su15/KatherineMcGauley.jpg',
     imgSrc: 'KatherineMcGauley.jpg' };
 
-var laraM = {
-    name: 'Reader Lara McConnaughey',
-    img: 'Su15/LaraMcConnaughey.jpg',
-    imgSrc: 'LaraMcConnaughey.jpg' };
 
 
 /*****************************************************************************/
@@ -136,7 +137,7 @@ var laraM = {
 /*****************************************************************************/
 
 var inst = [ GeraldF, JustinH ];
-var tas = [ adamK, rachelH, alexM, amrutaY, andyS, aranyU, erikD, jannaG, josephC, stevenT ];
+var tas = [ adamK, rachelH, alexM, amrutaY, aranyU, erikD, jannaG, josephC, laraM, andyS, stevenT, victoriaS ];
 
 //var readers = [ jobelV, katherineM, laraM ]; todo: Update this once readers are hired!
 var readers = [ ];
