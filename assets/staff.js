@@ -18,13 +18,13 @@ GeraldF = {
     img: 'Fa13/Gerald.jpg',
     imgSrc: 'Gerald.jpg',
     //bio: 'DanBio.txt',
-    email: 'fractor@icsi.berkeley.edu',
+    email: 'fractor@icsi.berkeley.edu'
 };
 
 JustinH = {
-    name: 'Lecturer Justin Hsia'
-    img: 'Sp16/Justin.jpg'
-    imgSrc: 'Justin.jpg'
+    name: 'Lecturer Justin Hsia',
+    img: 'Sp16/Justin.jpg',
+    imgSrc: 'Justin.jpg',
     email: 'jhsia@eecs.berkeley.edu'
 };
 
