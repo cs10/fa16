@@ -6,12 +6,7 @@
     //imgSrc: 'JoshHug.jpg',
     //email: 'hug@cs.berkeley.edu'
 //};
-//var JustinHsia = {
-    //name: 'Instructor Justin Hsia'
-    //img: 'None yet'
-    //imgSrc: 'None yet',
-    //email: 'Not yet'
-//};
+
 
 GeraldF = {
     name: 'Dr. Gerald Friedland',
@@ -22,7 +17,7 @@ GeraldF = {
 };
 
 JustinH = {
-    name: 'Lecturer Justin Hsia',
+    name: 'Instructor Justin Hsia',
     img: 'Sp16/Justin.jpg',
     imgSrc: 'Justin.jpg',
     email: 'jhsia@eecs.berkeley.edu'
