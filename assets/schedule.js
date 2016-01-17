@@ -79,7 +79,7 @@ cs10.week2 = {
     lect2: lect('Numbers and Abstraction'), //'https://docs.google.com/presentation/d/1zHEl4C_jLGFVFznWPMWhDYFtcLENUU3_DubOb_H5UZs/pub'),
     lab2: lab('Conditionals and Reporters', 'berkeley_bjc/intro_pair/3-conditionals.topic', true),
     disc1: disc('Anatomy of a Computer and the Power of Binary'),
-    hw: hw('HW1: Word Guessing', '1/29', 'assignments/6644471', hw1Spec)
+    hw: hw('HW1: Word Guessing', 'TBD', 'assignments/6644471', hw1Spec)
 };
 
 // FEB 1 - 5
