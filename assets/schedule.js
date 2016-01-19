@@ -42,7 +42,7 @@ cs10.week1 = {
     ),
     lab2: lab("Welcome to <span class='snap'>snap</span>", "berkeley_bjc/intro_pair/1-introduction.topic"),
     disc1: disc('Welcome to CS10!'),
-    hw: hw('HW0', '1/22', 'quizzes/2037517')
+    hw: hw('HW0', '1/24', 'quizzes/2162430')
 };
 
 // JAN 25 - 29
@@ -323,7 +323,7 @@ cs10.week13 = {
     lect1: lect('Social Implications - Copyright'),
     lect2: lect('Social Implications - Cryptography and Security'), //'https://docs.google.com/presentation/d/1MLG5pjfSrvZ17WNp5CSfPbPa3QOnxKtNGKlfRIGgEPw/edit?usp=sharing'),
     lab2: lab('Besides Blocks: Text Processing in Python', 'berkeley_bjc/python/besides-blocks-text-processing.topic'), //, 'berkeley_bjc/python/besides-blocks-data.topic'),
-    hw: hw('Final Project Milestone', '11/20', 'assignments/6644523')
+    hw: hw('Final Project Milestone', 'TBD', 'assignments/6644523')
 };
 
 
