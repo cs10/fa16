@@ -129,7 +129,7 @@ var yifatA = {
 };
 
 var williamT = {
-  name: 'TA William Tang'
+  name: 'TA William Tang',
   img: 'NPY3D.jpg',
   imgSrc: 'NPY3D.jpg',
   email: 'william-t@berkeley.edu'
