@@ -201,7 +201,7 @@ cs10.week7 = {
     lab1: lab('Trees and Fractals Using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic', true),
     lect2: lect('Computer Vision'), //'https://docs.google.com/presentation/d/1NuOa586nkC1m95X_5LYyiI4gs0s3XL5eRZF7DeH81us/pub?start=false&loop=false&delayms=3000'),
     lab2: lab('Concurrency', 'berkeley_bjc/areas/concurrency.topic'),
-    disc1: disc('Recursion', true),
+    disc1: disc('Recursion'),
     hw: hw('HW3: 2048','TBD', 'assignments/6930656', hw3Spec)
 };
 
@@ -234,7 +234,7 @@ cs10.week9 = {
                 'hard')*/
     ],
     disc1: disc('Midterm Review'),
-    lab1: lab('Tic Tac Toe', 'berkeley_bjc/lists/tic-tac-toe.topic', true),
+    lab1: lab('Tic Tac Toe', 'berkeley_bjc/lists/tic-tac-toe.topic'),
     lect1: lect('Concurrency'), //'https://docs.google.com/presentation/d/1o4GtTha_TbRNCvqp7wEchJxGaeoENnH3KTX0Hl6nvD0/edit?usp=sharing'),
     lect2: lect('The Internet I'), //'L15 - HCI'),
     lab2: lab('Project Work Session'),
@@ -286,7 +286,7 @@ cs10.week11 = {
         reading('What is the Internet?', 'https://www.youtube.com/watch?v=UlJku_CSyNg', 'optional'),
         reading('BtB pg. 305-316', 'https://drive.google.com/file/d/0B3vESj3HTRTkbVo1dTV5SUp4T0U/view?usp=sharing', 'optional')  
     ],
-    disc1: disc('The Internet | Data and HOFs', true),
+    disc1: disc('The Internet | Data and HOFs'),
     lab1: lab('Functions as Data and HOFs', 'berkeley_bjc/hofs/hofs-practice.topic', true),
     lect1: lect('The Internet II'), //'https://docs.google.com/presentation/d/1TwO63UECd9I4ufKDYUj9LDFT6RrDOtFQlbbcC9oBebE/pub?start=false&loop=false&delayms=3000'),
     lect2: lect('Privacy'), //'https://docs.google.com/presentation/d/1Ouz8QdPT-L0x3lg77S2yBGbsqjmuKJLAG3SjxtD7zLQ/pub?start=false&loop=false&delayms=3000'),
