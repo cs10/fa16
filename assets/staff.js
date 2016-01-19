@@ -120,6 +120,20 @@ var victoriaS = {
     imgSrc: 'VictoriaShi.jpg',
     // bio: 'VictoriaBio.txt',
     email: 'victoria@cs10.org' };
+    
+var yifatA = {
+  name: 'TA Yifat Amir',
+  img: 'NPY3D.jpg',
+  imgSrc: 'NPY3D.jpg',
+  email: 'yifatamir@berkeley.edu'
+};
+
+var williamT = {
+  name: 'TA William Tang'
+  img: 'NPY3D.jpg',
+  imgSrc: 'NPY3D.jpg',
+  email: 'william-t@berkeley.edu'
+};
 
 // Readers
 var jobelV = {
@@ -139,7 +153,7 @@ var katherineM = {
 /*****************************************************************************/
 
 var inst = [ GeraldF, JustinH ];
-var tas = [ adamK, rachelH, alexM, amrutaY, aranyU, erikD, jannaG, josephC, laraM, andyS, stevenT, victoriaS ];
+var tas = [ adamK, rachelH, alexM, amrutaY, aranyU, erikD, jannaG, josephC, laraM, williamT, yifatA, andyS, stevenT, victoriaS ];
 
 //var readers = [ jobelV, katherineM, laraM ]; todo: Update this once readers are hired!
 var readers = [ ];
