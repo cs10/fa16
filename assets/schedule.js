@@ -150,9 +150,9 @@ cs10.week4 = {
 
 // FEB 15 - 19 (President's Day: Monday)
 cs10.week5 = {
-    readings1: [
-        reading('BtB Chapter 5',
-                'http://www.bitsbook.com/wp-content/uploads/2008/12/chapter5.pdf'),
+    readings1: 'TBD',//[
+        //reading('BtB Chapter 5',
+                //'http://www.bitsbook.com/wp-content/uploads/2008/12/chapter5.pdf'),
         /*reading('BtB Chapter 4 Reading Segment 2',
                 '{{ site.baseurl }}/resources/readings/btb/BtB4-pt2.pdf'),*/
         // TODO: This is paywalled....
@@ -162,7 +162,7 @@ cs10.week5 = {
         reading('BtB Chapter 3',
                 '{{ site.baseurl }}/resources/readings/btb/chapter3.pdf',
                 'optional')*/
-    ],
+    //],
     lect1: lect('No Class Monday - Presidents Day'),
     lab1: lab('Algorithmic Complexity', 'berkeley_bjc/areas/algorithm-complexity.topic', true),
     lect2: lect('Quest In Class'),
@@ -177,9 +177,12 @@ cs10.week5 = {
 
 // FEB 22 - 26
 cs10.week6 = {
-    readings1: 'No Reading.<br><b>Quest Review 1 - 3 PM in 2050 VLSB on 9/27</br>',
+    readings1: [
+    reading('BtB Chapter 5',
+            'http://www.bitsbook.com/wp-content/uploads/2008/12/chapter5.pdf'),
+        ],//'No Reading.<br><b>Quest Review 1 - 3 PM in 2050 VLSB on 9/27</br>',
     lect1: lect('Testing'), //'https://docs.google.com/presentation/d/1EqmuMag-_swWmEQvi9coK0_J2fl0N0H1p6NuNr9WaaI/edit?usp=sharing'),
-    lab1: lab('No Labs Monday Quest Help and Review'),
+    lab1: lab('TBD'),
     lect2: lect('Recursion I'),
     lab2: lab('Testing, HW3', 'berkeley_bjc/2048-testing/2048.topic'),
     disc1: disc('TBD'),
