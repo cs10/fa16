@@ -17,7 +17,7 @@ GeraldF = {
 };
 
 JustinH = {
-    name: 'Instructor Justin Hsia',
+    name: 'Dr. Justin Hsia',
     img: 'Sp16/Justin.jpg',
     imgSrc: 'JustinHsia.jpg',
     email: 'jhsia@eecs.berkeley.edu'
