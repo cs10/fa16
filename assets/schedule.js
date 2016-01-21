@@ -35,10 +35,10 @@ cs10.week1 = {
     lect1: lect('No Lecture Monday'),
     lab1: lab('No Labs Monday, Tuesday, or Wednesday morning'),
     lect2: lect(
-        'Welcome and Abstraction',
+        'Welcome and Abstraction'
         //'https://docs.google.com/presentation/d/1D61ydzc09hxBuins4qTef5zfKqDVXNfRflJUNBE34A8',
         //null,
-        'https://www.youtube.com/watch?v=2cl45WjH41g'
+        //'https://www.youtube.com/watch?v=2cl45WjH41g'
     ),
     lab2: lab("Welcome to <span class='snap'>snap</span>", "berkeley_bjc/intro_pair/1-introduction.topic"),
     disc1: disc('Welcome to CS10!'),
