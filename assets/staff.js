@@ -30,7 +30,8 @@ var adamK = {
     name: 'Head TA Adam Kuphaldt',
     img: 'Sp14/AdamKuphaldt.jpg',
     imgSrc: 'AdamKuphaldt.jpg',
-    email: 'adam@cs10.org' };
+    email: 'adam@cs10.org',
+    web: 'https://linkedin.com/in/adam-kuphaldt-16a33768' };
 
 var rachelH = {
     name: 'Head TA Rachel Huang',
