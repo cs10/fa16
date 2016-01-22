@@ -36,7 +36,7 @@ cs10.week1 = {
     lab1: lab('No Labs Monday, Tuesday, or Wednesday morning'),
     lect2: lect(
         'Welcome and Abstraction'
-        //'https://docs.google.com/presentation/d/1D61ydzc09hxBuins4qTef5zfKqDVXNfRflJUNBE34A8',
+        'https://docs.google.com/a/berkeley.edu/presentation/d/1T9abQi3qjhWi4ws0pADRiYBkpP-lvs5TKyokVPJWUFU/edit?usp=sharing'
         //null,
         //'https://www.youtube.com/watch?v=2cl45WjH41g'
     ),
