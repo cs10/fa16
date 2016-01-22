@@ -146,6 +146,30 @@ var katherineM = {
     img: 'Su15/KatherineMcGauley.jpg',
     imgSrc: 'KatherineMcGauley.jpg' };
 
+var lucasK = {
+    name: 'Reader Lucas Karahadian',
+    img: 'NPY3D.jpg',
+    imgSrc: 'NPY3D.jpg',
+};
+
+var meghnaD = {
+    name: 'Reader Meghna Dasgupta',
+    img: 'NPY3D.jpg',
+    imgSrc: 'NPY3D.jpg',
+};
+
+var addisonH = {
+    name: 'Reader Addison Howe',
+    img: 'NPY3D.jpg',
+    imgSrc: 'NPY3D.jpg',
+};
+
+var elizabethS = {
+    name: 'Reader Elizabeth Steger',
+    img: 'NPY3D.jpg',
+    imgSrc: 'NPY3D.jpg',
+};
+
 
 
 /*****************************************************************************/
@@ -156,7 +180,7 @@ var inst = [ GeraldF, JustinH ];
 var tas = [ adamK, rachelH, alexM, amrutaY, aranyU, erikD, jannaG, josephC, laraM, williamT, yifatA, andyS, stevenT, victoriaS ];
 
 //var readers = [ jobelV, katherineM, laraM ]; todo: Update this once readers are hired!
-var readers = [ ];
+var readers = [ addisonH, elizabethS, jobelV, lucasK, meghnaD ];
 
 // If you need to add a new SECTION add it to this object.
 // Follow the same format.
