@@ -13,14 +13,14 @@ GeraldF = {
     img: 'Fa13/Gerald.jpg',
     imgSrc: 'Gerald.jpg',
     //bio: 'DanBio.txt',
-    email: 'fractor@icsi.berkeley.edu'
+    email: 'gerald@cs10.org'
 };
 
 JustinH = {
     name: 'Dr. Justin Hsia',
     img: 'Sp16/Justin.jpg',
     imgSrc: 'JustinHsia.jpg',
-    email: 'jhsia@eecs.berkeley.edu'
+    email: 'justin@cs10.org'
 };
 
 
@@ -43,13 +43,13 @@ var alexM = {
     name: 'TA Alex McKinney',
     img: 'Sp14/AlexMcKinney.jpg',
     imgSrc: 'AlexMcKinney.jpg',
-    email: 'amckinney@berkeley.edu'};
+    email: 'alex@cs10.org'};
     
 var amrutaY = {
     name: 'TA Amruta Yelamanchili',
     img: 'Sp14/AmrutaYelamanchili.jpg',
     imgSrc: 'AmrutaYelamanchili.jpg',
-    email: 'amrutayel@berkeley.edu'};
+    email: 'amruta@cs10.org'};
 
 
 var andyS = {
@@ -88,7 +88,7 @@ var jannaG = {
     name: 'TA Janna Golden',
     img: 'Sp14/JannaGolden.jpg',
     imgSrc: 'JannaGolden.jpg',
-    email: 'jannagolden@berkeley.edu'
+    email: 'janna@cs10.org'
 };
 
 var josephC = {
@@ -101,7 +101,7 @@ var laraM = {
     name: 'TA Lara McConnaughey',
     img: 'Su15/LaraMcConnaughey.jpg',
     imgSrc: 'LaraMcConnaughey.jpg',
-    email: 'laram@berkeley.edu'
+    email: 'lara@cs10.org'
 };
 
 var stevenT = {
@@ -125,14 +125,14 @@ var yifatA = {
   name: 'TA Yifat Amir',
   img: 'NPY3D.jpg',
   imgSrc: 'NPY3D.jpg',
-  email: 'yifatamir@berkeley.edu'
+  email: 'yifat@cs10.org'
 };
 
 var williamT = {
   name: 'TA William Tang',
   img: 'NPY3D.jpg',
   imgSrc: 'NPY3D.jpg',
-  email: 'william-t@berkeley.edu'
+  email: 'william@cs10.org'
 };
 
 // Readers
