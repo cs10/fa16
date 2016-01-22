@@ -123,8 +123,8 @@ var victoriaS = {
     
 var yifatA = {
   name: 'TA Yifat Amir',
-  img: 'NPY3D.jpg',
-  imgSrc: 'NPY3D.jpg',
+  img: 'sp16/YifatAmir.jpg',
+  imgSrc: 'YifatAmir.jpg',
   email: 'yifat@cs10.org'
 };
 
@@ -166,8 +166,8 @@ var addisonH = {
 
 var elizabethS = {
     name: 'Reader Elizabeth Steger',
-    img: 'NPY3D.jpg',
-    imgSrc: 'NPY3D.jpg',
+    img: 'sp16/ElizabethSteger.jpg',
+    imgSrc: 'ElizabethSteger.jpg',
 };
 
 
