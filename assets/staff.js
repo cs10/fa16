@@ -1,14 +1,7 @@
 // Instructors
 
-//var JoshHug = {
-    //name: 'Instructor Josh Hug',
-    //img: 'Sp14/JoshHug.jpg',
-    //imgSrc: 'JoshHug.jpg',
-    //email: 'hug@cs.berkeley.edu'
-//};
 
-
-GeraldF = {
+var GeraldF = {
     name: 'Dr. Gerald Friedland',
     img: 'Fa13/Gerald.jpg',
     imgSrc: 'Gerald.jpg',
@@ -16,7 +9,7 @@ GeraldF = {
     email: 'gerald@cs10.org'
 };
 
-JustinH = {
+var JustinH = {
     name: 'Dr. Justin Hsia',
     img: 'Sp16/Justin.jpg',
     imgSrc: 'JustinHsia.jpg',
@@ -205,6 +198,7 @@ function baseObj(name, baseDir) {
 }
 
 function buildPerson(data, width) {
+    var imgPathBase, imgPath, cls, elm, crazyPath;
     // Given a JSON object build a div that contains all the person's info
     // width is used to control how many are on a row on the page.
 
@@ -212,8 +206,13 @@ function buildPerson(data, width) {
     if (data.constructor === String) {
         data = baseObj(data);
     }
-    var imgPathBase = '{{ site.baseurl }}/resources/images/small/';
-    var imgPath = imgPathBase + data.imgSrc;
+    // when developing load images from a submodule, else load from /resources
+    if (window.location.hostname === 'localhost') {
+        imgPathBase = '{{ site.baseurl }}'
+    } else {
+        imgPathBase = '';
+    }
+    imgPath = imgPathBase + '/resources/images/small/' + data.imgSrc;
 
     // Date Hacks for fun!
     if (Date().substr(4, 6) == 'Apr 01') {
@@ -222,17 +221,17 @@ function buildPerson(data, width) {
 
     // Create a div with this person's data, setting a class for width
     // Col-md- is based on standard bootstrap classes, md-20 is my own addition.
-    var cls = 'col-md-' + (width === 5 ? '20' : Math.floor(12/width));
+    cls = 'col-md-' + (width === 5 ? '20' : Math.floor(12/width));
     elm = '<div class="'+ cls + '">';
     if (data.img) {
-        elm += '<a href="{{ site.baseurl }}/resources/images/' + data.img + '">';
+        elm += '<a href="' + imgPathBase + '/resources/images/' + data.img + '">';
     }
 
     elm += '<img class="staff" align="center" ';
     elm += 'alt=" Staff Photo: ' + data.name + '" title="' + data.name + '" src="';
     elm += imgPath + '"';
     if (data.imgCrazy) {
-        var crazyPath = imgPath.replace('.jpg', 'Crazy.jpg');
+        crazyPath = imgPath.replace('.jpg', 'Crazy.jpg');
         elm += ' onmouseenter="crazyImage(this, ' + " '" + crazyPath + "'" + ')"';
         elm += ' onmouseleave="normalImage(this,' + " '" + imgPath + "'" + ')"';
     }
