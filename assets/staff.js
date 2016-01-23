@@ -13,14 +13,14 @@ GeraldF = {
     img: 'Fa13/Gerald.jpg',
     imgSrc: 'Gerald.jpg',
     //bio: 'DanBio.txt',
-    email: 'fractor@icsi.berkeley.edu'
+    email: 'gerald@cs10.org'
 };
 
 JustinH = {
-    name: 'Instructor Justin Hsia',
+    name: 'Dr. Justin Hsia',
     img: 'Sp16/Justin.jpg',
-    imgSrc: 'Justin.jpg',
-    email: 'jhsia@eecs.berkeley.edu'
+    imgSrc: 'JustinHsia.jpg',
+    email: 'justin@cs10.org'
 };
 
 
@@ -30,7 +30,8 @@ var adamK = {
     name: 'Head TA Adam Kuphaldt',
     img: 'Sp14/AdamKuphaldt.jpg',
     imgSrc: 'AdamKuphaldt.jpg',
-    email: 'adam@cs10.org' };
+    email: 'adam@cs10.org',
+    web: 'https://linkedin.com/in/adam-kuphaldt-16a33768' };
 
 var rachelH = {
     name: 'Head TA Rachel Huang',
@@ -43,13 +44,13 @@ var alexM = {
     name: 'TA Alex McKinney',
     img: 'Sp14/AlexMcKinney.jpg',
     imgSrc: 'AlexMcKinney.jpg',
-    email: 'amckinney@berkeley.edu'};
+    email: 'alex@cs10.org'};
     
 var amrutaY = {
     name: 'TA Amruta Yelamanchili',
     img: 'Sp14/AmrutaYelamanchili.jpg',
     imgSrc: 'AmrutaYelamanchili.jpg',
-    email: 'amrutayel@berkeley.edu'};
+    email: 'amruta@cs10.org'};
 
 
 var andyS = {
@@ -88,7 +89,7 @@ var jannaG = {
     name: 'TA Janna Golden',
     img: 'Sp14/JannaGolden.jpg',
     imgSrc: 'JannaGolden.jpg',
-    email: 'jannagolden@berkeley.edu'
+    email: 'janna@cs10.org'
 };
 
 var josephC = {
@@ -101,7 +102,7 @@ var laraM = {
     name: 'TA Lara McConnaughey',
     img: 'Su15/LaraMcConnaughey.jpg',
     imgSrc: 'LaraMcConnaughey.jpg',
-    email: 'laram@berkeley.edu'
+    email: 'lara@cs10.org'
 };
 
 var stevenT = {
@@ -120,6 +121,20 @@ var victoriaS = {
     imgSrc: 'VictoriaShi.jpg',
     // bio: 'VictoriaBio.txt',
     email: 'victoria@cs10.org' };
+    
+var yifatA = {
+  name: 'TA Yifat Amir',
+  img: 'sp16/YifatAmir.jpg',
+  imgSrc: 'YifatAmir.jpg',
+  email: 'yifat@cs10.org'
+};
+
+var williamT = {
+  name: 'TA William Tang',
+  img: 'NPY3D.jpg',
+  imgSrc: 'NPY3D.jpg',
+  email: 'william@cs10.org'
+};
 
 // Readers
 var jobelV = {
@@ -132,6 +147,30 @@ var katherineM = {
     img: 'Su15/KatherineMcGauley.jpg',
     imgSrc: 'KatherineMcGauley.jpg' };
 
+var lucasK = {
+    name: 'Reader Lucas Karahadian',
+    img: 'NPY3D.jpg',
+    imgSrc: 'NPY3D.jpg',
+};
+
+var meghnaD = {
+    name: 'Reader Meghna Dasgupta',
+    img: 'NPY3D.jpg',
+    imgSrc: 'NPY3D.jpg',
+};
+
+var addisonH = {
+    name: 'Reader Addison Howe',
+    img: 'NPY3D.jpg',
+    imgSrc: 'NPY3D.jpg',
+};
+
+var elizabethS = {
+    name: 'Reader Elizabeth Steger',
+    img: 'sp16/ElizabethSteger.jpg',
+    imgSrc: 'ElizabethSteger.jpg',
+};
+
 
 
 /*****************************************************************************/
@@ -139,10 +178,10 @@ var katherineM = {
 /*****************************************************************************/
 
 var inst = [ GeraldF, JustinH ];
-var tas = [ adamK, rachelH, alexM, amrutaY, aranyU, erikD, jannaG, josephC, laraM, andyS, stevenT, victoriaS ];
+var tas = [ adamK, rachelH, alexM, amrutaY, aranyU, erikD, jannaG, josephC, laraM, williamT, yifatA, andyS, stevenT, victoriaS ];
 
 //var readers = [ jobelV, katherineM, laraM ]; todo: Update this once readers are hired!
-var readers = [ ];
+var readers = [ addisonH, elizabethS, jobelV, lucasK, meghnaD ];
 
 // If you need to add a new SECTION add it to this object.
 // Follow the same format.

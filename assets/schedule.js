@@ -36,13 +36,13 @@ cs10.week1 = {
     lab1: lab('No Labs Monday, Tuesday, or Wednesday morning'),
     lect2: lect(
         'Welcome and Abstraction',
-        //'https://docs.google.com/presentation/d/1D61ydzc09hxBuins4qTef5zfKqDVXNfRflJUNBE34A8',
+        'https://docs.google.com/a/berkeley.edu/presentation/d/1T9abQi3qjhWi4ws0pADRiYBkpP-lvs5TKyokVPJWUFU/edit?usp=sharing'
         //null,
-        'https://www.youtube.com/watch?v=2cl45WjH41g'
+        //'https://www.youtube.com/watch?v=2cl45WjH41g'
     ),
     lab2: lab("Welcome to <span class='snap'>snap</span>", "berkeley_bjc/intro_pair/1-introduction.topic"),
     disc1: disc('Welcome to CS10!'),
-    hw: hw('HW0', '1/22', 'quizzes/2037517')
+    hw: hw('HW0', '1/24', 'quizzes/2162430')
 };
 
 // JAN 25 - 29
@@ -150,9 +150,9 @@ cs10.week4 = {
 
 // FEB 15 - 19 (President's Day: Monday)
 cs10.week5 = {
-    readings1: [
-        reading('BtB Chapter 5',
-                'http://www.bitsbook.com/wp-content/uploads/2008/12/chapter5.pdf'),
+    readings1: 'TBD',//[
+        //reading('BtB Chapter 5',
+                //'http://www.bitsbook.com/wp-content/uploads/2008/12/chapter5.pdf'),
         /*reading('BtB Chapter 4 Reading Segment 2',
                 '{{ site.baseurl }}/resources/readings/btb/BtB4-pt2.pdf'),*/
         // TODO: This is paywalled....
@@ -162,7 +162,7 @@ cs10.week5 = {
         reading('BtB Chapter 3',
                 '{{ site.baseurl }}/resources/readings/btb/chapter3.pdf',
                 'optional')*/
-    ],
+    //],
     lect1: lect('No Class Monday - Presidents Day'),
     lab1: lab('Algorithmic Complexity', 'berkeley_bjc/areas/algorithm-complexity.topic', true),
     lect2: lect('Quest In Class'),
@@ -177,9 +177,12 @@ cs10.week5 = {
 
 // FEB 22 - 26
 cs10.week6 = {
-    readings1: 'No Reading.<br><b>Quest Review 1 - 3 PM in 2050 VLSB on 9/27</br>',
+    readings1: [
+    reading('BtB Chapter 5',
+            'http://www.bitsbook.com/wp-content/uploads/2008/12/chapter5.pdf'),
+        ],//'No Reading.<br><b>Quest Review 1 - 3 PM in 2050 VLSB on 9/27</br>',
     lect1: lect('Testing'), //'https://docs.google.com/presentation/d/1EqmuMag-_swWmEQvi9coK0_J2fl0N0H1p6NuNr9WaaI/edit?usp=sharing'),
-    lab1: lab('No Labs Monday Quest Help and Review'),
+    lab1: lab('TBD'),
     lect2: lect('Recursion I'),
     lab2: lab('Testing, HW3', 'berkeley_bjc/2048-testing/2048.topic'),
     disc1: disc('TBD'),
@@ -198,7 +201,7 @@ cs10.week7 = {
     lab1: lab('Trees and Fractals Using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic', true),
     lect2: lect('Computer Vision'), //'https://docs.google.com/presentation/d/1NuOa586nkC1m95X_5LYyiI4gs0s3XL5eRZF7DeH81us/pub?start=false&loop=false&delayms=3000'),
     lab2: lab('Concurrency', 'berkeley_bjc/areas/concurrency.topic'),
-    disc1: disc('Recursion', true),
+    disc1: disc('Recursion'),
     hw: hw('HW3: 2048','TBD', 'assignments/6930656', hw3Spec)
 };
 
@@ -210,7 +213,7 @@ cs10.week8 = {
         reading('Rest of BtB chapter 2',
                 'http://www.bitsbook.com/wp-content/uploads/2008/12/chapter2.pdf', 'optional'),
     ],
-    disc1: disc('More Recursion', true),
+    disc1: disc('More Recursion'),
     lab1: lab('Recursive Reporters I', 'berkeley_bjc/recur/recursive-reporters-part1.topic', true),
     lect1: lect('Recursion II'), //'https://docs.google.com/presentation/d/1IzvyATwwmue57YXuGLXevOyTLNgepV0xH8VaiGGHrYw/pub?start=false&loop=false&delayms=3000'),
     lect2: lect('Algorithmic Complexity II'), //'L13 - Privacy'),
@@ -231,7 +234,7 @@ cs10.week9 = {
                 'hard')*/
     ],
     disc1: disc('Midterm Review'),
-    lab1: lab('Tic Tac Toe', 'berkeley_bjc/lists/tic-tac-toe.topic', true),
+    lab1: lab('Tic Tac Toe', 'berkeley_bjc/lists/tic-tac-toe.topic'),
     lect1: lect('Concurrency'), //'https://docs.google.com/presentation/d/1o4GtTha_TbRNCvqp7wEchJxGaeoENnH3KTX0Hl6nvD0/edit?usp=sharing'),
     lect2: lect('The Internet I'), //'L15 - HCI'),
     lab2: lab('Project Work Session'),
@@ -283,7 +286,7 @@ cs10.week11 = {
         reading('What is the Internet?', 'https://www.youtube.com/watch?v=UlJku_CSyNg', 'optional'),
         reading('BtB pg. 305-316', 'https://drive.google.com/file/d/0B3vESj3HTRTkbVo1dTV5SUp4T0U/view?usp=sharing', 'optional')  
     ],
-    disc1: disc('The Internet | Data and HOFs', true),
+    disc1: disc('The Internet | Data and HOFs'),
     lab1: lab('Functions as Data and HOFs', 'berkeley_bjc/hofs/hofs-practice.topic', true),
     lect1: lect('The Internet II'), //'https://docs.google.com/presentation/d/1TwO63UECd9I4ufKDYUj9LDFT6RrDOtFQlbbcC9oBebE/pub?start=false&loop=false&delayms=3000'),
     lect2: lect('Privacy'), //'https://docs.google.com/presentation/d/1Ouz8QdPT-L0x3lg77S2yBGbsqjmuKJLAG3SjxtD7zLQ/pub?start=false&loop=false&delayms=3000'),
@@ -301,7 +304,7 @@ cs10.week12 = {
         reading('The GNU Manifesto Turns Thirty', 'http://www.newyorker.com/business/currency/the-gnu-manifesto-turns-thirty', 'optional'),
         reading('Python vs. COBOL (parody)', 'https://medium.com/@oceankidbilly/python-vs-r-vs-cobol-which-is-best-for-data-science-7b2979c6a000', 'optional')
     ],
-    disc1: disc('Social Implications of Computing | More HoF and Call Work', true),
+    disc1: disc('Social Implications of Computing | More HoF and Call Work'),
     lab1: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic', true),
     lect1: lect('Lambda + HOFs'), //'https://docs.google.com/presentation/d/1dqoMCkDFxoGusaJBwyvMYMgoPY47wUt8WRgG1HOVfLQ/edit?usp=sharing'),
     lect2: lect('Intro to Python'),
@@ -323,7 +326,7 @@ cs10.week13 = {
     lect1: lect('Social Implications - Copyright'),
     lect2: lect('Social Implications - Cryptography and Security'), //'https://docs.google.com/presentation/d/1MLG5pjfSrvZ17WNp5CSfPbPa3QOnxKtNGKlfRIGgEPw/edit?usp=sharing'),
     lab2: lab('Besides Blocks: Text Processing in Python', 'berkeley_bjc/python/besides-blocks-text-processing.topic'), //, 'berkeley_bjc/python/besides-blocks-data.topic'),
-    hw: hw('Final Project Milestone', '11/20', 'assignments/6644523')
+    hw: hw('Final Project Milestone', 'TBD', 'assignments/6644523')
 };
 
 

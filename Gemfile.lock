@@ -148,3 +148,6 @@ DEPENDENCIES
   github-pages (= 43)
   json
   rack-jekyll
+
+BUNDLED WITH
+   1.11.2
