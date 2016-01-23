@@ -13,15 +13,17 @@ var getRoomURL = function(loc) {
     if (!loc) { return ''; }
 
     var base = "https://www.berkeley.edu/map?",
-        url  = { sd: 'sutardja',
-                 sdh: 'sutardja',
-                 lks: 'likashing',
-                 etch: 'etcheverry',
-                 vlsb: 'valleylifesciences' },
-        room = loc ? loc.split(' ')[1].toLowerCase() : '';
+        abbreviations  = {
+            sd: 'sutardja',
+            sdh: 'sutardja',
+            lks: 'likashing',
+            etch: 'etcheverry',
+            vlsb: 'valleylifesciences'
+        },
+        room = loc.indexOf(' ') !== -1 ? loc.split(' ')[1].toLowerCase() : '';
 
-    if (url[room]) {
-        room = url[room];
+    if (abbreviations[room]) {
+        room = abbreviations[room];
     }
 
     return base + room;
