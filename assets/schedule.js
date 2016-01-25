@@ -79,7 +79,7 @@ cs10.week2 = {
     lect2: lect('Numbers and Abstraction'), //'https://docs.google.com/presentation/d/1zHEl4C_jLGFVFznWPMWhDYFtcLENUU3_DubOb_H5UZs/pub'),
     lab2: lab('Conditionals and Reporters', 'berkeley_bjc/intro_pair/3-conditionals.topic', true),
     disc1: disc('Anatomy of a Computer and the Power of Binary'),
-    hw: hw('HW1: Word Guessing', 'TBD', 'assignments/6644471', hw1Spec)
+    hw: hw('HW1: Word Guessing', '2/3', 'assignments/7259694', hw1Spec)
 };
 
 // FEB 1 - 5
@@ -112,7 +112,7 @@ cs10.week3 = {
     lect2: lect('Lists and Programming Paradigms'), //'https://docs.google.com/presentation/d/136vfh3rhRyTsGUKNv1MuUSHZqdPp4xVvt9GX3LlGX6I/pub'),
     lab2: lab('Lists I', 'berkeley_bjc/lists/lists-I.topic'),
     disc1: disc('All about lists'),
-    hw: hw('HW1: Word Guessing', 'TBD', 'assignments/6644471', hw1Spec)
+    hw: hw('HW1: Word Guessing', '2/3', 'assignments/7259694', hw1Spec)
 };
 // cs10.week3.lect3.classes = 'exam';
 // cs10.week3.work.title += '<hr><strong>Finch Robots Lab (Sect 111)</strong>';
