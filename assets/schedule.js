@@ -307,8 +307,8 @@ cs10.week12 = {
     disc1: disc('Social Implications of Computing | More HoF and Call Work'),
     lect1: lect('Privacy'), //'https://docs.google.com/presentation/d/1dqoMCkDFxoGusaJBwyvMYMgoPY47wUt8WRgG1HOVfLQ/edit?usp=sharing'),
     lect2: lect('Intro to Python'),
-    lab1: lab('Optional Catch-Up Day'),
-    lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic', true),
+    lab1: lab('Optional Catch-Up Day', null, true),
+    lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
     hw: [
         hw('"Explore" Comments', 'TBD', '/discussion_topics/4250600'),
         hw('Final Project Proposal', 'TBD', 'assignments/7001951', finalProjSpec)
