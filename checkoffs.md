@@ -83,7 +83,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 **Required**
 
 * Why are script variables useful? How do we create script variables?
-* Show us the code for the is _ between _ and _ ? block.
+* Show us the code for the <code>is _ between _ and _ ?</code> block.
 
 **More Self-Check Questions**
 
