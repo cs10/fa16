@@ -82,11 +82,13 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 **Required**
 
-* Coming soon!
+* Why are script variables useful? How do we create script variables?
+* Show us the code for the is _ between _ and _ ? block.
 
 **More Self-Check Questions**
 
-* Coming soon!
+* Describe the truth tables for A and B and C / A or B or C.
+* What is the difference between if and if-else blocks?
 
 ------
 
