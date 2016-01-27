@@ -19,7 +19,7 @@ var MS_DAY = 1000*60*60*24;
 function updateCalendar(date) {
     console.log('CALLED');
     // The SATURDAY before the first week of the calendar.
-    var start = new Date(2015, 7, 22),
+    var start = new Date(2016, 0, 16),
         today = date || new Date(),
         highlight = since[ today.getDay() ],
         weeks = Math.floor(((today - start) / MS_DAY) / 7); // Weeks SINCE start
@@ -35,6 +35,7 @@ function updateCalendar(date) {
 
     // Date is out of range of calendar
     if (typeof temp === 'undefined') {
+        console.log('DATE OUT OF RANGE');
         return;
     }
 
