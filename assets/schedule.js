@@ -76,7 +76,7 @@ cs10.week2 = {
     ],
     lect1: lect('Procedures', 'https://docs.google.com/a/berkeley.edu/presentation/d/12LLM36NEfkylUsy9mG-1TnvorovQbYxhUDI_cMSzDuU/edit?usp=sharing'), //'https://docs.google.com/presentation/d/1_lKWy3HeznujFDTeRfffoGSAkvVEPqzpNvKVM2jkC0c/pub'),
     lab1: lab('Build Your Own Blocks', 'berkeley_bjc/intro_pair/2-loops-variables.topic'),
-    lect2: lect('Numbers and Abstraction'), //'https://docs.google.com/presentation/d/1zHEl4C_jLGFVFznWPMWhDYFtcLENUU3_DubOb_H5UZs/pub'),
+    lect2: lect('Numbers and Abstraction', 'https://docs.google.com/presentation/d/1TVXERNz4ude_YYsPccwwirFWxXQXSs2ex-cccHytfzo/edit?usp=sharing'), //'https://docs.google.com/presentation/d/1zHEl4C_jLGFVFznWPMWhDYFtcLENUU3_DubOb_H5UZs/pub'),
     lab2: lab('Conditionals and Reporters', 'berkeley_bjc/intro_pair/3-conditionals.topic', true),
     disc1: disc('Anatomy of a Computer and the Power of Binary'),
     hw: hw('HW1: Word Guessing', '2/3', 'assignments/7259694', hw1Spec)
