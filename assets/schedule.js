@@ -242,6 +242,9 @@ cs10.week9 = {
         hw('Midterm Project<br> Milestone', 'TBD', 'assignments/6644521')
     ]    
 };
+cs10.week9.lect2.classes = 'exam';
+cs10.week9.lect2.title += '<br><br><div class="exam inner"><a href="exams/midterm.html">Midterm Exam</a><br><br>Wednesday 3/16<br>7 - 9 PM | 155 Dwinelle Hall</div>';
+
 
 // MAR 21 - 25 (Spring Break?)
 cs10.week10 = {
