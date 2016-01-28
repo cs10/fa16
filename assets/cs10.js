@@ -16,10 +16,10 @@ var STYLE  = "8px solid Gold";
 var MS_DAY = 1000*60*60*24;
 // Function used to highlight the current day.
 // TODO: Fix this stuff to be a moment obj.
-function updateCalendar(date) {
+function updateCalendar(startDate, date) {
     console.log('CALLED');
     // The SATURDAY before the first week of the calendar.
-    var start = new Date(2016, 0, 16),
+    var start = startDate || new Date(),
         today = date || new Date(),
         highlight = since[ today.getDay() ],
         weeks = Math.floor(((today - start) / MS_DAY) / 7); // Weeks SINCE start

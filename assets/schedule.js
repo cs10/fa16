@@ -12,7 +12,8 @@ var lab      = cs10.newLabObject,
     reading  = cs10.newReadingsObject,
     lect     = cs10.newLectureObject,
     disc     = cs10.newDiscussionObject,
-    hw       = cs10.newHomeworkObject;
+    hw       = cs10.newHomeworkObject,
+    startDate = new Date('1/16/2016'); // The SATURDAY before the first week of the calendar.
 
 function docs(id) {
     return 'assign.html?//docs.google.com/document/d/' + id + '/pub';
@@ -384,5 +385,5 @@ cs10.week17.lab1.title += '<br><br><div class="exam inner">Final Exam<br><br>Tue
 // Load the Calendar
 $(document).ready(function() {
     cs10.renderTableCalendar();
-    updateCalendar();
+    updateCalendar(startDate);
 });
