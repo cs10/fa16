@@ -1,11 +1,169 @@
----
+<!DOCTYPE html>
+<html>
 
-layout: default
----
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  {% include nav.html %}
+  <title>CS10 | Spring 2016</title>
+  <meta name="description" content="computer science class designed for anyone and everyone. The Beauty and Joy of Computing is an AP Computer Science Principles class.
+">
 
-  {% include quicklinks.html %}
+  <!-- <link rel="stylesheet" href="/sp16assets/css/main.css"> -->
+  <link rel="canonical" href="http://cs10.org/sp16/">
+
+  <link rel="icon" href="/sp16/assets/favicon.png" type="image/png">
+
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="/sp16/assets/css/bootstrap33.min.css">
+
+  <link href="/sp16/assets/css/cs10style.css" rel="stylesheet"/>
+
+  <style type="text/css">
+      body {
+  font-family: 'Helvetica'; /* override bootstrap */
+  width: 95%;
+  font-size: 15px; /* Don't use pts: it makes the recursion text ugly */
+  max-width: 2000px;
+  margin: 1em auto;
+  padding: 0 .3em .3em .3em;
+}
+
+h1 {
+  display: block;
+  background: #003A70;
+  background: -moz-linear-gradient(top, #003A70 0%, #3f7dc2 50%, #003A70 100%); /* FF3.6+ */
+  background: -webkit-linear-gradient(top, #003A70 0%, #3f7dc2 50%,#003A70 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #003A70 q%, #3f7dc2 50%, #003A70 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #003A70 0%, #3f7dc2 50%, #003A70 100%); /* IE10+ */
+  background: linear-gradient(top, #003A70 0%, #3f7dc2 50%, #003A70 100%); /* W3C */
+  border-radius: 2em;
+  box-shadow: 2px 3px 6px #606060;
+  padding: .3em 1em;
+  color: #FFF;
+  font-size: 1.6em;
+  text-shadow: 1px 1px 2px #555;
+  vertical-align: middle;
+}
+
+.logo {
+  font-size: 2.25em;
+  margin: .1em;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.header {
+  display: inline-block;
+  width: 100%;
+}
+.header, .header > div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.left {
+  width: 250px;
+}
+
+.right {
+  text-align: right;
+  min-width: 100px;
+  width: 17%;
+  max-width: 250px;
+}
+  </style>
+
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-47210910-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+</head>
+
+
+  <body>
+
+      <div class="header center coontainer-fluid">
+    <div class="row row-centered" style="width:100%">
+        <div class="col-md-3">
+            <div class="vcenter">
+                <img width="250" border="0" align="bottom" height="244" src="/sp16/resources/images/snap_nav.gif" class="navbar" alt="Your Navigation Bar didn't load." title="Click me to navigate." usemap="#gobo">
+                <div style="position:absolute;top:60px;left:220px;z-index:40;">
+                    <img src="/sp16/resources/images/blank.gif" name="speech" />
+                </div>
+                <map name="gobo">
+                    <area shape="rect" coords="0,70,110,97" alt="Overview" href="/sp16/#overview" onmouseover="displaySpeech('speech', '/sp16/resources/images/overview_jump.gif')" onmouseout="displaySpeech('speech', '/sp16/resources/images/blank.gif')">
+                    <area shape="rect" coords="0,97,76,124" alt="News" href="/sp16/#news" onmouseover="displaySpeech('speech', '/sp16/resources/images/news_jump.gif')" onmouseout="displaySpeech('speech', '/sp16/resources/images/blank.gif')">
+                    <area shape="rect" coords="0,124,105,151" alt="Calendar" href="/sp16/#calendar" onmouseover="displaySpeech('speech', '/sp16/resources/images/calendar_jump.gif')" onmouseout="displaySpeech('speech', '/sp16/resources/images/blank.gif')">
+                    <area shape="rect" coords="0,151,72,178" alt="Staff" href="/sp16/#staff" onmouseover="displaySpeech('speech', '/sp16/resources/images/staff_jump.gif')" onmouseout="displaySpeech('speech', '/sp16/resources/images/blank.gif')">
+                    <area shape="rect" coords="0,178,97,205" alt="Grades" href="/sp16/#grading" onmouseover="displaySpeech('speech', '/sp16/resources/images/grading_jump.gif')" onmouseout="displaySpeech('speech', '/sp16/resources/images/blank.gif')">
+                    <area shape="rect" coords="0,205,117,232" alt="/sp16/resources" href="/sp16/#resources" onmouseover="displaySpeech('speech', '/sp16/resources/images/resources_jump.gif')" onmouseout="displaySpeech('speech', '/sp16/resources/images/blank.gif')">
+                </map>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <br><br><br>
+            <h2 class="logo">CS10</h2>
+            <h2 class="logo">The Beauty &amp; Joy of Computing</h2>
+            <h2 class="logo">Spring 2016</h2>
+        </div>
+        <div class="col-md-3">
+            <div class="vcenter right">
+                <br><br>
+                <a href="https://bjc.berkeley.edu/">
+                    <img border="0" src="/sp16/resources/images/bjc186.png" alt="BJC logo">
+                </a>
+            </div>
+        </div>
+    </div>
+  </div>
+
+
+    <h1 class="text-center" id="quicklinks">Quick Links</h1>
+  <div class="container-fluid">
+      <div class="row text-center">
+          <div class="col-md-2 lambda">
+              <a target="_blank" class="snap" style="font:120%" href="https://snap.berkeley.edu/run/">Snap</a>
+          </div>
+          <div class="col-md-2 lambda">
+              <a target="_blank" href="https://piazza.com/sigcse/spring2016/cs10/home">Piazza</a>
+          </div>
+          <div class="col-md-2 lambda">
+              <a target="_blank" href="http://beautyjoy.github.io/bjc-r/course/cs10_fa15.html">Labs</a>
+          </div>
+          <div class="col-md-2 lambda">
+              <a target="_blank" href="https://bcourses.berkeley.edu/courses/1408649">bCourses</a>
+          </div>
+          <div class="col-md-2 lambda">
+            <a target="_blank" href="http://webcast.berkeley.edu/playlist#c,s,Fall_2014,-XXv-cvA_iCajFbSJ4q3ApmKtT7RL3wQ">Past Webcasts</a>
+          </div>
+          <div class="col-md-2 lambda">
+            <a href="/sp16/assign.html?https://docs.google.com/document/d/1Svea_cNDE_RUcHUl1FmmmpdI4QAN5KcTdZc7LafH1WA/pub">Course Policies</a>
+          </div>
+      </div>
+      <br />
+      <div class="row text-center">
+          <div class="col-md-4 lambda">
+              <a href="/sp16/labquestions/">Lab Check-Off Questions</a>
+          </div>
+          <div class="col-md-4 lambda">
+              <a href="/sp16/slipdays/">Check Your Slip Days</a>
+          </div>
+          <div class="col-md-4 lambda">
+              <a href="/sp16/resources/exams/">Practice Exams</a>
+          </div>
+      </div>
+  </div>
+  <div class="clearfix"></div>
+
 
   <h1>Updates</h1>
   <div class="page-section" id="news">
@@ -21,12 +179,107 @@ layout: default
 
   <h1>Overview</h1>
   <div class="page-section" id="overview">
-    {% include_relative includes/overview.html %}
+                <div class="wp-caption alignright" style="width:360px;align:right;float:right;margin:0px 0px 5px 5px">
+                <img width="350" align="middle" height="251" src="resources/images/pairprogramming.jpg"
+                alt="Fall 2009 students work together using pair programming" />
+                <p class="wp-caption-text"> Fall 2009 students <a href="https://en.wikipedia.org/wiki/Pair_programming">
+                pair programming</a> in Scratch. </p>
+            </div>
+            <div class="wp-caption alignright" style="width:334px;float:left;margin:0px 5px 0px 0px">
+                <img width="324" align="middle" height="216" src="resources/images/AppleOrchardLab.jpg"
+                alt="Our new Mac lab" />
+            <p class="wp-caption-text"> Our labs are held in the Apple Orchard, which
+              is not only the newest lab on campus with the fastest machines, but also
+              has the most natural light! </p>
+          </div>
+          <p style="text-align:justify;"><b>CS10</b>: <i>The Beauty and Joy of
+              Computing</i>, is an exciting new course offered by the <a href="https://www.eecs.berkeley.edu/">
+              UC Berkeley EECS Department</a>. Computing has changed the world in profound
+            ways. It has opened up wonderful new ways for people to connect, design,
+            research, play, create, and express themselves. However, just using a
+            computer is only a small part of the picture. The real transformative and
+            empowering experience comes when one learns how to program the computer,
+            to translate ideas into code. This course will teach students how to do
+            exactly that, using <a
+              href="https://snap.berkeley.edu/run"><em>Snap!</em></a> (based on <a href="https://www.scratch.mit.edu">
+              Scratch</a>), one of the friendliest programming languages ever
+            invented. It's purely graphical, which means programming involves simply
+            dragging blocks around, and building bigger blocks out of smaller blocks.
+          </p>
+          <p style="text-align:justify;"> But this course is far more than just
+            learning to program. We'll focus on some of the "Big Ideas" of computing,
+            such as abstraction, design, recursion, concurrency, simulations, and the
+            limits of computation. We'll show some beautiful applications of computing
+            that have changed the world, talk about the history of computing, and
+            where it will go in the future. Throughout the course, relevance will be
+            emphasized: relevance to the student and to society. As an example, the
+            final project will be completely of the students' choosing, on a topic
+            most interesting to them. The overarching theme is to expose students to
+            the beauty and joy of computing. This course is designed for computing
+            non-majors, although interested majors are certainly welcome to take the
+            class as well! We are especially excited about bringing computing (through
+            this course) to traditionally under-represented groups in computing, i.e.,
+            women and ethnic minorities. </p>
+          <p style="text-align:justify"> Some context: in the Fall of 2009, we
+            piloted a 2-unit version of this course as the freshman/sophomore seminar
+            <a href="https://inst.eecs.berkeley.edu/~cs10/fa09/">CS39N: The Beauty
+              and Joy of Computing</a> to 20 students. <a href="https://innovations.coe.berkeley.edu/vol3-issue10-dec09/beauty-and-joy-of-computing">It
+              was such a success</a> that we decided to move ahead to make this course
+            our new computing course for non-majors, replacing the venerable <a href="https://inst.eecs.berkeley.edu/%7Ecs3l/">
+              CS3L</a> and <a href="https://inst.eecs.berkeley.edu/%7Eselfpace/class/cs3s">
+              CS3S</a> . Since then, this has been one of the most popular courses in
+            EECS. Don't believe us? <a href="https://hkn.eecs.berkeley.edu/coursesurveys/course/CS/10">See
+              for yourself!</a> We're continuing to grow the course as word spreads to
+            more students. We're continually replacing the weakest parts of the
+            curriculum and hope you'll enjoy! </p>
+          <p style="text-align:justify"> We will be using Pair Programming,
+            described best by Laurie Williams, a computer science professor at North
+            Carolina State University: "Two programmers working side-by-side,
+            collaborating on the same design, algorithm, code or test. One programmer,
+            the driver, has control of the keyboard/mouse and actively implements the
+            program. The other programmer, the observer, continuously observes the
+            work of the driver to identify tactical (syntactic, spelling, etc.)
+            defects and also thinks strategically about the direction of the work. On
+            demand, the two programmers can brainstorm any challenging problem.
+            Because the two programmers periodically switch roles, they work together
+            as equals to develop software." </p>
+
+           
+
   </div>
 
   <h1>Assignment Calendar</h1>
   <div class="page-section" id="calendar">
-    {% include_relative includes/calendar.html %}
+    <h2>Semester Schedule (subject to change)</h2>
+<div class="key">
+    Reading Assignments Key:
+    <br>
+    <ul>
+        <li><span class="required"><strong>Blue</strong></span> readings are required,</li>
+        <li><span class="hard"><strong>Green</strong></span> readings are required-but-challenging (understand the "big idea" concepts, rather than the technical details),</li>
+        <li><span class="optional"><strong>Red</strong></span>  <i>(or italicized, for those of you not good with the color red)</i> readings are optional but recommended. Note that these readings are <em>NOT</em> tested.</li>
+    </ul>
+</div>
+
+<!-- beginning of calendar code-->
+<div class="table-responsive">
+  <table width="100%" border="0" cellpadding="0" cellspacing="0" class="calendar table">
+    <thead>
+      <tr class="cal">
+        <th width="1%">Week</th>
+        <th width="8%">Dates</th>
+        <th width="13%">Readings (Sa/Su)</th>
+        <th width="11%">Lecture 1 (M)</th>
+        <th width="11%">Lab 1 (M/Tu/W)</th>
+        <th width="11%">Lecture 2 (W)</th>
+        <th width="11%">Lab 2 (W/Th/F)</th>
+        <th width="11%">Discussion (F)</th>
+        <th width="11%">HW &amp; Projects</th>
+      </tr>
+    </thead>
+  </table><!--end of calendar code-->
+</div>
+
   </div>
   <div class="clearfix"></div>
 
@@ -57,7 +310,165 @@ layout: default
 
   <h1>Grading</h1>
   <div class="page-section" id="grading">
-      {% include_relative includes/grading.html %}
+      <h2>Grade Breakdown</h2>
+<p>For the most part, we would prefer to teach this course <i>without</i>
+    grades. What a wonderful concept, learning for learning sake! However,
+    even though we can't change the "system" overnight, we can create grading
+    policies that support learning as much as possible. The various course
+    activities will contribute to your grade as follows:
+</p>
+<br>
+
+<table class="table table-striped">
+    <tbody>
+        <tr>
+            <th>Activity</th>
+            <th>Points</th>
+            <th>Percent of Total Grade</th>
+        </tr>
+        <tr>
+            <td>Weekly Reading Quizzes</td>
+            <td>20</td>
+            <td>4%</td>
+        </tr>
+        <tr>
+            <td>Lab Check-Offs</td>
+            <td>30</td>
+            <td>6%</td>
+        </tr>
+        <tr>
+            <td>Homework 1 (Word Guessing)</td>
+            <td>10</td>
+            <td>2%</td>
+        </tr>
+        <tr>
+            <td>Homework 2 (Encryptify)</td>
+            <td>20</td>
+            <td>4%</td>
+        </tr>
+        <tr>
+            <td>Homework 3 (2048)</td>
+            <td>30</td>
+            <td>6%</td>
+        </tr>
+        <!-- <tr> NOTE: Should be worth more in the future!
+            <td>Homework 4 (Data Project)</td>
+            <td>30</td>
+            <td>6%</td>
+        </tr> -->
+        <tr>
+            <td>Midterm Project</td>
+            <td>75</td>
+            <td>15%</td>
+        </tr>
+        <tr>
+            <td>Innovation Blog</td>
+            <td>40</td>
+            <td>8%</td>
+        </tr>
+        <tr>
+            <td>Final Programming Project</td>
+            <td>75</td>
+            <td>15%</td>
+        </tr>
+        <tr>
+            <td>Quest</td>
+            <td>25</td>
+            <td>5%</td>
+        </tr>
+        <tr>
+            <td>Midterm</td>
+            <td>75</td>
+            <td>15%</td>
+        </tr>
+        <tr>
+            <td>Final Exam</td>
+            <td>100</td>
+            <td>20%</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td><strong>Total Points</strong></td>
+            <td><strong>500</strong></td>
+            <td><strong>100%</strong></td>
+        </tr>
+    </tfoot>
+</table>
+
+<p>
+    <ul class="lambda">
+        <li>For Reading Quizzes, each quiz will be worth 2 points, and your highest 10 scores will count.</li>
+        <li>For Lab Check-Offs, each will be worth 2 points each, and your highest 15 scores will count.</li>
+        <li>You may earn <em>"sprinkle points"</em> for up to 2 additional labs.</li>
+    </ul>
+</p>
+<br>
+
+<h2>How We'll Calculate Your Grade</h2>
+<p>Your letter grade will be determined by total course points, as shown in
+  the table below. Incomplete grades will be granted only for dire medical
+  or personal emergencies that cause you to miss the final exam, and only if
+  your work up to that point is satisfactory.</p>
+
+<table class="table table-striped">
+  <tbody>
+    <tr>
+      <th>Points</th>
+      <th>Grade</th>
+    </tr>
+    <tr>
+      <td>485-500</td>
+      <td>A+</td>
+    </tr>
+    <tr>
+      <td>460-484</td>
+      <td>A</td>
+    </tr>
+    <tr>
+      <td>450-459</td>
+      <td>A-</td>
+    </tr>
+    <tr>
+      <td>440-449</td>
+      <td>B+</td>
+    </tr>
+    <tr>
+      <td>420-439</td>
+      <td>B</td>
+    </tr>
+    <tr>
+      <td>400-419</td>
+      <td>B-</td>
+    </tr>
+    <tr>
+      <td>375-399</td>
+      <td>C+</td>
+    </tr>
+    <tr>
+      <td>360-374</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>350-359</td>
+      <td>C-</td>
+    </tr>
+    <tr>
+      <td>300-349</td>
+      <td>D</td>
+    </tr>
+    <tr>
+      <td>&lt; 299</td>
+      <td>F</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul class="lambda">
+    <li>Point Ranges are inclusive.</li>
+    <li>All final scores will be rounded to the nearest whole number.</li>
+</ul>
+
   </div>
 
   <h1>Resources</h1>
@@ -74,11 +485,151 @@ layout: default
 
 <!--END PAGE CONTENT -->
 
-<link href="{{ site.baseurl }}/assets/calendar-additions.css" rel="stylesheet"/>
+<link href="/sp16/assets/calendar-additions.css" rel="stylesheet"/>
 
-<link href="{{ site.baseurl }}/assets/css/cs10style.css" rel="stylesheet"/>
+<link href="/sp16/assets/css/cs10style.css" rel="stylesheet"/>
 
-<script src="{{ site.baseurl }}/assets/index-concat.js"></script>
+<script src="/sp16/assets/index-concat.js"></script>
 <script>
-  {% include_relative assets/weekly_schedule.js %}
+  /* This builds the weekly schedule on the front page.
+ * It is based of the FullCalendar plugin and connects to bCal.
+ * There are custom functions defined to modify event titles, URLs
+ * and descriptions
+ * Google Calendar needs an API key which is defined in _config.yml
+ * but shouldn't need to be changed unless it's own cant be contacted.
+ * Docs: https://fullcalendar.io/docs/
+ */
+
+
+// Link event to the building on the Berkeley map
+var getRoomURL = function(loc) {
+    if (!loc) { return ''; }
+
+    var base = "https://www.berkeley.edu/map?",
+        abbreviations  = {
+            sd: 'sutardja',
+            sdh: 'sutardja',
+            lks: 'likashing',
+            etch: 'etcheverry',
+            vlsb: 'valleylifesciences'
+        },
+        room = loc.indexOf(' ') !== -1 ? loc.split(' ')[1].toLowerCase() : '';
+
+    if (abbreviations[room]) {
+        room = abbreviations[room];
+    }
+
+    return base + room;
+}
+
+// Most events have "CS10" in the title (OH) but this is redundant
+var editTitle = function(t) {
+    return t.replace(/CS10\s*/gi, '');
+}
+
+// Use this to modify the data fullcalendar gets from google
+var fullCalTransorm = function(event) {
+    event.url = getRoomURL(event.location);
+    event.title = editTitle(event.title);
+    return event;
+};
+
+// This changes the display of each event
+// It modifies links to open in a new window and adds descriptions
+// and locations to the event text
+var fullCalRender = function(event, element, view) {
+    var content = '';
+
+    if (event.location) {
+        content += event.location;
+        element.attr({'target':'_blank'}); // open links in a new window
+    } else {
+        element.attr({'href': '#weekly'});
+    }
+    if (event.description) {
+        content += ' &ndash; ' + event.description;
+    }
+    element.append($('<div class="fc-content">').html(content));
+    return element;
+};
+
+// These are exam dates and will show the weekend slots on the calendar
+// if a review session is coming up.
+var quest   = daysUntil(moment('2015-09-30')),
+    midterm = daysUntil(moment('2015-10-29')),
+    final   = daysUntil(moment('2016-05-10'));
+
+function daysUntil(from, to) {
+  var MS_DAY = 1000*60*60*24;
+  return Math.floor((from - (to || moment())) / MS_DAY);
+}
+
+function inRange(num) { return num <= 9 && num > -1; }
+
+// This shows "today" while the semester is in progress
+// Defaults to the first week of class before or after the semester.
+function calendarStartDate() {
+  if (moment().isBefore(moment('2016-05-14')) &&
+      moment().isAfter(moment('2016-01-17'))) {
+        return moment();
+    }
+
+    return '2016-01-17';
+}
+
+$(document).ready(function() {
+    // Show weekends when we are close to at least one review session.
+    // exclude Quest from calendar during spring (review sesh is monday)
+    var wkends = inRange(midterm) || inRange(final);
+
+    $('#oh-cal').fullCalendar({
+      allDaySlot: false,
+      slotDuration: "1:00:00",
+      slotEventOverlap: false,
+      weekends: wkends,
+      defaultView: 'agendaWeek',
+      minTime: "09:00:00",
+      maxTime: "22:00:00",
+      defaultDate: calendarStartDate(),
+      contentHeight: "auto",
+      googleCalendarApiKey: 'AIzaSyBcbN6F79dPHiGMvftIKZB86A6Ki2eIKZs',
+      eventDataTransform: fullCalTransorm,
+      eventRender: fullCalRender,
+      eventSources: [
+        { googleCalendarId: 'berkeley.edu_7qpoo4ph13p55e4ukmnpvqusdk@group.calendar.google.com',
+          cache: true,
+          className: 'lecture' },
+        { googleCalendarId: 'berkeley.edu_d358eocqj23pak3atie23vk35o@group.calendar.google.com',
+          cache: true,
+          className: 'lab' },
+        { googleCalendarId: 'berkeley.edu_k2g60q1sehd2u0ujd257jqm7h0@group.calendar.google.com',
+          cache: true,
+          className: 'oh' },
+        { googleCalendarId: 'berkeley.edu_1g3duo9lb53vu09orjictriud4@group.calendar.google.com',
+          cache: true,
+          className: 'disc' }
+      ]
+    });
+});
+
 </script>
+
+
+    <footer class="site-footer">
+  <div class="wrapper">
+    <hr />
+    <div class="center">
+      This work is licensed under a
+      <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+        Creative Commons Attribution-Noncommercial-Share Alike 4.0 Unported License</a>.
+      <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+        <img align="right" alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" />
+      </a>
+    </div>
+  </div>
+</footer>
+
+
+  </body>
+
+</html>

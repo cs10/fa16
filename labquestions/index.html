@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Lab Check-Off Questions</title>
+  <meta name="description" content="computer science class designed for anyone and everyone. The Beauty and Joy of Computing is an AP Computer Science Principles class.
+">
+
+  <!-- <link rel="stylesheet" href="/sp16assets/css/main.css"> -->
+  <link rel="canonical" href="http://cs10.org/sp16/labquestions/">
+
+  <link rel="icon" href="/sp16/assets/favicon.png" type="image/png">
+
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="/sp16/assets/css/bootstrap33.min.css">
+
+  <link href="/sp16/assets/css/cs10style.css" rel="stylesheet"/>
+
+  <style type="text/css">
+      body {
+  font-family: 'Helvetica'; /* override bootstrap */
+  width: 95%;
+  font-size: 15px; /* Don't use pts: it makes the recursion text ugly */
+  max-width: 2000px;
+  margin: 1em auto;
+  padding: 0 .3em .3em .3em;
+}
+
+h1 {
+  display: block;
+  background: #003A70;
+  background: -moz-linear-gradient(top, #003A70 0%, #3f7dc2 50%, #003A70 100%); /* FF3.6+ */
+  background: -webkit-linear-gradient(top, #003A70 0%, #3f7dc2 50%,#003A70 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #003A70 q%, #3f7dc2 50%, #003A70 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #003A70 0%, #3f7dc2 50%, #003A70 100%); /* IE10+ */
+  background: linear-gradient(top, #003A70 0%, #3f7dc2 50%, #003A70 100%); /* W3C */
+  border-radius: 2em;
+  box-shadow: 2px 3px 6px #606060;
+  padding: .3em 1em;
+  color: #FFF;
+  font-size: 1.6em;
+  text-shadow: 1px 1px 2px #555;
+  vertical-align: middle;
+}
+
+.logo {
+  font-size: 2.25em;
+  margin: .1em;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.header {
+  display: inline-block;
+  width: 100%;
+}
+.header, .header > div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.left {
+  width: 250px;
+}
+
+.right {
+  text-align: right;
+  min-width: 100px;
+  width: 17%;
+  max-width: 250px;
+}
+  </style>
+
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-47210910-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+</head>
+
+
+  <body>
+
+    <div class="header center coontainer-fluid">
+    <div class="row row-centered" style="width:100%">
+        <div class="col-md-3">
+            <div class="vcenter">
+                <img width="250" border="0" align="bottom" height="244" src="/sp16/resources/images/snap_nav.gif" class="navbar" alt="Your Navigation Bar didn't load." title="Click me to navigate." usemap="#gobo" />
+                <div style="position:absolute;top:60px;left:220px;z-index:40;">
+                    <img src="/sp16/resources/images/blank.gif" name="speech" />
+                </div>
+                <map name="gobo">
+                    <area shape="rect" coords="0,70,110,97" alt="Overview" href="/sp16/#overview" onmouseover="displaySpeech('speech', '/sp16/resources/images/overview_jump.gif')" onmouseout="displaySpeech('speech', '/sp16/resources/images/blank.gif')" />
+                    <area shape="rect" coords="0,97,76,124" alt="News" href="/sp16/#news" onmouseover="displaySpeech('speech', '/sp16/resources/images/news_jump.gif')" onmouseout="displaySpeech('speech', '/sp16/resources/images/blank.gif')" />
+                    <area shape="rect" coords="0,124,105,151" alt="Calendar" href="/sp16/#calendar" onmouseover="displaySpeech('speech', '/sp16/resources/images/calendar_jump.gif')" onmouseout="displaySpeech('speech', '/sp16/resources/images/blank.gif')" />
+                    <area shape="rect" coords="0,151,72,178" alt="Staff" href="/sp16/#staff" onmouseover="displaySpeech('speech', '/sp16/resources/images/staff_jump.gif')" onmouseout="displaySpeech('speech', '/sp16/resources/images/blank.gif')" />
+                    <area shape="rect" coords="0,178,97,205" alt="Grades" href="/sp16/#grading" onmouseover="displaySpeech('speech', '/sp16/resources/images/grading_jump.gif')" onmouseout="displaySpeech('speech', '/sp16/resources/images/blank.gif')" />
+                    <area shape="rect" coords="0,205,117,232" alt="/sp16/resources" href="/sp16/#resources" onmouseover="displaySpeech('speech', '/sp16/resources/images/resources_jump.gif')" onmouseout="displaySpeech('speech', '/sp16/resources/images/blank.gif')" />
+                </map>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <br /><br /><br />
+            <h2 class="logo">CS10</h2>
+            <h2 class="logo">The Beauty &amp; Joy of Computing</h2>
+            <h2 class="logo">Spring 2016</h2>
+        </div>
+        <div class="col-md-3">
+            <div class="vcenter right">
+                <br /><br />
+                <a href="https://bjc.berkeley.edu/">
+                    <img border="0" src="/sp16/resources/images/bjc186.png" alt="BJC logo" />
+                </a>
+            </div>
+        </div>
+    </div>
+  </div>
+
+<h1 class="text-center" id="quicklinks">Quick Links</h1>
+<div class="container-fluid">
+      <div class="row text-center">
+          <div class="col-md-2 lambda">
+              <a target="_blank" class="snap" style="font:120%" href="https://snap.berkeley.edu/run/">Snap</a>
+          </div>
+          <div class="col-md-2 lambda">
+              <a target="_blank" href="https://piazza.com/sigcse/spring2016/cs10/home">Piazza</a>
+          </div>
+          <div class="col-md-2 lambda">
+              <a target="_blank" href="http://beautyjoy.github.io/bjc-r/course/cs10_fa15.html">Labs</a>
+          </div>
+          <div class="col-md-2 lambda">
+              <a target="_blank" href="https://bcourses.berkeley.edu/courses/1408649">bCourses</a>
+          </div>
+          <div class="col-md-2 lambda">
+            <a target="_blank" href="http://webcast.berkeley.edu/playlist#c,s,Fall_2014,-XXv-cvA_iCajFbSJ4q3ApmKtT7RL3wQ">Past Webcasts</a>
+          </div>
+          <div class="col-md-2 lambda">
+            <a href="/sp16/assign.html?https://docs.google.com/document/d/1Svea_cNDE_RUcHUl1FmmmpdI4QAN5KcTdZc7LafH1WA/pub">Course Policies</a>
+          </div>
+      </div>
+      <br />
+      <div class="row text-center">
+          <div class="col-md-4 lambda">
+              <a href="/sp16/labquestions/">Lab Check-Off Questions</a>
+          </div>
+          <div class="col-md-4 lambda">
+              <a href="/sp16/slipdays/">Check Your Slip Days</a>
+          </div>
+          <div class="col-md-4 lambda">
+              <a href="/sp16/resources/exams/">Practice Exams</a>
+          </div>
+      </div>
+  </div>
+<div class="clearfix"></div>
+
+<script>
+    // Maps days since **saturday** to the appropriate cell numbers
+// Its value is the cell numbers to deal with.
+// The file dynamically calculates days for the semester and doesn't read
+// dates from specific cells.
+var since = [
+    [2],       // 0 days -- Sun: readings
+    [3, 4],    // 1 day  -- Mon: lec lab 1
+    [4],       // 2 days -- Tues: lab 1
+    [5],       // 3 days -- Wed: lab 1, lec2, lab 2
+    [6],       // 4 days -- thurs: lab 2
+    [6, 7],    // 5 days -- fri: lab 2, disc, hw
+    [2],       // 6 days -- Sat: readings
+];
+
+var STYLE  = "8px solid Gold";
+var MS_DAY = 1000*60*60*24;
+// Function used to highlight the current day.
+// TODO: Fix this stuff to be a moment obj.
+function updateCalendar(date) {
+    console.log('CALLED');
+    // The SATURDAY before the first week of the calendar.
+    var start = new Date(2016, 0, 16),
+        today = date || new Date(),
+        highlight = since[ today.getDay() ],
+        weeks = Math.floor(((today - start) / MS_DAY) / 7); // Weeks SINCE start
+
+    // if (highlight[0] === 2) {
+    //     weeks += 1; // really shitty hack for weekends....
+    // }
+
+    var c, i, j, // holy shit that's terrible. FIXME.
+        rows = document.querySelectorAll("tbody > tr.cal"),
+        temp = rows[weeks],
+        cells;
+
+    // Date is out of range of calendar
+    if (typeof temp === 'undefined') {
+        console.log('DATE OUT OF RANGE');
+        return;
+    }
+
+    cells = temp.cells;
+
+    if (today.getDay() === 3) { // HIGHLIGHT LAB ON WEDS BASED ON TIME OF DAY
+        var n = (today.getHours() < 12) ? 4 : 6;
+        highlight.push(n);
+    }
+
+    // Hack for weeks like spring break, deadweek
+    // Not a robust hack, but it should work OK.
+    c = (cells.length == 5) ? 3 : highlight[0];
+
+    cells[c].style.border = STYLE;
+    if (c === 2 & weeks >= 2) { // HW, in the row before
+        // CANT USE 8 BECAUSE ALL WEEKS ARENT THE SAME DARNIT.
+        prev = rows[weeks].cells;
+        rows[weeks].cells[prev.length - 1].style.border = STYLE;
+    }
+    if (highlight[1] && cells.length > highlight[1]) {
+        cells[highlight[1]].style.border = STYLE;
+    }
+
+    // Grey out cells that have past
+    for(i = 0; i < rows.length; i += 1) {
+        cells = rows[i].cells;
+        for(j = 2; j < cells.length; j += 1) {
+            if (cells[j].style.border) { return; }
+            cells[j].style.background = "#BBB";
+            // Go 1 level deep to change the background on inner divs.
+            // FIXME: Banish the jQuery? or make this recursive... or
+            // not because I would ever need it? But it might be fun...
+            if (typeof $ !== 'undefined') {
+                if ($(cells[j]).has('div')) {
+                    $(cells[j]).children().css('background', '#BBB');
+                }
+            }
+        }
+    }
+}
+
+function displaySpeech(img_name, img_src) {
+    document[img_name].src = img_src;
+}
+
+
+</script>
+
+<h1 id="lab-check-off-questions">Lab Check-Off Questions</h1>
+
+<div class="page-section">
+
+  <h2 id="directions">Directions</h2>
+
+  <p><strong>All lab check-off deadlines are at 11:59PM.</strong>
+(However, you need to get checked off by a TA or lab assistant, so you last chance to get checked off is during lab or office hours.)</p>
+
+  <p>To get checked off, you should prepare answers to the specific questions for each lab. You shouldn’t feel compelled to memorize every single detail of lab. The goal here to make sure you’re on track with CS10 and you should be comfortable with the higher level concepts for each question. For each lab the first questions are the biggest ideas, and the later questions are for your own benefit and review.</p>
+
+  <p><strong>Remember:</strong> Even if you miss a check-off deadline, you can still get 50% credit for any lab check off at any time during the semester.</p>
+
+</div>
+
+<hr />
+
+<div class="page-section">
+
+  <h2 id="quick-links">Quick Links</h2>
+
+  <ul>
+    <li><a href="#lab1">Lab 1</a> (Week 1)</li>
+    <li><a href="#lab2">Lab 2</a> (Week 2)</li>
+    <li><a href="#lab3">Lab 3</a></li>
+    <li><a href="#lab4">Lab 4</a> (Week 3)</li>
+    <li><a href="#lab5">Lab 5</a></li>
+    <li><a href="#lab6">Lab 6</a> (Week 4)</li>
+    <li><a href="#lab7">Lab 7</a> (Week 5)</li>
+    <li><a href="#lab8">Lab 8</a></li>
+    <li><a href="#lab9">Lab 9</a> (Week 6)</li>
+    <li><a href="#lab10">Lab 10</a>(Week 7)</li>
+    <li><a href="#lab11">Lab 11</a></li>
+    <li><a href="#lab12">Lab 12</a></li>
+    <li><a href="#lab13">Lab 13</a></li>
+    <li><a href="#lab14">Lab 14</a> (Week 11)</li>
+    <li><a href="#lab15">Lab 15</a></li>
+    <li><a href="#lab16">Lab 16</a> (Week 12)</li>
+    <li><a href="#lab17">Lab 17</a></li>
+    <li><a href="#lab18">Lab 17</a></li>
+  </ul>
+</div>
+
+<hr />
+
+<div class="page-section">
+
+  <h1 id="week-1-lab-1-no-check-off-needed">Week 1: Lab 1: No check-off needed!</h1>
+
+  <h2 id="lab1">Lab 1: Welcome to Snap<em>!</em></h2>
+  <ul>
+    <li>No questions for this lab!</li>
+  </ul>
+
+  <hr />
+
+  <h1 id="week-2-labs-2-and-3">Week 2: Labs 2 and 3</h1>
+
+  <h2 id="lab2">Lab 2: Build Your Own Blocks</h2>
+
+  <p><strong>Required</strong></p>
+
+  <ul>
+    <li>Why should we make our own blocks? What’s the point?</li>
+    <li>Show us the <code>Draw Flower</code> block.</li>
+  </ul>
+
+  <p><strong>More Self-Check Questions</strong></p>
+
+  <ul>
+    <li>What are some different ways to achieve repetition? Why would you use one way over another?</li>
+    <li>How would you change the draw flower block so that the petals could be different shapes?</li>
+  </ul>
+
+  <h2 id="lab3">Lab 3: Conditionals and Variables</h2>
+
+  <p><strong>Required</strong></p>
+
+  <ul>
+    <li>Why are script variables useful? How do we create script variables?</li>
+    <li>Show us the code for the <code>is _ between _ and _ ?</code> block.</li>
+  </ul>
+
+  <p><strong>More Self-Check Questions</strong></p>
+
+  <ul>
+    <li>Describe the truth tables for A and B and C / A or B or C.</li>
+    <li>What is the difference between if and if-else blocks?</li>
+  </ul>
+
+  <hr />
+
+  <h1 id="week-3-labs-4-and-5">Week 3: Labs 4 and 5</h1>
+
+  <h2 id="lab4">Lab 4: Functions</h2>
+
+  <p><strong>Required</strong></p>
+
+  <ul>
+    <li>Coming soon!</li>
+  </ul>
+
+  <p><strong>More Self-Check Questions</strong></p>
+
+  <ul>
+    <li>Coming soon!</li>
+  </ul>
+
+  <h2 id="lab5">Lab 5: Lists 1</h2>
+
+  <p><strong>Required</strong></p>
+
+  <ul>
+    <li>Coming soon!</li>
+  </ul>
+
+  <p><strong>More Self-Check Questions</strong></p>
+
+  <ul>
+    <li>Coming soon!</li>
+  </ul>
+
+  <h1 id="week-4-lab-6">Week 4: Lab 6</h1>
+
+  <h2 id="lab6">Lab 6: Algorithms</h2>
+
+  <p><strong>Required</strong></p>
+
+  <ul>
+    <li>Coming soon!</li>
+  </ul>
+
+  <p><strong>More Self-Check Questions</strong></p>
+
+  <ul>
+    <li>Coming soon!</li>
+  </ul>
+
+  <h1 id="week-5-labs-7-and-8">Week 5: Labs 7 and 8</h1>
+
+  <h2 id="lab7">Lab 7: Algorithm Complexity</h2>
+
+  <p><strong>Required</strong></p>
+
+  <ul>
+    <li>Coming soon!</li>
+  </ul>
+
+  <p><strong>More Self-Check Questions</strong></p>
+
+  <ul>
+    <li>Coming soon!</li>
+  </ul>
+
+  <h2 id="lab8">Lab 8: Finch Lab</h2>
+  <ul>
+    <li>You can get checked off for this lab as long as you show up to lab and work on it. No questions!</li>
+  </ul>
+
+  <h1 id="week-6-quest-and-lab-9">Week 6: Quest and Lab 9</h1>
+
+  <h2 id="lab9">Lab 9: Testing Code and 2048</h2>
+
+  <p><strong>Required</strong></p>
+
+  <ul>
+    <li>Coming soon!</li>
+  </ul>
+
+  <h1 id="week-7-labs-10-and-11">Week 7: Labs 10 and 11</h1>
+
+  <h2 id="lab10">Lab 10: Recursion</h2>
+
+  <p><strong>Required</strong></p>
+
+  <ul>
+    <li>Coming soon!</li>
+  </ul>
+
+  <p><strong>More Self-Check Questions</strong></p>
+
+  <ul>
+    <li>Coming soon!</li>
+  </ul>
+
+  <h2 id="lab11">Lab 11: Concurrency</h2>
+
+  <p><strong>Required</strong></p>
+
+  <ul>
+    <li>Coming soon!</li>
+  </ul>
+
+  <p><strong>More Self-Check Questions</strong></p>
+
+  <ul>
+    <li>Coming soon!</li>
+  </ul>
+
+  <h1 id="week-8-lab-12">Week 8: Lab 12</h1>
+
+  <h2 id="lab12">Lab 12: Recursive Reporters I</h2>
+
+  <p><strong>Required</strong></p>
+
+  <ul>
+    <li>Coming soon!</li>
+  </ul>
+
+  <p><strong>More Self-Check Questions</strong></p>
+
+  <ul>
+    <li>Coming soon!</li>
+  </ul>
+
+  <h1 id="week-9-lab-13">Week 9: Lab 13</h1>
+
+  <h2 id="lab13">Lab 13</h2>
+
+  <p><strong>Required</strong></p>
+
+  <ul>
+    <li>Coming soon!</li>
+  </ul>
+
+  <p><strong>More Self-Check Questions</strong></p>
+
+  <ul>
+    <li>Coming soon!</li>
+  </ul>
+
+  <h1 id="week-11-lab-14-and-15">Week 11: Lab 14 and 15</h1>
+
+  <h2 id="lab14">Lab 14: Lambdas and HOFs</h2>
+
+  <p><strong>Required</strong></p>
+
+  <ul>
+    <li>Coming soon!</li>
+  </ul>
+
+  <p><strong>More Self-Check Questions</strong></p>
+
+  <ul>
+    <li>Coming soon!</li>
+  </ul>
+
+  <h2 id="lab15">Lab 15: Internet</h2>
+
+  <p><strong>Required</strong></p>
+
+  <ul>
+    <li>Coming soon!</li>
+  </ul>
+
+  <p><strong>More Self-Check Questions</strong></p>
+
+  <ul>
+    <li>Coming soon!</li>
+  </ul>
+
+  <h1 id="week-12-lab-16">Week 12: Lab 16</h1>
+
+  <h2 id="lab16">Lab 16: Besides Blocks: Welcome to Python</h2>
+
+  <p><strong>Required</strong></p>
+
+  <ul>
+    <li>Coming soon!</li>
+  </ul>
+
+  <p><strong>More Self-Check Questions</strong></p>
+
+  <ul>
+    <li>Coming soon!</li>
+  </ul>
+
+  <h1 id="week-13-lab-17-and-lab-18">Week 13: Lab 17 and Lab 18</h1>
+
+  <h2 id="lab17">Lab 17: Besides Blocks: Data Structures in Python</h2>
+
+  <p><strong>Required</strong></p>
+
+  <ul>
+    <li>Coming soon!</li>
+  </ul>
+
+  <p><strong>More Self-Check Questions</strong></p>
+
+  <ul>
+    <li>Coming soon!</li>
+  </ul>
+
+  <h2 id="lab17">Lab 18: Besides Blocks: Text Processing in Python</h2>
+
+  <p><strong>Required</strong></p>
+
+  <ul>
+    <li>Coming soon!</li>
+  </ul>
+
+  <p><strong>More Self-Check Questions</strong></p>
+
+  <ul>
+    <li>Coming soon!</li>
+  </ul>
+
+  <!-- Keep the /div at the bottom -->
+</div>
+
+
+    <footer class="site-footer">
+  <div class="wrapper">
+    <hr />
+    <div class="center">
+      This work is licensed under a
+      <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+        Creative Commons Attribution-Noncommercial-Share Alike 4.0 Unported License</a>.
+      <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+        <img align="right" alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" />
+      </a>
+    </div>
+  </div>
+</footer>
+
+
+  </body>
+
+</html>
