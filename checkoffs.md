@@ -1,8 +1,10 @@
 ---
 layout: default
-title: Lab Check-Off Questions
+title: "Lab Check-Off Questions"
 permalink: labquestions/index.html
+published: true
 ---
+
 
 {% include nav.html %}
 
