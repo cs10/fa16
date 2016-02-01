@@ -98,11 +98,13 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 **Required** 
 
-* Coming soon!
+* Name a few of the input types. Why is it important that we specify input types?
+* How are global variables different from script variables?
 
 **More Self-Check Questions**
 
-* Coming soon!
+* Why is the check block useful? And how does it work?
+* Why is the broadcast block useful? Give an example of a good situation to use one. 
 
 ## Lab 5: Lists 1 {#lab5}
 
