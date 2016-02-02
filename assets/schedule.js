@@ -140,7 +140,7 @@ cs10.week4 = {
     lect2: lect('Algorithmic Complexity'), //'https://docs.google.com/presentation/d/1hJTCiCxmaWfhjjSFTclkGeyzrH5UVMr9vVinAt_ohFk/pub?start=false&loop=false&delayms=3000'),
     lab2: lab('Algorithmic Complexity', 'berkeley_bjc/areas/algorithm-complexity.topic'),
     disc1: disc('Quest Review'),
-    hw: hw('HW2: Encryptify', 'TBD', 'assignments/6644472', hw2Spec)
+    hw: hw('HW2: Encryptify', '2/17', 'assignments/7259695', hw2Spec)
 
     // [
 //         hw('Midterm Project<br><strong>Individual</strong> Milestone', '3/13', 'assignments/6120151'),
@@ -168,7 +168,7 @@ cs10.week5 = {
     lect2: lect('Quest In Class'),
     lab2: lab('Finch Lab', 'berkeley_bjc/robots/robots.topic'),
     disc1: disc('Quest Debrief'),
-    hw: hw('HW2: Encryptify', 'TBD', 'assignments/6644472', hw2Spec)
+    hw: hw('HW2: Encryptify', '2/17', 'assignments/7259695', hw2Spec)
     //hw: hw('HW2: Snowman', '9/18', 'assignments/6644472', 'assign.html?//docs.google.com/document/d/1iJDOxWMBnmE5lOzqmUi_-F-HoSyGuQrzn-COiGQd29Y/pub')
 };
  cs10.week5.lect2.classes = 'exam';
@@ -185,8 +185,8 @@ cs10.week6 = {
 	lab1: lab('Testing, HW3', 'berkeley_bjc/2048-testing/2048.topic', true),
     lect2: lect('Recursion I'),
     lab2: lab('Trees and Fractals Using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic'),
-    disc1: disc('TBD'),
-    hw: hw('HW3: 2048','TBD', 'assignments/6930656', hw3Spec)
+    disc1: disc('Recursion'),
+    hw: hw('HW3: 2048','3/4', 'assignments/7259696', hw3Spec)
 };
 
 // FEB 29 - MAR 4
@@ -198,11 +198,11 @@ cs10.week7 = {
             'https://docs.google.com/document/d/1FC-_lcn_EWlGXLfPDlQbSQeE1Q4NpTG39S-kVkHRxv8/edit?usp=sharing')
     ],
     lect1: lect('HCI'), //'https://docs.google.com/presentation/d/1b_vwq1xO3zFWTAexXv-QFydbRVGoInM1sLIO32zAUMU/pub?start=false&loop=false&delayms=3000'),
-    lab1: lab('Tic Tac Toe', 'berkeley_bjc/lists/tic-tac-toe.topic', true),
     lect2: lect('Computer Vision'), //'https://docs.google.com/presentation/d/1NuOa586nkC1m95X_5LYyiI4gs0s3XL5eRZF7DeH81us/pub?start=false&loop=false&delayms=3000'),
-    lab2: lab('Homework 3 Work Session'),
-    disc1: disc('Recursion'),
-    hw: hw('HW3: 2048','TBD', 'assignments/6930656', hw3Spec)
+    lab1: lab('Homework 3 Work Session', null, true),
+    lab2: lab('Tic Tac Toe', 'berkeley_bjc/lists/tic-tac-toe.topic'),
+    disc1: disc('More Recursion'),
+    hw: hw('HW3: 2048','3/4', 'assignments/7259696', hw3Spec)
 };
 
 // MAR 7 - 11
@@ -213,7 +213,7 @@ cs10.week8 = {
         reading('Rest of BtB chapter 2',
                 'http://www.bitsbook.com/wp-content/uploads/2008/12/chapter2.pdf', 'optional'),
     ],
-    disc1: disc('More Recursion'),
+    disc1: disc('Midterm Review'),
     lab1: lab('Recursive Reporters I', 'berkeley_bjc/recur/recursive-reporters-part1.topic', true),
     lect1: lect('Recursion II'), //'https://docs.google.com/presentation/d/1IzvyATwwmue57YXuGLXevOyTLNgepV0xH8VaiGGHrYw/pub?start=false&loop=false&delayms=3000'),
     lect2: lect('Algorithmic Complexity II'), //'L13 - Privacy'),
@@ -233,7 +233,7 @@ cs10.week9 = {
                 'https://medium.com/p/804cdf4b48c1',
                 'hard')*/
     ],
-    disc1: disc('Midterm Review'),
+    disc1: disc('Midterm Debrief'),
     lab1: lab('Online <span class="snap">snap</span> Midterm'),
     lab2: lab('Concurrency', 'berkeley_bjc/areas/concurrency.topic'),
     lect1: lect('Concurrency'), //'https://docs.google.com/presentation/d/1o4GtTha_TbRNCvqp7wEchJxGaeoENnH3KTX0Hl6nvD0/edit?usp=sharing'),
