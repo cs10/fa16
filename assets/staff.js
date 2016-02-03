@@ -14,6 +14,7 @@ var JustinH = {
     img: 'Sp16/Justin.jpg',
     imgSrc: 'JustinHsia.jpg',
     email: 'justin@cs10.org'
+    web: 'http://www.eecs.berkeley.edu/~jhsia/'
 };
 
 
