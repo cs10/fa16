@@ -13,7 +13,7 @@ var JustinH = {
     name: 'Dr. Justin Hsia',
     img: 'Sp16/Justin.jpg',
     imgSrc: 'JustinHsia.jpg',
-    email: 'justin@cs10.org'
+    email: 'justin@cs10.org',
     web: 'http://www.eecs.berkeley.edu/~jhsia/'
 };
 
