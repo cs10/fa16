@@ -107,9 +107,9 @@ cs10.week3 = {
                 'https://www.wired.com/magazine/2010/05/process_pixar/',
                 'optional')*/
     ],
-    lect1: lect('Multimedia Computing'),
+    lect1: lect('Multimedia Computing', 'https://docs.google.com/presentation/d/1guhwTCV3PgH7QVVSt-bQlyeQsGACulRLzHWgio_wd2c/edit?usp=sharing'),
     lab1: lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic', true),
-    lect2: lect('Lists and Programming Paradigms'), //'https://docs.google.com/presentation/d/136vfh3rhRyTsGUKNv1MuUSHZqdPp4xVvt9GX3LlGX6I/pub'),
+    lect2: lect('Lists and Programming Paradigms', 'https://docs.google.com/presentation/d/1HielUCvYaOTgqnyP9UciJx-PUBbyhbfxTQWO0Tb9kbU/edit?usp=sharing'), //'https://docs.google.com/presentation/d/136vfh3rhRyTsGUKNv1MuUSHZqdPp4xVvt9GX3LlGX6I/pub'),
     lab2: lab('Lists I', 'berkeley_bjc/lists/lists-I.topic'),
     disc1: disc('All about lists'),
     hw: hw('HW1: Word Guessing', '2/3', 'assignments/7259694', hw1Spec)
