@@ -112,11 +112,14 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 **Required**
 
-* Coming soon!
+* Which blocks allow you to use use a function on an entire list "all at once"? What are their inputs and outputs?
+* Show us your <code>expand _ </code> block. Explain how you used the <code>for each</code> block.
 
 **More Self-Check Questions**
 
-* Coming soon!
+* Look back at the <code>swap</code> block. Why do you need a temp variable?
+* How are lists different from variables? How do you create a temporary list for use in a block definition?
+* When would you want to use a <code>for each</code> loop versus a higher order function? What's similar and different about them? 
 
 #Week 4: Lab 6
 
