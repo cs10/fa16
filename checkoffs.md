@@ -113,7 +113,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 **Required**
 
 * Which blocks allow you to use use a function on an entire list "all at once"? What are their inputs and outputs?
-* Show us your <code>expand _ </code> block. Explain how you used the <code>for each</code> block.
+* Show us your <code>expand _ </code> block and explain how you used the <code>for each</code> block.
 
 **More Self-Check Questions**
 
