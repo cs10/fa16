@@ -121,6 +121,8 @@ To get checked off, you should prepare answers to the specific questions for eac
 * How are lists different from variables? How do you create a temporary list for use in a block definition?
 * When would you want to use a <code>for each</code> loop versus a higher order function? What's similar and different about them? 
 
+------
+
 #Week 4: Lab 6
 
 ## Lab 6: Algorithms {#lab6}
@@ -132,6 +134,8 @@ To get checked off, you should prepare answers to the specific questions for eac
 **More Self-Check Questions**
 
 * Coming soon!
+
+------
 
 #Week 5: Labs 7 and 8
 
@@ -148,6 +152,8 @@ To get checked off, you should prepare answers to the specific questions for eac
 ## Lab 8: Finch Lab   {#lab8}
 * You can get checked off for this lab as long as you show up to lab and work on it. No questions!
 
+------
+
 #Week 6: Quest and Lab 9
 
 ## Lab 9: Testing Code and 2048 {#lab9}
@@ -155,6 +161,8 @@ To get checked off, you should prepare answers to the specific questions for eac
 **Required**
 
 * Coming soon!
+
+------
 
 #Week 7: Labs 10 and 11
 
@@ -178,6 +186,8 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 * Coming soon!
 
+------
+
 #Week 8: Lab 12
 
 ## Lab 12: Recursive Reporters I {#lab12}
@@ -190,6 +200,8 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 * Coming soon!
 
+------
+
 #Week 9: Lab 13
 
 ## Lab 13 {#lab13}
@@ -201,6 +213,8 @@ To get checked off, you should prepare answers to the specific questions for eac
 **More Self-Check Questions**
 
 * Coming soon!
+
+------
 
 #Week 11: Lab 14 and 15
 
@@ -224,6 +238,8 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 * Coming soon!
 
+------
+
 #Week 12: Lab 16
 
 ##Lab 16: Besides Blocks: Welcome to Python {#lab16}
@@ -235,6 +251,8 @@ To get checked off, you should prepare answers to the specific questions for eac
 **More Self-Check Questions**
 
 * Coming soon!
+
+------
 
 #Week 13: Lab 17 and Lab 18
 
