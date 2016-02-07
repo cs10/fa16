@@ -129,11 +129,12 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 **Required**
 
-* Coming soon!
+* What is an algorithm? Please give an example both in real life and from class.
+* Please show both your “Find the number X in Unsorted List” and “Find the number X in Sorted List” blocks and describe the difference in the algorithms used.
 
 **More Self-Check Questions**
 
-* Coming soon!
+* What is memoization? When is it useful?
 
 ------
 
