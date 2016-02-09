@@ -135,7 +135,7 @@ cs10.week4 = {
                 'https://medium.com/@_marcos_otero/the-real-10-algorithms-that-dominate-our-world-e95fa9f16c04',
                 'optional')
     ],
-    lect1: lect('Algorithms'), //'https://docs.google.com/presentation/d/1VsF8pEI882QS4X6Vu3JqCkO_1d8ttp763p0cONt_GgI/pub?start=false&loop=false&delayms=3000'),
+    lect1: lect('Algorithms', 'https://docs.google.com/presentation/d/1v5SU7KQiGuCuAFXBmwjrI0fR8U8NYsenNHL6qWlScng/edit?usp=sharing'), //'https://docs.google.com/presentation/d/1VsF8pEI882QS4X6Vu3JqCkO_1d8ttp763p0cONt_GgI/pub?start=false&loop=false&delayms=3000'),
     lab1: lab('Algorithms', 'berkeley_bjc/areas/algorithms.topic', true),
     lect2: lect('Algorithmic Complexity'), //'https://docs.google.com/presentation/d/1hJTCiCxmaWfhjjSFTclkGeyzrH5UVMr9vVinAt_ohFk/pub?start=false&loop=false&delayms=3000'),
     lab2: lab('Algorithmic Complexity', 'berkeley_bjc/areas/algorithm-complexity.topic'),
@@ -197,8 +197,8 @@ cs10.week7 = {
         reading('eWEEK at 30: Multicore CPUs Keep Chip Makers in Step With Moore\'s Law',
             'https://docs.google.com/document/d/1FC-_lcn_EWlGXLfPDlQbSQeE1Q4NpTG39S-kVkHRxv8/edit?usp=sharing')
     ],
-    lect1: lect('HCI'), //'https://docs.google.com/presentation/d/1b_vwq1xO3zFWTAexXv-QFydbRVGoInM1sLIO32zAUMU/pub?start=false&loop=false&delayms=3000'),
-    lect2: lect('Computer Vision'), //'https://docs.google.com/presentation/d/1NuOa586nkC1m95X_5LYyiI4gs0s3XL5eRZF7DeH81us/pub?start=false&loop=false&delayms=3000'),
+    lect1: lect('Recursion II'), //'https://docs.google.com/presentation/d/1b_vwq1xO3zFWTAexXv-QFydbRVGoInM1sLIO32zAUMU/pub?start=false&loop=false&delayms=3000'),
+    lect2: lect('Cryptography and Security'), //'https://docs.google.com/presentation/d/1NuOa586nkC1m95X_5LYyiI4gs0s3XL5eRZF7DeH81us/pub?start=false&loop=false&delayms=3000'),
     lab1: lab('Homework 3 Work Session', null, true),
     lab2: lab('Tic Tac Toe', 'berkeley_bjc/lists/tic-tac-toe.topic'),
     disc1: disc('More Recursion'),
@@ -215,8 +215,8 @@ cs10.week8 = {
     ],
     disc1: disc('Midterm Review'),
     lab1: lab('Recursive Reporters I', 'berkeley_bjc/recur/recursive-reporters-part1.topic', true),
-    lect1: lect('Recursion II'), //'https://docs.google.com/presentation/d/1IzvyATwwmue57YXuGLXevOyTLNgepV0xH8VaiGGHrYw/pub?start=false&loop=false&delayms=3000'),
-    lect2: lect('Algorithmic Complexity II'), //'L13 - Privacy'),
+    lect1: lect('Algorithmic Complexity II'), //'https://docs.google.com/presentation/d/1IzvyATwwmue57YXuGLXevOyTLNgepV0xH8VaiGGHrYw/pub?start=false&loop=false&delayms=3000'),
+    lect2: lect('CS Ed'), //'L13 - Privacy'),
     lab2: lab('Project Work Session'),
     hw: hw('Midterm Project Proposals', 'TBD', 'assignments/6644519', mtProjSpec)
 };
