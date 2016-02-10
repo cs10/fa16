@@ -144,11 +144,14 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 **Required**
 
-* Coming soon!
+* Please show me your Non-Gauss and Gauss <code>Add all numbers in</code>. Which was faster? Why?
+* Of all the runtimes you have discovered thus far, can you rank them from “fastest” to “slowest”? Why is runtime important for the programs that we create?`
 
 **More Self-Check Questions**
 
-* Coming soon!
+* What is the difference between “Worst-Case” and “Best Case” Runtimes when running the <code>Are the numbers of (LIST) distinct?</code> block? Why? 
+* Why are constant time algorithms so rare? 
+* Why are logarithmic time algorithms sought after? 
 
 ## Lab 8: Finch Lab   {#lab8}
 * You can get checked off for this lab as long as you show up to lab and work on it. No questions!
