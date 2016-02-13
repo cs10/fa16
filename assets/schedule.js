@@ -139,7 +139,7 @@ cs10.week4 = {
     lab1: lab('Algorithms', 'berkeley_bjc/areas/algorithms.topic', true),
     lect2: lect('Algorithmic Complexity', 'https://docs.google.com/presentation/d/1dExMn1OoSs-wo3sLNXFnd4TYL_vl4bDfguzNtZLSeww/edit?usp=sharing'), //'https://docs.google.com/presentation/d/1hJTCiCxmaWfhjjSFTclkGeyzrH5UVMr9vVinAt_ohFk/pub?start=false&loop=false&delayms=3000'),
     lab2: lab('Algorithmic Complexity', 'berkeley_bjc/areas/algorithm-complexity.topic'),
-    disc1: disc('Quest Review'),
+    disc1: disc('Quest Review', true),
     hw: hw('HW2: Encryptify', '2/17', 'assignments/7259695', hw2Spec)
 
     // [
