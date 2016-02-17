@@ -94,7 +94,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 ------
 
-#Week 3: Labs 4 and 5
+# Week 3: Labs 4 and 5
 
 ## Lab 4: Functions {#lab4}
 
@@ -123,7 +123,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 ------
 
-#Week 4: Lab 6
+# Week 4: Lab 6
 
 ## Lab 6: Algorithms {#lab6}
 
@@ -138,7 +138,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 ------
 
-#Week 5: Labs 7 and 8
+# Week 5: Labs 7 and 8
 
 ## Lab 7: Algorithm Complexity {#lab7}
 
@@ -158,7 +158,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 ------
 
-#Week 6: Quest and Lab 9
+# Week 6: Quest and Lab 9
 
 ## Lab 9: Testing Code and 2048 {#lab9}
 
@@ -168,7 +168,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 ------
 
-#Week 7: Labs 10 and 11
+# Week 7: Labs 10 and 11
 
 ## Lab 10: Recursion {#lab10}
 
@@ -192,7 +192,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 ------
 
-#Week 8: Lab 12
+# Week 8: Lab 12
 
 ## Lab 12: Recursive Reporters I {#lab12}
 
@@ -206,7 +206,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 ------
 
-#Week 9: Lab 13
+# Week 9: Lab 13
 
 ## Lab 13 {#lab13}
 
@@ -220,7 +220,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 ------
 
-#Week 11: Lab 14 and 15
+# Week 11: Lab 14 and 15
 
 ## Lab 14: Lambdas and HOFs {#lab14}
 
@@ -244,7 +244,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 ------
 
-#Week 12: Lab 16
+# Week 12: Lab 16
 
 ##Lab 16: Besides Blocks: Welcome to Python {#lab16}
 
@@ -258,7 +258,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 ------
 
-#Week 13: Lab 17 and Lab 18
+# Week 13: Lab 17 and Lab 18
 
 ##Lab 17: Besides Blocks: Data Structures in Python {#lab17}
 
