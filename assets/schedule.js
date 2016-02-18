@@ -20,7 +20,7 @@ function docs(id) {
 }
 // CONSTANTS:
 var hw1Spec = docs('1ybuatsrUMCI-tHHRPwxUpGoZoGxk_SEiGEArocQtIlI');
-var hw2Spec = docs('15s641ROrtQtt6hOA4WIdXW3wvmdBjZN0yPDi1D9IL2k');
+var hw2Spec = docs('1NrZaFKMIeN7Jvfpwe8Auv6Cc-OhcOIZzZX83IN2azPA');
 var hw3Spec = docs('186x49Yd05JKztSwlSNv0S82Jy5w5ql_MVDLTZo-_mPQ');
 var mtProjSpec = docs('1nOOTJnTf_8ZsRKEWFEVMwRnNVUTbFMJyzMkIQiH6BaY');
 var exploreSpec = docs('1V-WT8L0IkH9e1jFF28f3gfTj4UYCWccPDAjyVjlNOMU');
@@ -79,7 +79,7 @@ cs10.week2 = {
     lab1: lab('Build Your Own Blocks', 'berkeley_bjc/intro_pair/2-loops-variables.topic'),
     lect2: lect('Numbers and Abstraction', 'https://docs.google.com/presentation/d/1TVXERNz4ude_YYsPccwwirFWxXQXSs2ex-cccHytfzo/edit?usp=sharing'), //'https://docs.google.com/presentation/d/1zHEl4C_jLGFVFznWPMWhDYFtcLENUU3_DubOb_H5UZs/pub'),
     lab2: lab('Conditionals and Reporters', 'berkeley_bjc/intro_pair/3-conditionals.topic', true),
-    disc1: disc('Anatomy of a Computer and the Power of Binary'),
+    disc1: disc('Anatomy of a Computer and the Power of Binary', true),
     hw: hw('HW1: Word Guessing', '2/3', 'assignments/7259694', hw1Spec)
 };
 
@@ -108,11 +108,11 @@ cs10.week3 = {
                 'https://www.wired.com/magazine/2010/05/process_pixar/',
                 'optional')*/
     ],
-    lect1: lect('Multimedia Computing'),
+    lect1: lect('Multimedia Computing', 'https://docs.google.com/presentation/d/1guhwTCV3PgH7QVVSt-bQlyeQsGACulRLzHWgio_wd2c/edit?usp=sharing'),
     lab1: lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic', true),
-    lect2: lect('Lists and Programming Paradigms'), //'https://docs.google.com/presentation/d/136vfh3rhRyTsGUKNv1MuUSHZqdPp4xVvt9GX3LlGX6I/pub'),
+    lect2: lect('Lists and Programming Paradigms', 'https://docs.google.com/presentation/d/1HielUCvYaOTgqnyP9UciJx-PUBbyhbfxTQWO0Tb9kbU/edit?usp=sharing'), //'https://docs.google.com/presentation/d/136vfh3rhRyTsGUKNv1MuUSHZqdPp4xVvt9GX3LlGX6I/pub'),
     lab2: lab('Lists I', 'berkeley_bjc/lists/lists-I.topic'),
-    disc1: disc('All about lists'),
+    disc1: disc('All about lists', true),
     hw: hw('HW1: Word Guessing', '2/3', 'assignments/7259694', hw1Spec)
 };
 // cs10.week3.lect3.classes = 'exam';
@@ -136,12 +136,12 @@ cs10.week4 = {
                 'https://medium.com/@_marcos_otero/the-real-10-algorithms-that-dominate-our-world-e95fa9f16c04',
                 'optional')
     ],
-    lect1: lect('Algorithms'), //'https://docs.google.com/presentation/d/1VsF8pEI882QS4X6Vu3JqCkO_1d8ttp763p0cONt_GgI/pub?start=false&loop=false&delayms=3000'),
+    lect1: lect('Algorithms', 'https://docs.google.com/presentation/d/1v5SU7KQiGuCuAFXBmwjrI0fR8U8NYsenNHL6qWlScng/edit?usp=sharing'), //'https://docs.google.com/presentation/d/1VsF8pEI882QS4X6Vu3JqCkO_1d8ttp763p0cONt_GgI/pub?start=false&loop=false&delayms=3000'),
     lab1: lab('Algorithms', 'berkeley_bjc/areas/algorithms.topic', true),
-    lect2: lect('Algorithmic Complexity'), //'https://docs.google.com/presentation/d/1hJTCiCxmaWfhjjSFTclkGeyzrH5UVMr9vVinAt_ohFk/pub?start=false&loop=false&delayms=3000'),
+    lect2: lect('Algorithmic Complexity', 'https://docs.google.com/presentation/d/1dExMn1OoSs-wo3sLNXFnd4TYL_vl4bDfguzNtZLSeww/edit?usp=sharing'), //'https://docs.google.com/presentation/d/1hJTCiCxmaWfhjjSFTclkGeyzrH5UVMr9vVinAt_ohFk/pub?start=false&loop=false&delayms=3000'),
     lab2: lab('Algorithmic Complexity', 'berkeley_bjc/areas/algorithm-complexity.topic'),
-    disc1: disc('Quest Review'),
-    hw: hw('HW2: Encryptify', 'TBD', 'assignments/6644472', hw2Spec)
+    disc1: disc('Quest Review', true),
+    hw: hw('HW2: Encryptify', '2/17', 'assignments/7259695', hw2Spec)
 
     // [
 //         hw('Midterm Project<br><strong>Individual</strong> Milestone', '3/13', 'assignments/6120151'),
@@ -169,7 +169,7 @@ cs10.week5 = {
     lect2: lect('Quest In Class'),
     lab2: lab('Finch Lab', 'berkeley_bjc/robots/robots.topic'),
     disc1: disc('Quest Debrief'),
-    hw: hw('HW2: Encryptify', 'TBD', 'assignments/6644472', hw2Spec)
+    hw: hw('HW2: Encryptify', '2/17', 'assignments/7259695', hw2Spec)
     //hw: hw('HW2: Snowman', '9/18', 'assignments/6644472', 'assign.html?//docs.google.com/document/d/1iJDOxWMBnmE5lOzqmUi_-F-HoSyGuQrzn-COiGQd29Y/pub')
 };
  cs10.week5.lect2.classes = 'exam';
@@ -186,8 +186,8 @@ cs10.week6 = {
 	lab1: lab('Testing, HW3', 'berkeley_bjc/2048-testing/2048.topic', true),
     lect2: lect('Recursion I'),
     lab2: lab('Trees and Fractals Using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic'),
-    disc1: disc('TBD'),
-    hw: hw('HW3: 2048','TBD', 'assignments/6930656', hw3Spec)
+    disc1: disc('Recursion'),
+    hw: hw('HW3: 2048','3/4', 'assignments/7259696', hw3Spec)
 };
 
 // FEB 29 - MAR 4
@@ -198,12 +198,12 @@ cs10.week7 = {
         reading('eWEEK at 30: Multicore CPUs Keep Chip Makers in Step With Moore\'s Law',
             'https://docs.google.com/document/d/1FC-_lcn_EWlGXLfPDlQbSQeE1Q4NpTG39S-kVkHRxv8/edit?usp=sharing')
     ],
-    lect1: lect('HCI'), //'https://docs.google.com/presentation/d/1b_vwq1xO3zFWTAexXv-QFydbRVGoInM1sLIO32zAUMU/pub?start=false&loop=false&delayms=3000'),
-    lab1: lab('Tic Tac Toe', 'berkeley_bjc/lists/tic-tac-toe.topic', true),
-    lect2: lect('Computer Vision'), //'https://docs.google.com/presentation/d/1NuOa586nkC1m95X_5LYyiI4gs0s3XL5eRZF7DeH81us/pub?start=false&loop=false&delayms=3000'),
-    lab2: lab('Homework 3 Work Session'),
-    disc1: disc('Recursion'),
-    hw: hw('HW3: 2048','TBD', 'assignments/6930656', hw3Spec)
+    lect1: lect('Recursion II'), //'https://docs.google.com/presentation/d/1b_vwq1xO3zFWTAexXv-QFydbRVGoInM1sLIO32zAUMU/pub?start=false&loop=false&delayms=3000'),
+    lect2: lect('Cryptography and Security'), //'https://docs.google.com/presentation/d/1NuOa586nkC1m95X_5LYyiI4gs0s3XL5eRZF7DeH81us/pub?start=false&loop=false&delayms=3000'),
+    lab1: lab('Homework 3 Work Session', null, true),
+    lab2: lab('Tic Tac Toe', 'berkeley_bjc/lists/tic-tac-toe.topic'),
+    disc1: disc('More Recursion'),
+    hw: hw('HW3: 2048','3/4', 'assignments/7259696', hw3Spec)
 };
 
 // MAR 7 - 11
@@ -214,10 +214,10 @@ cs10.week8 = {
         reading('Rest of BtB chapter 2',
                 'http://www.bitsbook.com/wp-content/uploads/2008/12/chapter2.pdf', 'optional'),
     ],
-    disc1: disc('More Recursion'),
+    disc1: disc('Midterm Review'),
     lab1: lab('Recursive Reporters I', 'berkeley_bjc/recur/recursive-reporters-part1.topic', true),
-    lect1: lect('Recursion II'), //'https://docs.google.com/presentation/d/1IzvyATwwmue57YXuGLXevOyTLNgepV0xH8VaiGGHrYw/pub?start=false&loop=false&delayms=3000'),
-    lect2: lect('Algorithmic Complexity II'), //'L13 - Privacy'),
+    lect1: lect('Algorithmic Complexity II'), //'https://docs.google.com/presentation/d/1IzvyATwwmue57YXuGLXevOyTLNgepV0xH8VaiGGHrYw/pub?start=false&loop=false&delayms=3000'),
+    lect2: lect('CS Ed'), //'L13 - Privacy'),
     lab2: lab('Project Work Session'),
     hw: hw('Midterm Project Proposals', 'TBD', 'assignments/6644519', mtProjSpec)
 };
@@ -234,11 +234,12 @@ cs10.week9 = {
                 'https://medium.com/p/804cdf4b48c1',
                 'hard')*/
     ],
-    disc1: disc('Midterm Review'),
-    lab1: lab('Concurrency', 'berkeley_bjc/areas/concurrency.topic', true),
+    disc1: disc('Midterm Debrief'),
+    lab1: lab('Online <span class="snap">snap</span> Midterm'),
+    lab2: lab('Concurrency', 'berkeley_bjc/areas/concurrency.topic'),
     lect1: lect('Concurrency'), //'https://docs.google.com/presentation/d/1o4GtTha_TbRNCvqp7wEchJxGaeoENnH3KTX0Hl6nvD0/edit?usp=sharing'),
     lect2: lect('The Internet I'), //'L15 - HCI'),
-    lab2: lab('Project Work Session'),
+    //lab2: lab('Project Work Session'),
     hw: [        
         hw('Midterm Project<br> Milestone', 'TBD', 'assignments/6644521')
     ]    

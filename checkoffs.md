@@ -1,8 +1,10 @@
 ---
 layout: default
-title: Lab Check-Off Questions
+title: "Lab Check-Off Questions"
 permalink: labquestions/index.html
+published: true
 ---
+
 
 {% include nav.html %}
 
@@ -92,56 +94,71 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 ------
 
-#Week 3: Labs 4 and 5
+# Week 3: Labs 4 and 5
 
 ## Lab 4: Functions {#lab4}
 
 **Required** 
 
-* Coming soon!
+* Name a few of the input types. Why is it important that we specify input types?
+* How are global variables different from script variables?
 
 **More Self-Check Questions**
 
-* Coming soon!
+* Why is the check block useful? And how does it work?
+* Why is the broadcast block useful? Give an example of a good situation to use one. 
 
 ## Lab 5: Lists 1 {#lab5}
 
 **Required**
 
-* Coming soon!
+* Which blocks allow you to use use a function on an entire list "all at once"? What are their inputs and outputs?
+* Show us your <code>expand _ </code> block and explain how you used the <code>for each</code> block.
 
 **More Self-Check Questions**
 
-* Coming soon!
+* Look back at the <code>swap</code> block. Why do you need a temp variable?
+* How are lists different from variables? How do you create a temporary list for use in a block definition?
+* When would you want to use a <code>for each</code> loop versus a higher order function? What's similar and different about them? 
 
-#Week 4: Lab 6
+------
+
+# Week 4: Lab 6
 
 ## Lab 6: Algorithms {#lab6}
 
 **Required**
 
-* Coming soon!
+* What is an algorithm? Please give an example both in real life and from class.
+* Please show both your “Find the number X in Unsorted List” and “Find the number X in Sorted List” blocks and describe the difference in the algorithms used.
 
 **More Self-Check Questions**
 
-* Coming soon!
+* What is memoization? When is it useful?
 
-#Week 5: Labs 7 and 8
+------
+
+# Week 5: Labs 7 and 8
 
 ## Lab 7: Algorithm Complexity {#lab7}
 
 **Required**
 
-* Coming soon!
+* Please show me your Non-Gauss and Gauss <code>Add all numbers in</code>. Which was faster? Why?
+* Of all the runtimes you have discovered thus far, can you rank them from “fastest” to “slowest”? Why is runtime important for the programs that we create?`
 
 **More Self-Check Questions**
 
-* Coming soon!
+* What is the difference between “Worst-Case” and “Best Case” Runtimes when running the <code>Are the numbers of (LIST) distinct?</code> block? Why? 
+* Why are constant time algorithms so rare? 
+* Why are logarithmic time algorithms sought after? 
 
 ## Lab 8: Finch Lab   {#lab8}
 * You can get checked off for this lab as long as you show up to lab and work on it. No questions!
 
-#Week 6: Quest and Lab 9
+------
+
+# Week 6: Quest and Lab 9
 
 ## Lab 9: Testing Code and 2048 {#lab9}
 
@@ -149,7 +166,9 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 * Coming soon!
 
-#Week 7: Labs 10 and 11
+------
+
+# Week 7: Labs 10 and 11
 
 ## Lab 10: Recursion {#lab10}
 
@@ -171,7 +190,9 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 * Coming soon!
 
-#Week 8: Lab 12
+------
+
+# Week 8: Lab 12
 
 ## Lab 12: Recursive Reporters I {#lab12}
 
@@ -183,7 +204,9 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 * Coming soon!
 
-#Week 9: Lab 13
+------
+
+# Week 9: Lab 13
 
 ## Lab 13 {#lab13}
 
@@ -195,7 +218,9 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 * Coming soon!
 
-#Week 11: Lab 14 and 15
+------
+
+# Week 11: Lab 14 and 15
 
 ## Lab 14: Lambdas and HOFs {#lab14}
 
@@ -217,7 +242,9 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 * Coming soon!
 
-#Week 12: Lab 16
+------
+
+# Week 12: Lab 16
 
 ##Lab 16: Besides Blocks: Welcome to Python {#lab16}
 
@@ -229,7 +256,9 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 * Coming soon!
 
-#Week 13: Lab 17 and Lab 18
+------
+
+# Week 13: Lab 17 and Lab 18
 
 ##Lab 17: Besides Blocks: Data Structures in Python {#lab17}
 

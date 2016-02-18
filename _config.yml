@@ -21,7 +21,7 @@ sass:
 # Custom Data
 bCourses: 1408649
 labsCourse: cs10_fa15.html
-piazzaURL: berkeley/spring2016/cs10/home
+piazzaURL: sigcse/spring2016/cs10/home
 # IS INST DOWN?
 labsurl: http://beautyjoy.github.io/bjc-r
 # labsurl: https://inst.eecs.berkeley.edu/~cs10/labs
@@ -32,8 +32,8 @@ startDate: 2016-01-17 # First Sunday
 endDate:   2016-05-14 # Last Saturday
 
 # Change the calendar to show Sun-Sat instead of M-F when an exam is near
-questDate: 2015-09-30
-midtermDate: 2015-10-29
+questDate: 2016-02-17
+midtermDate: 2016-03-16
 finalDate: 2016-05-10
 # from console.developers.google.com
 # This key can be public and is tied to a users calendar accesses

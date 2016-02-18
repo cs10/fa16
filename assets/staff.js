@@ -13,7 +13,8 @@ var JustinH = {
     name: 'Dr. Justin Hsia',
     img: 'Sp16/Justin.jpg',
     imgSrc: 'JustinHsia.jpg',
-    email: 'justin@cs10.org'
+    email: 'justin@cs10.org',
+    web: 'http://www.eecs.berkeley.edu/~jhsia/'
 };
 
 
@@ -119,6 +120,7 @@ var yifatA = {
   name: 'TA Yifat Amir',
   img: 'sp16/YifatAmir.jpg',
   imgSrc: 'YifatAmir.jpg',
+  web: 'https://www.linkedin.com/in/yifat-amir-45633584',
   email: 'yifat@cs10.org'
 };
 
