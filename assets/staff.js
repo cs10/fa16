@@ -207,7 +207,8 @@ function buildPerson(data, width) {
         data = baseObj(data);
     }
     // when developing load images from a submodule, else load from /resources
-    if (window.location.hostname === 'localhost') {
+    var hostName = window.location.hostname;
+    if (hostName === 'localhost' || hostName == '127.0.0.1') {
         imgPathBase = '{{ site.baseurl }}'
     } else {
         imgPathBase = '';
