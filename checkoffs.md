@@ -164,7 +164,13 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 **Required**
 
-* Coming soon!
+* Please show me your test for rotated row and merge column.
+* What is Test Driven Development?
+
+**More Self-Check Questions**
+
+* Explain how the test block works (its input, output, and how it transforms the input to the output).
+* Please show me your test for score of tile number.
 
 ------
 

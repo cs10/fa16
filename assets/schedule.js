@@ -21,7 +21,7 @@ function docs(id) {
 // CONSTANTS:
 var hw1Spec = docs('1ybuatsrUMCI-tHHRPwxUpGoZoGxk_SEiGEArocQtIlI');
 var hw2Spec = docs('1NrZaFKMIeN7Jvfpwe8Auv6Cc-OhcOIZzZX83IN2azPA');
-var hw3Spec = docs('186x49Yd05JKztSwlSNv0S82Jy5w5ql_MVDLTZo-_mPQ');
+var hw3Spec = docs('1z-DZD3ya3Uxp9WkkmqF838Giq_VEjtdmXNI0dVzU5sg');
 var mtProjSpec = docs('1nOOTJnTf_8ZsRKEWFEVMwRnNVUTbFMJyzMkIQiH6BaY');
 var exploreSpec = docs('1V-WT8L0IkH9e1jFF28f3gfTj4UYCWccPDAjyVjlNOMU');
 var finalProjSpec = docs('1Pf29lFwyD883yIxIKtc2ywpqU-VTvsmUJyIw-jYuUyQ');
