@@ -219,7 +219,7 @@ cs10.week8 = {
     lect1: lect('Algorithmic Complexity II'), //'https://docs.google.com/presentation/d/1IzvyATwwmue57YXuGLXevOyTLNgepV0xH8VaiGGHrYw/pub?start=false&loop=false&delayms=3000'),
     lect2: lect('CS Ed'), //'L13 - Privacy'),
     lab2: lab('Project Work Session'),
-    hw: hw('Midterm Project Proposals', 'TBD', 'assignments/6644519', mtProjSpec)
+    hw: hw('Midterm Project Proposals', '3/11', 'assignments/7259699', mtProjSpec)
 };
 
 // MAR 14 - 18
@@ -241,7 +241,7 @@ cs10.week9 = {
     lect2: lect('The Internet I'), //'L15 - HCI'),
     //lab2: lab('Project Work Session'),
     hw: [        
-        hw('Midterm Project<br> Milestone', 'TBD', 'assignments/6644521')
+        hw('Midterm Project<br> Milestone', '3/18', 'assignments/7259698')
     ]    
 };
 cs10.week9.lect2.classes = 'exam';
@@ -252,7 +252,7 @@ cs10.week9.lect2.title += '<br><br><div class="exam inner"><a href="exams/midter
 cs10.week10 = {
     special: 'Spring Break -- No Class',
     readings: [],
-    hw: hw('TBD')
+    hw: hw('Continue Working On Your Project')
 };
 //cs10.week10 = {
     //readings1: 'No Reading.', /*[
@@ -297,8 +297,8 @@ cs10.week11 = {
     lab1: lab('The Internet', 'berkeley_bjc/areas/internet.topic', true),
     lab2: lab('Functions as Data and HOFs', 'berkeley_bjc/hofs/hofs-practice.topic'),
     hw: [
-        hw('"Explore" Writing Assignment', 'TBD', '/discussion_topics/4250600', exploreSpec)
-        // hw('Midterm Regrade Requests<br>(Gradescope)', '11/6')
+    	hw('Midterm Project', '4/1', 'assignments/7259697', mtProjSpec),
+        hw('"Explore" Writing Assignment', '4/3', '/discussion_topics/4632124', exploreSpec)
     ]
 };
 
@@ -315,8 +315,8 @@ cs10.week12 = {
     lab1: lab('Optional Catch-Up Day', null, true),
     lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
     hw: [
-        hw('"Explore" Comments', 'TBD', '/discussion_topics/4250600'),
-        hw('Final Project Proposal', 'TBD', 'assignments/7001951', finalProjSpec)
+        hw('"Explore" Comments', '4/8', '/discussion_topics/4632124'),
+        hw('Final Project Proposal', '4/8', 'assignments/7259699', finalProjSpec)
     ]
 };
 
@@ -331,7 +331,7 @@ cs10.week13 = {
     lect1: lect('Social Implications - Copyright'),
     lect2: lect('Social Implications - Cryptography and Security'), //'https://docs.google.com/presentation/d/1MLG5pjfSrvZ17WNp5CSfPbPa3QOnxKtNGKlfRIGgEPw/edit?usp=sharing'),
     lab2: lab('Project Work Session'), //, 'berkeley_bjc/python/besides-blocks-data.topic'),
-    hw: hw('Final Project Milestone', 'TBD', 'assignments/6644523')
+    hw: hw('Final Project Milestone', '4/15', 'assignments/7259692')
 };
 
 
@@ -346,7 +346,7 @@ cs10.week14 = {
     lect1: lect('Python II'), //'https://docs.google.com/presentation/d/1SvosTLRIU9IfgXD75v_lctIOvHaBARc9sm7Y5Dn-J8g/pub?start=false&loop=false&delayms=3000'),
     lect2: lect('Limits of Computing'),
     lab2: lab('Project Work Session'),
-    hw: hw('TBD')
+    hw: hw('Continue Working on your Project')
 };
 
 // APR 25 - 29
@@ -361,7 +361,7 @@ cs10.week15 = {
     lect2: lect('Conclusion'), //'https://docs.google.com/presentation/d/1CgPu3RBXYUyN7r0X6NpWzgGN95cZIPyfqTSNBCX7nd4/edit?usp=sharing'),
     lab2: lab('In-Lab Final Exam'),
     hw: [        
-        hw('Final Project', 'TBD', 'assignments/6644476')
+        hw('Final Project', '4/29', 'assignments/7259691')
     ]
 };
 
