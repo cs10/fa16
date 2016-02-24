@@ -176,7 +176,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 **Required**
 
-* What defines a recursive block? What are the two necessary "cases" that a recursive block must consider?
+* What defines a recursive block? What are the two necessary "cases" that a recursive block must consider? Name and define them.
 * Please show me either your "crazy-tree" block or your "snowflake" block.
 
 **More Self-Check Questions**
