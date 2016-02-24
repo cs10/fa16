@@ -123,7 +123,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 ------
 
-# Week 4: Lab 6
+# Week 4: Lab 6 and 7
 
 ## Lab 6: Algorithms {#lab6}
 
@@ -135,10 +135,6 @@ To get checked off, you should prepare answers to the specific questions for eac
 **More Self-Check Questions**
 
 * What is memoization? When is it useful?
-
-------
-
-# Week 5: Labs 7 and 8
 
 ## Lab 7: Algorithm Complexity {#lab7}
 
@@ -153,12 +149,16 @@ To get checked off, you should prepare answers to the specific questions for eac
 * Why are constant time algorithms so rare? 
 * Why are logarithmic time algorithms sought after? 
 
+------
+
+# Week 5: Lab 8
+
 ## Lab 8: Finch Lab   {#lab8}
 * You can get checked off for this lab as long as you show up to lab and work on it. No questions!
 
 ------
 
-# Week 6: Quest and Lab 9
+# Week 6: Labs 9 and 10
 
 ## Lab 9: Testing Code and 2048 {#lab9}
 
@@ -172,19 +172,22 @@ To get checked off, you should prepare answers to the specific questions for eac
 * Explain how the test block works (its input, output, and how it transforms the input to the output).
 * How would you write tests for map, keep, and combine using the test block? Try writing some of your own tests.
 
-------
-
-# Week 7: Labs 10 and 11
-
 ## Lab 10: Recursion {#lab10}
 
 **Required**
 
-* Coming soon!
+* What defines a recursive block? What are the two necessary "cases" that a recursive block must consider?
+* Please show me either your "crazy-tree" block or your "snowflake" block.
 
 **More Self-Check Questions**
 
-* Coming soon!
+* Why is it important that the inputs to a recursive call be smaller than the original inputs to the function?
+* Why is it important that the sprite face the same direction at the end of a recursive function as it faced initially?
+
+
+------
+
+# Week 7: Lab 11
 
 ## Lab 11: Concurrency {#lab11}
 
