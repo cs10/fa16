@@ -184,7 +184,7 @@ cs10.week6 = {
         ],//'No Reading.<br><b>Quest Review 1 - 3 PM in 2050 VLSB on 9/27</br>',
     lect1: lect('Testing'), //'https://docs.google.com/presentation/d/1EqmuMag-_swWmEQvi9coK0_J2fl0N0H1p6NuNr9WaaI/edit?usp=sharing'),
 	lab1: lab('Testing, HW3', 'berkeley_bjc/2048-testing/2048.topic', true),
-    lect2: lect('Recursion I'),
+    lect2: lect('Recursion I', 'https://docs.google.com/presentation/d/14erZ9b8MJZlVTVcTPzHUm9uWynjpiSQHpo8skkkMLtM/edit?usp=sharing'),
     lab2: lab('Trees and Fractals Using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic'),
     disc1: disc('Recursion'),
     hw: hw('HW3: 2048','3/4', 'assignments/7259696', hw3Spec)
