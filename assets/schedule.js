@@ -198,7 +198,7 @@ cs10.week7 = {
         reading('eWEEK at 30: Multicore CPUs Keep Chip Makers in Step With Moore\'s Law',
             'https://docs.google.com/document/d/1FC-_lcn_EWlGXLfPDlQbSQeE1Q4NpTG39S-kVkHRxv8/edit?usp=sharing')
     ],
-    lect1: lect('Recursion II'), //'https://docs.google.com/presentation/d/1b_vwq1xO3zFWTAexXv-QFydbRVGoInM1sLIO32zAUMU/pub?start=false&loop=false&delayms=3000'),
+    lect1: lect('Recursion II', 'https://docs.google.com/presentation/d/13WLfJKmyCxLIT8kJfbxlbp2hU9mb7MSfW3o16Uxv6Cw/edit?usp=sharing'), //'https://docs.google.com/presentation/d/1b_vwq1xO3zFWTAexXv-QFydbRVGoInM1sLIO32zAUMU/pub?start=false&loop=false&delayms=3000'),
     lect2: lect('Cryptography and Security'), //'https://docs.google.com/presentation/d/1NuOa586nkC1m95X_5LYyiI4gs0s3XL5eRZF7DeH81us/pub?start=false&loop=false&delayms=3000'),
     lab1: lab('Homework 3 Work Session', null, true),
     lab2: lab('Tic Tac Toe', 'berkeley_bjc/lists/tic-tac-toe.topic'),
