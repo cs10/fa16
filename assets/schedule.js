@@ -186,7 +186,7 @@ cs10.week6 = {
 	lab1: lab('Testing, HW3', 'berkeley_bjc/2048-testing/2048.topic', true),
     lect2: lect('Recursion I', 'https://docs.google.com/presentation/d/14erZ9b8MJZlVTVcTPzHUm9uWynjpiSQHpo8skkkMLtM/edit?usp=sharing'),
     lab2: lab('Trees and Fractals Using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic'),
-    disc1: disc('Recursion'),
+    disc1: disc('Recursion', true),
     hw: hw('HW3: 2048','3/4', 'assignments/7259696', hw3Spec)
 };
 
