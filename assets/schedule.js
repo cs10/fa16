@@ -201,7 +201,8 @@ cs10.week7 = {
     lect1: lect('Recursion II', 'https://docs.google.com/presentation/d/13WLfJKmyCxLIT8kJfbxlbp2hU9mb7MSfW3o16Uxv6Cw/edit?usp=sharing'), //'https://docs.google.com/presentation/d/1b_vwq1xO3zFWTAexXv-QFydbRVGoInM1sLIO32zAUMU/pub?start=false&loop=false&delayms=3000'),
     lect2: lect('Cryptography and Security'), //'https://docs.google.com/presentation/d/1NuOa586nkC1m95X_5LYyiI4gs0s3XL5eRZF7DeH81us/pub?start=false&loop=false&delayms=3000'),
     lab1: lab('Homework 3 Work Session', null, true),
-    lab2: lab('Tic Tac Toe', 'berkeley_bjc/lists/tic-tac-toe.topic'),
+    lab2: lab('Recursive Reporters I', 'berkeley_bjc/recur/recursive-reporters-part1.topic'),
+    //lab2: lab('Tic Tac Toe', 'berkeley_bjc/lists/tic-tac-toe.topic'),
     disc1: disc('More Recursion'),
     hw: hw('HW3: 2048','3/4', 'assignments/7259696', hw3Spec)
 };
@@ -215,7 +216,7 @@ cs10.week8 = {
                 'http://www.bitsbook.com/wp-content/uploads/2008/12/chapter2.pdf', 'optional'),
     ],
     disc1: disc('Midterm Review'),
-    lab1: lab('Recursive Reporters I', 'berkeley_bjc/recur/recursive-reporters-part1.topic', true),
+    lab1: lab('Coming Soon!', null, true),
     lect1: lect('Algorithmic Complexity II'), //'https://docs.google.com/presentation/d/1IzvyATwwmue57YXuGLXevOyTLNgepV0xH8VaiGGHrYw/pub?start=false&loop=false&delayms=3000'),
     lect2: lect('CS Ed'), //'L13 - Privacy'),
     lab2: lab('Project Work Session'),
