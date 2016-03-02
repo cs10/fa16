@@ -189,21 +189,23 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 # Week 7: Lab 11
 
-## Lab 11: Concurrency {#lab11}
+## Lab 11: Recursive Reporters I {#lab11}
 
 **Required**
 
-* Coming soon!
+* Why does odd numbered items need two base cases?
+* Please show me your completed merge block.
 
 **More Self-Check Questions**
 
-* Coming soon!
+* How would we implement memoization in a recursive block?
+* Is recursion more powerful than iteration? Why/why not?
 
 ------
 
 # Week 8: Lab 12
 
-## Lab 12: Recursive Reporters I {#lab12}
+## Lab 12: Concurrency {#lab12}
 
 **Required**
 
