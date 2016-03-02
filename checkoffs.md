@@ -191,6 +191,8 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 ## Lab 11: Recursive Reporters I {#lab11}
 
+### Go to this page to submit the lab online: https://bcourses.berkeley.edu/courses/1408649/assignments/7511754
+
 **Required**
 
 * Why does odd numbered items need two base cases?
