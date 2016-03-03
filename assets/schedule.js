@@ -187,7 +187,7 @@ cs10.week6 = {
     lect2: lect('Recursion I', 'https://docs.google.com/presentation/d/14erZ9b8MJZlVTVcTPzHUm9uWynjpiSQHpo8skkkMLtM/edit?usp=sharing'),
     lab2: lab('Trees and Fractals Using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic'),
     disc1: disc('Recursion', true),
-    hw: hw('HW3: 2048','3/4', 'assignments/7259696', hw3Spec)
+    hw: hw('HW3: 2048','3/4', 'assignments/7515294', hw3Spec)
 };
 
 // FEB 29 - MAR 4
@@ -204,7 +204,7 @@ cs10.week7 = {
     lab2: lab('Recursive Reporters I', 'berkeley_bjc/recur/recursive-reporters-part1.topic'),
     //lab2: lab('Tic Tac Toe', 'berkeley_bjc/lists/tic-tac-toe.topic'),
     disc1: disc('More Recursion'),
-    hw: hw('HW3: 2048','3/4', 'assignments/7259696', hw3Spec)
+    hw: hw('HW3: 2048','3/4', 'assignments/7515294', hw3Spec)
 };
 
 // MAR 7 - 11
