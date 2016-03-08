@@ -37,17 +37,17 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 * [Lab 1](#lab1) (Week 1)
 * [Lab 2](#lab2) (Week 2)
-* [Lab 3](#lab3) 
+* [Lab 3](#lab3)
 * [Lab 4](#lab4) (Week 3)
 * [Lab 5](#lab5)
 * [Lab 6](#lab6) (Week 4)
 * [Lab 7](#lab7) (Week 5)
-* [Lab 8](#lab8) 
+* [Lab 8](#lab8)
 * [Lab 9](#lab9) (Week 6)
-* [Lab 10](#lab10)(Week 7) 
-* [Lab 11](#lab11) 
+* [Lab 10](#lab10)(Week 7)
+* [Lab 11](#lab11)
 * [Lab 12](#lab12)
-* [Lab 13](#lab13) 
+* [Lab 13](#lab13)
 * [Lab 14](#lab14) (Week 11)
 * [Lab 15](#lab15)
 * [Lab 16](#lab16) (Week 12)
@@ -73,7 +73,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 **Required**
 
 * Why should we make our own blocks? What's the point?
-* Show us the `Draw Flower` block. 
+* Show us the `Draw Flower` block.
 
 **More Self-Check Questions**
 
@@ -98,7 +98,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 ## Lab 4: Functions {#lab4}
 
-**Required** 
+**Required**
 
 * Name a few of the input types. Why is it important that we specify input types?
 * How are global variables different from script variables?
@@ -106,7 +106,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 **More Self-Check Questions**
 
 * Why is the check block useful? And how does it work?
-* Why is the broadcast block useful? Give an example of a good situation to use one. 
+* Why is the broadcast block useful? Give an example of a good situation to use one.
 
 ## Lab 5: Lists 1 {#lab5}
 
@@ -119,7 +119,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 * Look back at the <code>swap</code> block. Why do you need a temp variable?
 * How are lists different from variables? How do you create a temporary list for use in a block definition?
-* When would you want to use a <code>for each</code> loop versus a higher order function? What's similar and different about them? 
+* When would you want to use a <code>for each</code> loop versus a higher order function? What's similar and different about them?
 
 ------
 
@@ -145,9 +145,9 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 **More Self-Check Questions**
 
-* What is the difference between “Worst-Case” and “Best Case” Runtimes when running the <code>Are the numbers of (LIST) distinct?</code> block? Why? 
-* Why are constant time algorithms so rare? 
-* Why are logarithmic time algorithms sought after? 
+* What is the difference between “Worst-Case” and “Best Case” Runtimes when running the <code>Are the numbers of (LIST) distinct?</code> block? Why?
+* Why are constant time algorithms so rare?
+* Why are logarithmic time algorithms sought after?
 
 ------
 
