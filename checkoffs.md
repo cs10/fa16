@@ -149,14 +149,14 @@ To get checked off, you should prepare answers to the specific questions for eac
 * Why are constant time algorithms so rare?
 * Why are logarithmic time algorithms sought after?
 
-------
+---
 
 # Week 5: Lab 8
 
 ## Lab 8: Finch Lab   {#lab8}
 * You can get checked off for this lab as long as you show up to lab and work on it. No questions!
 
-------
+---
 
 # Week 6: Labs 9 and 10
 
@@ -184,8 +184,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 * Why is it important that the inputs to a recursive call be smaller than the original inputs to the function?
 * Why is it important that the sprite face the same direction at the end of a recursive function as it faced initially?
 
-
-------
+---
 
 # Week 7: Lab 11
 
@@ -205,12 +204,14 @@ To get checked off, you should prepare answers to the specific questions for eac
 * How would we implement memoization in a recursive block?
 * Is recursion more powerful than iteration? Why/why not?
 
-------
+---
 
 # Week 8: Lab 12
 
 ## Lab 12: Tic-Tac-Toe, Boards {#lab12}
 
+### Go to this page to submit the lab online:
+[bCourses](https://bcourses.berkeley.edu/courses/1408649/assignments/7531220)
 **Required**
 
 * Show your "ttt" block implementation. How did one of the questions we asked ourselves before starting tic-tac-toe help us design the program?
