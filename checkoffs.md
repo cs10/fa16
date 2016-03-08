@@ -44,11 +44,11 @@ To get checked off, you should prepare answers to the specific questions for eac
 * [Lab 7](#lab7) (Week 5)
 * [Lab 8](#lab8)
 * [Lab 9](#lab9) (Week 6)
-* [Lab 10](#lab10)(Week 7)
+* [Lab 10](#lab10) (Week 7)
 * [Lab 11](#lab11)
-* [Lab 12](#lab12)
-* [Lab 13](#lab13)
-* [Lab 14](#lab14) (Week 11)
+* [Lab 12](#lab12) (Week 8)
+* [Lab 13](#lab13) (Week 9)
+* [Lab 14](#lab14)
 * [Lab 15](#lab15)
 * [Lab 16](#lab16) (Week 12)
 * [Lab 17](#lab17)
@@ -85,14 +85,14 @@ To get checked off, you should prepare answers to the specific questions for eac
 **Required**
 
 * Why are script variables useful? How do we create script variables?
-* Show us the code for the <code>is _ between _ and _ ?</code> block.
+* Show us the code for the `is _ between _ and _ ?` block.
 
 **More Self-Check Questions**
 
 * Describe the truth tables for A and B and C / A or B or C.
 * What is the difference between if and if-else blocks?
 
-------
+---
 
 # Week 3: Labs 4 and 5
 
@@ -113,15 +113,15 @@ To get checked off, you should prepare answers to the specific questions for eac
 **Required**
 
 * Which blocks allow you to use use a function on an entire list "all at once"? What are their inputs and outputs?
-* Show us your <code>expand _ </code> block and explain how you used the <code>for each</code> block.
+* Show us your `expand _ ` block and explain how you used the `for each` block.
 
 **More Self-Check Questions**
 
-* Look back at the <code>swap</code> block. Why do you need a temp variable?
+* Look back at the `swap` block. Why do you need a temp variable?
 * How are lists different from variables? How do you create a temporary list for use in a block definition?
-* When would you want to use a <code>for each</code> loop versus a higher order function? What's similar and different about them?
+* When would you want to use a `for each` loop versus a higher order function? What's similar and different about them?
 
-------
+---
 
 # Week 4: Lab 6 and 7
 
@@ -134,18 +134,18 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 **More Self-Check Questions**
 
-* What is memoization? When is it useful?
+* What is _memoization_? When is it useful?
 
 ## Lab 7: Algorithm Complexity {#lab7}
 
 **Required**
 
-* Please show me your Non-Gauss and Gauss <code>Add all numbers in</code>. Which was faster? Why?
+* Please show me your Non-Gauss and Gauss `Add all numbers in`. Which was faster? Why?
 * Of all the runtimes you have discovered thus far, can you rank them from “fastest” to “slowest”? Why is runtime important for the programs that we create?`
 
 **More Self-Check Questions**
 
-* What is the difference between “Worst-Case” and “Best Case” Runtimes when running the <code>Are the numbers of (LIST) distinct?</code> block? Why?
+* What is the difference between “Worst-Case” and “Best Case” Runtimes when running the `Are the numbers of (LIST) distinct?` block? Why?
 * Why are constant time algorithms so rare?
 * Why are logarithmic time algorithms sought after?
 
@@ -212,6 +212,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 ### Go to this page to submit the lab online:
 [bCourses](https://bcourses.berkeley.edu/courses/1408649/assignments/7531220)
+
 **Required**
 
 * Show your "ttt" block implementation. How did one of the questions we asked ourselves before starting tic-tac-toe help us design the program?
