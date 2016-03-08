@@ -209,15 +209,16 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 # Week 8: Lab 12
 
-## Lab 12: Concurrency {#lab12}
+## Lab 12: Tic-Tac-Toe, Boards {#lab12}
 
 **Required**
 
-* Coming soon!
+* Show your "ttt" block implementation. How did one of the questions we asked ourselves before starting tic-tac-toe help us design the program?
+* Why did we have variables like "Size", "Start", and "Display Width" when designing our board?
 
 **More Self-Check Questions**
 
-* Coming soon!
+* Show your neat end-game feature that you added to the maze game.
 
 ------
 
