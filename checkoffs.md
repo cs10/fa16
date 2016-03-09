@@ -190,6 +190,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 ## Lab 11: Recursive Reporters I {#lab11}
 
+### Please note: This lab is _required_ to be submitted through bCourses.
 ### Go to this page to submit the lab online: [https://bcourses.berkeley.edu/courses/1408649/assignments/7511754][bcourses11]
 
 [bcourses11]:  https://bcourses.berkeley.edu/courses/1408649/assignments/7511754
