@@ -246,12 +246,12 @@ cs10.renderTableRow = function(week, data) {
 
     result.append($('<td>').html(week))                     // Week Number
           .append($('<td>').html(cs10.getDateString(week))) // Dates
-          .append(cs10.renderTableReading(data.readings1))   // Readings
+          .append(cs10.renderTableReading(data.readings))   // Readings
           .append(cs10.renderTableLecture(data.lect1))      // Mon Lecture
           .append(cs10.renderTableLab(data.lab1))           // 1st Lab
           .append(cs10.renderTableLecture(data.lect2))      // Wed Lecture
           .append(cs10.renderTableLab(data.lab2))           // 2nd Lab
-          .append(cs10.renderTableDiscussion(data.disc1))    // Discussion
+          .append(cs10.renderTableDiscussion(data.disc))    // Discussion
           .append(cs10.renderTableHW(data.hw));             // Assignments
 
     return result;
