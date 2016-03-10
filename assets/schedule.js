@@ -35,9 +35,11 @@ var finalProjSpec = docs('1Pf29lFwyD883yIxIKtc2ywpqU-VTvsmUJyIw-jYuUyQ');
 // ==================================================
 // ==========     SCHEDULE ITEMS           ==========
 // ==================================================
+cs10.schedule = {};
+var schedule = cs10.schedule;
 
 // JAN 19 - 22
-cs10.week1 = {
+schedule.week1 = {
     readings: 'No Readings',
     lect1: lect('No Lecture Monday'),
     lab1: lab('No Labs Monday, Tuesday, or Wednesday morning'),
@@ -51,7 +53,7 @@ cs10.week1 = {
 };
 
 // JAN 25 - 29
-cs10.week2 = {
+schedule.week2 = {
     readings: [
         reading('Prof. Harvey\'s Intro to Abstraction',
                 docs('1PZJ_LYYWRYu12cTbBKF9IyY4BqEG-BibgisBoQn9BpY')),
@@ -72,7 +74,7 @@ cs10.week2 = {
 };
 
 // FEB 1 - 5
-cs10.week3 = {
+schedule.week3 = {
     readings: [
         reading('The First Object Oriented Software System', 
                 'https://www.youtube.com/watch?v=yyYB_Vo15WE'),
@@ -88,11 +90,11 @@ cs10.week3 = {
     disc: disc('All about lists', true),
     hw: hw('HW1: Word Guessing', '2/3', 'assignments/7259694', hw1Spec)
 };
-// cs10.week3.lect3.classes = 'exam';
-// cs10.week3.work.title += '<hr><strong>Finch Robots Lab (Sect 111)</strong>';
+// schedule.week3.lect3.classes = 'exam';
+// schedule.week3.work.title += '<hr><strong>Finch Robots Lab (Sect 111)</strong>';
 
 // FEB 8 - 12
-cs10.week4 = {
+schedule.week4 = {
     readings: [
         reading('What is an Algorithm (book excerpts)?',
                 bcourses('60735934')),
@@ -118,7 +120,7 @@ cs10.week4 = {
 };
 
 // FEB 15 - 19 (President's Day: Monday)
-cs10.week5 = {
+schedule.week5 = {
     readings: 'No Readings for this Week - Study for the Quest!',
     lect1: lect('No Class Monday - Presidents Day'),
     lab1: lab('Quest Review'),
@@ -127,11 +129,11 @@ cs10.week5 = {
     disc: disc('Quest Debrief'),
     hw: hw('HW2: Encryptify', '2/17', 'assignments/7259695', hw2Spec)
 };
- cs10.week5.lect2.classes = 'exam';
- cs10.week5.lect2.title += '<br><a href="exams/quest.html">Quest</a><br><br>Weds 2/17<br>In Class<br>105 Stanley';
+ schedule.week5.lect2.classes = 'exam';
+ schedule.week5.lect2.title += '<br><a href="exams/quest.html">Quest</a><br><br>Weds 2/17<br>In Class<br>105 Stanley';
 
 // FEB 22 - 26
-cs10.week6 = {
+schedule.week6 = {
     readings: [
         reading('BtB Chapter 5',
         'http://www.bitsbook.com/wp-content/uploads/2008/12/chapter5.pdf'),
@@ -149,7 +151,7 @@ cs10.week6 = {
 };
 
 // FEB 29 - MAR 4
-cs10.week7 = {
+schedule.week7 = {
     readings: [
         reading('The End of Moore\'s Law',
                 'http://www.nytimes.com/2015/09/27/technology/smaller-faster-cheaper-over-the-future-of-computer-chips.html?_r=0'),
@@ -168,7 +170,7 @@ cs10.week7 = {
 };
 
 // MAR 7 - 11
-cs10.week8 = {
+schedule.week8 = {
     readings: [
         reading('BtB chapter 2, pg. 19-29, 36-42',
                 'http://www.bitsbook.com/wp-content/uploads/2008/12/chapter2.pdf'),
@@ -184,7 +186,7 @@ cs10.week8 = {
 };
 
 // MAR 14 - 18
-cs10.week9 = {
+schedule.week9 = {
     readings: [
         reading('As We May Think',
                 'http://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/')
@@ -199,19 +201,19 @@ cs10.week9 = {
         hw('Midterm Project<br> Milestone', '3/18', 'assignments/7259698')
     ]    
 };
-cs10.week9.lect2.classes = 'exam';
-cs10.week9.lect2.title += '<br><br><div class="exam inner"><a href="exams/midterm.html">Midterm Exam</a><br><br>Wednesday 3/16<br>7 - 9 PM | 155 Dwinelle Hall</div>';
+schedule.week9.lect2.classes = 'exam';
+schedule.week9.lect2.title += '<br><br><div class="exam inner"><a href="exams/midterm.html">Midterm Exam</a><br><br>Wednesday 3/16<br>7 - 9 PM | 155 Dwinelle Hall</div>';
 
 
 // MAR 21 - 25 (Spring Break?)
-cs10.week10 = {
+schedule.week10 = {
     special: 'Spring Break -- No Class',
     readings: [],
     hw: hw('Continue Working On Your Project')
 };
 
 /*
-cs10.week10 = {
+schedule.week10 = {
     readings: 'No Reading.', /*[
         reading('Data Explosion Creates Revolution',
                 'http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2011/10/19/BU5K1LJ4R3.DTL'),
@@ -236,8 +238,8 @@ cs10.week10 = {
         hw('Midterm Project', 'TBD', 'assignments/6644475')
     ]
 };
-cs10.week10.lab2.classes = 'exam';
-cs10.week10.lab2.title += '<br><br><div class="exam inner"><a href="exams/midterm.html">Midterm Exam</a><br><br>Thursday 10/29<br>8 - 10 PM | 2050 VLSB</div>';
+schedule.week10.lab2.classes = 'exam';
+schedule.week10.lab2.title += '<br><br><div class="exam inner"><a href="exams/midterm.html">Midterm Exam</a><br><br>Thursday 10/29<br>8 - 10 PM | 2050 VLSB</div>';
 */
 
 
@@ -245,7 +247,7 @@ cs10.week10.lab2.title += '<br><br><div class="exam inner"><a href="exams/midter
 // MAR 28 - APR 1
 // FIXME -- Why is BtB in Google Drive and not on the website... :'(
 // Sad old TAs are sad.
-cs10.week11 = {
+schedule.week11 = {
     readings: [
         reading('TED: What is the Internet?',
                 'https://www.ted.com/talks/andrew_blum_what_is_the_internet_really?language=en'),
@@ -274,7 +276,7 @@ cs10.week11 = {
 };
 
 // APR 4 - 8
-cs10.week12 = {
+schedule.week12 = {
     readings: [
         reading(
             'Why Python is a Great First Language', 
@@ -300,7 +302,7 @@ cs10.week12 = {
 };
 
 // APR 11 - 15
-cs10.week13 = {
+schedule.week13 = {
     readings: [
         reading('CS8 lecture 1 (watch first, optional)', 'https://www.youtube.com/watch?v=69hHbVza7XI&t=27m49s', 'optional'),
         reading('Intro to Data Science (stop at Expressions)', 'http://data8.org/text/1_data.html#why-data-science')
@@ -315,7 +317,7 @@ cs10.week13 = {
 
 
 // APR 18 - 22
-cs10.week14 = {
+schedule.week14 = {
     readings: [
         reading(
             'BtB Chapter 6',
@@ -332,7 +334,7 @@ cs10.week14 = {
 };
 
 // APR 25 - 29
-cs10.week15 = {
+schedule.week15 = {
     readings: [
         reading('The Doomsday Invention', 'http://www.newyorker.com/magazine/2015/11/23/doomsday-invention-artificial-intelligence-nick-bostrom'),
         reading('A Quantum Leap in Computing?', 'http://www.newyorker.com/tech/elements/a-quantum-leap-in-computing', 'optional')
@@ -349,24 +351,25 @@ cs10.week15 = {
 
 // DEAD WEEK
 // MAY 2 - 6
-cs10.week16 = {
+schedule.week16 = {
     special: 'RRR Week -- No Class',
     readings: [],
     hw: hw('Study for the Final')
 };
 
 // MAY 9 - 13
-cs10.week17 = {
+schedule.week17 = {
     readings: 'No Reading.',    
     lab1: lab('Final Exam<br>Tuesday, 8:00 - 11:00am<br>2050 VLSB'),
     hw: 'Enjoy your summer!'
 };
-cs10.week17.lab1.classes = 'exam';
-cs10.week17.lab1.title += '<br><br><div class="exam inner">Final Exam<br><br>Tuesday 5/10<br>8:00 - 11:00 AM</div>';
+schedule.week17.lab1.classes = 'exam';
+schedule.week17.lab1.title += '<br><br><div class="exam inner">Final Exam<br><br>Tuesday 5/10<br>8:00 - 11:00 AM</div>';
 
 
 // Load the Calendar
 $(document).ready(function() {
-    cs10.renderTableCalendar();
+    var cal = new Calendar(cs10.NUM_WEEKS_TO_RENDER)
+    cal.renderTableCalendar(schedule);
     updateCalendar(startDate);
 });

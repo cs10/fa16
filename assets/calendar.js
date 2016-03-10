@@ -228,12 +228,19 @@ cs10.getWeekStartDate = function(week) {
 //     }
 // };
 
-cs10.renderTableCalendar = function() {
+// TODO: Extra more stuff into this object.
+// The calendar will be the main render for the site.
+function Calendar(weeks) {
+    this.num_weeks = weeks;
+    return this;
+}
+
+Calendar.prototype.renderTableCalendar = function(schedule) {
     var result = $('<tbody>');
     var table = $('.calendar.table');
     if (table.length === 0) { return; }
-    for(var i = 1; i <= cs10.NUM_WEEKS_TO_RENDER; i += 1) {
-        result.append(cs10.renderTableRow(i, cs10['week' + i]));
+    for(var i = 1; i <= this.num_weeks; i += 1) {
+        result.append(this.renderWeek(i, schedule['week' + i]));
     }
     table.append(result);
 };
@@ -248,49 +255,46 @@ cs10.weeklyFormat = [
     'hw'        // Assignments
 ];
 
-cs10.renderTableRow = function(week, data) {
-    var row = $('<tr>').addClass('cal');
-
-    // TODO: Special Case For data.special
-    // TODO: Handle Exams (data.exams)
-
-    row.append($('<td>').html(week))                        // Week Number
-          .append($('<td>').html(cs10.getDateString(week))) // Dates
-    cs10.weeklyFormat.forEach(function (key) {
-        row.append(cs10.renderCell(key, data[key]));
-    });
-
-    return row;
-};
-
 /*
     Given a cellType, and some data, find renderFunction for that type
     and call it with data.
     Note that this handles calling the function based on a somewhat arbitrary
     naming scheme.
 */
-cs10.renderCell = function(cellType, data) {
-    var renders,
-        functionName = ('renderTable' + cellType).toLowerCase(),
-        functionNoNum = functionName.slice(0, -1);
-    // Slice of the last character which may be a number like lab1 or lect2
-    // This allows multiple of the same type of item in a week.
-    // TODO: Use indexOf or key.match(/functionName|functionNoNum/i) ?
-    var render = Object.getOwnPropertyNames(cs10).filter(function(x) {
-        var key = x.toLowerCase();
-        console.log(cellType, x);
-        console.log(functionName, key.indexOf(functionName), 
-                    functionNoNum, key.indexOf(functionNoNum));
-        return  key.indexOf(functionName) === 0 || key.indexOf(functionNoNum) === 0;
-    });
-
-    console.log(render);
-    if (render.length > 0) {
-        return cs10[render[0]](data);
+Calendar.prototype.renderCell = function(data) {
+    console.log(data);
+    if (!data) {
+        return;
     }
-    console.log('TRIED TO RENDER %s BUT COULDNT', cellType);
+    var functionName = 'render' + data.type;
+    
+    // MASSIVE HACK
+    if (data.constructor == Array) {
+        functionName = 'renderReading';
+    }
+    if (this[functionName]) {
+        return this[functionName](data);
+    }
+    console.log('TRIED TO RENDER %s BUT COULDNT', data.type);
     return data;
 }
+
+Calendar.prototype.renderWeek = function(week, data) {
+    var row = $('<tr>').addClass('cal'),
+        myself = this;
+
+    // TODO: Special Case For data.special
+    // TODO: Handle Exams (data.exams)
+
+    row.append($('<td>').html(week))                        // Week Number
+       .append($('<td>').html(cs10.getDateString(week))) // Dates
+    cs10.weeklyFormat.forEach(function (key) {
+        row.append(myself.renderCell(data[key]));
+    });
+
+    return row;
+};
+
 // // This renders a single week in the large semester calendar.
 // // M-W
 // cs10.renderTableFirst = function (week, data, color) {
@@ -334,7 +338,7 @@ cs10.getDateString = function(week) {
             (end.month() + 1) + '-' + end.date();
 };
 
-cs10.renderTableReading = function(readings) {
+Calendar.prototype.renderReading = function(readings) {
     var result = $('<td>');
     if (!readings) {
         result.append('No Reading');
@@ -352,7 +356,7 @@ cs10.renderTableReading = function(readings) {
     return result;
 };
 
-cs10.renderTableLecture = function(lect) {
+Calendar.prototype.renderLecture = function(lect) {
     var result = $('<td>');
     if (!lect) {
         result.append('No Lecture');
@@ -380,7 +384,7 @@ cs10.renderTableLecture = function(lect) {
     return result;
 };
 
-cs10.renderTableLab = function(lab) {
+Calendar.prototype.renderLab = function(lab) {
     var result = $('<td>');
     if (!lab) {
         result.append('No Lab');
@@ -407,7 +411,7 @@ cs10.renderTableLab = function(lab) {
     return result;
 };
 
-cs10.renderTableDiscussion = function(disc) {
+Calendar.prototype.renderDiscussion = function(disc) {
     var result = $('<td>');
     if (!disc) {
         result.append('No Discussion');
@@ -427,7 +431,7 @@ cs10.renderTableDiscussion = function(disc) {
     return result;
 };
 
-cs10.renderTableHW = function(hw) {
+Calendar.prototype.renderHomework = function(hw) {
     var result = $('<td>');
     if (!hw) {
         hw = [cs10.newHomeworkObject('No Homework')];
