@@ -193,13 +193,10 @@ schedule.week9 = {
     ],
     disc: disc('Midterm Debrief'),
     lab1: lab('Online <span class="snap">snap</span> Midterm'),
-    lab2: lab('Concurrency', 'berkeley_bjc/areas/concurrency.topic'),
     lect1: lect('Concurrency'), //'https://docs.google.com/presentation/d/1o4GtTha_TbRNCvqp7wEchJxGaeoENnH3KTX0Hl6nvD0/edit?usp=sharing'),
-    lect2: lect('The Internet I'), //'L15 - HCI'),
-    //lab2: lab('Project Work Session'),
-    hw: [        
-        hw('Midterm Project<br> Milestone', '3/18', 'assignments/7259698')
-    ]    
+    lect2: lect('The Internet I'),
+    lab2: lab('Concurrency', 'berkeley_bjc/areas/concurrency.topic'),
+    hw: hw('Midterm Project<br> Milestone', '3/18', 'assignments/7259698')
 };
 schedule.week9.lect2.classes = 'exam';
 schedule.week9.lect2.title += '<br><br><div class="exam inner"><a href="exams/midterm.html">Midterm Exam</a><br><br>Wednesday 3/16<br>7 - 9 PM | 155 Dwinelle Hall</div>';
@@ -207,8 +204,8 @@ schedule.week9.lect2.title += '<br><br><div class="exam inner"><a href="exams/mi
 
 // MAR 21 - 25 (Spring Break?)
 schedule.week10 = {
-    special: 'Spring Break -- No Class',
     readings: [],
+    special: 'Spring Break -- No Class',
     hw: hw('Continue Working On Your Project')
 };
 

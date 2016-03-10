@@ -5,7 +5,7 @@ cs10.startDate = '{{ site.startDate }}';
 cs10.endDate   = '{{ site.endDate }}';
 
 cs10.bCoursesID = '{{ site.bCourses }}';
-cs10.NUM_WEEKS_TO_RENDER = 17;
+cs10.NUM_WEEKS_TO_RENDER = 10;
 
 cs10.gradingScheme = {
     'A+': 485,
@@ -49,7 +49,6 @@ function getWeekOfDate(date) {
 
     return weeks <= 17 ? weeks : -1;
 }
-
 
 cs10.newLabObject = function(title, url, rq, video) {
     var baseURL = '{{ site.labsurl }}/topic/topic.html?topic=';
@@ -207,27 +206,6 @@ cs10.getWeekStartDate = function(week) {
     return start.add((week - 1) * 7 + 1, 'd');
 }
 
-// cs10.renderTableCalendar = function() {
-//     var result = $('.cal-container');
-//     // TODO: weeks config
-//     for (var i = 1; i < 9; i += 1) {
-//         var color;
-//         if (i % 2 == 0) {
-//             color = 'light';
-//         } else {
-//             color = 'dark';
-//         }
-//         var first = $('.weekFirst').clone().removeClass('weekFirst');
-//         var data = cs10['week' + i];
-//         var row = cs10.renderTableFirst(i, data, color);
-//         first.append(row);
-//         result.append(first);
-//         var second = $('.weekSecond').clone().removeClass('weekSecond');
-//         second.append(cs10.renderTableSecond(i, data, color));
-//         result.append(second);
-//     }
-// };
-
 // TODO: Extra more stuff into this object.
 // The calendar will be the main render for the site.
 function Calendar(weeks) {
@@ -262,16 +240,21 @@ cs10.weeklyFormat = [
     naming scheme.
 */
 Calendar.prototype.renderCell = function(data) {
-    console.log(data);
     if (!data) {
         return;
     }
+    if (data.constructor == Array) {
+        var result = $('<td>'),
+            myself = this;
+        data.forEach(function (datum) {
+            console.log(myself.renderCell(datum));
+            result.append(myself.renderCell(datum));
+        });
+        return result;
+    }
+    
     var functionName = 'render' + data.type;
     
-    // MASSIVE HACK
-    if (data.constructor == Array) {
-        functionName = 'renderReading';
-    }
     if (this[functionName]) {
         return this[functionName](data);
     }
@@ -286,49 +269,21 @@ Calendar.prototype.renderWeek = function(week, data) {
     // TODO: Special Case For data.special
     // TODO: Handle Exams (data.exams)
 
-    row.append($('<td>').html(week))                        // Week Number
+    row.append($('<td>').html(week))                     // Week Number
        .append($('<td>').html(cs10.getDateString(week))) // Dates
     cs10.weeklyFormat.forEach(function (key) {
+        console.log('Rendering: ', key);
+        // The lecture object is a basic object which works well
+        // for just titles.
+        if (typeof data[key] === 'string') {
+            data[key] = cs10.newLectureObject(data[key]);
+        }
+        
         row.append(myself.renderCell(data[key]));
     });
 
     return row;
 };
-
-// // This renders a single week in the large semester calendar.
-// // M-W
-// cs10.renderTableFirst = function (week, data, color) {
-//     var result = $('<tr>').addClass('cal' + ' ' + color);
-//     // TODO: Special Case For data.special
-//     // TODO: Handle Exams (data.exams)
-//     result.append($('<td>').html(week))                      // Week Number
-//           .append($('<td>').html(cs10.getDateString(week)))  // Dates
-//           .append(cs10.renderTableReading(data.readings1))   // Readings
-//           .append(cs10.renderTableLab(data.lab1))            // 1st Lab
-//           .append(cs10.renderTableDiscussion(data.disc1))    // 1st discussion
-//           .append(cs10.renderTableLecture(data.lect1))       // Mon Lecture
-//           .append(cs10.renderTableLecture(data.lect2))       // Tues Lecture
-//           .append(cs10.renderTableLab(data.work))            // Work Session
-
-//     return result;
-// };
-
-// // W-F
-// cs10.renderTableSecond = function (week, data, color) {
-//     var result = $('<tr>').addClass('cal' + ' ' + color);
-//     // TODO: Special Case For data.special
-//     // TODO: Handle Exams (data.exams)
-//     result.append($('<td>').html(week))                      // Week Number
-//           .append($('<td>').html(cs10.getDateString(week)))  // Dates
-//           .append(cs10.renderTableReading(data.readings2))   // Readings
-//           .append(cs10.renderTableLab(data.lab2))            // 2nd Lab
-//           .append(cs10.renderTableDiscussion(data.disc2))    // 2nd Disc
-//           .append(cs10.renderTableLecture(data.lect3))       // Wed Lecture
-//           .append(cs10.renderTableLecture(data.lect4))       // Thus Lecture
-//           .append(cs10.renderTableHW(data.hw));              // Assignments
-
-//     return result;
-// };
 
 
 cs10.getDateString = function(week) {
@@ -339,19 +294,24 @@ cs10.getDateString = function(week) {
 };
 
 Calendar.prototype.renderReading = function(readings) {
+    
+    function renderSingleReading(rd) {
+        return $('<a>').html(rd.title).attr({
+            'class': rd.classes, 'href': rd.url, 'target': '_blank'
+        }).add('<br>');
+    }
+    
     var result = $('<td>');
     if (!readings) {
         result.append('No Reading');
     } else if (typeof readings === 'string') {
         result.append(readings);
-    } else {
+    } else if (readings.constructor === Array) {
         for (var i = 0; i < readings.length; i += 1) {
-            var rd = readings[i];
-            var a = $('<a>').html(rd.title).attr(
-                {'class': rd.classes, 'href': rd.url, 'target': '_blank'} );
-            result.append(a);
-            result.append('<br>');
+            result.append(renderSingleReading(readings[i]))
         }
+    } else {
+        return $('<span>').append(renderSingleReading(readings));
     }
     return result;
 };
