@@ -22,7 +22,7 @@ cs10.gradingScheme = {
 };
 
 
-bcourses = function(id) {
+function bcourses(id) {
     var base = 'https://bcourses.berkeley.edu/courses/';
     var reading = '/files/folder/Readings?preview='
     return base + cs10.bCoursesID + reading + id;
@@ -238,25 +238,59 @@ cs10.renderTableCalendar = function() {
     table.append(result);
 };
 
+cs10.weeklyFormat = [
+    'readings', // Readings
+    'lect1',    // Mon Lecture
+    'lab1',     // 1st Lab
+    'lect2',    // Wed Lecture
+    'lab2',     // 2nd Lab
+    'disc',     // Discussion
+    'hw'        // Assignments
+];
+
 cs10.renderTableRow = function(week, data) {
-    var result = $('<tr>').addClass('cal');
+    var row = $('<tr>').addClass('cal');
 
     // TODO: Special Case For data.special
     // TODO: Handle Exams (data.exams)
 
-    result.append($('<td>').html(week))                     // Week Number
+    row.append($('<td>').html(week))                        // Week Number
           .append($('<td>').html(cs10.getDateString(week))) // Dates
-          .append(cs10.renderTableReading(data.readings))   // Readings
-          .append(cs10.renderTableLecture(data.lect1))      // Mon Lecture
-          .append(cs10.renderTableLab(data.lab1))           // 1st Lab
-          .append(cs10.renderTableLecture(data.lect2))      // Wed Lecture
-          .append(cs10.renderTableLab(data.lab2))           // 2nd Lab
-          .append(cs10.renderTableDiscussion(data.disc))    // Discussion
-          .append(cs10.renderTableHW(data.hw));             // Assignments
+    cs10.weeklyFormat.forEach(function (key) {
+        row.append(cs10.renderCell(key, data[key]));
+    });
 
-    return result;
+    return row;
 };
 
+/*
+    Given a cellType, and some data, find renderFunction for that type
+    and call it with data.
+    Note that this handles calling the function based on a somewhat arbitrary
+    naming scheme.
+*/
+cs10.renderCell = function(cellType, data) {
+    var renders,
+        functionName = ('renderTable' + cellType).toLowerCase(),
+        functionNoNum = functionName.slice(0, -1);
+    // Slice of the last character which may be a number like lab1 or lect2
+    // This allows multiple of the same type of item in a week.
+    // TODO: Use indexOf or key.match(/functionName|functionNoNum/i) ?
+    var render = Object.getOwnPropertyNames(cs10).filter(function(x) {
+        var key = x.toLowerCase();
+        console.log(cellType, x);
+        console.log(functionName, key.indexOf(functionName), 
+                    functionNoNum, key.indexOf(functionNoNum));
+        return  key.indexOf(functionName) === 0 || key.indexOf(functionNoNum) === 0;
+    });
+
+    console.log(render);
+    if (render.length > 0) {
+        return cs10[render[0]](data);
+    }
+    console.log('TRIED TO RENDER %s BUT COULDNT', cellType);
+    return data;
+}
 // // This renders a single week in the large semester calendar.
 // // M-W
 // cs10.renderTableFirst = function (week, data, color) {
