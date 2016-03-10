@@ -313,9 +313,9 @@ Calendar.prototype.renderReading = function(readings) {
     } else if (typeof readings === 'string') {
         result.append(readings);
     } else if (readings.constructor === Array) {
-        for (var i = 0; i < readings.length; i += 1) {
-            result.append(renderSingleReading(readings[i]))
-        }
+        readings.forEach(function (reading) {
+            result.append(renderSingleReading(reading));
+        });
     } else {
         return $('<span>').append(renderSingleReading(readings));
     }
@@ -403,41 +403,37 @@ Calendar.prototype.renderHomework = function(hw) {
         hw = [cs10.newHomeworkObject('No Homework')];
     } else if (typeof hw === 'string') {
         hw = [cs10.newHomeworkObject(hw)];
-    } else if (!(hw instanceof Array)) { // HW is a list.
-        hw = [ hw ];
     }
 
-    for (var i = 0; i < hw.length; i += 1) {
-        var assn = hw[i];
-            result.append(assn.title);
-            result.append('<br>');
-            result.attr({ 'class' : assn.classes });
+    result.append(hw.title);
+    result.append('<br>');
+    result.attr({ 'class' : hw.classes });
 
-        var j = 0, links = assn.urls.length, item;
-        for (; j < links; j += 1) {
-            item = assn.urls[j];
-            result.append($('<a>').html(item.title).attr({
-                href: item.url,
-                target: '_blank'
-            }));
+    var j = 0, links = hw.urls.length, item;
+    for (; j < links; j += 1) {
+        item = hw.urls[j];
+        result.append($('<a>').html(item.title).attr({
+            href: item.url,
+            target: '_blank'
+        }));
 
-            if (j + 1 < links) {
-                result.append(' | ');
-            }
-        }
-
-        if (assn.url) {
-            result.append($('<a>').html('Submit').attr({
-                'href' : assn.url, }));
-        }
-        if (assn.due) {
-            result.append('<br>');
-            result.append($('<i>').html('due ' + assn.due + ' at 11:59pm'));
-        }
-        if (i + 1 < hw.length) {
-            result.append('<hr>');
+        if (j + 1 < links) {
+            result.append(' | ');
         }
     }
+
+    if (hw.url) {
+        result.append($('<a>').html('Submit').attr({
+            'href' : hw.url, }));
+    }
+    if (hw.due) {
+        result.append('<br>');
+        result.append($('<i>').html('due ' + hw.due + ' at 11:59pm'));
+    }
+    
+    // if (i + 1 < hw.length) {
+    //     result.append('<hr>');
+    // }
 
     return result;
 };
