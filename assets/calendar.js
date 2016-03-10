@@ -5,7 +5,7 @@ cs10.startDate = '{{ site.startDate }}';
 cs10.endDate   = '{{ site.endDate }}';
 
 cs10.bCoursesID = '{{ site.bCourses }}';
-cs10.NUM_WEEKS_TO_RENDER = 10;
+cs10.NUM_WEEKS_TO_RENDER = 17;
 
 cs10.gradingScheme = {
     'A+': 485,
@@ -54,16 +54,16 @@ cs10.newLabObject = function(title, url, rq, video) {
     var baseURL = '{{ site.labsurl }}/topic/topic.html?topic=';
     var urlEnd  = '&novideo&noreading&noassignment&course={{ site.labsCourse }}';
     var lab = { type: 'Lab' };
-    lab.title = title;
 
     // Global Counter for lecture
     cs10.rqCounter = cs10.rqCounter || 0;
     cs10.labCounter = cs10.labCounter || 0;
 
     if (!title) {
-        lab.title = 'No Lab';
+        title = 'No Lab';
     }
-
+    lab.title = title;
+    
     if (url) {
         cs10.labCounter += 1;
         lab.title = cs10.labCounter + ': ' + lab.title;
@@ -92,7 +92,7 @@ cs10.newLabObject = function(title, url, rq, video) {
 cs10.newReadingsObject = function(title, url, classes) {
     var reading = {
         type: 'Reading',
-        title: title,
+        title: title || 'No Reading',
         url: url
     };
 
@@ -107,13 +107,11 @@ cs10.newReadingsObject = function(title, url, classes) {
 
 cs10.newLectureObject = function(title, path, presenter, video) {
     var lect = { type: 'Lecture' };
-
-    lect.title = title;
     if (!title) {
-        lect.title = 'No Lecture';
-        return lect;
+        title = 'No Lecture';
     }
-
+    lect.title = title;
+    
     if (title.indexOf('No Lecture') !== -1 || title.indexOf('No Class') !== -1) {
         lect.classes = 'noClass';
     }
@@ -126,12 +124,10 @@ cs10.newLectureObject = function(title, path, presenter, video) {
 
 cs10.newDiscussionObject = function(title, files) {
     var disc = { type: 'Discussion' };
-
-    disc.title = title;
     if (!title) {
-        disc.title = 'No Discussion';
+        title = 'No Discussion';
     }
-
+    disc.title = title;
     if (title.indexOf('No Discussion') !== -1 || title.indexOf('No Class') !== -1) {
         disc.classes = 'noClass';
     }
@@ -196,6 +192,26 @@ cs10.newHomeworkObject = function(title, due, submission, spec) {
     return obj;
 };
 
+cs10.objectType = {
+    'readings': cs10.newReadingsObject, // Readings
+    'lect1': cs10.newLectureObject,    // Mon Lecture
+    'lab1': cs10.newLabObject,     // 1st Lab
+    'lect2': cs10.newLectureObject,    // Wed Lecture
+    'lab2': cs10.newLabObject,     // 2nd Lab
+    'disc': cs10.newDiscussionObject,     // Discussion
+    'hw': cs10.newHomeworkObject        // Assignments
+};
+
+cs10.weeklyFormat = [
+    'readings', // Readings
+    'lect1',    // Mon Lecture
+    'lab1',     // 1st Lab
+    'lect2',    // Wed Lecture
+    'lab2',     // 2nd Lab
+    'disc',     // Discussion
+    'hw'        // Assignments
+];
+
 // ==================================================
 // ==========     RENDERING CODE           ==========
 // ==================================================
@@ -223,16 +239,6 @@ Calendar.prototype.renderTableCalendar = function(schedule) {
     table.append(result);
 };
 
-cs10.weeklyFormat = [
-    'readings', // Readings
-    'lect1',    // Mon Lecture
-    'lab1',     // 1st Lab
-    'lect2',    // Wed Lecture
-    'lab2',     // 2nd Lab
-    'disc',     // Discussion
-    'hw'        // Assignments
-];
-
 /*
     Given a cellType, and some data, find renderFunction for that type
     and call it with data.
@@ -247,18 +253,15 @@ Calendar.prototype.renderCell = function(data) {
         var result = $('<td>'),
             myself = this;
         data.forEach(function (datum) {
-            console.log(myself.renderCell(datum));
             result.append(myself.renderCell(datum));
         });
         return result;
     }
     
     var functionName = 'render' + data.type;
-    
     if (this[functionName]) {
         return this[functionName](data);
     }
-    console.log('TRIED TO RENDER %s BUT COULDNT', data.type);
     return data;
 }
 
@@ -277,6 +280,9 @@ Calendar.prototype.renderWeek = function(week, data) {
         // for just titles.
         if (typeof data[key] === 'string') {
             data[key] = cs10.newLectureObject(data[key]);
+        }
+        if (!data[key]) {
+            data[key] = cs10.objectType[key]();
         }
         
         row.append(myself.renderCell(data[key]));
