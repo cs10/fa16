@@ -175,7 +175,7 @@ cs10.week8 = {
         reading('Rest of BtB chapter 2',
                 'http://www.bitsbook.com/wp-content/uploads/2008/12/chapter2.pdf', 'optional'),
     ],
-    lect1: lect('Algorithmic Complexity II'),
+    lect1: lect('Algorithmic Complexity II', 'https://docs.google.com/presentation/d/1NFpvg3lzj3hrojXZPk42xoBM3MEFEy8FRl-VeR9Sdxs/edit?usp=sharing'),
     lab1: lab('Tic-Tac-Toe, Boards', 'berkeley_bjc/lists/tic-tac-toe.topic', true),
     lect2: lect('CS Ed', 'L13 cs-ed', 'Michael Ball'),
     lab2: lab('Project Work Session'),
