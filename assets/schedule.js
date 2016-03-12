@@ -177,7 +177,7 @@ cs10.week8 = {
     ],
     lect1: lect('Algorithmic Complexity II', 'https://docs.google.com/presentation/d/1NFpvg3lzj3hrojXZPk42xoBM3MEFEy8FRl-VeR9Sdxs/edit?usp=sharing'),
     lab1: lab('Tic-Tac-Toe, Boards', 'berkeley_bjc/lists/tic-tac-toe.topic', true),
-    lect2: lect('CS Ed', 'https://drive.google.com/a/berkeley.edu/file/d/0B_yB40bTpB1gRGJiMEN5ZTFDUUU/view?usp=sharing', 'Michael Ball'),
+    lect2: lect('CS Ed', 'https://docs.google.com/a/berkeley.edu/presentation/d/1PSBoW7yp0zv1RmAGrTExkgPI1shn-farL7a5uyVausE/edit?usp=sharing', 'Michael Ball'),
     lab2: lab('Project Work Session'),
     disc: disc('Midterm Review'),
     hw: hw('Midterm Project Proposals', '3/11', 'assignments/7259699', mtProjSpec)
