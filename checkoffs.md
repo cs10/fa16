@@ -227,17 +227,19 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 # Week 9: Lab 13
 
-## Lab 13 {#lab13}
+## Lab 13: Concurrency {#lab13}
 
 **Required**
 
-* Coming soon!
+* Describe one pro and one con of the way that Snap! handles concurrency.
+* What is the difference between determinism and nondeterminism, in the context of concurrency?
+* What is deadlock? What is the race condition?
 
 **More Self-Check Questions**
 
-* Coming soon!
+* Is it always true that splitting a task among 10 "workers" is better than splitting it among 5 "workers"?
 
-------
+---
 
 # Week 11: Lab 14 and 15
 
