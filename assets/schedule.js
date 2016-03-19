@@ -192,8 +192,8 @@ cs10.week9 = {
     disc: disc('Midterm Debrief'),
     lab1: lab('Online <span class="snap">snap</span> Midterm'),
     lab2: lab('Concurrency', 'berkeley_bjc/areas/concurrency.topic'),
-    lect1: lect('Concurrency'), //'https://docs.google.com/presentation/d/1o4GtTha_TbRNCvqp7wEchJxGaeoENnH3KTX0Hl6nvD0/edit?usp=sharing'),
-    lect2: lect('The Internet I'), //'L15 - HCI'),
+    lect1: lect('Concurrency','https://docs.google.com/presentation/d/1M5dhs9NnnDvs62dSNO22tcLYg-JGo_wDvNfVosQMSUs/edit?usp=sharing'), //'https://docs.google.com/presentation/d/1o4GtTha_TbRNCvqp7wEchJxGaeoENnH3KTX0Hl6nvD0/edit?usp=sharing'),
+    lect2: lect('The Internet I', 'https://docs.google.com/presentation/d/1eXJOOJotmIOCTdwYadz6_hJ8SRvvl0bmuKxZwdx8_lY/edit?usp=sharing'), //'L15 - HCI'),
     //lab2: lab('Project Work Session'),
     hw: [        
         hw('Midterm Project<br> Milestone', '3/18', 'assignments/7259698')
