@@ -263,10 +263,11 @@ cs10.week11 = {
         )  
     ],
     disc: disc('The Internet | Data and HOFs'),
-    lect1: lect('The Internet II'), //'https://docs.google.com/presentation/d/1TwO63UECd9I4ufKDYUj9LDFT6RrDOtFQlbbcC9oBebE/pub?start=false&loop=false&delayms=3000'),
-    lect2: lect('Lambda + HOFs'), //'https://docs.google.com/presentation/d/1Ouz8QdPT-L0x3lg77S2yBGbsqjmuKJLAG3SjxtD7zLQ/pub?start=false&loop=false&delayms=3000'),
-    lab1: lab('The Internet', 'berkeley_bjc/areas/internet.topic', true),
-    lab2: lab('Functions as Data and HOFs', 'berkeley_bjc/hofs/hofs-practice.topic'),
+    lect1: lect('Procedures as Data'), //'https://docs.google.com/presentation/d/1TwO63UECd9I4ufKDYUj9LDFT6RrDOtFQlbbcC9oBebE/pub?start=false&loop=false&delayms=3000'),
+    lect2: lect('Python I'), //'https://docs.google.com/presentation/d/1Ouz8QdPT-L0x3lg77S2yBGbsqjmuKJLAG3SjxtD7zLQ/pub?start=false&loop=false&delayms=3000'),
+    //lab1: lab('The Internet', 'berkeley_bjc/areas/internet.topic', true),
+    lab1: lab('Functions as Data and HOFs', 'berkeley_bjc/hofs/hofs-practice.topic', true),
+    lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
     hw: [
         hw('Midterm Project', '4/1', 'assignments/7259697', mtProjSpec),
         hw('"Explore" Writing Assignment', '4/3', '/discussion_topics/4632124', exploreSpec)
@@ -289,10 +290,10 @@ cs10.week12 = {
             'optional')
     ],
     disc: disc('Social Implications of Computing | More HoF and Call Work'),
-    lect1: lect('Privacy'), //'https://docs.google.com/presentation/d/1dqoMCkDFxoGusaJBwyvMYMgoPY47wUt8WRgG1HOVfLQ/edit?usp=sharing'),
-    lect2: lect('Intro to Python'),
+    lect1: lect('Python II'), //'https://docs.google.com/presentation/d/1dqoMCkDFxoGusaJBwyvMYMgoPY47wUt8WRgG1HOVfLQ/edit?usp=sharing'),
+    lect2: lect('Internet II'),
     lab1: lab('Optional Catch-Up Day', null, true),
-    lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
+    lab2: lab('Besides Blocks: Data Structures in Python', 'berkeley_bjc/python/besides-blocks-data-struct.topic'),
     hw: [
         hw('"Explore" Comments', '4/8', '/discussion_topics/4632124'),
         hw('Final Project Proposal', '4/8', 'assignments/7259699', finalProjSpec)
@@ -306,7 +307,7 @@ cs10.week13 = {
         reading('Intro to Data Science (stop at Expressions)', 'http://data8.org/text/1_data.html#why-data-science')
     ],    
     disc: disc('All about Python'),
-    lab1: lab('Besides Blocks: Data Structures in Python', 'berkeley_bjc/python/besides-blocks-data-struct.topic', true), //, 'berkeley_bjc/python/besides-blocks-data-struct.topic', true),
+    lab1: lab('The Internet', 'berkeley_bjc/areas/internet.topic', true), //, 'berkeley_bjc/python/besides-blocks-data-struct.topic', true),
     lect1: lect('Social Implications - Copyright'),
     lect2: lect('Social Implications - Cryptography and Security'), //'https://docs.google.com/presentation/d/1MLG5pjfSrvZ17WNp5CSfPbPa3QOnxKtNGKlfRIGgEPw/edit?usp=sharing'),
     lab2: lab('Project Work Session'), //, 'berkeley_bjc/python/besides-blocks-data.topic'),
