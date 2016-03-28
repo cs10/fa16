@@ -227,17 +227,19 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 # Week 9: Lab 13
 
-## Lab 13 {#lab13}
+## Lab 13: Concurrency {#lab13}
 
 **Required**
 
-* Coming soon!
+* Describe one pro and one con of the way that Snap! handles concurrency.
+* What is the difference between determinism and nondeterminism, in the context of concurrency?
+* What is deadlock? What is the race condition?
 
 **More Self-Check Questions**
 
-* Coming soon!
+* Is it always true that splitting a task among 10 "workers" is better than splitting it among 5 "workers"?
 
-------
+---
 
 # Week 11: Lab 14 and 15
 
@@ -245,11 +247,14 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 **Required**
 
-* Coming soon!
+* How can we use functions as data in Snap? What do the “call” and “run” blocks do, and what’s the difference between them?
+* Explain your 'is _ pandigital?' block. 
+* Explain your 'min value of _ over all numbers in _'? How would we make a maximizing version of this block? 
 
 **More Self-Check Questions**
 
-* Coming soon!
+* Look at the "draw tree with size 'size' levels 'levels' line-type: 'type-of-line'. How does this differ from how we drew trees before? What does the 'type-of-line' argument allow us to do? 
+* What does the 'compose' block allow us to do with functions? What's the difference between 'compose (2 x _) (6 + _)' and 'compose (6 + _) (2 x _)'?
 
 ## Lab 15: Internet {#lab15}
 
