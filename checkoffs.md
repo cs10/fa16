@@ -245,15 +245,19 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 ## Lab 14: Lambdas and HOFs {#lab14}
 
+### Go to bCourses to submit the lab online:
+[bCourses](https://bcourses.berkeley.edu/courses/1408649/assignments/7567086)
+Note the autograder requires you to use the "AUTOGRADER" sprite when clicking "Get Feedback", but otherwise you can do the same work as normal.
+
 **Required**
 
 * How can we use functions as data in Snap? What do the “call” and “run” blocks do, and what’s the difference between them?
-* Explain your 'is _ pandigital?' block. 
-* Explain your 'min value of _ over all numbers in _'? How would we make a maximizing version of this block? 
+* Explain your 'is _ pandigital?' block.
+* Explain your 'min value of _ over all numbers in _'? How would we make a maximizing version of this block?
 
 **More Self-Check Questions**
 
-* Look at the "draw tree with size 'size' levels 'levels' line-type: 'type-of-line'. How does this differ from how we drew trees before? What does the 'type-of-line' argument allow us to do? 
+* Look at the "draw tree with size 'size' levels 'levels' line-type: 'type-of-line'. How does this differ from how we drew trees before? What does the 'type-of-line' argument allow us to do?
 * What does the 'compose' block allow us to do with functions? What's the difference between 'compose (2 x _) (6 + _)' and 'compose (6 + _) (2 x _)'?
 
 ## Lab 15: Internet {#lab15}
