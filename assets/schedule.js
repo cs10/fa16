@@ -264,7 +264,7 @@ cs10.week11 = {
     ],
     disc: disc('The Internet | Data and HOFs'),
     lect1: lect('Procedures as Data', 'https://docs.google.com/presentation/d/12n7JQXQCJHBt7SjKjGGkVNP5iyhAngOLMVeMpg40D8I/edit?usp=sharing'), //'https://docs.google.com/presentation/d/1TwO63UECd9I4ufKDYUj9LDFT6RrDOtFQlbbcC9oBebE/pub?start=false&loop=false&delayms=3000'),
-    lect2: lect('Python I'), //'https://docs.google.com/presentation/d/1Ouz8QdPT-L0x3lg77S2yBGbsqjmuKJLAG3SjxtD7zLQ/pub?start=false&loop=false&delayms=3000'),
+    lect2: lect('Python I', 'https://docs.google.com/presentation/d/1kZ2LwxKUTJLyo5GlLUdX72S9xT_9YqblN5WLD8y8Gg0/edit?usp=sharing'), //'https://docs.google.com/presentation/d/1Ouz8QdPT-L0x3lg77S2yBGbsqjmuKJLAG3SjxtD7zLQ/pub?start=false&loop=false&delayms=3000'),
     //lab1: lab('The Internet', 'berkeley_bjc/areas/internet.topic', true),
     lab1: lab('Functions as Data and HOFs', 'berkeley_bjc/hofs/hofs-practice.topic', true),
     lab2: lab('Optional Make-Up/Project Work Day', null),
