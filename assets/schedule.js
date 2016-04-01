@@ -262,7 +262,7 @@ cs10.week11 = {
             'optional'
         )  
     ],
-    disc: disc('The Internet | Data and HOFs'),
+    disc: disc('Concurrency, Mutability, Data and HOFs'),
     lect1: lect('Procedures as Data', 'https://docs.google.com/presentation/d/12n7JQXQCJHBt7SjKjGGkVNP5iyhAngOLMVeMpg40D8I/edit?usp=sharing'), //'https://docs.google.com/presentation/d/1TwO63UECd9I4ufKDYUj9LDFT6RrDOtFQlbbcC9oBebE/pub?start=false&loop=false&delayms=3000'),
     lect2: lect('Python I', 'https://docs.google.com/presentation/d/1kZ2LwxKUTJLyo5GlLUdX72S9xT_9YqblN5WLD8y8Gg0/edit?usp=sharing'), //'https://docs.google.com/presentation/d/1Ouz8QdPT-L0x3lg77S2yBGbsqjmuKJLAG3SjxtD7zLQ/pub?start=false&loop=false&delayms=3000'),
     //lab1: lab('The Internet', 'berkeley_bjc/areas/internet.topic', true),
@@ -289,7 +289,7 @@ cs10.week12 = {
             'https://medium.com/@oceankidbilly/python-vs-r-vs-cobol-which-is-best-for-data-science-7b2979c6a000',
             'optional')
     ],
-    disc: disc('Social Implications of Computing | More HoF and Call Work'),
+    disc: disc('All About Python'),
     lect1: lect('Python II'), //'https://docs.google.com/presentation/d/1dqoMCkDFxoGusaJBwyvMYMgoPY47wUt8WRgG1HOVfLQ/edit?usp=sharing'),
     lect2: lect('Internet II'),
     lab1: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic', true),
@@ -306,7 +306,7 @@ cs10.week13 = {
         reading('CS8 lecture 1 (watch first, optional)', 'https://www.youtube.com/watch?v=69hHbVza7XI&t=27m49s', 'optional'),
         reading('Intro to Data Science (stop at Expressions)', 'http://data8.org/text/1_data.html#why-data-science')
     ],    
-    disc: disc('All about Python'),
+    disc: disc('Social Implications of Computing, Internet'),
     lab1: lab('The Internet', 'berkeley_bjc/areas/internet.topic', true), //, 'berkeley_bjc/python/besides-blocks-data-struct.topic', true),
     lect1: lect('Social Implications - Copyright'),
     lect2: lect('Social Implications - Cryptography and Security'), //'https://docs.google.com/presentation/d/1MLG5pjfSrvZ17WNp5CSfPbPa3QOnxKtNGKlfRIGgEPw/edit?usp=sharing'),
