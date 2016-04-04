@@ -241,7 +241,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 ---
 
-# Week 11: Lab 14 and 15
+# Week 11: Lab 14
 
 ## Lab 14: Lambdas and HOFs {#lab14}
 
@@ -260,7 +260,11 @@ Note the autograder requires you to use the "AUTOGRADER" sprite when clicking "G
 * Look at the "draw tree with size 'size' levels 'levels' line-type: 'type-of-line'. How does this differ from how we drew trees before? What does the 'type-of-line' argument allow us to do?
 * What does the 'compose' block allow us to do with functions? What's the difference between 'compose (2 x _) (6 + _)' and 'compose (6 + _) (2 x _)'?
 
-##Lab 15: Besides Blocks: Welcome to Python {#lab15}
+------
+
+# Week 12: Lab 15 and 16
+
+## Lab 15: Besides Blocks: Welcome to Python {#lab15}
 
 **Required**
 
@@ -270,13 +274,12 @@ Note the autograder requires you to use the "AUTOGRADER" sprite when clicking "G
 
 **More Self-Check Questions**
 
-* Coming soon!
+* What does 0-indexing mean?
+* Show how to open the Python interpreter and run a script.
+* What is a directory?
+* How do you make a directory, enter a directory, and check what is inside your current directory?
 
-------
-
-# Week 12: Lab 16
-
-##Lab 16: Besides Blocks: Data Structures in Python {#lab16}
+## Lab 16: Besides Blocks: Data Structures in Python {#lab16}
 
 **Required**
 
