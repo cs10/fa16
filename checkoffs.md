@@ -264,7 +264,9 @@ Note the autograder requires you to use the "AUTOGRADER" sprite when clicking "G
 
 **Required**
 
-* Coming soon!
+* What is the difference between "=" and "==" in python?
+* How do you define a function in python?
+* Show us the result of running the autograder.
 
 **More Self-Check Questions**
 
