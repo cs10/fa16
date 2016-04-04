@@ -293,7 +293,7 @@ Note the autograder requires you to use the "AUTOGRADER" sprite when clicking "G
 
 # Week 13: Lab 17 and Lab 18
 
-##Lab 17: Internet {#lab17}
+## Lab 17: Internet {#lab17}
 
 **Required**
 
@@ -303,7 +303,7 @@ Note the autograder requires you to use the "AUTOGRADER" sprite when clicking "G
 
 * Coming soon!
 
-##Lab 18: Besides Blocks: Text Processing in Python {#lab17}
+## Lab 18: Besides Blocks: Text Processing in Python {#lab17}
 
 **Required**
 
