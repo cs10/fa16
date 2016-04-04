@@ -30,7 +30,7 @@ var hw2Spec = docs('1NrZaFKMIeN7Jvfpwe8Auv6Cc-OhcOIZzZX83IN2azPA');
 var hw3Spec = docs('1z-DZD3ya3Uxp9WkkmqF838Giq_VEjtdmXNI0dVzU5sg');
 var mtProjSpec = docs('1fFLorzOLOIO4WXzIxllMBACuEvMWZx-ykeLO-rsAIjc');
 var exploreSpec = docs('1i79rb0BL0FJV54cy7s-VC1wa7bUwlfVUT5xFN_o2EDc');
-var finalProjSpec = docs('1Pf29lFwyD883yIxIKtc2ywpqU-VTvsmUJyIw-jYuUyQ');
+var finalProjSpec = docs('1eoPoHWad-yBrsIFKZx_AltKD4xlcvVPEdGxIviQQMGM');
 
 // ==================================================
 // ==========     SCHEDULE ITEMS           ==========
