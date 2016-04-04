@@ -260,7 +260,7 @@ Note the autograder requires you to use the "AUTOGRADER" sprite when clicking "G
 * Look at the "draw tree with size 'size' levels 'levels' line-type: 'type-of-line'. How does this differ from how we drew trees before? What does the 'type-of-line' argument allow us to do?
 * What does the 'compose' block allow us to do with functions? What's the difference between 'compose (2 x _) (6 + _)' and 'compose (6 + _) (2 x _)'?
 
-## Lab 15: Internet {#lab15}
+##Lab 15: Besides Blocks: Welcome to Python {#lab15}
 
 **Required**
 
@@ -276,7 +276,7 @@ Note the autograder requires you to use the "AUTOGRADER" sprite when clicking "G
 
 # Week 12: Lab 16
 
-##Lab 16: Besides Blocks: Welcome to Python {#lab16}
+##Lab 16: Besides Blocks: Data Structures in Python {#lab16}
 
 **Required**
 
@@ -290,7 +290,7 @@ Note the autograder requires you to use the "AUTOGRADER" sprite when clicking "G
 
 # Week 13: Lab 17 and Lab 18
 
-##Lab 17: Besides Blocks: Data Structures in Python {#lab17}
+##Lab 17: Internet {#lab17}
 
 **Required**
 
