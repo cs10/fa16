@@ -290,7 +290,7 @@ cs10.week12 = {
             'optional')
     ],
     disc: disc('All About Python'),
-    lect1: lect('Python II'), //'https://docs.google.com/presentation/d/1dqoMCkDFxoGusaJBwyvMYMgoPY47wUt8WRgG1HOVfLQ/edit?usp=sharing'),
+    lect1: lect('Python II', 'https://docs.google.com/presentation/d/1awAwgpYve-vCKUx9LmFr5ZFKbfS15cQuTp3Prg7QiWw/edit?usp=sharing'), //'https://docs.google.com/presentation/d/1dqoMCkDFxoGusaJBwyvMYMgoPY47wUt8WRgG1HOVfLQ/edit?usp=sharing'),
     lect2: lect('Internet II'),
     lab1: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic', true),
     lab2: lab('Besides Blocks: Data Structures in Python', 'berkeley_bjc/python/besides-blocks-data-struct.topic'),
