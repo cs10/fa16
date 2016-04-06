@@ -283,7 +283,9 @@ Note the autograder requires you to use the "AUTOGRADER" sprite when clicking "G
 
 **Required**
 
-* Coming soon!
+* Name two similarities in syntax between Snap! and Python.  
+* What things are mutable in both Snap!? In Python?
+* Compare and contrast one of the HoFs in Python and Snap!.  
 
 **More Self-Check Questions**
 
