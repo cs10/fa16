@@ -291,7 +291,7 @@ cs10.week12 = {
     ],
     disc: disc('All About Python'),
     lect1: lect('Python II', 'https://docs.google.com/presentation/d/1awAwgpYve-vCKUx9LmFr5ZFKbfS15cQuTp3Prg7QiWw/edit?usp=sharing'), //'https://docs.google.com/presentation/d/1dqoMCkDFxoGusaJBwyvMYMgoPY47wUt8WRgG1HOVfLQ/edit?usp=sharing'),
-    lect2: lect('Internet II'),
+    lect2: lect('Internet II', 'https://docs.google.com/presentation/d/1syVIRCXLGgo9M0BUS4X-GLVeQq2-gBwwsUwQ7XJ8f0s/edit?usp=sharing'),
     lab1: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic', true),
     lab2: lab('Besides Blocks: Data Structures in Python', 'berkeley_bjc/python/besides-blocks-data-struct.topic'),
     hw: [
