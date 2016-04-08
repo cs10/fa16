@@ -304,7 +304,7 @@ cs10.week12 = {
 cs10.week13 = {
     readings: [
         reading('CS8 lecture 1 (watch first, optional)', 'https://www.youtube.com/watch?v=69hHbVza7XI&t=27m49s', 'optional'),
-        reading('Intro to Data Science (stop at Expressions)', 'http://data8.org/text/1_data.html#why-data-science')
+        reading('Addicted to Apps', 'http://www.nytimes.com/2013/08/25/sunday-review/addicted-to-apps.html?_r=0')
     ],    
     disc: disc('Social Implications of Computing, Internet'),
     lab1: lab('The Internet', 'berkeley_bjc/areas/internet.topic', true), //, 'berkeley_bjc/python/besides-blocks-data-struct.topic', true),
@@ -318,11 +318,8 @@ cs10.week13 = {
 // APR 18 - 22
 cs10.week14 = {
     readings: [
-        reading(
-            'BtB Chapter 6',
-            'http://www.bitsbook.com/wp-content/uploads/2008/12/chapter6.pdf',
-            'optional'
-        )
+        reading('The Doomsday Invention', 'http://www.newyorker.com/magazine/2015/11/23/doomsday-invention-artificial-intelligence-nick-bostrom'),
+        reading('Gladwell vs. Shirky: A Year Later, Scoring the Debate Over Social-Media Revolutions', 'http://www.wired.com/2011/12/gladwell-vs-shirky/')
     ],
     disc: disc('TBD'),
     lab1: lab('Besides Blocks: Text Processing in Python', 'berkeley_bjc/python/besides-blocks-text-processing.topic', true),
@@ -335,7 +332,10 @@ cs10.week14 = {
 // APR 25 - 29
 cs10.week15 = {
     readings: [
-        reading('The Doomsday Invention', 'http://www.newyorker.com/magazine/2015/11/23/doomsday-invention-artificial-intelligence-nick-bostrom'),
+        reading(
+            'BtB Chapter 6',
+            'http://www.bitsbook.com/wp-content/uploads/2008/12/chapter6.pdf',
+        )
         reading('A Quantum Leap in Computing?', 'http://www.newyorker.com/tech/elements/a-quantum-leap-in-computing', 'optional')
     ],       
     disc: disc('Farewell! Recap and Feedback'),
