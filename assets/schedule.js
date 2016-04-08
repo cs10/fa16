@@ -332,10 +332,7 @@ cs10.week14 = {
 // APR 25 - 29
 cs10.week15 = {
     readings: [
-        reading(
-            'BtB Chapter 6',
-            'http://www.bitsbook.com/wp-content/uploads/2008/12/chapter6.pdf',
-        )
+        reading('BtB Chapter 6','http://www.bitsbook.com/wp-content/uploads/2008/12/chapter6.pdf'),
         reading('A Quantum Leap in Computing?', 'http://www.newyorker.com/tech/elements/a-quantum-leap-in-computing', 'optional')
     ],       
     disc: disc('Farewell! Recap and Feedback'),
