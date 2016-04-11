@@ -52,7 +52,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 * [Lab 15](#lab15)
 * [Lab 16](#lab16) (Week 12)
 * [Lab 17](#lab17)
-* [Lab 17](#lab18)
+* [Lab 18](#lab18)
 </div>
 
 ---
@@ -294,7 +294,7 @@ Note the autograder requires you to use the "AUTOGRADER" sprite when clicking "G
 
 ------
 
-# Week 13: Lab 17 and Lab 18
+# Week 13: Lab 17
 
 ## Lab 17: Internet {#lab17}
 
@@ -308,6 +308,8 @@ Note the autograder requires you to use the "AUTOGRADER" sprite when clicking "G
 
 * Attempt panopticlick.
 * How does telnet work?
+
+# Week 14: Lab 18
 
 ## Lab 18: Besides Blocks: Text Processing in Python {#lab17}
 
