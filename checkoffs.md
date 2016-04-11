@@ -289,7 +289,8 @@ Note the autograder requires you to use the "AUTOGRADER" sprite when clicking "G
 
 **More Self-Check Questions**
 
-* Coming soon!
+* What are advantages of dictionaries over lists?
+* How would you implement a dictionary-like structure in Snap!?
 
 ------
 
@@ -299,11 +300,14 @@ Note the autograder requires you to use the "AUTOGRADER" sprite when clicking "G
 
 **Required**
 
-* Coming soon!
+* Chooose between whois and Traceroute, and explain how the command works.  What information does it tell you?
+* What is the difference between latancy and throughput?
+* What is your information footprint? How could you go about limiting it?
 
 **More Self-Check Questions**
 
-* Coming soon!
+* Attempt panopticlick.
+* How does telnet work?
 
 ## Lab 18: Besides Blocks: Text Processing in Python {#lab17}
 
