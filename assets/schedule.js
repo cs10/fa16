@@ -296,7 +296,7 @@ cs10.week12 = {
     lab2: lab('Besides Blocks: Data Structures in Python', 'berkeley_bjc/python/besides-blocks-data-struct.topic'),
     hw: [
         hw('"Explore" Comments', '4/8', '/discussion_topics/4632124'),
-        hw('Final Project Proposal', '4/8', 'assignments/7259699', finalProjSpec)
+        hw('Final Project Proposal', '4/8', 'assignments/7259693', finalProjSpec)
     ]
 };
 
