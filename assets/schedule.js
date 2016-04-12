@@ -306,7 +306,7 @@ cs10.week13 = {
         reading('Addicted to Apps', 'http://www.nytimes.com/2013/08/25/sunday-review/addicted-to-apps.html?_r=0'),
         reading('CS8 lecture 1', 'https://www.youtube.com/watch?v=69hHbVza7XI&t=27m49s', 'optional')
     ],    
-    disc: disc('Social Implications of Computing, Internet'),
+    disc: disc('The Internet'),
     lab1: lab('The Internet', 'berkeley_bjc/areas/internet.topic', true), //, 'berkeley_bjc/python/besides-blocks-data-struct.topic', true),
     lect1: lect('Guest Lecture: Michael Shiloh - Arduino'),
     lect2: lect('Social Implications - Privacy'), //'https://docs.google.com/presentation/d/1MLG5pjfSrvZ17WNp5CSfPbPa3QOnxKtNGKlfRIGgEPw/edit?usp=sharing'),
@@ -321,7 +321,7 @@ cs10.week14 = {
         reading('A World Without Work', 'http://www.theatlantic.com/magazine/archive/2015/07/world-without-work/395294/'),
         reading('Gladwell vs. Shirky: A Year Later, Scoring the Debate Over Social-Media Revolutions', 'http://www.wired.com/2011/12/gladwell-vs-shirky/')
     ],
-    disc: disc('TBD'),
+    disc: disc('Social Implications'),
     lab1: lab('Besides Blocks: Text Processing in Python', 'berkeley_bjc/python/besides-blocks-text-processing.topic', true),
     lect1: lect('Guest Lecture: Pat Virtue - Artificial Intelligence'), //'https://docs.google.com/presentation/d/1SvosTLRIU9IfgXD75v_lctIOvHaBARc9sm7Y5Dn-J8g/pub?start=false&loop=false&delayms=3000'),
     lect2: lect('Social Implications - Politics, Social Movements and Job Implications'),
