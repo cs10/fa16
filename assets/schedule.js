@@ -296,7 +296,7 @@ cs10.week12 = {
     lab2: lab('Besides Blocks: Data Structures in Python', 'berkeley_bjc/python/besides-blocks-data-struct.topic'),
     hw: [
         hw('"Explore" Comments', '4/8', '/discussion_topics/4632124'),
-        hw('Final Project Proposal', '4/8', 'assignments/7259693', finalProjSpec)
+        hw('Final Project Proposal', '4/11', 'assignments/7259693', finalProjSpec)
     ]
 };
 
@@ -311,7 +311,7 @@ cs10.week13 = {
     lect1: lect('Guest Lecture: Michael Shiloh - Arduino'),
     lect2: lect('Social Implications - Privacy'), //'https://docs.google.com/presentation/d/1MLG5pjfSrvZ17WNp5CSfPbPa3QOnxKtNGKlfRIGgEPw/edit?usp=sharing'),
     lab2: lab('Project Work Session'), //, 'berkeley_bjc/python/besides-blocks-data.topic'),
-    hw: hw('Final Project Milestone', '4/15', 'assignments/7259692')
+    hw: hw('Final Project Milestone', '4/18', 'assignments/7259692')
 };
 
 
