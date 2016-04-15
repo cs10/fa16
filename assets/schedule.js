@@ -163,7 +163,7 @@ cs10.week7 = {
 //'https://docs.google.com/presentation/d/1NuOa586nkC1m95X_5LYyiI4gs0s3XL5eRZF7DeH81us/pub?start=false&loop=false&delayms=3000'),
     lab1: lab('Homework 3 Work Session', null, true),
     lab2: lab('Recursive Reporters I', 'berkeley_bjc/recur/recursive-reporters-part1.topic'),
-    disc: disc('More Recursion'),
+    disc: disc('More Recursion', true),
     hw: hw('HW3: 2048','3/4', 'assignments/7515294', hw3Spec)
 };
 
@@ -262,7 +262,7 @@ cs10.week11 = {
             'optional'
         )  
     ],
-    disc: disc('Concurrency, Mutability, Data and HOFs'),
+    disc: disc('Concurrency, Mutability, Data and HOFs', true),
     lect1: lect('Procedures as Data', 'https://docs.google.com/presentation/d/12n7JQXQCJHBt7SjKjGGkVNP5iyhAngOLMVeMpg40D8I/edit?usp=sharing'), //'https://docs.google.com/presentation/d/1TwO63UECd9I4ufKDYUj9LDFT6RrDOtFQlbbcC9oBebE/pub?start=false&loop=false&delayms=3000'),
     lect2: lect('Python I', 'https://docs.google.com/presentation/d/1kZ2LwxKUTJLyo5GlLUdX72S9xT_9YqblN5WLD8y8Gg0/edit?usp=sharing'), //'https://docs.google.com/presentation/d/1Ouz8QdPT-L0x3lg77S2yBGbsqjmuKJLAG3SjxtD7zLQ/pub?start=false&loop=false&delayms=3000'),
     //lab1: lab('The Internet', 'berkeley_bjc/areas/internet.topic', true),
@@ -289,7 +289,7 @@ cs10.week12 = {
             'https://medium.com/@oceankidbilly/python-vs-r-vs-cobol-which-is-best-for-data-science-7b2979c6a000',
             'optional')
     ],
-    disc: disc('All About Python'),
+    disc: disc('All About Python', true),
     lect1: lect('Python II', 'https://docs.google.com/presentation/d/1awAwgpYve-vCKUx9LmFr5ZFKbfS15cQuTp3Prg7QiWw/edit?usp=sharing'), //'https://docs.google.com/presentation/d/1dqoMCkDFxoGusaJBwyvMYMgoPY47wUt8WRgG1HOVfLQ/edit?usp=sharing'),
     lect2: lect('Internet II', 'https://docs.google.com/presentation/d/1syVIRCXLGgo9M0BUS4X-GLVeQq2-gBwwsUwQ7XJ8f0s/edit?usp=sharing'),
     lab1: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic', true),
@@ -306,7 +306,7 @@ cs10.week13 = {
         reading('Addicted to Apps', 'http://www.nytimes.com/2013/08/25/sunday-review/addicted-to-apps.html?_r=0'),
         reading('CS8 lecture 1', 'https://www.youtube.com/watch?v=69hHbVza7XI&t=27m49s', 'optional')
     ],    
-    disc: disc('The Internet'),
+    disc: disc('The Internet', true),
     lab1: lab('The Internet', 'berkeley_bjc/areas/internet.topic', true), //, 'berkeley_bjc/python/besides-blocks-data-struct.topic', true),
     lect1: lect('Guest Lecture: Michael Shiloh - Arduino'),
     lect2: lect('Social Implications - Privacy'), //'https://docs.google.com/presentation/d/1MLG5pjfSrvZ17WNp5CSfPbPa3QOnxKtNGKlfRIGgEPw/edit?usp=sharing'),
