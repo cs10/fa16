@@ -311,15 +311,17 @@ Note the autograder requires you to use the "AUTOGRADER" sprite when clicking "G
 
 # Week 14: Lab 18
 
-## Lab 18: Besides Blocks: Text Processing in Python {#lab17}
+## Lab 18: Besides Blocks: Text Processing in Python {#lab18}
 
 **Required**
 
-* Coming soon!
+* What is an optional input in Python? Explain why or how they are useful.
+* Show us your print_top_n_words function.
 
 **More Self-Check Questions**
 
-* Coming soon!
+* Show us your top_n_words_except function.
+* Explain what a Markov Chain is.
 
 <!-- Keep the /div at the bottom -->
 </div>
