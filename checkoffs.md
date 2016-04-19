@@ -301,7 +301,7 @@ Note the autograder requires you to use the "AUTOGRADER" sprite when clicking "G
 **Required**
 
 * Chooose between whois and Traceroute, and explain how the command works.  What information does it tell you?
-* What is the difference between latancy and throughput?
+* What is the difference between latency and throughput?
 * What is your information footprint? How could you go about limiting it?
 
 **More Self-Check Questions**
