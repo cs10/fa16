@@ -322,10 +322,10 @@ cs10.week14 = {
         reading('Gladwell vs. Shirky: A Year Later, Scoring the Debate Over Social-Media Revolutions', 'http://www.wired.com/2011/12/gladwell-vs-shirky/')
     ],
     disc: disc('Social Implications'),
-    lab1: lab('Besides Blocks: Text Processing in Python', 'berkeley_bjc/python/besides-blocks-text-processing.topic', true),
+    lab1: lab('Besides Blocks: Text Processing in Python', 'berkeley_bjc/python/besides-blocks-text-processing.topic'),
     lect1: lect('Guest Lecture: Pat Virtue - Artificial Intelligence', 'https://docs.google.com/presentation/d/1pHMOWJPI0GyU6zQVXCXrkN2McPXk7U2XRgBPVsKxM3o/edit?usp=sharing'), //'https://docs.google.com/presentation/d/1SvosTLRIU9IfgXD75v_lctIOvHaBARc9sm7Y5Dn-J8g/pub?start=false&loop=false&delayms=3000'),
     lect2: lect('Social Implications - Politics, Social Movements and Job Implications', 'https://docs.google.com/presentation/d/147eSV_T3_01IDdzPy0CYM1l66ETqZhKTRCOI1C-5448/edit?usp=sharing'),
-    lab2: lab('Project Work Session'),
+    lab2: lab('Project Work Session', null, true),
     hw: hw('Continue Working on your Project')
 };
 
