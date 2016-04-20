@@ -309,7 +309,7 @@ cs10.week13 = {
     disc: disc('The Internet', true),
     lab1: lab('The Internet', 'berkeley_bjc/areas/internet.topic', true), //, 'berkeley_bjc/python/besides-blocks-data-struct.topic', true),
     lect1: lect('Guest Lecture: Michael Shiloh - Arduino'),
-    lect2: lect('Social Implications - Privacy'), //'https://docs.google.com/presentation/d/1MLG5pjfSrvZ17WNp5CSfPbPa3QOnxKtNGKlfRIGgEPw/edit?usp=sharing'),
+    lect2: lect('Social Implications - Privacy', 'https://docs.google.com/presentation/d/16NZgPMLObCthVot7vZwofOqctfhir2xKj6ajTyc1FZw/edit?usp=sharing'), //'https://docs.google.com/presentation/d/1MLG5pjfSrvZ17WNp5CSfPbPa3QOnxKtNGKlfRIGgEPw/edit?usp=sharing'),
     lab2: lab('Project Work Session'), //, 'berkeley_bjc/python/besides-blocks-data.topic'),
     hw: hw('Final Project Milestone', '4/18', 'assignments/7259692')
 };
@@ -323,8 +323,8 @@ cs10.week14 = {
     ],
     disc: disc('Social Implications'),
     lab1: lab('Besides Blocks: Text Processing in Python', 'berkeley_bjc/python/besides-blocks-text-processing.topic', true),
-    lect1: lect('Guest Lecture: Pat Virtue - Artificial Intelligence'), //'https://docs.google.com/presentation/d/1SvosTLRIU9IfgXD75v_lctIOvHaBARc9sm7Y5Dn-J8g/pub?start=false&loop=false&delayms=3000'),
-    lect2: lect('Social Implications - Politics, Social Movements and Job Implications'),
+    lect1: lect('Guest Lecture: Pat Virtue - Artificial Intelligence', 'https://docs.google.com/presentation/d/1pHMOWJPI0GyU6zQVXCXrkN2McPXk7U2XRgBPVsKxM3o/edit?usp=sharing'), //'https://docs.google.com/presentation/d/1SvosTLRIU9IfgXD75v_lctIOvHaBARc9sm7Y5Dn-J8g/pub?start=false&loop=false&delayms=3000'),
+    lect2: lect('Social Implications - Politics, Social Movements and Job Implications', 'https://docs.google.com/presentation/d/147eSV_T3_01IDdzPy0CYM1l66ETqZhKTRCOI1C-5448/edit?usp=sharing'),
     lab2: lab('Project Work Session'),
     hw: hw('Continue Working on your Project')
 };
