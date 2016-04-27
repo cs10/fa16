@@ -337,8 +337,8 @@ cs10.week15 = {
     ],       
     disc: disc('Farewell! Recap and Feedback'),
     lab1: lab('Project Work Session', null),
-    lect1: lect('Social Implications - Copyright'), //'https://docs.google.com/presentation/d/1_k3boAVzNT3W_z-uhmbdP5tugM4PUuGwT-BPSmU8A-o/pub?start=false&loop=false&delayms=3000'),
-    lect2: lect('Conclusion'), //'https://docs.google.com/presentation/d/1CgPu3RBXYUyN7r0X6NpWzgGN95cZIPyfqTSNBCX7nd4/edit?usp=sharing'),
+    lect1: lect('Social Implications - Copyright', 'https://drive.google.com/file/d/0B7pxUEY76zATblJZa25NNUl1cGM/view?usp=sharing'), //'https://docs.google.com/presentation/d/1_k3boAVzNT3W_z-uhmbdP5tugM4PUuGwT-BPSmU8A-o/pub?start=false&loop=false&delayms=3000'),
+    lect2: lect('Conclusion', 'https://docs.google.com/presentation/d/1KY3qeS_drHb28FgWQ_RDs-K7QEPeuHRdQhjphttfZmI/edit?usp=sharing'), //'https://docs.google.com/presentation/d/1CgPu3RBXYUyN7r0X6NpWzgGN95cZIPyfqTSNBCX7nd4/edit?usp=sharing'),
     lab2: lab('In-Lab Final Exam'),
     hw: [        
         hw('Final Project', '4/29', 'assignments/7259691')
