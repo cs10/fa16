@@ -356,7 +356,7 @@ cs10.week16 = {
 // MAY 9 - 13
 cs10.week17 = {
     readings: 'No Reading.',    
-    lab1: lab('Final Exam<br>Tuesday, 8:00 - 11:00am<br>2050 VLSB'),
+    lab1: lab('Final Exam<br>Tuesday, 8:00 - 11:00am<br>155 Dwinelle Hall'),
     hw: 'Enjoy your summer!'
 };
 cs10.week17.lab1.classes = 'exam';
