@@ -1,12 +1,12 @@
 # Site settings
-title: CS10 | Spring 2016
+title: CS10 | Fall 2016
 email: info@cs10.org
 # Note the weird ' > # ' syntax is for multiline stuff
 description: > # CS10, The Beauty and Joy of Computing, is an introductory
     computer science class designed for anyone and everyone. The Beauty and
     Joy of Computing is an AP Computer Science Principles class.
 keywords: "CS10, UC, Berkeley, CS, computer science, BJC, computing, education, Snap!, CS Principles, AP"
-baseurl: "/~cs10/sp16"
+baseurl: "/~cs10/fa16"
 url: "https://inst.eecs.berkeley.edu"
 
 # Build settings
