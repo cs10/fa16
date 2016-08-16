@@ -36,7 +36,7 @@ var finalProjSpec = docs('1eoPoHWad-yBrsIFKZx_AltKD4xlcvVPEdGxIviQQMGM');
 // ==========     SCHEDULE ITEMS           ==========
 // ==================================================
 
-// JAN 19 - 22
+// AUG 22 - 26
 cs10.week1 = {
     readings: 'No Readings',
     lect1: lect('No Lecture Monday'),
@@ -50,7 +50,7 @@ cs10.week1 = {
     hw: hw('HW0', '1/24', 'quizzes/2162430')
 };
 
-// JAN 25 - 29
+// (KNOWN ISSUE WITH # OF WEEKS) SEP 12 - 16
 cs10.week2 = {
     readings: [
         reading('Prof. Harvey\'s Intro to Abstraction',
@@ -71,7 +71,7 @@ cs10.week2 = {
     hw: hw('HW1: Word Guessing', '2/3', 'assignments/7259694', hw1Spec)
 };
 
-// FEB 1 - 5
+// SEP 19 - 23
 cs10.week3 = {
     readings: [
         reading('The First Object Oriented Software System', 
@@ -91,7 +91,7 @@ cs10.week3 = {
 // cs10.week3.lect3.classes = 'exam';
 // cs10.week3.work.title += '<hr><strong>Finch Robots Lab (Sect 111)</strong>';
 
-// FEB 8 - 12
+// SEP 26 - 30
 cs10.week4 = {
     readings: [
         reading('What is an Algorithm (book excerpts)?',
@@ -117,7 +117,7 @@ cs10.week4 = {
     hw: hw('HW2: Encryptify', '2/17', 'assignments/7259695', hw2Spec)
 };
 
-// FEB 15 - 19 (President's Day: Monday)
+// OCT 3 - 7 
 cs10.week5 = {
     readings: 'No Readings for this Week - Study for the Quest!',
     lect1: lect('No Class Monday - Presidents Day'),
@@ -130,7 +130,7 @@ cs10.week5 = {
  cs10.week5.lect2.classes = 'exam';
  cs10.week5.lect2.title += '<br><a href="exams/quest.html">Quest</a><br><br>Weds 2/17<br>In Class<br>105 Stanley';
 
-// FEB 22 - 26
+// NOV 10 - 14
 cs10.week6 = {
     readings: [
         reading('BtB Chapter 5',
@@ -148,7 +148,7 @@ cs10.week6 = {
     hw: hw('HW3: 2048','3/4', 'assignments/7515294', hw3Spec)
 };
 
-// FEB 29 - MAR 4
+// OCT 17 - 21
 cs10.week7 = {
     readings: [
         reading('The End of Moore\'s Law',
@@ -167,7 +167,7 @@ cs10.week7 = {
     hw: hw('HW3: 2048','3/4', 'assignments/7515294', hw3Spec)
 };
 
-// MAR 7 - 11
+// OCT 24 - 28
 cs10.week8 = {
     readings: [
         reading('BtB chapter 2, pg. 19-29, 36-42',
@@ -203,7 +203,7 @@ cs10.week9.lect2.classes = 'exam';
 cs10.week9.lect2.title += '<br><br><div class="exam inner"><a href="exams/midterm.html">Midterm Exam</a><br><br>Wednesday 3/16<br>7 - 9 PM | 155 Dwinelle Hall</div>';
 
 
-// MAR 21 - 25 (Spring Break?)
+// OCT 31 - NOV 4 
 cs10.week10 = {
     special: 'Spring Break -- No Class',
     readings: [],
@@ -242,7 +242,7 @@ cs10.week10.lab2.title += '<br><br><div class="exam inner"><a href="exams/midter
 
 
 
-// MAR 28 - APR 1
+// NOV 7 - 11
 // FIXME -- Why is BtB in Google Drive and not on the website... :'(
 // Sad old TAs are sad.
 cs10.week11 = {
@@ -274,7 +274,7 @@ cs10.week11 = {
     ]
 };
 
-// APR 4 - 8
+// NOV 14 - 18
 cs10.week12 = {
     readings: [
         reading(
@@ -300,7 +300,7 @@ cs10.week12 = {
     ]
 };
 
-// APR 11 - 15
+// NOV 21 - 25
 cs10.week13 = {
     readings: [
         reading('Addicted to Apps', 'http://www.nytimes.com/2013/08/25/sunday-review/addicted-to-apps.html?_r=0'),
@@ -315,7 +315,7 @@ cs10.week13 = {
 };
 
 
-// APR 18 - 22
+// NOV 28 - DEC 2
 cs10.week14 = {
     readings: [
         reading('A World Without Work', 'http://www.theatlantic.com/magazine/archive/2015/07/world-without-work/395294/'),
@@ -346,21 +346,21 @@ cs10.week15 = {
 };
 
 // DEAD WEEK
-// MAY 2 - 6
+// DEC 5 - 9
 cs10.week16 = {
     special: 'RRR Week -- No Class',
     readings: [],
     hw: hw('Study for the Final')
 };
 
-// MAY 9 - 13
+// DEC 12 - 16
 cs10.week17 = {
     readings: 'No Reading.',    
-    lab1: lab('Final Exam<br>Tuesday, 8:00 - 11:00am<br>155 Dwinelle Hall'),
+    lab1: lab('Final Exam<br>Tuesday, 7:00 - 10:00pm<br>TBD'),
     hw: 'Enjoy your summer!'
 };
 cs10.week17.lab1.classes = 'exam';
-cs10.week17.lab1.title += '<br><br><div class="exam inner">Final Exam<br><br>Tuesday 5/10<br>8:00 - 11:00 AM</div>';
+cs10.week17.lab1.title += '<br><br><div class="exam inner">Final Exam<br><br>Tuesday 12/13<br>7:00 - 10:00 PM</div>';
 
 
 // Load the Calendar
