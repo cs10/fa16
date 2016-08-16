@@ -357,7 +357,7 @@ cs10.week16 = {
 cs10.week17 = {
     readings: 'No Reading.',    
     lab1: lab('Final Exam<br>Tuesday, 7:00 - 10:00pm<br>TBD'),
-    hw: 'Enjoy your summer!'
+    hw: 'Enjoy your Winter Break!'
 };
 cs10.week17.lab1.classes = 'exam';
 cs10.week17.lab1.title += '<br><br><div class="exam inner">Final Exam<br><br>Tuesday 12/13<br>7:00 - 10:00 PM</div>';
