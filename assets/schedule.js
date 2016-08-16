@@ -47,7 +47,7 @@ cs10.week1 = {
     ),
     lab2: lab("Welcome to <span class='snap'>snap</span>", "berkeley_bjc/intro_pair/1-introduction.topic"),
     disc: disc('Welcome to CS10!'),
-    hw: hw('HW0', '1/24', 'quizzes/2162430')
+    hw: hw('HW0', '8/28', 'quizzes/2262950')
 };
 
 // (KNOWN ISSUE WITH # OF WEEKS) SEP 12 - 16
