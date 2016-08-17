@@ -1,20 +1,14 @@
 // Instructors
 
-
-var GeraldF = {
-    name: 'Dr. Gerald Friedland',
-    img: 'Fa13/Gerald.jpg',
-    imgSrc: 'Gerald.jpg',
-    //bio: 'DanBio.txt',
-    email: 'gerald@cs10.org'
-};
-
-var JustinH = {
-    name: 'Dr. Justin Hsia',
-    img: 'Sp16/Justin.jpg',
-    imgSrc: 'JustinHsia.jpg',
-    email: 'justin@cs10.org',
-    web: 'http://www.eecs.berkeley.edu/~jhsia/'
+var DanGarcia = {
+    name: 'Teaching Professor Dan Garcia',
+    img: 'DanGarciaUCBFaculty2004.jpg',
+    imgSrc: 'DanGarcia.jpg',
+    imgCrazy: true,
+    web: 'http://www.cs.berkeley.edu/~ddgarcia/',
+    bio: 'DanBio.txt',
+    email: 'dan@cs10.org',
+    office: '777 Soda, (510) 517-4041'
 };
 
 
@@ -73,6 +67,12 @@ var claireW = {
     imgSrc: 'ClaireWatanabe.jpg',
     email: 'claireleilani@berkeley.edu'};
 
+var elizabethS = {
+    name: 'TA Elizabeth Steger',
+    img: 'sp16/ElizabethSteger.jpg',
+    imgSrc: 'ElizabethSteger.jpg',
+};
+
 var erikD = {
     name: 'TA Erik Dahlquist',
     img: 'Sp15/ErikDahlquist.jpg',
@@ -85,6 +85,11 @@ var jannaG = {
     imgSrc: 'JannaGolden.jpg',
     email: 'janna@cs10.org'
 };
+
+var jobelV = {
+    name: 'TA Jobel Vecino',
+    img: 'Fa13/JobelVecino.jpg',
+    imgSrc: 'JobelVecino.jpg' };
 
 var josephC = {
     name: 'TA Joseph Cawthorne',
@@ -133,10 +138,6 @@ var williamT = {
 };
 
 // Readers
-var jobelV = {
-    name: 'Reader Jobel Vecino',
-    img: 'Fa13/JobelVecino.jpg',
-    imgSrc: 'JobelVecino.jpg' };
 
 var katherineM = {
     name: 'Reader Katherine McGauley',
@@ -161,11 +162,6 @@ var addisonH = {
     imgSrc: 'NPY3D.jpg',
 };
 
-var elizabethS = {
-    name: 'Reader Elizabeth Steger',
-    img: 'sp16/ElizabethSteger.jpg',
-    imgSrc: 'ElizabethSteger.jpg',
-};
 
 
 
@@ -173,11 +169,11 @@ var elizabethS = {
 /** LIST DEFINITIONS **/
 /*****************************************************************************/
 
-var inst = [ GeraldF, JustinH ];
-var tas = [ adamK, rachelH, alexM, amrutaY, aranyU, erikD, jannaG, josephC, laraM, williamT, yifatA, andyS, stevenT, victoriaS ];
+var inst = [ DanGarcia ];
+var tas = [ adamK, rachelH, aranyU, elizabethS, erikD, jannaG, jobelV, laraM, williamT, yifatA, stevenT ];
 
 //var readers = [ jobelV, katherineM, laraM ]; todo: Update this once readers are hired!
-var readers = [ addisonH, elizabethS, jobelV, lucasK, meghnaD ];
+var readers = [ addisonH, elizabethS, meghnaD ];
 
 // If you need to add a new SECTION add it to this object.
 // Follow the same format.
