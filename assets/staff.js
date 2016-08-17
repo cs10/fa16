@@ -71,7 +71,7 @@ var elizabethS = {
     name: 'TA Elizabeth Steger',
     img: 'sp16/ElizabethSteger.jpg',
     imgSrc: 'ElizabethSteger.jpg',
-};
+    email: 'lizzy@cs10.org'};
 
 var erikD = {
     name: 'TA Erik Dahlquist',
@@ -89,7 +89,8 @@ var jannaG = {
 var jobelV = {
     name: 'TA Jobel Vecino',
     img: 'Fa13/JobelVecino.jpg',
-    imgSrc: 'JobelVecino.jpg' };
+    imgSrc: 'JobelVecino.jpg'
+    email: 'jobel@cs10.org' };
 
 var josephC = {
     name: 'TA Joseph Cawthorne',
@@ -170,7 +171,7 @@ var addisonH = {
 /*****************************************************************************/
 
 var inst = [ DanGarcia ];
-var tas = [ adamK, rachelH, aranyU, elizabethS, erikD, jannaG, jobelV, laraM, williamT, yifatA, stevenT ];
+var tas = [ adamK, rachelH, aranyU, carlosF, elizabethS, erikD, jannaG, jobelV, laraM, williamT, yifatA, stevenT ];
 
 //var readers = [ jobelV, katherineM, laraM ]; todo: Update this once readers are hired!
 var readers = [ addisonH, elizabethS, meghnaD ];
