@@ -89,7 +89,7 @@ var jannaG = {
 var jobelV = {
     name: 'TA Jobel Vecino',
     img: 'Fa13/JobelVecino.jpg',
-    imgSrc: 'JobelVecino.jpg'
+    imgSrc: 'JobelVecino.jpg',
     email: 'jobel@cs10.org' };
 
 var josephC = {
