@@ -107,7 +107,7 @@ var laraM = {
 };
 
 var stevenT = {
-    name: 'Development TA Steven Traversi',
+    name: 'TA Steven Traversi',
     img: 'Sp14/StevenTraversi.jpg',
     imgSrc: 'StevenTraversi.jpg',
     imgCrazy: 'StevenTraversiCrazy.jpg',
@@ -174,7 +174,7 @@ var inst = [ DanGarcia ];
 var tas = [ adamK, rachelH, aranyU, carlosF, elizabethS, erikD, jannaG, jobelV, laraM, williamT, yifatA, stevenT ];
 
 //var readers = [ jobelV, katherineM, laraM ]; todo: Update this once readers are hired!
-var readers = [ addisonH, elizabethS, meghnaD ];
+var readers = [ addisonH, meghnaD ];
 
 // If you need to add a new SECTION add it to this object.
 // Follow the same format.
