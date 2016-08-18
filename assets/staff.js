@@ -61,6 +61,12 @@ var carlosF = {
     imgSrc: 'CarlosFlores.jpg',
     email: 'carlos@cs10.org' };
     
+var christianL = {
+    name: 'TA Christian Lista-Nicoloso',
+    img: 'NPY3D.jpg',
+    imgSrc: 'NPY3D.jpg',
+    email: 'christian@cs10.org' };
+    
 var claireW = {
     name: 'TA Claire Watanabe',
     img: 'Fa13/ClaireWatanabe.jpg',
@@ -163,6 +169,24 @@ var addisonH = {
     imgSrc: 'NPY3D.jpg',
 };
 
+var samuelS = {
+    name: 'Reader Samuel Starks',
+    img: 'NPY3D.jpg',
+    imgSrc: 'NPY3D.jpg',
+};
+
+var matthewS = {
+    name: 'Reader Matthew Schwartz',
+    img: 'NPY3D.jpg',
+    imgSrc: 'NPY3D.jpg',
+};
+
+var eurieO = {
+    name: 'Reader Eurie Oh',
+    img: 'NPY3D.jpg',
+    imgSrc: 'NPY3D.jpg',
+};
+
 
 
 
@@ -171,10 +195,10 @@ var addisonH = {
 /*****************************************************************************/
 
 var inst = [ DanGarcia ];
-var tas = [ adamK, rachelH, aranyU, carlosF, elizabethS, erikD, jannaG, jobelV, laraM, williamT, yifatA, stevenT ];
+var tas = [ adamK, rachelH, aranyU, carlosF, christianL, elizabethS, erikD, jannaG, jobelV, laraM, williamT, yifatA, stevenT ];
 
 //var readers = [ jobelV, katherineM, laraM ]; todo: Update this once readers are hired!
-var readers = [ addisonH, meghnaD ];
+var readers = [ addisonH, eurieO, matthewS, meghnaD, samuelS ];
 
 // If you need to add a new SECTION add it to this object.
 // Follow the same format.
