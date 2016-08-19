@@ -181,8 +181,8 @@ var matthewS = {
     imgSrc: 'NPY3D.jpg',
 };
 
-var eurieO = {
-    name: 'Reader Eurie Oh',
+var noahJ = {
+    name: 'Reader Noah Jacobs',
     img: 'NPY3D.jpg',
     imgSrc: 'NPY3D.jpg',
 };
@@ -198,7 +198,7 @@ var inst = [ DanGarcia ];
 var tas = [ adamK, rachelH, aranyU, carlosF, christianL, elizabethS, erikD, jannaG, jobelV, laraM, williamT, yifatA, stevenT ];
 
 //var readers = [ jobelV, katherineM, laraM ]; todo: Update this once readers are hired!
-var readers = [ addisonH, eurieO, matthewS, meghnaD, samuelS ];
+var readers = [ addisonH, matthewS, meghnaD, noahJ, samuelS ];
 
 // If you need to add a new SECTION add it to this object.
 // Follow the same format.
