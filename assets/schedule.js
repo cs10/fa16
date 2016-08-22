@@ -42,8 +42,8 @@ cs10.week1 = {
     lect1: lect('No Lecture Monday'),
     lab1: lab('No Labs Monday, Tuesday, or Wednesday morning'),
     lect2: lect(
-        'Welcome and Abstraction',
-        'https://docs.google.com/a/berkeley.edu/presentation/d/1T9abQi3qjhWi4ws0pADRiYBkpP-lvs5TKyokVPJWUFU/edit?usp=sharing'
+        'Welcome and Abstraction'
+        //'https://docs.google.com/a/berkeley.edu/presentation/d/1T9abQi3qjhWi4ws0pADRiYBkpP-lvs5TKyokVPJWUFU/edit?usp=sharing'
     ),
     lab2: lab("Welcome to <span class='snap'>snap</span>", "berkeley_bjc/intro_pair/1-introduction.topic"),
     disc: disc('Welcome to CS10!'),
@@ -63,9 +63,9 @@ cs10.week2 = {
                 bcourses('59744796'),
                 'optional')
     ],
-    lect1: lect('Procedures', 'https://docs.google.com/a/berkeley.edu/presentation/d/12LLM36NEfkylUsy9mG-1TnvorovQbYxhUDI_cMSzDuU/edit?usp=sharing'),
+    lect1: lect('Procedures'), //'https://docs.google.com/a/berkeley.edu/presentation/d/12LLM36NEfkylUsy9mG-1TnvorovQbYxhUDI_cMSzDuU/edit?usp=sharing'),
     lab1: lab('Build Your Own Blocks', 'berkeley_bjc/intro_pair/2-loops-variables.topic'),
-    lect2: lect('Numbers and Abstraction', 'https://docs.google.com/presentation/d/1TVXERNz4ude_YYsPccwwirFWxXQXSs2ex-cccHytfzo/edit?usp=sharing'),
+    lect2: lect('Numbers and Abstraction'), //'https://docs.google.com/presentation/d/1TVXERNz4ude_YYsPccwwirFWxXQXSs2ex-cccHytfzo/edit?usp=sharing'),
     lab2: lab('Conditionals and Reporters', 'berkeley_bjc/intro_pair/3-conditionals.topic', true),
     disc: disc('Anatomy of a Computer and the Power of Binary', true),
     hw: hw('HW1: Word Guessing', '2/3', 'assignments/7259694', hw1Spec)
@@ -81,9 +81,9 @@ cs10.week3 = {
         reading('BtB Chapter 1',
                 '{{ site.baseurl }}/resources/readings/btb/chapter1.pdf')
     ],
-    lect1: lect('Multimedia Computing', 'https://docs.google.com/presentation/d/1guhwTCV3PgH7QVVSt-bQlyeQsGACulRLzHWgio_wd2c/edit?usp=sharing'),
+    lect1: lect('Multimedia Computing'), //'https://docs.google.com/presentation/d/1guhwTCV3PgH7QVVSt-bQlyeQsGACulRLzHWgio_wd2c/edit?usp=sharing'),
     lab1: lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic', true),
-    lect2: lect('Lists and Programming Paradigms', 'https://docs.google.com/presentation/d/1HielUCvYaOTgqnyP9UciJx-PUBbyhbfxTQWO0Tb9kbU/edit?usp=sharing'),
+    lect2: lect('Lists and Programming Paradigms'), //'https://docs.google.com/presentation/d/1HielUCvYaOTgqnyP9UciJx-PUBbyhbfxTQWO0Tb9kbU/edit?usp=sharing'),
     lab2: lab('Lists I', 'berkeley_bjc/lists/lists-I.topic'),
     disc: disc('All about lists', true),
     hw: hw('HW1: Word Guessing', '2/3', 'assignments/7259694', hw1Spec)
@@ -109,9 +109,9 @@ cs10.week4 = {
                 'https://medium.com/@_marcos_otero/the-real-10-algorithms-that-dominate-our-world-e95fa9f16c04',
                 'optional')
     ],
-    lect1: lect('Algorithms', 'https://docs.google.com/presentation/d/1v5SU7KQiGuCuAFXBmwjrI0fR8U8NYsenNHL6qWlScng/edit?usp=sharing'),
+    lect1: lect('Algorithms'), //'https://docs.google.com/presentation/d/1v5SU7KQiGuCuAFXBmwjrI0fR8U8NYsenNHL6qWlScng/edit?usp=sharing'),
     lab1: lab('Algorithms', 'berkeley_bjc/areas/algorithms.topic', true),
-    lect2: lect('Algorithmic Complexity', 'https://docs.google.com/presentation/d/1dExMn1OoSs-wo3sLNXFnd4TYL_vl4bDfguzNtZLSeww/edit?usp=sharing'), 
+    lect2: lect('Algorithmic Complexity'), //'https://docs.google.com/presentation/d/1dExMn1OoSs-wo3sLNXFnd4TYL_vl4bDfguzNtZLSeww/edit?usp=sharing'), 
     lab2: lab('Algorithmic Complexity', 'berkeley_bjc/areas/algorithm-complexity.topic'),
     disc: disc('Quest Review', true),
     hw: hw('HW2: Encryptify', '2/17', 'assignments/7259695', hw2Spec)
@@ -120,9 +120,9 @@ cs10.week4 = {
 // OCT 3 - 7 
 cs10.week5 = {
     readings: 'No Readings for this Week - Study for the Quest!',
-    lect1: lect('No Class Monday - Presidents Day'),
+    lect1: lect('TBD'),
     lab1: lab('Quest Review'),
-    lect2: lect('Quest In Class'),
+    lect2: lect('TBD'),
     lab2: lab('Finch Lab', 'berkeley_bjc/robots/robots.topic'),
     disc: disc('Quest Debrief'),
     hw: hw('HW2: Encryptify', '2/17', 'assignments/7259695', hw2Spec)
@@ -137,12 +137,12 @@ cs10.week6 = {
         'http://www.bitsbook.com/wp-content/uploads/2008/12/chapter5.pdf'),
     ],
     lect1: lect(
-        'Testing',
-        'https://docs.google.com/presentation/d/1-jlAQQiITE7-XPIK1mxirLtgFmJyIhCJ1LzTGYYMOgs/edit?usp=sharing',
-        'TA Alex McKinney'
+        'Testing'
+        //'https://docs.google.com/presentation/d/1-jlAQQiITE7-XPIK1mxirLtgFmJyIhCJ1LzTGYYMOgs/edit?usp=sharing',
+        //'TA Alex McKinney'
     ),
     lab1: lab('Testing, HW3', 'berkeley_bjc/2048-testing/2048.topic', true),
-    lect2: lect('Recursion I', 'https://docs.google.com/presentation/d/14erZ9b8MJZlVTVcTPzHUm9uWynjpiSQHpo8skkkMLtM/edit?usp=sharing'),
+    lect2: lect('Recursion I'), //'https://docs.google.com/presentation/d/14erZ9b8MJZlVTVcTPzHUm9uWynjpiSQHpo8skkkMLtM/edit?usp=sharing'),
     lab2: lab('Trees and Fractals Using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic'),
     disc: disc('Recursion', true),
     hw: hw('HW3: 2048','3/4', 'assignments/7515294', hw3Spec)
@@ -156,10 +156,10 @@ cs10.week7 = {
         reading('eWEEK at 30: Multicore CPUs Keep Chip Makers in Step With Moore\'s Law',
             'https://docs.google.com/document/d/1FC-_lcn_EWlGXLfPDlQbSQeE1Q4NpTG39S-kVkHRxv8/edit?usp=sharing')
     ],
-    lect1: lect('Recursion II',
-            'https://docs.google.com/presentation/d/13WLfJKmyCxLIT8kJfbxlbp2hU9mb7MSfW3o16Uxv6Cw/edit?usp=sharing'
+    lect1: lect('Recursion II'
+            //'https://docs.google.com/presentation/d/13WLfJKmyCxLIT8kJfbxlbp2hU9mb7MSfW3o16Uxv6Cw/edit?usp=sharing'
         ),
-    lect2: lect('Cryptography and Security', null, 'Nick Weaver'),
+    lect2: lect('Cryptography and Security'),
 //'https://docs.google.com/presentation/d/1NuOa586nkC1m95X_5LYyiI4gs0s3XL5eRZF7DeH81us/pub?start=false&loop=false&delayms=3000'),
     lab1: lab('Homework 3 Work Session', null, true),
     lab2: lab('Recursive Reporters I', 'berkeley_bjc/recur/recursive-reporters-part1.topic'),
@@ -175,9 +175,9 @@ cs10.week8 = {
         reading('Rest of BtB chapter 2',
                 'http://www.bitsbook.com/wp-content/uploads/2008/12/chapter2.pdf', 'optional'),
     ],
-    lect1: lect('Algorithmic Complexity II', 'https://docs.google.com/presentation/d/1NFpvg3lzj3hrojXZPk42xoBM3MEFEy8FRl-VeR9Sdxs/edit?usp=sharing'),
+    lect1: lect('Algorithmic Complexity II'), //'https://docs.google.com/presentation/d/1NFpvg3lzj3hrojXZPk42xoBM3MEFEy8FRl-VeR9Sdxs/edit?usp=sharing'),
     lab1: lab('Tic-Tac-Toe, Boards', 'berkeley_bjc/lists/tic-tac-toe.topic', true),
-    lect2: lect('CS Ed', 'lecture/L13 cs-ed', 'Michael Ball'),
+    lect2: lect('TBD'),
     lab2: lab('Project Work Session'),
     disc: disc('Midterm Review'),
     hw: hw('Midterm Project Proposals', '3/11', 'assignments/7259699', mtProjSpec)
@@ -192,8 +192,8 @@ cs10.week9 = {
     disc: disc('Midterm Debrief'),
     lab1: lab('Online <span class="snap">snap</span> Midterm'),
     lab2: lab('Concurrency', 'berkeley_bjc/areas/concurrency.topic'),
-    lect1: lect('Concurrency','https://docs.google.com/presentation/d/1M5dhs9NnnDvs62dSNO22tcLYg-JGo_wDvNfVosQMSUs/edit?usp=sharing'), //'https://docs.google.com/presentation/d/1o4GtTha_TbRNCvqp7wEchJxGaeoENnH3KTX0Hl6nvD0/edit?usp=sharing'),
-    lect2: lect('The Internet I', 'https://docs.google.com/presentation/d/1eXJOOJotmIOCTdwYadz6_hJ8SRvvl0bmuKxZwdx8_lY/edit?usp=sharing'), //'L15 - HCI'),
+    lect1: lect('Concurrency'),//'https://docs.google.com/presentation/d/1M5dhs9NnnDvs62dSNO22tcLYg-JGo_wDvNfVosQMSUs/edit?usp=sharing'), //'https://docs.google.com/presentation/d/1o4GtTha_TbRNCvqp7wEchJxGaeoENnH3KTX0Hl6nvD0/edit?usp=sharing'),
+    lect2: lect('The Internet I'), //'https://docs.google.com/presentation/d/1eXJOOJotmIOCTdwYadz6_hJ8SRvvl0bmuKxZwdx8_lY/edit?usp=sharing'), //'L15 - HCI'),
     //lab2: lab('Project Work Session'),
     hw: [        
         hw('Midterm Project<br> Milestone', '3/18', 'assignments/7259698')
@@ -263,8 +263,8 @@ cs10.week11 = {
         )  
     ],
     disc: disc('Concurrency, Mutability, Data and HOFs', true),
-    lect1: lect('Procedures as Data', 'https://docs.google.com/presentation/d/12n7JQXQCJHBt7SjKjGGkVNP5iyhAngOLMVeMpg40D8I/edit?usp=sharing'), //'https://docs.google.com/presentation/d/1TwO63UECd9I4ufKDYUj9LDFT6RrDOtFQlbbcC9oBebE/pub?start=false&loop=false&delayms=3000'),
-    lect2: lect('Python I', 'https://docs.google.com/presentation/d/1kZ2LwxKUTJLyo5GlLUdX72S9xT_9YqblN5WLD8y8Gg0/edit?usp=sharing'), //'https://docs.google.com/presentation/d/1Ouz8QdPT-L0x3lg77S2yBGbsqjmuKJLAG3SjxtD7zLQ/pub?start=false&loop=false&delayms=3000'),
+    lect1: lect('Procedures as Data'), //'https://docs.google.com/presentation/d/12n7JQXQCJHBt7SjKjGGkVNP5iyhAngOLMVeMpg40D8I/edit?usp=sharing'), //'https://docs.google.com/presentation/d/1TwO63UECd9I4ufKDYUj9LDFT6RrDOtFQlbbcC9oBebE/pub?start=false&loop=false&delayms=3000'),
+    lect2: lect('Python I'), //'https://docs.google.com/presentation/d/1kZ2LwxKUTJLyo5GlLUdX72S9xT_9YqblN5WLD8y8Gg0/edit?usp=sharing'), //'https://docs.google.com/presentation/d/1Ouz8QdPT-L0x3lg77S2yBGbsqjmuKJLAG3SjxtD7zLQ/pub?start=false&loop=false&delayms=3000'),
     //lab1: lab('The Internet', 'berkeley_bjc/areas/internet.topic', true),
     lab1: lab('Functions as Data and HOFs', 'berkeley_bjc/hofs/hofs-practice.topic', true),
     lab2: lab('Optional Make-Up/Project Work Day', null),
@@ -290,8 +290,8 @@ cs10.week12 = {
             'optional')
     ],
     disc: disc('All About Python', true),
-    lect1: lect('Python II', 'https://docs.google.com/presentation/d/1awAwgpYve-vCKUx9LmFr5ZFKbfS15cQuTp3Prg7QiWw/edit?usp=sharing'), //'https://docs.google.com/presentation/d/1dqoMCkDFxoGusaJBwyvMYMgoPY47wUt8WRgG1HOVfLQ/edit?usp=sharing'),
-    lect2: lect('Internet II', 'https://docs.google.com/presentation/d/1syVIRCXLGgo9M0BUS4X-GLVeQq2-gBwwsUwQ7XJ8f0s/edit?usp=sharing'),
+    lect1: lect('Python II'), //'https://docs.google.com/presentation/d/1awAwgpYve-vCKUx9LmFr5ZFKbfS15cQuTp3Prg7QiWw/edit?usp=sharing'), //'https://docs.google.com/presentation/d/1dqoMCkDFxoGusaJBwyvMYMgoPY47wUt8WRgG1HOVfLQ/edit?usp=sharing'),
+    lect2: lect('Internet II'), //'https://docs.google.com/presentation/d/1syVIRCXLGgo9M0BUS4X-GLVeQq2-gBwwsUwQ7XJ8f0s/edit?usp=sharing'),
     lab1: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic', true),
     lab2: lab('Besides Blocks: Data Structures in Python', 'berkeley_bjc/python/besides-blocks-data-struct.topic'),
     hw: [
@@ -308,8 +308,8 @@ cs10.week13 = {
     ],    
     disc: disc('The Internet', true),
     lab1: lab('The Internet', 'berkeley_bjc/areas/internet.topic', true), //, 'berkeley_bjc/python/besides-blocks-data-struct.topic', true),
-    lect1: lect('Guest Lecture: Michael Shiloh - Arduino'),
-    lect2: lect('Social Implications - Privacy', 'https://docs.google.com/presentation/d/16NZgPMLObCthVot7vZwofOqctfhir2xKj6ajTyc1FZw/edit?usp=sharing'), //'https://docs.google.com/presentation/d/1MLG5pjfSrvZ17WNp5CSfPbPa3QOnxKtNGKlfRIGgEPw/edit?usp=sharing'),
+    lect1: lect('TBD'),
+    lect2: lect('Social Implications - Privacy'), //'https://docs.google.com/presentation/d/16NZgPMLObCthVot7vZwofOqctfhir2xKj6ajTyc1FZw/edit?usp=sharing'), //'https://docs.google.com/presentation/d/1MLG5pjfSrvZ17WNp5CSfPbPa3QOnxKtNGKlfRIGgEPw/edit?usp=sharing'),
     lab2: lab('Project Work Session'), //, 'berkeley_bjc/python/besides-blocks-data.topic'),
     hw: hw('Final Project Milestone', '4/18', 'assignments/7259692')
 };
@@ -323,8 +323,8 @@ cs10.week14 = {
     ],
     disc: disc('Social Implications'),
     lab1: lab('Besides Blocks: Text Processing in Python', 'berkeley_bjc/python/besides-blocks-text-processing.topic'),
-    lect1: lect('Guest Lecture: Pat Virtue - Artificial Intelligence', 'https://docs.google.com/presentation/d/1pHMOWJPI0GyU6zQVXCXrkN2McPXk7U2XRgBPVsKxM3o/edit?usp=sharing'), //'https://docs.google.com/presentation/d/1SvosTLRIU9IfgXD75v_lctIOvHaBARc9sm7Y5Dn-J8g/pub?start=false&loop=false&delayms=3000'),
-    lect2: lect('Social Implications - Politics, Social Movements and Job Implications', 'https://docs.google.com/presentation/d/147eSV_T3_01IDdzPy0CYM1l66ETqZhKTRCOI1C-5448/edit?usp=sharing'),
+    lect1: lect('TBD'), //'https://docs.google.com/presentation/d/1SvosTLRIU9IfgXD75v_lctIOvHaBARc9sm7Y5Dn-J8g/pub?start=false&loop=false&delayms=3000'),
+    lect2: lect('TBD'), //'https://docs.google.com/presentation/d/147eSV_T3_01IDdzPy0CYM1l66ETqZhKTRCOI1C-5448/edit?usp=sharing'),
     lab2: lab('Project Work Session', null, true),
     hw: hw('Continue Working on your Project')
 };
@@ -337,8 +337,8 @@ cs10.week15 = {
     ],       
     disc: disc('Farewell! Recap and Feedback'),
     lab1: lab('Project Work Session', null),
-    lect1: lect('Social Implications - Copyright', 'https://drive.google.com/file/d/0B7pxUEY76zATblJZa25NNUl1cGM/view?usp=sharing'), //'https://docs.google.com/presentation/d/1_k3boAVzNT3W_z-uhmbdP5tugM4PUuGwT-BPSmU8A-o/pub?start=false&loop=false&delayms=3000'),
-    lect2: lect('Conclusion', 'https://docs.google.com/presentation/d/1KY3qeS_drHb28FgWQ_RDs-K7QEPeuHRdQhjphttfZmI/edit?usp=sharing'), //'https://docs.google.com/presentation/d/1CgPu3RBXYUyN7r0X6NpWzgGN95cZIPyfqTSNBCX7nd4/edit?usp=sharing'),
+    lect1: lect('Social Implications - Copyright'), //'https://drive.google.com/file/d/0B7pxUEY76zATblJZa25NNUl1cGM/view?usp=sharing'), //'https://docs.google.com/presentation/d/1_k3boAVzNT3W_z-uhmbdP5tugM4PUuGwT-BPSmU8A-o/pub?start=false&loop=false&delayms=3000'),
+    lect2: lect('Conclusion'), //'https://docs.google.com/presentation/d/1KY3qeS_drHb28FgWQ_RDs-K7QEPeuHRdQhjphttfZmI/edit?usp=sharing'), //'https://docs.google.com/presentation/d/1CgPu3RBXYUyN7r0X6NpWzgGN95cZIPyfqTSNBCX7nd4/edit?usp=sharing'),
     lab2: lab('In-Lab Final Exam'),
     hw: [        
         hw('Final Project', '4/29', 'assignments/7259691')
