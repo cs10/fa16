@@ -11,7 +11,6 @@
 // Link event to the building on the Berkeley map
 var getRoomURL = function(loc) {
     if (!loc) { return ''; }
-
     var base = "https://www.berkeley.edu/map?",
         abbreviations  = {
             sd: 'sutardja',
@@ -21,11 +20,9 @@ var getRoomURL = function(loc) {
             vlsb: 'valleylifesciences'
         },
         room = loc.indexOf(' ') !== -1 ? loc.split(' ')[1].toLowerCase() : '';
-
     if (abbreviations[room]) {
         room = abbreviations[room];
     }
-
     return base + room;
 }
 
@@ -46,7 +43,6 @@ var fullCalTransorm = function(event) {
 // and locations to the event text
 var fullCalRender = function(event, element, view) {
     var content = '';
-
     if (event.location) {
         content += event.location;
         element.attr({'target':'_blank'}); // open links in a new window
@@ -71,7 +67,9 @@ function daysUntil(from, to) {
   return Math.floor((from - (to || moment())) / MS_DAY);
 }
 
-function inRange(num) { return num <= 9 && num > -1; }
+function inRange(num) {
+    return num <= 9 && num > -1;
+}
 
 // This shows "today" while the semester is in progress
 // Defaults to the first week of class before or after the semester.
@@ -80,7 +78,6 @@ function calendarStartDate() {
       moment().isAfter(moment('{{ site.startDate }}'))) {
         return moment();
     }
-
     return '{{ site.startDate }}';
 }
 
@@ -88,7 +85,6 @@ $(document).ready(function() {
     // Show weekends when we are close to at least one review session.
     // exclude Quest from calendar during spring (review sesh is monday)
     var wkends = inRange(midterm) || inRange(final);
-
     $('#oh-cal').fullCalendar({
       allDaySlot: false,
       slotDuration: "1:00:00",

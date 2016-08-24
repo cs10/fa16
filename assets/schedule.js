@@ -271,8 +271,6 @@ cs10.week10 = {
 };
 
 // OCT 31 - NOV 4
-// FIXME -- Why is BtB in Google Drive and not on the website... :'(
-// Sad old TAs are sad.
 cs10.week11 = {
     readings: 'No Reading.',
     disc: disc('Midterm Debrief'),

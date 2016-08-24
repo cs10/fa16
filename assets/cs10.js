@@ -14,6 +14,7 @@ var since = [
 
 var STYLE  = "8px solid Gold";
 var MS_DAY = 1000*60*60*24;
+
 // Function used to highlight the current day.
 // TODO: Fix this stuff to be a moment obj.
 function updateCalendar(startDate, date) {
@@ -23,33 +24,26 @@ function updateCalendar(startDate, date) {
         today = date || new Date(),
         highlight = since[ today.getDay() ],
         weeks = Math.floor(((today - start) / MS_DAY) / 7); // Weeks SINCE start
-
     // if (highlight[0] === 2) {
     //     weeks += 1; // really shitty hack for weekends....
     // }
-
     var c, i, j, // holy shit that's terrible. FIXME.
         rows = document.querySelectorAll("tbody > tr.cal"),
         temp = rows[weeks],
         cells;
-
     // Date is out of range of calendar
     if (typeof temp === 'undefined') {
         console.log('DATE OUT OF RANGE');
         return;
     }
-
     cells = temp.cells;
-
     if (today.getDay() === 3) { // HIGHLIGHT LAB ON WEDS BASED ON TIME OF DAY
         var n = (today.getHours() < 12) ? 4 : 6;
         highlight.push(n);
     }
-
     // Hack for weeks like spring break, deadweek
     // Not a robust hack, but it should work OK.
     c = (cells.length == 5) ? 3 : highlight[0];
-
     cells[c].style.border = STYLE;
     if (c === 2 & weeks >= 2) { // HW, in the row before
         // CANT USE 8 BECAUSE ALL WEEKS ARENT THE SAME DARNIT.
@@ -59,7 +53,6 @@ function updateCalendar(startDate, date) {
     if (highlight[1] && cells.length > highlight[1]) {
         cells[highlight[1]].style.border = STYLE;
     }
-
     // Grey out cells that have past
     for(i = 0; i < rows.length; i += 1) {
         cells = rows[i].cells;
