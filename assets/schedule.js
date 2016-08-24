@@ -348,7 +348,7 @@ cs10.week14 = {
         reading('A World Without Work', 'http://www.theatlantic.com/magazine/archive/2015/07/world-without-work/395294/'),
         reading('Gladwell vs. Shirky: A Year Later, Scoring the Debate Over Social-Media Revolutions', 'http://www.wired.com/2011/12/gladwell-vs-shirky/')
     ],
-    disc: disc('Enjoy your Thanksgiving Break!'),
+    disc: disc('No discussion - Enjoy your Thanksgiving Break!'),
     lab1: lab('Final Project Work Session', null, true),
     lect1: lect('Limits of Computing'
             //lectureURL('1SvosTLRIU9IfgXD75v_lctIOvHaBARc9sm7Y5Dn-J8g')
