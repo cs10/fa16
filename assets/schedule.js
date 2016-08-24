@@ -220,7 +220,7 @@ cs10.week9 = {
                 'http://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/')
     ],
     disc: disc('More on Recursion'),
-    lab1: lab('Recursive Reporters', 'berkeley_bjc/recur/recursive-reporters-part1.topic'),
+    lab1: lab('Recursive Reporters', 'berkeley_bjc/recur/recursive-reporters-part1.topic', true),
     lab2: lab('Midterm Project Work Session'),
     lect1: lect('Recursion II'
             //lectureURL('1M5dhs9NnnDvs62dSNO22tcLYg-JGo_wDvNfVosQMSUs')
@@ -336,7 +336,7 @@ cs10.week13 = {
             //lectureURL('16NZgPMLObCthVot7vZwofOqctfhir2xKj6ajTyc1FZw')
             //lectureURL('1MLG5pjfSrvZ17WNp5CSfPbPa3QOnxKtNGKlfRIGgEPw')
     ),
-    lab1: lab('Project Work Session', true), //, 'berkeley_bjc/python/besides-blocks-data.topic'),
+    lab1: lab('Project Work Session', null, true), //, 'berkeley_bjc/python/besides-blocks-data.topic'),
     lab2: lab('The Internet', 'berkeley_bjc/areas/internet.topic'),
     hw: [exploreComments, fProposal]
 };
