@@ -1,6 +1,6 @@
 # [CS10 Fall 2016][site]
 
-[site]: http://cs10.org/sp16
+[site]: http://cs10.org/fa16
 
 ## Background
 The Fall 2016 site is built using [Jekyll](jekyllrb.com) and is hosted on Github, with a backup on the CS10 instructional account.
