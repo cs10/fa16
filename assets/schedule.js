@@ -145,7 +145,7 @@ cs10.week5 = {
     readings: 'No Readings for this Week - Study for the Quest!',
     lect1: lect('Programming Paradigms'),
     lab1: lab('Quest Review'),
-    lect2: lect('Quest'),
+    lect2: lect('<br><a href="exams/quest.html">Quest</a><br><br>Weds 9/21<br>In Class<br>Pauley Ballroom'),
     //lab2: lab('Finch Lab', 'berkeley_bjc/robots/robots.topic'),
     lab2: lab('Testing, HW3', 'berkeley_bjc/2048-testing/2048.topic'),
     disc: disc('Quest Debrief and HW3 Introduction'),
@@ -153,7 +153,6 @@ cs10.week5 = {
 };
 
 cs10.week5.lect2.classes = 'exam';
-cs10.week5.lect2.title += '<br><a href="exams/quest.html">Quest</a><br><br>Weds 9/21<br>In Class<br>Pauley Ballroom';
 
 // SEP 26 - 30
 cs10.week6 = {
@@ -274,13 +273,9 @@ cs10.week10 = {
 cs10.week11 = {
     readings: 'No Reading.',
     disc: disc('Midterm Debrief'),
-    lect1: lect('Midterm Exam Part I'
-            //lectureURL('12n7JQXQCJHBt7SjKjGGkVNP5iyhAngOLMVeMpg40D8I')
-            //lectureURL('1TwO63UECd9I4ufKDYUj9LDFT6RrDOtFQlbbcC9oBebE')
+    lect1: lect('<br><br><div class="exam inner"><a href="exams/midterm.html">Midterm Exam Part I</a><br><br>Monday 10/31<br>Pauley Ballroom</div>'
     ),
-    lect2: lect('Midterm Exam Part II'
-            //lectureURL('1kZ2LwxKUTJLyo5GlLUdX72S9xT_9YqblN5WLD8y8Gg0')
-            //lectureURL('1Ouz8QdPT-L0x3lg77S2yBGbsqjmuKJLAG3SjxtD7zLQ')
+    lect2: lect('<br><br><div class="exam inner"><a href="exams/midterm.html">Midterm Exam Part II</a><br><br>Wednesday 11/2<br>Pauley Ballroom</div>'
     ),
     //lab1: lab('The Internet', 'berkeley_bjc/areas/internet.topic', true),
     lab1: lab('Online <span class="snap">snap</span> Midterm'),
@@ -290,8 +285,6 @@ cs10.week11 = {
 
 cs10.week11.lect1.classes = 'exam';
 cs10.week11.lect2.classes = 'exam';
-cs10.week11.lect1.title += '<br><br><div class="exam inner"><a href="exams/midterm.html">Midterm Exam Part I</a><br><br>Monday 10/31<br>Pauley Ballroom</div>';
-cs10.week11.lect2.title += '<br><br><div class="exam inner"><a href="exams/midterm.html">Midterm Exam Part II</a><br><br>Wednesday 11/2<br>Pauley Ballroom</div>';
 
 
 // NOV 7 - 11
@@ -389,11 +382,10 @@ cs10.week16 = {
 // DEC 12 - 16
 cs10.week17 = {
     readings: 'No Reading.',    
-    lab1: lab('Final Exam<br>Tuesday, 7:00 - 10:00pm<br>TBD'),
+    lab1: lab('<br><br><div class="exam inner">Final Exam<br><br>Tuesday 12/13<br>7:00 - 10:00 PM</div>'),
     hw: 'Enjoy your Winter Break!'
 };
 cs10.week17.lab1.classes = 'exam';
-cs10.week17.lab1.title += '<br><br><div class="exam inner">Final Exam<br><br>Tuesday 12/13<br>7:00 - 10:00 PM</div>';
 
 
 // Load the Calendar
