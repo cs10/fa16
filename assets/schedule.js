@@ -255,7 +255,7 @@ cs10.week10 = {
             'optional'
         )  
     ],
-    disc: disc('Midterm Review')
+    disc: disc('Midterm Review'),
     lect1: lect('Procedures as Data - Higher Order Functions'
             //lectureURL('12n7JQXQCJHBt7SjKjGGkVNP5iyhAngOLMVeMpg40D8I')
             //lectureURL('1TwO63UECd9I4ufKDYUj9LDFT6RrDOtFQlbbcC9oBebE')
