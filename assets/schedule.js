@@ -290,10 +290,10 @@ cs10.week11 = {
     hw: 'Start Thinking about Explore Post'
 };
 
-cs10.week10.lect1.classes = 'exam';
-cs10.week10.lect2.classes = 'exam';
-cs10.week10.lect1.title += '<br><br><div class="exam inner"><a href="exams/midterm.html">Midterm Exam Part I</a><br><br>Monday 10/31<br>Pauley Ballroom</div>';
-cs10.week10.lect2.title += '<br><br><div class="exam inner"><a href="exams/midterm.html">Midterm Exam Part II</a><br><br>Wednesday 11/2<br>Pauley Ballroom</div>';
+cs10.week11.lect1.classes = 'exam';
+cs10.week11.lect2.classes = 'exam';
+cs10.week11.lect1.title += '<br><br><div class="exam inner"><a href="exams/midterm.html">Midterm Exam Part I</a><br><br>Monday 10/31<br>Pauley Ballroom</div>';
+cs10.week11.lect2.title += '<br><br><div class="exam inner"><a href="exams/midterm.html">Midterm Exam Part II</a><br><br>Wednesday 11/2<br>Pauley Ballroom</div>';
 
 
 // NOV 7 - 11
