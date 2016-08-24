@@ -51,19 +51,4 @@ Spain) but have lots of travel ahead of me.
 
 WHAT COMMITMENTS WILL BE CONSUMING YOUR CYCLES THIS SEMESTER?
 
-In addition to this class, I'm trying to build the world's greatest
-edX course with an awesome team of undergrads.  I'm a CollegeBoard
-Advanced Placement Computer Science: Principles piloter and serve on
-the development committee writing the upcoming exam.  I supervise
-three awesome DeCals: GamesCrafters, UCBUGG and MS-DOS X. I'm on the
-undergraduate study committee, and I do EECS and L&S faculty advising.
-I'm on the ACM Education Board and the chair of a task force that is
-trying to launch a new Web 2.0 collection of "Technology for Computing
-Educators".  I'm involved with the continuing development of the
-Ensemble NSDL computing portal.  I'm also a faculty co-advisor for
-BFOIT, local faculty champion of our CSTA chapter, and I'm active in
-my local PTA.  I have three awesome cs education grad students. I've
-got a 2-hour commute each way (1 hr on BART and time to drop-off or
-pick-up my little ones from school).  Finally, and most importantly,
-I've got a wonderful wife, an 8-yr old son (in 3rd grade) and a 4.5-yo
-daughter with whom I try to spend as much time as possible. Phew!
+In addition to this class, I’m also teaching CNM190/CS194-8 (Advanced Digital Animation) a year-long course that teaches students how to make Pixar-quality short films. I’m the program chair for SIGCSE 2017, the top computer science education conference in the world. As well, I’m running the world's greatest edX course (BJCx) with an awesome team of undergrads.  I serve on the Advanced Placement Computer Science Principles development committee.  I supervise three awesome DeCals: GamesCrafters, UCBUGG and MS-DOS X. I'm on the undergraduate study and chairing the awards committee, and I do EECS and L&S faculty advising. I'm on the ACM Education Council, more advisory boards than I can count, and I’m the local faculty champion of our CSTA chapter.  I have two awesome grad students. I've got a 2-hour commute each way (1 hr on BART and time to drop-off or pick-up my little ones from school).  Finally, and most importantly, I've got a wonderful wife, and a son and daughter with whom I try to spend as much time as possible. Phew!
