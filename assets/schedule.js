@@ -169,7 +169,7 @@ cs10.week6 = {
     lect2: lect('Testing + HW3'
             //lectureURL('14erZ9b8MJZlVTVcTPzHUm9uWynjpiSQHpo8skkkMLtM')
     ),
-    lab2: (lab'HW3 Work Session'),
+    lab2: lab('HW3 Work Session'),
     //lab2: lab('Trees and Fractals Using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic'),
     disc: disc('HW3 Help'),
     hw: hw3
@@ -255,7 +255,7 @@ cs10.week10 = {
             'optional'
         )  
     ],
-    disc: disc('Midterm Review')
+    disc: disc('Midterm Review'),
     lect1: lect('Procedures as Data - Higher Order Functions'
             //lectureURL('12n7JQXQCJHBt7SjKjGGkVNP5iyhAngOLMVeMpg40D8I')
             //lectureURL('1TwO63UECd9I4ufKDYUj9LDFT6RrDOtFQlbbcC9oBebE')
@@ -267,63 +267,14 @@ cs10.week10 = {
     //lab1: lab('The Internet', 'berkeley_bjc/areas/internet.topic', true),
     lab1: lab('Functions as Data and HOFs', 'berkeley_bjc/hofs/hofs-practice.topic', true),
     lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
-    hw: [
-        hw('No homework - Study for the Midterm Exam!')
-    ]
+    hw: 'No homework - Study for the Midterm Exam!'
 };
-
-/*
-cs10.week10 = {
-    readings: 'No Reading.', /*[
-        reading('Data Explosion Creates Revolution',
-                'http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2011/10/19/BU5K1LJ4R3.DTL'),
-        reading('Data Mining',
-                'https://webdocs.cs.ualberta.ca/~zaiane/courses/cmput690/notes/Chapter1/ch1.pdf'),
-        reading('IBM\'s Watson supercomputer to speed up cancer care',
-                'http://www.bbc.com/news/technology-32607688'),
-        reading('Data Pitfalls',
-                'https://searchenginewatch.com/article/2289574/Big-Data-Big-Trouble-How-to-Avoid-5-Data-Analysis-Pitfalls',
-                'optional'),
-        TODO: bCourses
-        reading('Computing as Social Science',
-                'https://cacm.acm.org/magazines/2009/4/22953-computing-as-social-science/fulltext',
-                'optional')
-    ], *\/
-    disc: disc('No Discussion - Spring Break'),
-    lab1: lab('No lab - Spring Break'),
-    lect1: lect('No Lecture - Spring Break'),
-    lect2: lect('No Lecture - Spring Break'),
-    lab2: lab('No Lab - Spring Break'),
-    hw: [
-        hw('Midterm Project', 'TBD', 'assignments/6644475')
-    ]
-};
-cs10.week10.lab2.classes = 'exam';
-cs10.week10.lab2.title += '<br><br><div class="exam inner"><a href="exams/midterm.html">Midterm Exam</a><br><br>Thursday 10/29<br>8 - 10 PM | 2050 VLSB</div>';
-*/
-
-
 
 // OCT 31 - NOV 4
 // FIXME -- Why is BtB in Google Drive and not on the website... :'(
 // Sad old TAs are sad.
 cs10.week11 = {
-    readings: [
-       // reading('TED: What is the Internet?',
-                //'https://www.ted.com/talks/andrew_blum_what_is_the_internet_really?language=en'),
-       // reading(
-           // 'BtB pg. 295-304, 309',
-            // 'https://drive.google.com/file/d/0B3vESj3HTRTkbVo1dTV5SUp4T0U/view?usp=sharing'),
-       // reading(
-           // 'What is the Internet?',
-           // 'https://www.youtube.com/watch?v=UlJku_CSyNg',
-           // 'optional'),
-       // reading(
-           // 'BtB pg. 305-316',
-           // 'https://drive.google.com/file/d/0B3vESj3HTRTkbVo1dTV5SUp4T0U/view?usp=sharing',
-           // 'optional'
-       // )  
-    ],
+    readings: 'No Reading.',
     disc: disc('Midterm Debrief'),
     lect1: lect('Midterm Exam Part I'
             //lectureURL('12n7JQXQCJHBt7SjKjGGkVNP5iyhAngOLMVeMpg40D8I')
@@ -336,9 +287,7 @@ cs10.week11 = {
     //lab1: lab('The Internet', 'berkeley_bjc/areas/internet.topic', true),
     lab1: lab('Online <span class="snap">snap</span> Midterm'),
     lab2: lab('Finch Lab', 'berkeley_bjc/robots/robots.topic'),
-    hw: [
-        hw('Start Thinking about Explore Post')
-    ]
+    hw: 'Start Thinking about Explore Post'
 };
 
 cs10.week10.lect1.classes = 'exam';
@@ -372,9 +321,7 @@ cs10.week12 = {
     ),
     lab1: lab('Besides Blocks: Data Structures in Python', 'berkeley_bjc/python/besides-blocks-data-struct.topic', true),
     lab2: lab('Besides Blocks: Text Processing in Python', 'berkeley_bjc/python/besides-blocks-text-processing.topic'),
-    hw: [
-        explorePost
-    ]
+    hw: explorePost
 };
 
 // NOV 14 - 18
@@ -391,9 +338,7 @@ cs10.week13 = {
     ),
     lab1: lab('Project Work Session', true), //, 'berkeley_bjc/python/besides-blocks-data.topic'),
     lab2: lab('The Internet', 'berkeley_bjc/areas/internet.topic'),
-    hw: [
-        exploreComments, fProposal
-    ]
+    hw: [exploreComments, fProposal]
 };
 
 
@@ -432,17 +377,15 @@ cs10.week15 = {
             //lectureURL('1CgPu3RBXYUyN7r0X6NpWzgGN95cZIPyfqTSNBCX7nd4')
     ),
     lab2: lab('In-Lab Final Exam'),
-    hw: [        
-        fProject
-    ]
+    hw: fProject
 };
 
 // DEAD WEEK
 // DEC 5 - 9
 cs10.week16 = {
     special: 'RRR Week -- No Class',
-    readings: [],
-    hw: hw('Study for the Final')
+    readings: 'No Reading.',
+    hw: 'Study for the Final'
 };
 
 // DEC 12 - 16
