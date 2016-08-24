@@ -189,7 +189,7 @@ cs10.week7 = {
         //lectureURL('1NuOa586nkC1m95X_5LYyiI4gs0s3XL5eRZF7DeH81us')
     ),
     lab1: lab('Tic-Tac-Toe, Boards', 'berkeley_bjc/lists/tic-tac-toe.topic', true),
-    lab2: lab('Recursive Reporters I', 'berkeley_bjc/recur/recursive-reporters-part1.topic'),
+    lab2: lab('Midterm Project Work Session'),
     disc: disc('AI and Social Implications'),
     hw: mProposal
 };
