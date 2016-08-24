@@ -13,7 +13,7 @@ var lab      = cs10.newLabObject,
     lect     = cs10.newLectureObject,
     disc     = cs10.newDiscussionObject,
     hw       = cs10.newHomeworkObject,
-    startDate = new Date('1/16/2016'); // The SATURDAY before the first week of the calendar.
+    startDate = new Date('08/20/2016'); // The SATURDAY before the first week of the calendar.
 
 function docs(id) {
     return 'assign.html?//docs.google.com/document/d/' + id + '/pub';
@@ -25,12 +25,24 @@ function lectureURL(googId) {
 }
 
 // CONSTANTS:
-var hw1Spec = docs('1ybuatsrUMCI-tHHRPwxUpGoZoGxk_SEiGEArocQtIlI');
-var hw2Spec = docs('1NrZaFKMIeN7Jvfpwe8Auv6Cc-OhcOIZzZX83IN2azPA');
-var hw3Spec = docs('1z-DZD3ya3Uxp9WkkmqF838Giq_VEjtdmXNI0dVzU5sg');
-var mtProjSpec = docs('1fFLorzOLOIO4WXzIxllMBACuEvMWZx-ykeLO-rsAIjc');
-var exploreSpec = docs('1i79rb0BL0FJV54cy7s-VC1wa7bUwlfVUT5xFN_o2EDc');
-var finalProjSpec = docs('1eoPoHWad-yBrsIFKZx_AltKD4xlcvVPEdGxIviQQMGM');
+var hw1Spec         = docs('1ybuatsrUMCI-tHHRPwxUpGoZoGxk_SEiGEArocQtIlI')
+    hw2Spec         = docs('1NrZaFKMIeN7Jvfpwe8Auv6Cc-OhcOIZzZX83IN2azPA')
+    hw3Spec         = docs('1z-DZD3ya3Uxp9WkkmqF838Giq_VEjtdmXNI0dVzU5sg')
+    mtProjSpec      = docs('1fFLorzOLOIO4WXzIxllMBACuEvMWZx-ykeLO-rsAIjc')
+    exploreSpec     = docs('1i79rb0BL0FJV54cy7s-VC1wa7bUwlfVUT5xFN_o2EDc')
+    finalProjSpec   = docs('1eoPoHWad-yBrsIFKZx_AltKD4xlcvVPEdGxIviQQMGM')
+    hw0             = hw('HW0', 'TBD', 'quizzes/2262950')
+    hw1             = hw('HW1: Word Guessing', 'TBD', 'assignments/7725682', hw1Spec)
+    hw2             = hw('HW2: Encryptify', 'TBD', 'assignments/7725961', hw2Spec)
+    hw3             = hw('HW3: 2048','TBD', 'assignments/7725684', hw3Spec)
+    mProposal       = hw('Midterm Project Proposals', 'TBD', 'assignments/7725687', mtProjSpec)
+    mMilestone      = hw('Midterm Project<br> Milestone', 'TBD', 'assignments/7725686')
+    mProject        = hw('Midterm Project', 'TBD', 'assignments/7725685', mtProjSpec)
+    explorePost     = hw('"Explore" Writing Assignment', 'TBD', '/discussion_topics/5042373', exploreSpec)
+    exploreComments = hw('"Explore" Comments', 'TBD', '/discussion_topics/5042373')
+    fProposal       = hw('Final Project Proposal', 'TBD', 'assignments/7725681', finalProjSpec)
+    fMilestone      = hw('Final Project Milestone', 'TBD', 'assignments/7725680')
+    fProject        = hw('Final Project', 'TBD', 'assignments/7725679')
 
 // ==================================================
 // ==========     SCHEDULE ITEMS           ==========
@@ -46,7 +58,7 @@ cs10.week1 = {
     ),
     lab2: lab("Welcome to <span class='snap'>snap</span>", "berkeley_bjc/intro_pair/1-introduction.topic"),
     disc: disc('Welcome to CS10!'),
-    hw: hw('HW0', '8/28', 'quizzes/2262950')
+    hw: hw0
 };
 
 // (KNOWN ISSUE WITH # OF WEEKS) SEP 12 - 16
@@ -71,7 +83,7 @@ cs10.week2 = {
     ),
     lab2: lab('Conditionals and Reporters', 'berkeley_bjc/intro_pair/3-conditionals.topic', true),
     disc: disc('Anatomy of a Computer and the Power of Binary', true),
-    hw: hw('HW1: Word Guessing', '2/3', 'assignments/7259694', hw1Spec)
+    hw: hw1
 };
 
 // SEP 19 - 23
@@ -93,7 +105,7 @@ cs10.week3 = {
     ),
     lab2: lab('Lists I', 'berkeley_bjc/lists/lists-I.topic'),
     disc: disc('All about lists', true),
-    hw: hw('HW1: Word Guessing', '2/3', 'assignments/7259694', hw1Spec)
+    hw: hw1
 };
 // cs10.week3.lect3.classes = 'exam';
 // cs10.week3.work.title += '<hr><strong>Finch Robots Lab (Sect 111)</strong>';
@@ -125,7 +137,7 @@ cs10.week4 = {
     ),
     lab2: lab('Algorithmic Complexity', 'berkeley_bjc/areas/algorithm-complexity.topic'),
     disc: disc('Quest Review', true),
-    hw: hw('HW2: Encryptify', '2/17', 'assignments/7259695', hw2Spec)
+    hw: hw2
 };
 
 // OCT 3 - 7 
@@ -136,10 +148,11 @@ cs10.week5 = {
     lect2: lect('TBD'),
     lab2: lab('Finch Lab', 'berkeley_bjc/robots/robots.topic'),
     disc: disc('Quest Debrief'),
-    hw: hw('HW2: Encryptify', '2/17', 'assignments/7259695', hw2Spec)
+    hw: hw2
 };
- cs10.week5.lect2.classes = 'exam';
- cs10.week5.lect2.title += '<br><a href="exams/quest.html">Quest</a><br><br>Weds 2/17<br>In Class<br>105 Stanley';
+
+cs10.week5.lect2.classes = 'exam';
+cs10.week5.lect2.title += '<br><a href="exams/quest.html">Quest</a><br><br>Weds 2/17<br>In Class<br>105 Stanley';
 
 // NOV 10 - 14
 cs10.week6 = {
@@ -157,7 +170,7 @@ cs10.week6 = {
     ),
     lab2: lab('Trees and Fractals Using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic'),
     disc: disc('Recursion', true),
-    hw: hw('HW3: 2048','3/4', 'assignments/7515294', hw3Spec)
+    hw: hw3
 };
 
 // OCT 17 - 21
@@ -177,7 +190,7 @@ cs10.week7 = {
     lab1: lab('Homework 3 Work Session', null, true),
     lab2: lab('Recursive Reporters I', 'berkeley_bjc/recur/recursive-reporters-part1.topic'),
     disc: disc('More Recursion', true),
-    hw: hw('HW3: 2048','3/4', 'assignments/7515294', hw3Spec)
+    hw: hw3
 };
 
 // OCT 24 - 28
@@ -195,7 +208,7 @@ cs10.week8 = {
     lect2: lect('TBD'),
     lab2: lab('Project Work Session'),
     disc: disc('Midterm Review'),
-    hw: hw('Midterm Project Proposals', '3/11', 'assignments/7259699', mtProjSpec)
+    hw: mProposal
 };
 
 // MAR 14 - 18
@@ -216,9 +229,7 @@ cs10.week9 = {
             //'L15 - HCI'),
     ),
     //lab2: lab('Project Work Session'),
-    hw: [        
-        hw('Midterm Project<br> Milestone', '3/18', 'assignments/7259698')
-    ]    
+    hw: mMilestone
 };
 cs10.week9.lect2.classes = 'exam';
 cs10.week9.lect2.title += '<br><br><div class="exam inner"><a href="exams/midterm.html">Midterm Exam</a><br><br>Wednesday 3/16<br>7 - 9 PM | 155 Dwinelle Hall</div>';
@@ -296,8 +307,7 @@ cs10.week11 = {
     lab1: lab('Functions as Data and HOFs', 'berkeley_bjc/hofs/hofs-practice.topic', true),
     lab2: lab('Optional Make-Up/Project Work Day', null),
     hw: [
-        hw('Midterm Project', '4/1', 'assignments/7259697', mtProjSpec),
-        hw('"Explore" Writing Assignment', '4/3', '/discussion_topics/4632124', exploreSpec)
+        mProject, explorePost
     ]
 };
 
@@ -327,8 +337,7 @@ cs10.week12 = {
     lab1: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic', true),
     lab2: lab('Besides Blocks: Data Structures in Python', 'berkeley_bjc/python/besides-blocks-data-struct.topic'),
     hw: [
-        hw('"Explore" Comments', '4/8', '/discussion_topics/4632124'),
-        hw('Final Project Proposal', '4/11', 'assignments/7259693', finalProjSpec)
+        exploreComments, fProposal
     ]
 };
 
@@ -346,7 +355,7 @@ cs10.week13 = {
             //lectureURL('1MLG5pjfSrvZ17WNp5CSfPbPa3QOnxKtNGKlfRIGgEPw')
     ),
     lab2: lab('Project Work Session'), //, 'berkeley_bjc/python/besides-blocks-data.topic'),
-    hw: hw('Final Project Milestone', '4/18', 'assignments/7259692')
+    hw: fMilestone
 };
 
 
@@ -386,7 +395,7 @@ cs10.week15 = {
     ),
     lab2: lab('In-Lab Final Exam'),
     hw: [        
-        hw('Final Project', '4/29', 'assignments/7259691')
+        fProject
     ]
 };
 
