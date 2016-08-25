@@ -53,7 +53,7 @@ cs10.week1 = {
     readings: 'No Readings',
     lect1: lect('No Lecture Monday'),
     lab1: lab('No Labs Monday, Tuesday, or Wednesday morning'),
-    lect2: lect('Welcome and Abstraction'
+    lect2: lect('Welcome and Abstraction', 'https://drive.google.com/folderview?id=0B4KuCtIkhB7QMF8yelBVYnNRd0U&usp=sharing'
         //lectureURL('1T9abQi3qjhWi4ws0pADRiYBkpP-lvs5TKyokVPJWUFU')
     ),
     lab2: lab("Welcome to <span class='snap'>snap</span>", "berkeley_bjc/intro_pair/1-introduction.topic"),
@@ -74,11 +74,11 @@ cs10.week2 = {
                 bcourses('59744796'),
                 'optional')
     ],
-    lect1: lect('Building Blocks'
+    lect1: lect('Building Blocks', 'https://drive.google.com/folderview?id=0B7pxUEY76zATN0UtTFp6cDdxTjQ&usp=sharing'
             //lectureURL('12LLM36NEfkylUsy9mG-1TnvorovQbYxhUDI_cMSzDuU')
     ),
     lab1: lab('Build Your Own Blocks', 'berkeley_bjc/intro_pair/2-loops-variables.topic'),
-    lect2: lect('Numbers and Abstraction'
+    lect2: lect('Numbers and Abstraction', 'https://drive.google.com/folderview?id=0B7pxUEY76zATRGxuRkVCOFlNWWs&usp=sharing'
             //lectureURL('1TVXERNz4ude_YYsPccwwirFWxXQXSs2ex-cccHytfzo')
     ),
     lab2: lab('Conditionals and Reporters', 'berkeley_bjc/intro_pair/3-conditionals.topic', true),
@@ -100,7 +100,7 @@ cs10.week3 = {
             //lectureURL('1guhwTCV3PgH7QVVSt-bQlyeQsGACulRLzHWgio_wd2c')
     ),
     lab1: lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic', true),
-    lect2: lect('Lists and Scoping'
+    lect2: lect('Lists and Scoping', 'https://drive.google.com/folderview?id=0B7pxUEY76zATSHp2REpWMnhSYlk&usp=sharing'
             //lectureURL('1HielUCvYaOTgqnyP9UciJx-PUBbyhbfxTQWO0Tb9kbU')
     ),
     lab2: lab('Lists I', 'berkeley_bjc/lists/lists-I.topic'),
