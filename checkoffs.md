@@ -121,20 +121,20 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 # Week 5: Lab 8
 
-## Lab 8: Finch Lab   {#lab8}
+## Lab 8: Testing Code and 2048 {#lab8}
 * You can get checked off for this lab as long as you show up to lab and work on it. No questions!
 
 ---
 
 # Week 6: Labs 9 and 10
 
-## Lab 9: Testing Code and 2048 {#lab9}
+## Lab 9: Concurrency {#lab9}
 
 **Required**
 
 * Coming Soon!
 
-## Lab 10: Recursion {#lab10}
+## Lab 10: Tic-Tac-Toe, Boards {#lab10}
 
 **Required**
 
@@ -144,7 +144,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 # Week 7: Lab 11
 
-## Lab 11: Recursive Reporters I {#lab11}
+## Lab 11: Trees and Fractals Using Recursion {#lab11}
 
 ### Please note: This lab is _required_ to be submitted through bCourses.
 ### Go to this page to submit the lab online: [https://bcourses.berkeley.edu/courses/1408649/assignments/7511754][bcourses11]
@@ -159,7 +159,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 # Week 8: Lab 12
 
-## Lab 12: Tic-Tac-Toe, Boards {#lab12}
+## Lab 12: Recursive Reporters {#lab12}
 
 ### Go to this page to submit the lab online:
 [bCourses](https://bcourses.berkeley.edu/courses/1408649/assignments/7531220)
@@ -172,7 +172,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 # Week 9: Lab 13
 
-## Lab 13: Concurrency {#lab13}
+## Lab 13: Functions as Data and HOFs {#lab13}
 
 **Required**
 
@@ -182,7 +182,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 # Week 11: Lab 14
 
-## Lab 14: Lambdas and HOFs {#lab14}
+## Lab 14: Besides Blocks: Welcome to Python {#lab14}
 
 ### Go to bCourses to submit the lab online:
 [bCourses](https://bcourses.berkeley.edu/courses/1408649/assignments/7567086)
@@ -196,7 +196,7 @@ Note the autograder requires you to use the "AUTOGRADER" sprite when clicking "G
 
 # Week 12: Lab 15 and 16
 
-## Lab 15: Besides Blocks: Welcome to Python {#lab15}
+## Lab 15: Finch Lab {#lab15}
 
 **Required**
 
@@ -213,7 +213,7 @@ Note the autograder requires you to use the "AUTOGRADER" sprite when clicking "G
 
 # Week 13: Lab 17
 
-## Lab 17: Internet {#lab17}
+## Lab 17: Besides Blocks: Text Processing in Python {#lab17}
 
 **Required**
 
@@ -222,7 +222,7 @@ Note the autograder requires you to use the "AUTOGRADER" sprite when clicking "G
 
 # Week 14: Lab 18
 
-## Lab 18: Besides Blocks: Text Processing in Python {#lab18}
+## Lab 18:The Internet {#lab18}
 
 **Required**
 
