@@ -122,7 +122,7 @@ var meghnaD = {
 
 var addisonH = {
     name: 'Reader Addison Howe',
-    img: 'Fa16/AddisonHowe.jpg',
+    img: 'Fa16/AddisonHowe.JPG',
     imgSrc: 'AddisonHowe.jpg',
 };
 
