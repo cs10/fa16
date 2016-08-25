@@ -46,15 +46,15 @@ var carlosF = {
     
 var christianL = {
     name: 'TA Christian Lista-Nicoloso',
-    img: 'ChristianListaNicoloso.jpg',
-    imgSrc: '../Fa16/ChristianListaNicoloso.JPG',
+    img: 'Christian Lista-Nicoloso.JPG',
+    imgSrc: '../Fa16/Christian Lista-Nicoloso.JPG',
     email: 'christian@cs10.org'
 };
     
 var elizabethS = {
     name: 'TA Elizabeth Steger',
-    img: 'Fa16/ElizabethSteger.JPG',
-    imgSrc: '../Fa16/ElizabethSteger.JPG',
+    img: 'Fa16/LizzySteger.JPG',
+    imgSrc: '../Fa16/LizzySteger.JPG',
     email: 'lizzy@cs10.org'
 };
 
@@ -91,7 +91,7 @@ var stevenT = {
     name: 'TA Steven Traversi',
     img: 'Sp14/StevenTraversi.jpg',
     imgSrc: 'StevenTraversi.jpg',
-    imgCrazy: 'StevenTraversiCrazy.jpg',
+    imgCrazy: '../small/StevenCrazy.jpg',
     web: 'http://steven.codes',
     bio: 'StevenBio.txt',
     email: 'steven@cs10.org'
