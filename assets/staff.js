@@ -38,9 +38,10 @@ var aranyU = {
 
 var carlosF = {
     name: 'TA Carlos Flores',
-    img: 'Sp14/CarlosFlores.jpg',
+    img: 'Fa16/CarlosFlores.jpg',
     bio: 'CarlosBio.txt',
-    imgSrc: 'CarlosFlores.jpg',
+    imgSrc: '../Fa16/CarlosFlores.jpg',
+    imgCrazy: '../small/CarlosFloresCrazy.jpg',
     email: 'carlos@cs10.org'
 };
     
@@ -91,7 +92,7 @@ var stevenT = {
     name: 'TA Steven Traversi',
     img: 'Sp14/StevenTraversi.jpg',
     imgSrc: 'StevenTraversi.jpg',
-    imgCrazy: true,
+    imgCrazy: '../small/StevenTraversiCrazy.jpg',
     web: 'http://steven.codes',
     bio: 'StevenBio.txt',
     email: 'steven@cs10.org'
