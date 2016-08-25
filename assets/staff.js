@@ -134,8 +134,8 @@ var samuelS = {
 
 var matthewS = {
     name: 'Reader Matthew Schwartz',
-    img: 'NPY3D.jpg',
-    imgSrc: 'NPY3D.jpg',
+    img: 'Fa16/MatthewSchwartz.jpg',
+    imgSrc: 'MatthewSchwartz.jpg',
 };
 
 var noahJ = {
