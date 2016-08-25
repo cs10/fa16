@@ -53,7 +53,7 @@ WHAT COMMITMENTS WILL BE CONSUMING YOUR CYCLES THIS SEMESTER?
 
 In addition to this class, I’m also teaching CNM190/CS194-8 (Advanced 
 Digital Animation) a year-long course that teaches students how to make 
-Pixar-quality short films. I’m the program chair for SIGCSE 2017, the 
+Pixar-quality short films. I’m the program co-chair for SIGCSE 2017, the 
 top computer science education conference in the world. As well, I’m 
 running the world's greatest edX course (BJCx) with an awesome team of 
 undergrads.  I serve on the Advanced Placement Computer Science Principles 
