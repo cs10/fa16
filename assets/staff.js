@@ -17,6 +17,7 @@ var adamK = {
     name: 'Head TA Adam Kuphaldt',
     img: 'Sp14/AdamKuphaldt.jpg',
     imgSrc: 'AdamKuphaldt.jpg',
+    bio: 'AdamBio.txt',
     email: 'adam@cs10.org',
     web: 'https://linkedin.com/in/adam-kuphaldt-16a33768'
 };
@@ -102,6 +103,7 @@ var yifatA = {
   name: 'TA Yifat Amir',
   img: 'Fa16/YifatAmir.JPG',
   imgSrc: '../Fa16/YifatAmir.JPG',
+  bio: 'YifatBio.txt',
   web: 'https://www.linkedin.com/in/yifat-amir-45633584',
   email: 'yifat@cs10.org'
 };
