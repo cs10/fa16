@@ -91,7 +91,7 @@ var stevenT = {
     name: 'TA Steven Traversi',
     img: 'Sp14/StevenTraversi.jpg',
     imgSrc: 'StevenTraversi.jpg',
-    imgCrazy: '../small/StevenCrazy.jpg',
+    imgCrazy: true,
     web: 'http://steven.codes',
     bio: 'StevenBio.txt',
     email: 'steven@cs10.org'
