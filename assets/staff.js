@@ -84,7 +84,7 @@ var laraM = {
     name: 'TA Lara McConnaughey',
     img: 'Su15/LaraMcConnaughey.jpg',
     imgSrc: 'LaraMcConnaughey.jpg',
-    //imgCrazy: 'LaraMcConnaugheyCrazy.jpg',
+    imgCrazy: '../small/CarlosFloresCrazy.jpg',
     email: 'lara@cs10.org'
 };
 
