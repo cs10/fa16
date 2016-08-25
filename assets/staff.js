@@ -46,15 +46,15 @@ var carlosF = {
     
 var christianL = {
     name: 'TA Christian Lista-Nicoloso',
-    img: 'NPY3D.jpg',
-    imgSrc: 'NPY3D.jpg',
+    img: 'ChristianListaNicoloso.jpg',
+    imgSrc: '../Fa16/ChristianListaNicoloso.JPG',
     email: 'christian@cs10.org'
 };
     
 var elizabethS = {
     name: 'TA Elizabeth Steger',
     img: 'Fa16/ElizabethSteger.JPG',
-    imgSrc: 'ElizabethSteger.JPG',
+    imgSrc: '../Fa16/ElizabethSteger.JPG',
     email: 'lizzy@cs10.org'
 };
 
@@ -100,7 +100,7 @@ var stevenT = {
 var yifatA = {
   name: 'TA Yifat Amir',
   img: 'Fa16/YifatAmir.JPG',
-  imgSrc: 'YifatAmir.JPG',
+  imgSrc: '../Fa16/YifatAmir.JPG',
   web: 'https://www.linkedin.com/in/yifat-amir-45633584',
   email: 'yifat@cs10.org'
 };
@@ -108,7 +108,7 @@ var yifatA = {
 var williamT = {
   name: 'TA William Tang',
   img: 'Fa16/WilliamTang.JPG',
-  imgSrc: 'WilliamTang.JPG',
+  imgSrc: '../Fa16/WilliamTang.JPG',
   email: 'william@cs10.org'
 };
 
@@ -123,7 +123,7 @@ var meghnaD = {
 var addisonH = {
     name: 'Reader Addison Howe',
     img: 'Fa16/AddisonHowe.JPG',
-    imgSrc: 'AddisonHowe.JPG',
+    imgSrc: '../Fa16/AddisonHowe.JPG',
 };
 
 var samuelS = {
@@ -135,7 +135,7 @@ var samuelS = {
 var matthewS = {
     name: 'Reader Matthew Schwartz',
     img: 'Fa16/MatthewSchwartz.JPG',
-    imgSrc: 'MatthewSchwartz.JPG',
+    imgSrc: '../Fa16/MatthewSchwartz.JPG',
 };
 
 var noahJ = {
