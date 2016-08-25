@@ -49,6 +49,7 @@ var carlosF = {
 var christianL = {
     name: 'TA Christian Lista-Nicoloso',
     img: 'Christian Lista-Nicoloso.JPG',
+    bio: 'ChristianBio.txt',
     imgSrc: '../Fa16/Christian Lista-Nicoloso.JPG',
     email: 'christian@cs10.org'
 };
