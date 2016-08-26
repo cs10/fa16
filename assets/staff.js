@@ -87,6 +87,7 @@ var laraM = {
     img: 'Su15/LaraMcConnaughey.jpg',
     imgSrc: 'LaraMcConnaughey.jpg',
     imgCrazy: '../small/CarlosFloresCrazy.jpg',
+    bio: 'LaraBio.txt',
     email: 'lara@cs10.org'
 };
 
