@@ -200,7 +200,7 @@ Note the autograder requires you to use the "AUTOGRADER" sprite when clicking "G
 
 **Required**
 
-* Coming Soon!
+You can get checked off for this lab as long as you show up to lab and work on it. No questions!
 
 ## Lab 16: Besides Blocks: Data Structures in Python {#lab16}
 
