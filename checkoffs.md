@@ -72,12 +72,16 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 **Required**
 
-* Show your field of flowers (last page of lab). If you added something extra to the flowers or the field, tell us about it.
+* Show your field of flowers (last page of lab).
 * Why should you Build Your Own Blocks? Give a reason that someone may create a custom block.
+* What are some different ways to achieve repetition? Name at least 2.
+* Show your random-walk sprite.
+* Show your `draw square-leaved flower...` block.
 
 **More Self-Check Questions**
 
-* Show your `draw square-leaved flower...` block.
+* Did you customize your flower block in any ways? Be creative.
+* Show your customized bug dance.
 
 ## Lab 3: Conditionals and Variables {#lab3}
 
