@@ -72,11 +72,12 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 **Required**
 
-* Coming Soon!
+* Show your field of flowers (last page of lab). If you added something extra to the flowers or the field, tell us about it.
+* Why should you Build Your Own Blocks? Give a reason that someone may create a custom block.
 
 **More Self-Check Questions**
 
-* Coming Soon!
+* Show your `draw square-leaved flower...` block.
 
 ## Lab 3: Conditionals and Variables {#lab3}
 
