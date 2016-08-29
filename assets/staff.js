@@ -72,6 +72,7 @@ var jannaG = {
     name: 'TA Janna Golden',
     img: 'Sp14/JannaGolden.jpg',
     imgSrc: 'JannaGolden.jpg',
+    bio: 'JannaBio.txt',
     email: 'janna@cs10.org'
 };
 
