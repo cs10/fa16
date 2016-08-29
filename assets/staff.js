@@ -79,6 +79,7 @@ var jobelV = {
     name: 'TA Jobel Vecino',
     img: 'Fa13/JobelVecino.jpg',
     imgSrc: 'JobelVecino.jpg',
+    bio: 'JobelBio.txt',
     email: 'jobel@cs10.org' 
 };
 
