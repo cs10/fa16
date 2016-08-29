@@ -1,61 +1,30 @@
-                                                                                
-                                                                                
-                                                                                
-                                                                                
-                                   ````...````                                  
-                           .-::///osyyyyyysyyyss/.                              
-                      `.-:+oooossyyhyyyhhhhhdddddy+:..`                         
-                   `.:/o++oosoossyyhhddddmmmmmmdmddddhhyo/.                     
-                 .://oo+oooooosyhdmddddmNNNNNNmmmmdddhdmddyo-                   
-               .:////++sooosssyhhdhhdmmNNNNNNNmmmmmmmdddddmhy+-`                
-             `-/+///+ossooossyyhhhhdddmmmmmmmmmmNNNmmmdddmmddyss:`              
-           `-/+++++ossssossssyyyyyhddddddmmmmmNNNNNmmmmmddmmmhyyy+-             
-          `/+++++syhhysyyyyyyyysyyyhhyhdddmmmmmNNNNNNmdmdddNNdhhyho-`           
-         ./++++oyhhdhhdhyyyyyssysssyyhhddmmmmmmNNNmmmmmmdmmNNmmmhhyo/.          
-        .+o+oosydddddmdhddhyysyyyysyhhhddddddmmmmmmmmmmmmmNmNmmmddhyss:         
-       `/o+osshddhdmmmdddddhhhyyyyyyyyhhddddmmmmmmmmmmmNmNNmNNmmmddyydy`        
-       -++oshyhhhdmNmmmmmmmddhhyyssyyysshdmmddmNmdmmmmmNNNNmmNmNmddhydd-        
-      `/++syhhhhddmmmmmmmmmddhhyysyyyssyhdmmmmdyyhdmmmmNNmmNNNNNNmNmddd/        
-      `++oyyhhhdddmNmmmmdddhhyyyyyhhhdddhyso+/:::/+++oyhyoyhNNMNNNNmmmdo`       
-      `+o+hhdddddmNmmdmddmdddddddmdhys+/--.````......-::://oymMNNNmdhdds`       
-       /o+hmmmmmmmddddddddddhhhyso/:-.``````......--::::::/++sdMNNmhyhds-       
-       :sshmdmddhhhhdmmmdddhs+:---....`.....-:/oyhddhyysyys+++sNNNNmhhds/       
-       -syyhdddmysoosssyyyyhhhhhys+/:-....-:oyhhys+::::/+oyyo+smMMNmdhds.       
-       `sysyddmNho//oyyso+////osyysso/-.`.-/so+++++///////++++sNMNNmddmy`       
-        /yyyddmNdo//++/::///+osysso++/-.``-//:/ysydmmdhhyy+///odNNmdmddy        
-        -yddddmNm+::::/osyhdmmds+o/--::.``.::--://////+oo+:--:/smmmhmddh`       
-         sdmdhmNm+::-:/+oo+/////:--.-:-.``.:/:-..-::::---..-://+dmmhmddd.       
-         /dmmhmNd+:--...-------...`.---```.:::--.....````..-://+hmmdmmNh`       
-         -ddmdmmd/:---..`````````..-:-.```.-:::-...``````..-://+hmmdNNm+`       
-          oddhddh+:---..`````````..::-..``..--::...``````..-::/+dmdhdmy.        
-          .yhyhdds/:--..````````..---..```..--:-:---.````..-://smmyo+y-         
-          `/+:+ydho:-....````..--.:/+o+::::+syss+---::....-:://sdsso//`         
-           .:./++os:--.......-:---/shhhyyyyhdhhs+:---/+:--:://+os+///-          
-           `--:/+/+/:------::/:----:/+osyyys+//::-----:+:-:/+//o////:`          
-            .::-:/+/:::::::/+:----------:/:--::///+//:-::-/+++++::::`           
-             .----:/::::/:-:::/oooo+oo+++//oosoyosmms-.-.:+++++o+/:-            
-              `...-/:::-::-.-:/shms::/:::::-.-`--/y+:...-/++++o.```             
-                `.--/:::-::..--:/+/::-..``.`.--:/++/:---/o++o+/``````           
-                    .///::/:..-://///:-.....-:/+o+/::::/ooooo/.```````          
-                    `-///////-.-:::////////++++++/::::/+oooso.`````````         
-                   ```:/+////:-----::://///////:::::::/++oso+.``````````        
-                  ````:/++///::--...----.....---.----//+osso/..```````````      
-                ``````://++++/:--......`````.....--::+osssso/....``````````     
-               ```````-//++ooo+/:--....``...`..--://osysssso/......`````````    
-               ```````-///++ooso+/::---....---:/+osyyyysssso+......``````````   
-             `````````-:://++oossssoo++++++oosyyhhhhyyysssoo+.......``````````  
-             `````````-::::/++oosssyyyyhhhhhhhddhhhyyyssoooo+-......``````````` 
-            ``````````-::::://+oosssyyyyhhhhhhhhhhyyyssoo++++-.......```````````
-            ``````````:::---::/++ooossyyyyhhhhhhyyysssoo+++++:.......```````````
-           ```````````:::----:::/+++oossyyyyyyyyyssssoo++++++:.......```````````
-           ``````````.:::------::////+ooosssssssssosoo+///+++/-.......``````````
-           `````````.-:::-------::::::////++++++oooo++/////+++:-.--...``````````
-           ```````..-:::--------:::::::-----::/+oooo+///////++/:::oo+:.`````````
-          ``````...--:::---------::///::----:/+oooo+/////////+/::--:yds+/:-.````
-      ``-//-.`......-::::--------:://////:::+ooooo+///://///////:---:mNmmmmdho-`
-``..-:oy+-```````...--::-----------::///++oooo++++////////:::://:---:mNNNNNNmmmh
-yhdmmmmm.````````...----------------::://+ooo++/////////:::::::::--.oNNNNNNmNmmm
-mmmmmmNm/```````......---------------::::////::///::///:::----------dNNNmmNNNmNN
-mmmmNmNmh.``````............----------::::::::///:::///:::---------smNNmmmmmNNmm
-NNmNmNNNms`````````.............------::///////:::::::::-----.....+mmmmmNmmNmNNN
-NmmmmmNNNmo`````````................----:::::::----:::---......../mNmmmmmNmmNNmN
+WHERE DID YOU GROW UP? WHAT WAS YOUR PATH TO CAL?
+
+* I grew up in beautiful Elk Grove, CA
+* I came to Cal for Physics, but went for CS after taking CS10
+
+HOW MUCH PROGRAMMING HAVE YOU DONE (& WHAT LANGUAGES)?
+
+A lot, I like programming
+
+* Python, Swift, JavaScript, Ruby, Java.
+
+Check out some things I did at www.steven.codes
+
+WHAT ARE YOUR HOBBIES?
+
+* Programming, building apps, learning
+
+WHAT ARE SOME OF YOUR TALENTS & SKILLS?
+
+* Trying my best
+
+WHAT COMMITMENTS WILL BE CONSUMING YOUR CYCLES THIS SEMESTER?
+
+* CS 168 (Networking)
+* CS 194-26 (Computational Photography)
+* VS 265 (Neural Computation)
+* TBD (brought to you by CalCentral)
+* Packd (find out how busy campus locations are)
+* CS10 - teaching - labs - LA coordinator
+* excellence
