@@ -26,6 +26,7 @@ var rachelH = {
     name: 'Head TA Rachel Huang',
     img: 'Fa13/RachelHuang.jpg',
     imgSrc: 'RachelHuang.jpg',
+    bio: 'RachelBio.txt',
     email: 'rachel@cs10.org'
 };
 
