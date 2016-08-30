@@ -15,8 +15,8 @@ var DanGarcia = {
 
 var adamK = {
     name: 'Head TA Adam Kuphaldt',
-    img: 'Sp14/AdamKuphaldt.jpg',
-    imgSrc: 'AdamKuphaldt.jpg',
+    img: 'Fa16/AdamKuphaldt.jpg',
+    imgSrc: '../Fa16/AdamKuphaldt.jpg',
     bio: 'AdamBio.txt',
     email: 'adam@cs10.org',
     web: 'https://linkedin.com/in/adam-kuphaldt-16a33768'
@@ -84,8 +84,8 @@ var jobelV = {
 
 var laraM = {
     name: 'TA Lara McConnaughey',
-    img: 'Su15/LaraMcConnaughey.jpg',
-    imgSrc: 'LaraMcConnaughey.jpg',
+    img: 'lara.jpg',
+    imgSrc: '../Fa16/lara.jpg',
     imgCrazy: '../small/CarlosFloresCrazy.jpg',
     email: 'lara@cs10.org'
 };
@@ -120,8 +120,8 @@ var williamT = {
 
 var meghnaD = {
     name: 'Reader Meghna Dasgupta',
-    img: 'NPY3D.jpg',
-    imgSrc: 'NPY3D.jpg',
+    img: 'Fa16/MeghnaDasgupta.jpg',
+    imgSrc: '../Fa16/MeghnaDasgupta.jpg',
 };
 
 var addisonH = {
@@ -132,8 +132,8 @@ var addisonH = {
 
 var samuelS = {
     name: 'Reader Samuel Starks',
-    img: 'NPY3D.jpg',
-    imgSrc: 'NPY3D.jpg',
+    img: 'Fa16/SamStarks.jpg',
+    imgSrc: '../Fa16/SamStarks.jpg',
 };
 
 var matthewS = {
@@ -144,8 +144,8 @@ var matthewS = {
 
 var noahJ = {
     name: 'Reader Noah Jacobs',
-    img: 'NPY3D.jpg',
-    imgSrc: 'NPY3D.jpg',
+    imgSrc: '../Fa16/NoahJacobs.jpg',
+    img: 'Fa16/NoahJacobs.jpg',
 };
 
 
