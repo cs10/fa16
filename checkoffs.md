@@ -72,17 +72,33 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 **Required**
 
-* Coming Soon!
+* Show your field of flowers (last page of lab).
+* Why should you Build Your Own Blocks? Give a reason that someone may create a custom block.
+* What are some different ways to achieve repetition? Name at least 2.
+* Show your random-walk sprite.
+* Show your `draw square-leaved flower...` block.
 
 **More Self-Check Questions**
 
-* Coming Soon!
+* Did you customize your flower block in any ways? Be creative.
+* Show your customized bug dance.
+
+--- 
 
 ## Lab 3: Conditionals and Variables {#lab3}
 
 **Required**
 
-* Coming Soon!
+* What is a Boolean? Explain why we use them, and give examples of functions that report a Boolean value.
+* Show us the `traffic signal _`, `letter grade _`, and `state of water _` blocks.
+* Explain the difference between a **command** and a **reporter** block.
+* Show us the `is _ between _ and _ ?` block.
+* Show us your number guessing game.
+
+**More Self-Check Questions**
+
+* Why do we use the `if` and `if-else` blocks?
+* When do you use a command block, and when do use use a reporter block?
 
 ---
 
@@ -200,7 +216,7 @@ Note the autograder requires you to use the "AUTOGRADER" sprite when clicking "G
 
 **Required**
 
-* Coming Soon!
+You can get checked off for this lab as long as you show up to lab and work on it. No questions!
 
 ## Lab 16: Besides Blocks: Data Structures in Python {#lab16}
 
