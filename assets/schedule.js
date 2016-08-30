@@ -33,11 +33,11 @@ var hw1Spec         = docs('1ybuatsrUMCI-tHHRPwxUpGoZoGxk_SEiGEArocQtIlI')
     finalProjSpec   = docs('1eoPoHWad-yBrsIFKZx_AltKD4xlcvVPEdGxIviQQMGM')
     hw0             = hw('HW0', '8/28', 'quizzes/2262950')
     hw1             = hw('HW1: Word Guessing', '9/5', 'assignments/7725682', hw1Spec)
-    hw2             = hw('HW2: Encryptify', 'TBD', 'assignments/7725961', hw2Spec)
-    hw3             = hw('HW3: 2048','TBD', 'assignments/7725684', hw3Spec)
-    mProposal       = hw('Midterm Project Proposals', 'TBD', 'assignments/7725687', mtProjSpec)
-    mMilestone      = hw('Midterm Project<br> Milestone', 'TBD', 'assignments/7725686')
-    mProject        = hw('Midterm Project', 'TBD', 'assignments/7725685', mtProjSpec)
+    hw2             = hw('HW2: Encryptify', '9/16', 'assignments/7725961', hw2Spec)
+    hw3             = hw('HW3: 2048','10/7', 'assignments/7725684', hw3Spec)
+    mProposal       = hw('Midterm Project Proposals', '10/7', 'assignments/7725687', mtProjSpec)
+    mMilestone      = hw('Midterm Project<br> Milestone', '10/14', 'assignments/7725686')
+    mProject        = hw('Midterm Project', '10/21', 'assignments/7725685', mtProjSpec)
     explorePost     = hw('"Explore" Writing Assignment', 'TBD', '/discussion_topics/5042373', exploreSpec)
     exploreComments = hw('"Explore" Comments', 'TBD', '/discussion_topics/5042373')
     fProposal       = hw('Final Project Proposal', 'TBD', 'assignments/7725681', finalProjSpec)
@@ -149,7 +149,7 @@ cs10.week5 = {
     //lab2: lab('Finch Lab', 'berkeley_bjc/robots/robots.topic'),
     lab2: lab('Testing, HW3', 'berkeley_bjc/2048-testing/2048.topic'),
     disc: disc('Quest Debrief and HW3 Introduction'),
-    hw: hw2
+    hw: hw3
 };
 
 cs10.week5.lect2.classes = 'exam';
@@ -191,7 +191,7 @@ cs10.week7 = {
     lab1: lab('Tic-Tac-Toe, Boards', 'berkeley_bjc/lists/tic-tac-toe.topic', true),
     lab2: lab('Midterm Project Work Session'),
     disc: disc('AI and Social Implications'),
-    hw: mProposal
+    hw: [hw3, mProposal]
 };
 
 // OCT 10 - 14
