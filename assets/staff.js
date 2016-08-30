@@ -13,11 +13,12 @@ var DanGarcia = {
 
 // TAs
 
+
 var adamK = {
     name: 'Head TA Adam Kuphaldt',
-    img: 'Fa16/AdamKuphaldt.jpg',
-    imgSrc: '../Fa16/AdamKuphaldt.jpg',
-    bio: 'AdamBio.txt',
+    img: 'Sp14/AdamKuphaldt.jpg',
+    imgSrc: 'AdamKuphaldt.jpg',
+    bio: 'AdamBio',
     email: 'adam@cs10.org',
     web: 'https://linkedin.com/in/adam-kuphaldt-16a33768'
 };
@@ -88,9 +89,9 @@ var jobelV = {
 
 var laraM = {
     name: 'TA Lara McConnaughey',
-    img: 'lara.jpg',
-    imgSrc: '../Fa16/lara.jpg',
-    imgCrazy: '../small/CarlosFloresCrazy.jpg',
+    img: 'Su15/LaraMcConnaughey.jpg',
+    imgSrc: 'LaraMcConnaughey.jpg',
+    imgCrazy: '../small/LaraMcConnaugheyCrazy.jpg',
     web: 'https://www.linkedin.com/in/lara-mcconnaughey-4a834173',
     bio: 'LaraBio',
     email: 'lara@cs10.org'
