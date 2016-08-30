@@ -88,6 +88,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 ## Lab 3: Conditionals and Variables {#lab3}
 
 **Required**
+
 * What is a Boolean? Explain why we use them, and give examples of functions that report a Boolean value.
 * Show us the `traffic signal _`, `letter grade _`, and `state of water _` blocks.
 * Explain the difference between a **command** and a **reporter** block.
