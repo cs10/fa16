@@ -6,7 +6,7 @@ var DanGarcia = {
     imgSrc: 'DanGarcia.jpg',
     imgCrazy: true,
     web: 'http://www.cs.berkeley.edu/~ddgarcia/',
-    bio: 'DanBio.txt',
+    bio: 'DanBio',
     email: 'dan@cs10.org',
     office: '777 Soda, (510) 517-4041'
 };
@@ -17,7 +17,7 @@ var adamK = {
     name: 'Head TA Adam Kuphaldt',
     img: 'Sp14/AdamKuphaldt.jpg',
     imgSrc: 'AdamKuphaldt.jpg',
-    bio: 'AdamBio.txt',
+    bio: 'AdamBio',
     email: 'adam@cs10.org',
     web: 'https://linkedin.com/in/adam-kuphaldt-16a33768'
 };
@@ -26,7 +26,7 @@ var rachelH = {
     name: 'Head TA Rachel Huang',
     img: 'Fa13/RachelHuang.jpg',
     imgSrc: 'RachelHuang.jpg',
-    bio: 'RachelBio.txt',
+    bio: 'RachelBio',
     email: 'rachel@cs10.org'
 };
 
@@ -34,32 +34,32 @@ var aranyU = {
     name: 'TA Arany Uthayakumar',
     img: 'Sp14/AranyUthayakumar.jpg',
     imgSrc: 'AranyUthayakumar.jpg',
-    // bio: 'AranyBio.txt',
-    email: 'arany@cs10.org' 
+    // bio: 'AranyBio',
+    email: 'arany@cs10.org'
 };
 
 var carlosF = {
     name: 'TA Carlos Flores',
     img: 'Fa16/CarlosFlores.jpg',
-    bio: 'CarlosBio.txt',
+    bio: 'CarlosBio',
     imgSrc: '../Fa16/CarlosFlores.jpg',
     imgCrazy: '../small/CarlosFloresCrazy.jpg',
     email: 'carlos@cs10.org'
 };
-    
+
 var christianL = {
     name: 'TA Christian Lista-Nicoloso',
     img: 'Christian Lista-Nicoloso.JPG',
-    bio: 'ChristianBio.txt',
+    bio: 'ChristianBio',
     imgSrc: '../Fa16/Christian Lista-Nicoloso.JPG',
     email: 'christian@cs10.org'
 };
-    
+
 var elizabethS = {
     name: 'TA Elizabeth Steger',
     img: 'Fa16/LizzySteger.JPG',
     imgSrc: '../Fa16/LizzySteger.JPG',
-    bio: 'DanBio.txt',
+    bio: 'LizzyBio',
     email: 'lizzy@cs10.org'
 };
 
@@ -67,14 +67,14 @@ var erikD = {
     name: 'TA Erik Dahlquist',
     img: 'Sp15/ErikDahlquist.jpg',
     imgSrc: 'ErikDahlquist.jpg',
-    email: 'erik@cs10.org' 
+    email: 'erik@cs10.org'
 };
 
 var jannaG = {
     name: 'TA Janna Golden',
     img: 'Sp14/JannaGolden.jpg',
     imgSrc: 'JannaGolden.jpg',
-    bio: 'JannaBio.txt',
+    bio: 'JannaBio',
     email: 'janna@cs10.org'
 };
 
@@ -82,8 +82,8 @@ var jobelV = {
     name: 'TA Jobel Vecino',
     img: 'Fa13/JobelVecino.jpg',
     imgSrc: 'JobelVecino.jpg',
-    bio: 'JobelBio.txt',
-    email: 'jobel@cs10.org' 
+    bio: 'JobelBio',
+    email: 'jobel@cs10.org'
 };
 
 var laraM = {
@@ -92,7 +92,7 @@ var laraM = {
     imgSrc: 'LaraMcConnaughey.jpg',
     imgCrazy: '../small/CarlosFloresCrazy.jpg',
     web: 'https://www.linkedin.com/in/lara-mcconnaughey-4a834173',
-    bio: 'LaraBio.txt',
+    bio: 'LaraBio',
     email: 'lara@cs10.org'
 };
 
@@ -102,7 +102,7 @@ var stevenT = {
     imgSrc: 'StevenTraversi.jpg',
     imgCrazy: '../small/StevenTraversiCrazy.jpg',
     web: 'http://steven.codes',
-    bio: 'StevenBio.txt',
+    bio: 'StevenBio',
     email: 'steven@cs10.org'
 };
 
@@ -110,7 +110,7 @@ var yifatA = {
   name: 'TA Yifat Amir',
   img: 'Fa16/YifatAmir.JPG',
   imgSrc: '../Fa16/YifatAmir.JPG',
-  bio: 'YifatBio.txt',
+  bio: 'YifatBio',
   web: 'https://www.linkedin.com/in/yifat-amir-45633584',
   email: 'yifat@cs10.org'
 };
