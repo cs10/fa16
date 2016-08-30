@@ -83,11 +83,21 @@ To get checked off, you should prepare answers to the specific questions for eac
 * Did you customize your flower block in any ways? Be creative.
 * Show your customized bug dance.
 
+--- 
+
 ## Lab 3: Conditionals and Variables {#lab3}
 
 **Required**
+* What is a Boolean? Explain why we use them, and give examples of functions that report a Boolean value.
+* Show us the `traffic signal _`, `letter grade _`, and `state of water _` blocks.
+* Explain the difference between a **command** and a **reporter** block.
+* Show us the `is _ between _ and _ ?` block.
+* Show us your number guessing game.
 
-* Coming Soon!
+**More Self-Check Questions**
+
+* Why do we use the `if` and `if-else` blocks?
+* When do you use a command block, and when do use use a reporter block?
 
 ---
 
