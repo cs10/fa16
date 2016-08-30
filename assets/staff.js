@@ -59,6 +59,7 @@ var elizabethS = {
     name: 'TA Elizabeth Steger',
     img: 'Fa16/LizzySteger.JPG',
     imgSrc: '../Fa16/LizzySteger.JPG',
+    bio: 'DanBio.txt',
     email: 'lizzy@cs10.org'
 };
 
@@ -90,6 +91,7 @@ var laraM = {
     img: 'Su15/LaraMcConnaughey.jpg',
     imgSrc: 'LaraMcConnaughey.jpg',
     imgCrazy: '../small/CarlosFloresCrazy.jpg',
+    web: 'https://www.linkedin.com/in/lara-mcconnaughey-4a834173',
     bio: 'LaraBio.txt',
     email: 'lara@cs10.org'
 };
