@@ -99,11 +99,11 @@ cs10.week3 = {
     lect1: lect('No Lecture - Enjoy Your Labor Day!'
             //lectureURL('1guhwTCV3PgH7QVVSt-bQlyeQsGACulRLzHWgio_wd2c')
     ),
-    lab1: lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic', true),
+    lab1: lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic'),
     lect2: lect('Lists and Scoping', 'https://drive.google.com/folderview?id=0B7pxUEY76zATSHp2REpWMnhSYlk&usp=sharing'
             //lectureURL('1HielUCvYaOTgqnyP9UciJx-PUBbyhbfxTQWO0Tb9kbU')
     ),
-    lab2: lab('Lists I', 'berkeley_bjc/lists/lists-I.topic'),
+    lab2: lab('Lists I', 'berkeley_bjc/lists/lists-I.topic', true),
     disc: disc('All about lists'),
     hw: hw2
 };
