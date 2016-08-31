@@ -89,8 +89,6 @@ cs10.week2 = {
 // SEP 5 - 9
 cs10.week3 = {
     readings: [
-        reading('The First Object Oriented Software System', 
-                'https://www.youtube.com/watch?v=yyYB_Vo15WE'),
         reading('The Story of Alan Turing &amp; His Machine',
                 'https://youtu.be/CQhrMmbiaM0'),
         reading('BtB Chapter 1',

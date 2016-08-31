@@ -56,8 +56,8 @@ var christianL = {
     email: 'christian@cs10.org'
 };
 
-var elizabethS = {
-    name: 'TA Elizabeth Steger',
+var lizzyS = {
+    name: 'TA Lizzy Steger',
     img: 'Fa16/LizzySteger.JPG',
     imgSrc: '../Fa16/LizzySteger.JPG',
     bio: 'LizzyBio',
@@ -163,7 +163,7 @@ var noahJ = {
 /*****************************************************************************/
 
 var inst = [ DanGarcia ];
-var tas = [ adamK, rachelH, aranyU, carlosF, christianL, elizabethS, erikD, jannaG, jobelV, laraM, williamT, yifatA, stevenT ];
+var tas = [ adamK, rachelH, aranyU, carlosF, christianL, erikD, jannaG, jobelV, laraM, lizzyS, stevenT, williamT, yifatA ];
 var readers = [ addisonH, matthewS, meghnaD, noahJ, samuelS ];
 
 // If you need to add a new SECTION add it to this object.
