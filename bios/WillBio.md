@@ -1,3 +1,4 @@
+---
 layout: default
 ---
 ##Where did you grow up? What was your path to Cal? 
