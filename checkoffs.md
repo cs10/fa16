@@ -233,7 +233,16 @@ You can get checked off for this lab as long as you show up to lab and work on i
 
 **Required**
 
-* Coming Soon!
+* What are the arguments of the `open` function and what does it return?
+* Show us your `count_words` function.
+* How do we choose how something is sorted when using the `sorted` function in Python?
+* Show us your `top_n_words` and `print_top_n_words` functions. 
+* Show us your `average_word_length` function. 
+
+**More Self-Check Questions**
+
+* Complete the remove punctutaion section at the bottom of the Counting Words page.
+* Write the `top_n_words_except` function at the bottom of the Top Words page.
 
 
 # Week 14: Lab 18
