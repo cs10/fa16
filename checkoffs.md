@@ -147,7 +147,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 # Week 5: Lab 8
 
 ## Lab 8: Testing Code and 2048 {#lab8}
-* You can get checked off for this lab as long as you show up to lab and work on it. No questions!
+
 **Required**
 
 * How does the **test** block work? What is its domain/range?
