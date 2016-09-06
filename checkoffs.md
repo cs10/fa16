@@ -160,6 +160,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 * What tests could you have written for HW2 (Encryptify)?
 * Explain how each of the HW3 blocks (that you are going to fill in as your  hw assignment) are supposed to work, to your lab partner(s). 
+
 ---
 
 # Week 6: Labs 9 and 10
