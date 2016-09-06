@@ -186,9 +186,6 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 ## Lab 12: Recursive Reporters {#lab12}
 
-### Go to this page to submit the lab online:
-[bCourses](https://bcourses.berkeley.edu/courses/1408649/assignments/7531220)
-
 **Required**
 
 * Why do we map the first item of the set in front of a recursive call of `subsets _` over the rest of the list?
