@@ -192,7 +192,18 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 **Required**
 
-* Coming Soon!
+* How can we use functions as data in Snap? What does the gray border do?
+* What do the `call` and `run` blocks do? What’s the difference between them?
+* Show us your `list all factorions between _ and _` block. How does this compare to the `list all pandigital numbers between _ and _` block?
+* Show us your `is _ pandigital?` block and explain how you made it.
+* Explain your `min value of _ over all numbers in _` block. How could we make a version that maximizes instead of minimizing?
+
+
+**More Self-Check Questions**
+
+* How can we store functions as variables or lists? When might it be useful to have a list containing functions?
+* What is the domain and range of the `compose` block? How would you construct the `compose-from-list` block?
+
 
 ---
 
