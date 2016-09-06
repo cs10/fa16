@@ -191,7 +191,16 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 **Required**
 
-* Coming Soon!
+* Why do we map the first item of the set in front of a recursive call of `subsets _` over the rest of the list?
+* Explain why the second version of `subsets _` only makes 7 calls instead of 64.
+* Explain how the `sort _` block works, how the `merge _` block works, and how they work together.
+* Show us the recursive `numbers _` block.
+* Show us the recursive `ends-e _` block.
+
+**More Self-Check Questions**
+
+* Why might we want to write a function recursively instead of iteratively or using a HOF?
+* How might we be able to use recursive reporters to improve runtime?
 
 ------
 
