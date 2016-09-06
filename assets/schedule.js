@@ -26,7 +26,7 @@ function lectureURL(googId) {
 
 // CONSTANTS:
 var hw1Spec         = docs('1ybuatsrUMCI-tHHRPwxUpGoZoGxk_SEiGEArocQtIlI')
-    hw2Spec         = docs('1NrZaFKMIeN7Jvfpwe8Auv6Cc-OhcOIZzZX83IN2azPA')
+    hw2Spec         = docs('1C5d7zYwubcDUDDFn_x6NFpUrT2Ldum3ElnYhsgJ4fMo')
     hw3Spec         = docs('1z-DZD3ya3Uxp9WkkmqF838Giq_VEjtdmXNI0dVzU5sg')
     mtProjSpec      = docs('1fFLorzOLOIO4WXzIxllMBACuEvMWZx-ykeLO-rsAIjc')
     exploreSpec     = docs('1i79rb0BL0FJV54cy7s-VC1wa7bUwlfVUT5xFN_o2EDc')
