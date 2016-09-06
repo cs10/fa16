@@ -148,7 +148,16 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 **Required**
 
-* Coming Soon!
+* What is deadlock? What is the race condition?
+* Is it always true that splitting a task among 10 “workers” is better than splitting it among 5 “workers”?
+* What is the difference between determinism and nondeterminism, in the context of concurrency?
+* How does Snap! handle concurrency?
+* What happened as you added more people in the card sorting activity?
+
+**More Self-Check Questions**
+
+* What were some strategies your team thought of in the card sorting activity? How do these relate to how a computer handles concurrency?
+* Give an example of when concurrency might cause a problem in a computer program.
 
 ## Lab 10: Tic-Tac-Toe, Boards {#lab10}
 
