@@ -153,7 +153,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 * How does the **test** block work? What is its domain/range?
 * Show us the output of your **test** block on **merge column**. Explain why this output makes sense, and how the test block is checking this block. 
 * How will writing tests help you for the 2048 assignment? 
-* How do **merge up** and **merge column* work? What are the domain/range of each block? 
+* How do **merge up** and **merge column** work? What are the domain/range of each block? 
 * What is the domain and range of the **update display** block? 
 
 **More Self-Check Questions**
