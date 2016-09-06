@@ -114,12 +114,16 @@ To get checked off, you should prepare answers to the specific questions for eac
 * Show and Explain your  "sum of two smallest" block.
 * Explain the bug(s) in "(Problem 3) Sum of numbers between x and y."
 
+**More Self-Check Questions**
+
+* Why is the check block useful? And how does it work?
+* Why is the broadcast block useful? Give an example of a good situation to use one.
+
 ## Lab 5: Lists 1 {#lab5}
 
 **Required**
 
-* Why is the check block useful? And how does it work?
-* Why is the broadcast block useful? Give an example of a good situation to use one.
+* Coming Soon!
 
 ---
 
