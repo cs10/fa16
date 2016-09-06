@@ -108,13 +108,18 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 **Required**
 
-* Coming Soon!
+* Name a few of the input types. Why is it important that we specify input types?
+* How are global variables different from script variables?
+* Show and Explain your Valid-Date Block
+* Show and Explain your  "sum of two smallest" block.
+* Explain the bug(s) in "(Problem 3) Sum of numbers between x and y."
 
 ## Lab 5: Lists 1 {#lab5}
 
 **Required**
 
-* Coming Soon!
+* Why is the check block useful? And how does it work?
+* Why is the broadcast block useful? Give an example of a good situation to use one.
 
 ---
 
