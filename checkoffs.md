@@ -142,7 +142,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 **Required**
 
-* Coming Soon!
+* What is an algorithm? 
 
 
 ## Lab 7: Algorithm Complexity {#lab7}
