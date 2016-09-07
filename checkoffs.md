@@ -142,8 +142,16 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 **Required**
 
-* What is an algorithm? 
+* What is an algorithm? Please give an example both in real life and from class.
+* Please show both your “Find the number X in Unsorted List” and “Find the number X in Sorted List” blocks and describe the difference in the algorithms used.
+* Are algorithms which are (on average) faster always "better"? Why or why not?
+* What might some "trade-offs" to different computer science algorithms be? 
+* How can abstraction and algorithms relate in computer science? 
 
+**More Self-Check Questions**
+
+* What is memoization? When is it useful?
+* If you have an unsorted list, do you think it will be faster to use your “Find the number X in Unsorted List” block, or sort the list and use your “Find the number X in Sorted List”? Remember that sorting takes time. 
 
 ## Lab 7: Algorithm Complexity {#lab7}
 
