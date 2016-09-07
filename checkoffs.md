@@ -174,6 +174,14 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 # Week 6: Labs 9 and 10
 
+**Required**
+
+* What is an algorithm? 
+
+**More Self-Check Questions**
+
+* Coming soon!
+
 ## Lab 9: Concurrency {#lab9}
 
 **Required**
