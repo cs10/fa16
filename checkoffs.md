@@ -264,13 +264,20 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 ## Lab 14: Besides Blocks: Welcome to Python {#lab14}
 
-### Go to bCourses to submit the lab online:
-[bCourses](https://bcourses.berkeley.edu/courses/1408649/assignments/7567086)
-Note the autograder requires you to use the "AUTOGRADER" sprite when clicking "Get Feedback", but otherwise you can do the same work as normal.
-
 **Required**
 
-* Coming Soon!
+* What is the difference between the "python", "python file.py", and "python -i file.py" terminal commands?
+* What is the difference between the "print" and "return" python commands?
+* Show your "reverse_string(string)" function. If you did it iteratively, explain the recursive solution. If you did it recursively, explain the iterative solution.
+* Show your "palindrome(string)" function.
+* Show your c-curve function and its output.
+
+
+**More Self-Check Questions**
+
+* What is the difference between the "=", "!=", and "==" python commands?
+* What is the domain and range for the "+" function in python?
+
 
 ------
 
