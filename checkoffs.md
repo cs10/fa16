@@ -123,7 +123,16 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 **Required**
 
-* Coming Soon!
+* What is a list? Why would we use a list of 10 elements instead of just making 10 variables? 
+* What do `map`, `keep`, and `combine` each do? What are their inputs and outputs? What are these types of functions called?
+* Show us your `acronym` block.
+* Show us your `expand _` block. 
+* What's the difference between the `for each` loop and the `for (i)` loop we've used in previous labs? 
+
+** More Self-Check Questions **
+
+* Look back at the `swap items` block. Why do we need a "temp" variable? 
+* When would we want to use a loop versus a higher order function? 
 
 ---
 
