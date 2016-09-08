@@ -182,14 +182,6 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 # Week 6: Labs 9 and 10
 
-**Required**
-
-* What is an algorithm? 
-
-**More Self-Check Questions**
-
-* Coming soon!
-
 ## Lab 9: Concurrency {#lab9}
 
 **Required**
@@ -209,7 +201,12 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 **Required**
 
-* Coming Soon!
+* Show your “ttt” block implementation. How did one of the questions we asked ourselves before starting tic-tac-toe help us design the program?
+* Why did we have variables like “Size”, “Start”, and “Display Width” when designing our board?
+
+**More Self-Check Questions**
+
+* Show your neat end-game feature that you added to the maze game.
 
 ---
 
@@ -332,6 +329,7 @@ You can get checked off for this lab as long as you show up to lab and work on i
 * Complete the remove punctutaion section at the bottom of the Counting Words page.
 * Write the `top_n_words_except` function at the bottom of the Top Words page.
 
+------
 
 # Week 14: Lab 18
 
@@ -339,7 +337,13 @@ You can get checked off for this lab as long as you show up to lab and work on i
 
 **Required**
 
-* Coming Soon!
+* Chooose between whois and Traceroute, and explain how the command works. What information does it tell you?
+* What is the difference between latency and throughput?
+* What is your information footprint? How could you go about limiting it?
+
+**More Self-Check Questions**
+
+* How does telnet work?
 
 <!-- Keep the /div at the bottom -->
 </div>
