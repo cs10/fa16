@@ -253,7 +253,7 @@ cs10.week10 = {
         )  
     ],
     disc: disc('Midterm Review'),
-    lect1: lect('Procedures as Data - Higher Order Functions', 'https://drive.google.com/folderview?id=0B7pxUEY76zATckZVaUlZblY4aW8&usp=sharing'
+    lect1: lect('Procedures as Data - Higher Order Procedures', 'https://drive.google.com/folderview?id=0B7pxUEY76zATckZVaUlZblY4aW8&usp=sharing'
             //lectureURL('12n7JQXQCJHBt7SjKjGGkVNP5iyhAngOLMVeMpg40D8I')
             //lectureURL('1TwO63UECd9I4ufKDYUj9LDFT6RrDOtFQlbbcC9oBebE')
     ),
@@ -357,7 +357,7 @@ cs10.week15 = {
     ],       
     disc: disc('Farewell! Recap and Feedback'),
     lab1: lab('Project Work Session', null, true),
-    lect1: lect('Saving', 'https://drive.google.com/folderview?id=0B7pxUEY76zATcUFlcXhEb3VxWG8&usp=sharing'
+    lect1: lect('Saving the World with Computing', 'https://drive.google.com/folderview?id=0B7pxUEY76zATcUFlcXhEb3VxWG8&usp=sharing'
             //lectureURL('0B7pxUEY76zATblJZa25NNUl1cGM')
             //lectureURL('1_k3boAVzNT3W_z-uhmbdP5tugM4PUuGwT-BPSmU8A-o')
     ),
