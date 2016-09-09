@@ -97,6 +97,19 @@ var laraM = {
     email: 'lara@cs10.org'
 };
 
+var meghnaD = {
+    name: 'TA Meghna Dasgupta',
+    img: 'Fa16/MeghnaDasgupta.jpg',
+    imgSrc: '../Fa16/MeghnaDasgupta.jpg',
+};
+
+var patrickO = {
+    name: 'TA Patrick O\'Halloran',
+    img: 'Su16/PatrickO.jpg',
+    imgSrc: '../Su16/PatrickO.jpg',
+    // email: 'pohalloran@berkeley.edu'
+};
+
 var stevenT = {
     name: 'TA Steven Traversi',
     img: 'Sp14/StevenTraversi.jpg',
@@ -125,12 +138,6 @@ var williamT = {
 };
 
 // Readers
-
-var meghnaD = {
-    name: 'Reader Meghna Dasgupta',
-    img: 'Fa16/MeghnaDasgupta.jpg',
-    imgSrc: '../Fa16/MeghnaDasgupta.jpg',
-};
 
 var addisonH = {
     name: 'Reader Addison Howe',
