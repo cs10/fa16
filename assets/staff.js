@@ -171,8 +171,8 @@ var noahJ = {
 /*****************************************************************************/
 
 var inst = [ DanGarcia ];
-var tas = [ adamK, rachelH, aranyU, carlosF, christianL, erikD, jannaG, jobelV, laraM, lizzyS, stevenT, williamT, yifatA ];
-var readers = [ addisonH, matthewS, meghnaD, noahJ, samuelS ];
+var tas = [ adamK, rachelH, aranyU, carlosF, christianL, erikD, jannaG, jobelV, laraM, lizzyS, meghnaD, patrickO, stevenT, williamT, yifatA ];
+var readers = [ addisonH, matthewS,  noahJ, samuelS ];
 
 // If you need to add a new SECTION add it to this object.
 // Follow the same format.
