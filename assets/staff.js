@@ -133,7 +133,7 @@ var williamT = {
   name: 'TA William Tang',
   img: 'Fa16/WilliamTang.JPG',
   imgSrc: '../Fa16/WilliamTang.JPG',
-  bio: 'WillBio.md',
+  bio: 'WillBio',
   email: 'william@cs10.org'
 };
 
