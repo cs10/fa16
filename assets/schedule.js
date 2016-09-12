@@ -126,11 +126,11 @@ cs10.week4 = {
                 'https://medium.com/@_marcos_otero/the-real-10-algorithms-that-dominate-our-world-e95fa9f16c04',
                 'optional')
     ],
-    lect1: lect('Algorithms', 'https://drive.google.com/folderview?id=0B7pxUEY76zATNXJudTlsYW9ISUk&usp=sharing'
+    lect1: lect('Algorithms', 'https://drive.google.com/drive/folders/0B7pxUEY76zATYU54ejF0azVKNVk?usp=sharing'
             //lectureURL('1v5SU7KQiGuCuAFXBmwjrI0fR8U8NYsenNHL6qWlScng')
     ),
     lab1: lab('Algorithms', 'berkeley_bjc/areas/algorithms.topic', true),
-    lect2: lect('Algorithmic Complexity', 'https://drive.google.com/folderview?id=0B7pxUEY76zATb1ZMRDFXN25oLVU&usp=sharing'
+    lect2: lect('Algorithmic Complexity', 'https://drive.google.com/drive/folders/0B7pxUEY76zATNXJudTlsYW9ISUk?usp=sharing'
             //lectureURL('1dExMn1OoSs-wo3sLNXFnd4TYL_vl4bDfguzNtZLSeww')
     ),
     lab2: lab('Algorithmic Complexity', 'berkeley_bjc/areas/algorithm-complexity.topic'),
@@ -141,7 +141,7 @@ cs10.week4 = {
 // SEP 19 - 23 
 cs10.week5 = {
     readings: 'No Readings for this Week - Study for the Quest!',
-    lect1: lect('Programming Paradigms', 'https://drive.google.com/folderview?id=0B7pxUEY76zATOUJZSTZKcTFsVU0&usp=sharing'),
+    lect1: lect('Programming Paradigms', 'https://drive.google.com/drive/folders/0B7pxUEY76zATb1ZMRDFXN25oLVU?usp=sharing'),
     lab1: lab('Quest Review'),
     lect2: lect('<br><a href="exams/quest.html">Quest</a><br><br>Weds 9/21<br>In Class<br>Pauley Ballroom'),
     //lab2: lab('Finch Lab', 'berkeley_bjc/robots/robots.topic'),
@@ -158,7 +158,7 @@ cs10.week6 = {
         reading('BtB Chapter 5',
         'http://www.bitsbook.com/wp-content/uploads/2008/12/chapter5.pdf'),
     ],
-    lect1: lect('Concurrency', 'https://drive.google.com/folderview?id=0B7pxUEY76zATLWZzTW1FQ2hqZTA&usp=sharing'
+    lect1: lect('Concurrency', 'https://drive.google.com/drive/folders/0B7pxUEY76zATOUJZSTZKcTFsVU0?usp=sharing'
         //lectureURL('1-jlAQQiITE7-XPIK1mxirLtgFmJyIhCJ1LzTGYYMOgs')
         //'TA Alex McKinney'
     ),
