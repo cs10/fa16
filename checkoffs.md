@@ -157,7 +157,15 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 **Required**
 
-* Coming Soon!
+* Please show me your Non-Gauss and Gauss Add all numbers in. Which was faster? Why?
+* Of all the runtimes you have discovered thus far, can you rank them from “fastest” to “slowest”? Why is runtime important for the programs that we create?
+* Name the logarithmic time algorithm that we implemented in Lab 6. Explain why this algorithm runs in logarithmic time.
+* What is the difference between “Worst-Case” and “Best Case” Runtimes when running the Are the numbers of (LIST) distinct? block? Why?
+* What happened with the time it took for your computer to counter up the numbers between 1 and x when you started doubling the numbers? Tripling the numbers? What do you think would happen with the time I multiplied your top number by 8?
+
+**More Self-Check Questions**`
+* Why are constant time algorithms so rare?
+* Why are logarithmic time algorithms sought after?
 
 ---
 
