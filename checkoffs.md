@@ -164,6 +164,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 * What happened with the time it took for your computer to counter up the numbers between 1 and x when you started doubling the numbers? Tripling the numbers? What do you think would happen with the time I multiplied your top number by 8?
 
 **More Self-Check Questions**`
+
 * Why are constant time algorithms so rare?
 * Why are logarithmic time algorithms sought after?
 
