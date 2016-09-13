@@ -16,8 +16,10 @@ var DanGarcia = {
 
 var adamK = {
     name: 'Head TA Adam Kuphaldt',
-    img: 'Sp14/AdamKuphaldt.jpg',
-    imgSrc: 'AdamKuphaldt.jpg',
+    img: 'Fa16/AdamKuphaldt.jpg',
+    imgSrc: '../Fa16/AdamKuphaldt.jpg',
+    // img: 'Sp14/AdamKuphaldt.jpg',
+    // imgSrc: 'AdamKuphaldt.jpg',
     bio: 'AdamBio',
     email: 'adam@cs10.org',
     web: 'https://linkedin.com/in/adam-kuphaldt-16a33768'
@@ -105,9 +107,10 @@ var meghnaD = {
 
 var patrickO = {
     name: 'TA Patrick O\'Halloran',
-    img: 'Su16/PatrickO.jpg',
-    imgSrc: '../Su16/PatrickO.jpg',
-    // email: 'pohalloran@berkeley.edu'
+    img: 'Fa16/PatrickOhalloran.jpg',
+    imgSrc: '../Fa16/PatrickOhalloran.jpg',
+    imgCrazy: '../small/PatrickOhalloranCrazy.jpg',
+    email: 'pohalloran@berkeley.edu'
 };
 
 var stevenT = {
