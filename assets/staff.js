@@ -166,6 +166,12 @@ var noahJ = {
     img: 'Fa16/NoahJacobs.jpg',
 };
 
+var hectorA = {
+    name: 'Reader Noah Jacobs',
+    imgSrc: '../Fa16/HectorAguilar.jpg',
+    img: 'Fa16/HectorAguilar.jpg',
+    imgCrazy: '../small/HectorAguilarCrazy.jpg',
+};
 
 
 
@@ -175,7 +181,7 @@ var noahJ = {
 
 var inst = [ DanGarcia ];
 var tas = [ adamK, rachelH, aranyU, carlosF, christianL, erikD, jannaG, jobelV, laraM, lizzyS, meghnaD, patrickO, stevenT, williamT, yifatA ];
-var readers = [ addisonH, matthewS,  noahJ, samuelS ];
+var readers = [ addisonH, hectorA, matthewS,  noahJ, samuelS ];
 
 // If you need to add a new SECTION add it to this object.
 // Follow the same format.
