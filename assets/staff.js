@@ -167,7 +167,7 @@ var noahJ = {
 };
 
 var hectorA = {
-    name: 'Reader Noah Jacobs',
+    name: 'Reader Hector Aguilar',
     imgSrc: '../Fa16/HectorAguilar.jpg',
     img: 'Fa16/HectorAguilar.jpg',
     imgCrazy: '../small/HectorAguilarCrazy.jpg',
