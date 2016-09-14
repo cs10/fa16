@@ -103,6 +103,7 @@ var meghnaD = {
     name: 'TA Meghna Dasgupta',
     img: 'Fa16/MeghnaDasgupta.jpg',
     imgSrc: '../Fa16/MeghnaDasgupta.jpg',
+    email: 'meghna@cs10.org'
 };
 
 var patrickO = {
@@ -110,7 +111,7 @@ var patrickO = {
     img: 'Fa16/PatrickOhalloran.jpg',
     imgSrc: '../Fa16/PatrickOhalloran.jpg',
     imgCrazy: '../small/PatrickOhalloranCrazy.jpg',
-    email: 'pohalloran@berkeley.edu'
+    email: 'patrick@cs10.org'
 };
 
 var stevenT = {
