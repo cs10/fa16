@@ -82,7 +82,7 @@ cs10.week2 = {
             //lectureURL('1TVXERNz4ude_YYsPccwwirFWxXQXSs2ex-cccHytfzo')
     ),
     lab2: lab('Conditionals and Reporters', 'berkeley_bjc/intro_pair/3-conditionals.topic', true),
-    disc: disc('Anatomy of a Computer and the Power of Binary'),
+    disc: disc('Anatomy of a Computer and the Power of Binary', true),
     hw: hw1
 };
 
@@ -102,7 +102,7 @@ cs10.week3 = {
             //lectureURL('1HielUCvYaOTgqnyP9UciJx-PUBbyhbfxTQWO0Tb9kbU')
     ),
     lab2: lab('Lists I', 'berkeley_bjc/lists/lists-I.topic', true),
-    disc: disc('All about lists'),
+    disc: disc('All about lists', true),
     hw: hw2
 };
 // cs10.week3.lect3.classes = 'exam';
@@ -134,7 +134,7 @@ cs10.week4 = {
             //lectureURL('1dExMn1OoSs-wo3sLNXFnd4TYL_vl4bDfguzNtZLSeww')
     ),
     lab2: lab('Algorithmic Complexity', 'berkeley_bjc/areas/algorithm-complexity.topic'),
-    disc: disc('Quest Review'),
+    disc: disc('Quest Review', true),
     hw: hw2
 };
 
