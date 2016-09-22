@@ -157,6 +157,8 @@ cs10.week6 = {
     readings: [
         reading('BtB Chapter 5',
         'http://www.bitsbook.com/wp-content/uploads/2008/12/chapter5.pdf'),
+        reading('Alan Kay: Doing with Images Makes Symbols - 4:04 to 9:20',
+            'https://archive.org/details/AlanKeyD1987')
     ],
     lect1: lect('Concurrency', 'https://drive.google.com/drive/folders/0B7pxUEY76zATOUJZSTZKcTFsVU0?usp=sharing'
         //lectureURL('1-jlAQQiITE7-XPIK1mxirLtgFmJyIhCJ1LzTGYYMOgs')
