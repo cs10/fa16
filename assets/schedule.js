@@ -271,7 +271,7 @@ cs10.week10 = {
 
 // OCT 31 - NOV 4
 cs10.week11 = {
-    readings: 'No Reading.',
+    readings: 'No Readings for this Week - Study for the Midterm!',
     disc: disc('Midterm Debrief'),
     lect1: lect('<br><br><div class="exam inner"><a href="exams/midterm.html">Midterm Exam Part I</a><br><br>Monday 10/31<br>Pauley Ballroom</div>'
     ),
