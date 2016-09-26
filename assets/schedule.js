@@ -170,7 +170,7 @@ cs10.week6 = {
     ),
     lab2: lab('HW3 Work Session'),
     //lab2: lab('Trees and Fractals Using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic'),
-    disc: disc('HW3 Help'),
+    disc: disc('Concurrency and Mutability'),
     hw: hw3
 };
 
