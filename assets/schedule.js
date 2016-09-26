@@ -165,7 +165,7 @@ cs10.week6 = {
         //'TA Alex McKinney'
     ),
     lab1: lab('Concurrency', 'berkeley_bjc/areas/concurrency.topic', true),
-    lect2: lect('Testing + HW3', 'https://drive.google.com/folderview?id=0B7pxUEY76zATZXo0elZmQWl1aHM&usp=sharing'
+    lect2: lect('Testing + HW3', 'https://drive.google.com/drive/folders/0B7pxUEY76zATLWZzTW1FQ2hqZTA?usp=sharing'
             //lectureURL('14erZ9b8MJZlVTVcTPzHUm9uWynjpiSQHpo8skkkMLtM')
     ),
     lab2: lab('HW3 Work Session'),
@@ -182,10 +182,10 @@ cs10.week7 = {
         reading('eWEEK at 30: Multicore CPUs Keep Chip Makers in Step With Moore\'s Law',
             'https://docs.google.com/document/d/1FC-_lcn_EWlGXLfPDlQbSQeE1Q4NpTG39S-kVkHRxv8/edit?usp=sharing')
     ],
-    lect1: lect('Artificial Intelligence', 'https://drive.google.com/folderview?id=0B7pxUEY76zATdHQtNlJuUkRFOUk&usp=sharing'
+    lect1: lect('Artificial Intelligence', 'https://drive.google.com/drive/folders/0B7pxUEY76zATZXo0elZmQWl1aHM?usp=sharing'
             //lectureURL('13WLfJKmyCxLIT8kJfbxlbp2hU9mb7MSfW3o16Uxv6Cw')
     ),
-    lect2: lect('Social Implications of Computing I', 'https://drive.google.com/folderview?id=0B7pxUEY76zATSUY2QlNDUDItaU0&usp=sharing'
+    lect2: lect('Social Implications of Computing I', 'https://drive.google.com/drive/folders/0B7pxUEY76zATdHQtNlJuUkRFOUk?usp=sharing'
         //lectureURL('1NuOa586nkC1m95X_5LYyiI4gs0s3XL5eRZF7DeH81us')
     ),
     lab1: lab('Tic-Tac-Toe, Boards', 'berkeley_bjc/lists/tic-tac-toe.topic', true),
@@ -202,11 +202,11 @@ cs10.week8 = {
         reading('Rest of BtB chapter 2',
                 'http://www.bitsbook.com/wp-content/uploads/2008/12/chapter2.pdf', 'optional'),
     ],
-    lect1: lect('Recursion I', 'https://drive.google.com/folderview?id=0B7pxUEY76zATTXE5STFOS21fU2s&usp=sharing'
+    lect1: lect('Recursion I', 'https://drive.google.com/drive/folders/0B7pxUEY76zATSUY2QlNDUDItaU0?usp=sharing'
             //lectureURL('1NFpvg3lzj3hrojXZPk42xoBM3MEFEy8FRl-VeR9Sdxs')
     ),
     lab1: lab('Trees and Fractals Using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic', true),
-    lect2: lect('Social Implications of Computing II', 'https://drive.google.com/folderview?id=0B7pxUEY76zATNVpiWkl2WHo3YzA&usp=sharing'),
+    lect2: lect('Social Implications of Computing II', 'https://drive.google.com/drive/folders/0B7pxUEY76zATTXE5STFOS21fU2s?usp=sharing'),
     lab2: lab('Midterm Project Work Session'),
     disc: disc('Recursion'),
     hw: mMilestone
@@ -221,11 +221,11 @@ cs10.week9 = {
     disc: disc('More on Recursion'),
     lab1: lab('Recursive Reporters', 'berkeley_bjc/recur/recursive-reporters-part1.topic', true),
     lab2: lab('Midterm Project Work Session'),
-    lect1: lect('Recursion II', 'https://drive.google.com/folderview?id=0B7pxUEY76zATbktNZkszSnVXNmc&usp=sharing'
+    lect1: lect('Recursion II', 'https://drive.google.com/drive/folders/0B7pxUEY76zATNVpiWkl2WHo3YzA?usp=sharing'
             //lectureURL('1M5dhs9NnnDvs62dSNO22tcLYg-JGo_wDvNfVosQMSUs')
             //lectureURL('1o4GtTha_TbRNCvqp7wEchJxGaeoENnH3KTX0Hl6nvD0')
     ),
-    lect2: lect('Social Implications of Computing III', 'https://drive.google.com/folderview?id=0B7pxUEY76zATZ1JSUFZpYlQ5eFE&usp=sharing'
+    lect2: lect('Social Implications of Computing III', 'https://drive.google.com/drive/folders/0B7pxUEY76zATbktNZkszSnVXNmc?usp=sharing'
             //lectureURL('1eXJOOJotmIOCTdwYadz6_hJ8SRvvl0bmuKxZwdx8_lY')
             //'L15 - HCI'),
     ),
@@ -255,11 +255,11 @@ cs10.week10 = {
         )  
     ],
     disc: disc('Midterm Review'),
-    lect1: lect('Procedures as Data - Higher Order Procedures', 'https://drive.google.com/folderview?id=0B7pxUEY76zATckZVaUlZblY4aW8&usp=sharing'
+    lect1: lect('Procedures as Data - Higher Order Procedures', 'https://drive.google.com/drive/folders/0B7pxUEY76zATZ1JSUFZpYlQ5eFE?usp=sharing'
             //lectureURL('12n7JQXQCJHBt7SjKjGGkVNP5iyhAngOLMVeMpg40D8I')
             //lectureURL('1TwO63UECd9I4ufKDYUj9LDFT6RrDOtFQlbbcC9oBebE')
     ),
-    lect2: lect('Python I', 'https://drive.google.com/folderview?id=0B7pxUEY76zATOHhEdkVKMGdSUUk&usp=sharing'
+    lect2: lect('Python I', 'https://drive.google.com/drive/folders/0B7pxUEY76zATckZVaUlZblY4aW8?usp=sharing'
             //lectureURL('1kZ2LwxKUTJLyo5GlLUdX72S9xT_9YqblN5WLD8y8Gg0')
             //lectureURL('1Ouz8QdPT-L0x3lg77S2yBGbsqjmuKJLAG3SjxtD7zLQ')
     ),
