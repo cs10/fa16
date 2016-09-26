@@ -182,7 +182,7 @@ cs10.week7 = {
         reading('eWEEK at 30: Multicore CPUs Keep Chip Makers in Step With Moore\'s Law',
             'https://docs.google.com/document/d/1FC-_lcn_EWlGXLfPDlQbSQeE1Q4NpTG39S-kVkHRxv8/edit?usp=sharing')
     ],
-    lect1: lect('Guest Lecture: Pat Virtue - Artificial Intelligence', 'https://drive.google.com/drive/folders/0B7pxUEY76zATZXo0elZmQWl1aHM?usp=sharing'
+    lect1: lect('Artificial Intelligence', 'https://drive.google.com/drive/folders/0B7pxUEY76zATZXo0elZmQWl1aHM?usp=sharing', "Pat Virtue"
             //lectureURL('13WLfJKmyCxLIT8kJfbxlbp2hU9mb7MSfW3o16Uxv6Cw')
     ),
     lect2: lect('Social Implications of Computing I', 'https://drive.google.com/drive/folders/0B7pxUEY76zATdHQtNlJuUkRFOUk?usp=sharing'
@@ -322,7 +322,7 @@ cs10.week13 = {
         reading('CS8 lecture 1', 'https://www.youtube.com/watch?v=69hHbVza7XI&t=27m49s', 'optional')
     ],    
     disc: disc('The Internet'),
-    lect1: lect('Guest Lecture: Eric Paulos - HCI', 'https://drive.google.com/folderview?id=0B7pxUEY76zATZmNCb2ZuVmJKVW8&usp=sharing'),
+    lect1: lect('HCI', 'https://drive.google.com/folderview?id=0B7pxUEY76zATZmNCb2ZuVmJKVW8&usp=sharing', "Eric Paulos"),
     lect2: lect('The Internet', 'https://drive.google.com/folderview?id=0B7pxUEY76zATLVc2VmxBdldMaEU&usp=sharing'
             //lectureURL('16NZgPMLObCthVot7vZwofOqctfhir2xKj6ajTyc1FZw')
             //lectureURL('1MLG5pjfSrvZ17WNp5CSfPbPa3QOnxKtNGKlfRIGgEPw')
@@ -359,7 +359,7 @@ cs10.week15 = {
     ],       
     disc: disc('Farewell! Recap and Feedback'),
     lab1: lab('Project Work Session', null, true),
-    lect1: lect('Guest Lecture: Kathy Yelick - Saving the World with Computing', 'https://drive.google.com/folderview?id=0B7pxUEY76zATcUFlcXhEb3VxWG8&usp=sharing'
+    lect1: lect('Saving the World with Computing', 'https://drive.google.com/folderview?id=0B7pxUEY76zATcUFlcXhEb3VxWG8&usp=sharing', "Kathy Yelick"
             //lectureURL('0B7pxUEY76zATblJZa25NNUl1cGM')
             //lectureURL('1_k3boAVzNT3W_z-uhmbdP5tugM4PUuGwT-BPSmU8A-o')
     ),
