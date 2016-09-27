@@ -195,7 +195,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 **Required**
 
-* What is deadlock? What is the race condition?
+* What is a race condition?
 * Is it always true that splitting a task among 10 “workers” is better than splitting it among 5 “workers”?
 * What is the difference between determinism and nondeterminism, in the context of concurrency?
 * How does Snap! handle concurrency?
