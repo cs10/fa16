@@ -234,6 +234,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 **More Self-Check Questions**
 
 * Please shoe me your "C-Curve" block.
+
 ---
 
 # Week 8: Lab 12
