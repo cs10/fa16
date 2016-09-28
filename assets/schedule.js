@@ -28,7 +28,7 @@ function lectureURL(googId) {
 var hw1Spec         = docs('1ybuatsrUMCI-tHHRPwxUpGoZoGxk_SEiGEArocQtIlI')
     hw2Spec         = docs('1C5d7zYwubcDUDDFn_x6NFpUrT2Ldum3ElnYhsgJ4fMo')
     hw3Spec         = docs('1hFUynrAcREKc6EVpunCI0T6Xlwrc5pBvx8bVv6DKxmE')
-    mtProjSpec      = docs('1fFLorzOLOIO4WXzIxllMBACuEvMWZx-ykeLO-rsAIjc')
+    mtProjSpec      = docs('18842eevTYk7EuQppnrbqKpj-79EFGtJyPGJV8S-H-zs')
     exploreSpec     = docs('1i79rb0BL0FJV54cy7s-VC1wa7bUwlfVUT5xFN_o2EDc')
     finalProjSpec   = docs('1eoPoHWad-yBrsIFKZx_AltKD4xlcvVPEdGxIviQQMGM')
     hw0             = hw('HW0', '8/28', 'quizzes/2262950')
