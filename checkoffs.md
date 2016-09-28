@@ -222,16 +222,17 @@ To get checked off, you should prepare answers to the specific questions for eac
 # Week 7: Lab 11
 
 ## Lab 11: Trees and Fractals Using Recursion {#lab11}
-
-### Please note: This lab is _required_ to be submitted through bCourses.
-### Go to this page to submit the lab online: [https://bcourses.berkeley.edu/courses/1408649/assignments/7511754][bcourses11]
-
-[bcourses11]:  https://bcourses.berkeley.edu/courses/1408649/assignments/7511754
-
 **Required**
 
-* Coming Soon!
+* Please show me your “crazy-tree” block.
+* Why is it important that the inputs to a recursive call be smaller than the original inputs to the function?
+* Why is it important that the sprite face the same direction at the end of a recursive function as it faced initially?
+* What defines a recursive block? What are the two necessary “cases” that a recursive block must consider? Name and define them.
+* Please show me your “snowflake” block.
 
+
+**More Self-Check Questions**
+* Please shoe me your "C-Curve" block.
 ---
 
 # Week 8: Lab 12
