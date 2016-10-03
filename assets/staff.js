@@ -37,7 +37,7 @@ var aranyU = {
     name: 'TA Arany Uthayakumar',
     img: 'Sp14/AranyUthayakumar.jpg',
     imgSrc: 'AranyUthayakumar.jpg',
-    // bio: 'AranyBio',
+    bio: 'AranyBio',
     email: 'arany@cs10.org'
 };
 
