@@ -199,6 +199,8 @@ cs10.week8 = {
     readings: [
         reading('BtB chapter 2, pg. 19-29, 36-42',
                 'http://www.bitsbook.com/wp-content/uploads/2008/12/chapter2.pdf'),
+        reading('Humans Need Not Apply - Video',
+                'https://www.youtube.com/watch?v=7Pq-S557XQU'),
         reading('Rest of BtB chapter 2',
                 'http://www.bitsbook.com/wp-content/uploads/2008/12/chapter2.pdf', 'optional'),
     ],
