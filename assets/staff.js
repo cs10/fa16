@@ -111,6 +111,7 @@ var patrickO = {
     img: 'Fa16/PatrickOhalloran.jpg',
     imgSrc: '../Fa16/PatrickOhalloran.jpg',
     imgCrazy: '../small/PatrickOhalloranCrazy.jpg',
+    bio: 'PatrickBio',
     email: 'patrick@cs10.org'
 };
 
