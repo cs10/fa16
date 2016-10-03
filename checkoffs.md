@@ -210,8 +210,11 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 **Required**
 
-* Show your “ttt” block implementation. How did one of the questions we asked ourselves before starting tic-tac-toe help us design the program?
+* Show your final “ttt” block implementation.
+* How did one of the questions we asked ourselves before starting tic-tac-toe help us design the program?
 * Why did we have variables like “Size”, “Start”, and “Display Width” when designing our board?
+* Show your working board game by moving the sprite around the board.
+* Explain an advantage of using an underlying board structure when designing a game.
 
 **More Self-Check Questions**
 
