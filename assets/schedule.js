@@ -208,7 +208,7 @@ cs10.week8 = {
             //lectureURL('1NFpvg3lzj3hrojXZPk42xoBM3MEFEy8FRl-VeR9Sdxs')
     ),
     lab1: lab('Trees and Fractals Using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic', true),
-    lect2: lect('Social Implications of Computing II', 'https://drive.google.com/drive/folders/0B7pxUEY76zATTXE5STFOS21fU2s?usp=sharing'),
+    lect2: lect('Social Implications of Computing II: Privacy', 'https://drive.google.com/drive/folders/0B7pxUEY76zATTXE5STFOS21fU2s?usp=sharing', "Gerald Friedland"),
     lab2: lab('Midterm Project Work Session'),
     disc: disc('Recursion'),
     hw: mMilestone
