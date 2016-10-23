@@ -170,7 +170,7 @@ cs10.week6 = {
     ),
     lab2: lab('HW3 Work Session'),
     //lab2: lab('Trees and Fractals Using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic'),
-    disc: disc('Concurrency and Mutability'),
+    disc: disc('Concurrency and Mutability', true),
     hw: hw3
 };
 
@@ -210,7 +210,7 @@ cs10.week8 = {
     lab1: lab('Trees and Fractals Using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic', true),
     lect2: lect('Social Implications of Computing II: Privacy', 'https://drive.google.com/drive/folders/0B7pxUEY76zATTXE5STFOS21fU2s?usp=sharing', "Gerald Friedland"),
     lab2: lab('Midterm Project Work Session'),
-    disc: disc('Recursion'),
+    disc: disc('Recursion', true),
     hw: mMilestone
 };
 
@@ -220,7 +220,7 @@ cs10.week9 = {
         reading('As We May Think',
                 'http://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/')
     ],
-    disc: disc('More on Recursion'),
+    disc: disc('More on Recursion', true),
     lab1: lab('Recursive Reporters', 'berkeley_bjc/recur/recursive-reporters-part1.topic', true),
     lab2: lab('Midterm Project Work Session'),
     lect1: lect('Recursion II', 'https://drive.google.com/drive/folders/0B7pxUEY76zATNVpiWkl2WHo3YzA?usp=sharing'
