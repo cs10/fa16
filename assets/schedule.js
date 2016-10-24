@@ -38,11 +38,11 @@ var hw1Spec         = docs('1ybuatsrUMCI-tHHRPwxUpGoZoGxk_SEiGEArocQtIlI')
     mProposal       = hw('Midterm Project Proposals', '10/7', 'assignments/7725687', mtProjSpec)
     mMilestone      = hw('Midterm Project<br> Milestone', '10/14', 'assignments/7725686')
     mProject        = hw('Midterm Project', '10/21', 'assignments/7725685', mtProjSpec)
-    explorePost     = hw('"Explore" Writing Assignment', 'TBD', '/discussion_topics/5042373', exploreSpec)
-    exploreComments = hw('"Explore" Comments', 'TBD', '/discussion_topics/5042373')
-    fProposal       = hw('Final Project Proposal', 'TBD', 'assignments/7725681', finalProjSpec)
-    fMilestone      = hw('Final Project Milestone', 'TBD', 'assignments/7725680')
-    fProject        = hw('Final Project', 'TBD', 'assignments/7725679')
+    explorePost     = hw('"Explore" Writing Assignment', '11/11', '/discussion_topics/5042373', exploreSpec)
+    exploreComments = hw('"Explore" Comments', '11/18', '/discussion_topics/5042373')
+    fProposal       = hw('Final Project Proposal', '11/18', 'assignments/7725681', finalProjSpec)
+    fMilestone      = hw('Final Project Milestone', '11/25', 'assignments/7725680')
+    fProject        = hw('Final Project', '12/2', 'assignments/7725679')
 
 // ==================================================
 // ==========     SCHEDULE ITEMS           ==========
