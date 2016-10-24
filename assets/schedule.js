@@ -39,6 +39,7 @@ var hw1Spec         = docs('1ybuatsrUMCI-tHHRPwxUpGoZoGxk_SEiGEArocQtIlI')
     mMilestone      = hw('Midterm Project<br> Milestone', '10/14', 'assignments/7725686')
     mProject        = hw('Midterm Project', '10/21', 'assignments/7725685', mtProjSpec)
     explorePost     = hw('"Explore" Writing Assignment', '11/11', '/discussion_topics/5042373', exploreSpec)
+    explorePostDoc  = hw('"Explore" Writing Assignment Document Submission', '11/11', '/assignments/7751901')
     exploreComments = hw('"Explore" Comments', '11/18', '/discussion_topics/5042373')
     fProposal       = hw('Final Project Proposal', '11/18', 'assignments/7725681', finalProjSpec)
     fMilestone      = hw('Final Project Milestone', '11/25', 'assignments/7725680')
@@ -314,7 +315,7 @@ cs10.week12 = {
     ),
     lab1: lab('Besides Blocks: Data Structures in Python', 'berkeley_bjc/python/besides-blocks-data-struct.topic', true),
     lab2: lab('Besides Blocks: Text Processing in Python', 'berkeley_bjc/python/besides-blocks-text-processing.topic'),
-    hw: explorePost
+    hw: [explorePost, explorePostDoc]
 };
 
 // NOV 14 - 18
