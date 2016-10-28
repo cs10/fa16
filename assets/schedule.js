@@ -276,9 +276,9 @@ cs10.week10 = {
 cs10.week11 = {
     readings: 'No Readings for this Week - Study for the Midterm!',
     disc: disc('Midterm Debrief'),
-    lect1: lect('<br><br><div class="exam inner"><a href="exams/midterm.html">Midterm Exam Part I</a><br><br>Monday 10/31<br>Pauley Ballroom</div>'
+    lect1: lect('<br><br><div class="exam inner">Midterm Exam Part I</a><br><br>Monday 10/31<br>Pauley Ballroom</div>'
     ),
-    lect2: lect('<br><br><div class="exam inner"><a href="exams/midterm.html">Midterm Exam Part II</a><br><br>Wednesday 11/2<br>Pauley Ballroom</div>'
+    lect2: lect('<br><br><div class="exam inner">Midterm Exam Part II</a><br><br>Wednesday 11/2<br>Pauley Ballroom</div>'
     ),
     //lab1: lab('The Internet', 'berkeley_bjc/areas/internet.topic', true),
     lab1: lab('Online <span class="snap">snap</span> Midterm'),
