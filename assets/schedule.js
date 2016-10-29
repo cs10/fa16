@@ -257,7 +257,7 @@ cs10.week10 = {
             'optional'
         )  
     ],
-    disc: disc('Midterm Review'),
+    disc: disc('Midterm Review', true),
     lect1: lect('Procedures as Data - Higher Order Procedures', 'https://drive.google.com/drive/folders/0B7pxUEY76zATZ1JSUFZpYlQ5eFE?usp=sharing'
             //lectureURL('12n7JQXQCJHBt7SjKjGGkVNP5iyhAngOLMVeMpg40D8I')
             //lectureURL('1TwO63UECd9I4ufKDYUj9LDFT6RrDOtFQlbbcC9oBebE')
