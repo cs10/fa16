@@ -305,7 +305,7 @@ cs10.week12 = {
             'https://medium.com/@oceankidbilly/python-vs-r-vs-cobol-which-is-best-for-data-science-7b2979c6a000',
             'optional')
     ],
-    disc: disc('All About Python'),
+    disc: disc('No Discussion - Enjoy your Holiday!'),
     lect1: lect('Python II', 'https://drive.google.com/folderview?id=0B7pxUEY76zATYmwwX1dpcGg3a3c&usp=sharing'
             //lectureURL('1awAwgpYve-vCKUx9LmFr5ZFKbfS15cQuTp3Prg7QiWw')
             //lectureURL('1dqoMCkDFxoGusaJBwyvMYMgoPY47wUt8WRgG1HOVfLQ')
