@@ -325,7 +325,7 @@ cs10.week13 = {
         reading('CS8 lecture 1', 'https://www.youtube.com/watch?v=69hHbVza7XI&t=27m49s', 'optional')
     ],    
     disc: disc('The Internet'),
-    lect1: lect('HCI', 'https://drive.google.com/folderview?id=0B7pxUEY76zATZmNCb2ZuVmJKVW8&usp=sharing', "Eric Paulos"),
+    lect1: lect('HCI', 'https://www.dropbox.com/s/wq8uys72ffupp14/CS10%20Fall%202016.pdf?dl=0', "Eric Paulos"),
     lect2: lect('The Internet', 'https://drive.google.com/folderview?id=0B7pxUEY76zATLVc2VmxBdldMaEU&usp=sharing'
             //lectureURL('16NZgPMLObCthVot7vZwofOqctfhir2xKj6ajTyc1FZw')
             //lectureURL('1MLG5pjfSrvZ17WNp5CSfPbPa3QOnxKtNGKlfRIGgEPw')
