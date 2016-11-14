@@ -310,7 +310,7 @@ cs10.week12 = {
             //lectureURL('1awAwgpYve-vCKUx9LmFr5ZFKbfS15cQuTp3Prg7QiWw')
             //lectureURL('1dqoMCkDFxoGusaJBwyvMYMgoPY47wUt8WRgG1HOVfLQ')
     ),
-    lect2: lect('Python III', 'https://drive.google.com/folderview?id=0B7pxUEY76zATS0N6T1dJbjdrd1k&usp=sharing'
+    lect2: lect('Python III', 'https://drive.google.com/drive/folders/0B7pxUEY76zATYmwwX1dpcGg3a3c?usp=sharing'
             //lectureURL('1syVIRCXLGgo9M0BUS4X-GLVeQq2-gBwwsUwQ7XJ8f0s')
     ),
     lab1: lab('Besides Blocks: Data Structures in Python', 'berkeley_bjc/python/besides-blocks-data-struct.topic', true),
