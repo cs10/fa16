@@ -326,7 +326,7 @@ cs10.week13 = {
     ],    
     disc: disc('The Internet'),
     lect1: lect('HCI', 'https://www.dropbox.com/s/wq8uys72ffupp14/CS10%20Fall%202016.pdf?dl=0', "Eric Paulos"),
-    lect2: lect('The Internet', 'https://drive.google.com/folderview?id=0B7pxUEY76zATLVc2VmxBdldMaEU&usp=sharing'
+    lect2: lect('The Internet', 'https://drive.google.com/drive/folders/0B7pxUEY76zATZmNCb2ZuVmJKVW8?usp=sharing'
             //lectureURL('16NZgPMLObCthVot7vZwofOqctfhir2xKj6ajTyc1FZw')
             //lectureURL('1MLG5pjfSrvZ17WNp5CSfPbPa3QOnxKtNGKlfRIGgEPw')
     ),
