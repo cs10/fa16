@@ -359,6 +359,7 @@ cs10.week14 = {
 cs10.week15 = {
     readings: [
         reading('BtB Chapter 6','http://www.bitsbook.com/wp-content/uploads/2008/12/chapter6.pdf'),
+        reading('Present Shock -- When Everything Happened Now', 'https://www.youtube.com/watch?v=_z2oFCR-0pc&feature=youtu.be'),
         reading('A Quantum Leap in Computing?', 'http://www.newyorker.com/tech/elements/a-quantum-leap-in-computing', 'optional')
     ],       
     disc: disc('Farewell! Recap and Feedback'),
