@@ -340,7 +340,8 @@ cs10.week13 = {
 cs10.week14 = {
     readings: [
         reading('A World Without Work', 'http://www.theatlantic.com/magazine/archive/2015/07/world-without-work/395294/'),
-        reading('Gladwell vs. Shirky: A Year Later, Scoring the Debate Over Social-Media Revolutions', 'http://www.wired.com/2011/12/gladwell-vs-shirky/')
+        reading('Gladwell vs. Shirky: A Year Later, Scoring the Debate Over Social-Media Revolutions', 'http://www.wired.com/2011/12/gladwell-vs-shirky/'),
+        reading('P vs. NP and the Computational Complexity Zoo - Video', ' https://youtu.be/YX40hbAHx3s', 'optional')
     ],
     disc: disc('No Discussion - Enjoy your Thanksgiving Break!'),
     lab1: lab('Final Project Work Session', null, true),
