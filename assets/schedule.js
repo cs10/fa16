@@ -345,7 +345,7 @@ cs10.week14 = {
     ],
     disc: disc('No Discussion - Enjoy your Thanksgiving Break!'),
     lab1: lab('Final Project Work Session', null, true),
-    lect1: lect('Limits of Computing', 'https://drive.google.com/folderview?id=0B7pxUEY76zATcUQ4ZTFSNjREOHc&usp=sharing'
+    lect1: lect('Limits of Computing', 'https://drive.google.com/drive/folders/0B7pxUEY76zATLVc2VmxBdldMaEU?usp=sharing'
             //lectureURL('1SvosTLRIU9IfgXD75v_lctIOvHaBARc9sm7Y5Dn-J8g')
     ),
     lect2: lect('No Lecture - Enjoy your Thanksgiving Break!'
@@ -364,11 +364,11 @@ cs10.week15 = {
     ],       
     disc: disc('Farewell! Recap and Feedback'),
     lab1: lab('Project Work Session', null, true),
-    lect1: lect('Saving the World with Computing', 'https://drive.google.com/folderview?id=0B7pxUEY76zATcUFlcXhEb3VxWG8&usp=sharing', "Kathy Yelick"
+    lect1: lect('Saving the World with Computing', 'https://drive.google.com/drive/folders/0B7pxUEY76zATcUQ4ZTFSNjREOHc?usp=sharing', "Kathy Yelick"
             //lectureURL('0B7pxUEY76zATblJZa25NNUl1cGM')
             //lectureURL('1_k3boAVzNT3W_z-uhmbdP5tugM4PUuGwT-BPSmU8A-o')
     ),
-    lect2: lect('Conclusion', 'https://drive.google.com/folderview?id=0B7pxUEY76zATcXpiY05VZUVZdkU&usp=sharing'
+    lect2: lect('Conclusion', 'https://drive.google.com/drive/folders/0B7pxUEY76zATcUFlcXhEb3VxWG8?usp=sharing'
             //lectureURL('1KY3qeS_drHb28FgWQ_RDs-K7QEPeuHRdQhjphttfZmI')
             //lectureURL('1CgPu3RBXYUyN7r0X6NpWzgGN95cZIPyfqTSNBCX7nd4')
     ),
