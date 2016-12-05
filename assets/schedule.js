@@ -306,7 +306,7 @@ cs10.week12 = {
             'optional')
     ],
     disc: disc('No Discussion - Enjoy your Holiday!'),
-    lect1: lect('Python II', 'https://drive.google.com/folderview?id=0B7pxUEY76zATYmwwX1dpcGg3a3c&usp=sharing'
+    lect1: lect('Python II', 'https://drive.google.com/open?id=0B7pxUEY76zATOHhEdkVKMGdSUUk'
             //lectureURL('1awAwgpYve-vCKUx9LmFr5ZFKbfS15cQuTp3Prg7QiWw')
             //lectureURL('1dqoMCkDFxoGusaJBwyvMYMgoPY47wUt8WRgG1HOVfLQ')
     ),
